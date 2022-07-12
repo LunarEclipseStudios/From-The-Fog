@@ -10,3 +10,4 @@ random fires
 redstone torch large tunnel (FINSIH)
 randomly placed signs
 lack of mobs (any)
+mossy cobblestone pyramids on land
