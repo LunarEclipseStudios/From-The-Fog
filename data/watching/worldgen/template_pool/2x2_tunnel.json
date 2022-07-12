@@ -1,0 +1,15 @@
+{
+  "name": "2x2_tunnel",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "watching:2x2_tunnel",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
