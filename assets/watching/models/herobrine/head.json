@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"skin": "watching:watching"
+	},
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [4, 24, 4],
+			"to": [12, 32, 12],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#skin"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#skin"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#skin"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#skin"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#skin"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#skin"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -31.04, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

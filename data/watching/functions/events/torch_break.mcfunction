@@ -1,0 +1,1 @@
+execute as @e[distance=..50,tag=torch_trace] at @s run setblock ~ ~-383 ~ air destroy

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "minecraft:forest",
-    "minecraft:plains",
-    "watching:leafless_grove"
-  ],
+  "biomes": "#minecraft:has_structure/mineshaft",
   "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",

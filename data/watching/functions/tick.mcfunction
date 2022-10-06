@@ -53,8 +53,10 @@ execute as @e[tag=eyes] at @s unless entity @e[tag=spread,distance=..2] run kill
 execute as @e[tag=body] at @s unless entity @e[tag=spread,distance=..2] run kill @s
 
 ##crash
-execute as @a[gamemode=!spectator] at @s unless score @s crash matches 1.. if entity @e[tag=spread,distance=..1.5] run scoreboard players add @s crash 1
+execute if score @s crash matches 1 unless entity @e[tag=spread,distance=..1.5] run scoreboard players reset @s crash
 execute as @a[scores={crash=1..}] at @s run function watching:events/crash
+execute as @a[gamemode=!spectator] at @s unless score @s crash matches 1.. if entity @e[tag=spread,distance=..1.5] run scoreboard players add @s crash 1
+
 
 ##shrine
 execute as @a[scores={flint_and_steel=1..}] at @s anchored eyes run function watching:shrine/shrine_detect
@@ -68,3 +70,7 @@ execute as @e[tag=door_open] at @s run scoreboard players add @s life 1
 execute as @e[tag=door_open] at @s if score @s life matches 600.. run function watching:events/kill
 execute as @e[tag=door_open] at @s unless block ~ ~ ~ #watching:spawn_blocks run schedule function watching:events/kill 7t append 
 execute as @e[tag=door_open] at @s if block ~ ~ ~ #doors run schedule function watching:events/kill 7t append
+
+##disappearing_torch
+execute as @a at @s if score @s torch_placed matches 1.. run function watching:log/torch_placed
+

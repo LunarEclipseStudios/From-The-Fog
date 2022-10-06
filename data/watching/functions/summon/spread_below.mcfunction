@@ -263,7 +263,7 @@ execute as @e[tag=spread] at @s if block ~ ~-1 ~ #white_eyes:spawn_blocks run tp
 execute as @e[tag=spread] at @s if block ~ ~-1 ~ #white_eyes:spawn_blocks run tp @s ~ ~-1 ~
 execute as @e[tag=spread] at @s if block ~ ~-1 ~ #white_eyes:spawn_blocks run tp @s ~ ~-1 ~
 
-execute if entity @e[tag=spread,distance=..2] run function white_eyes:summon/spread_below
+execute if entity @e[tag=spread,distance=..2] run function watching:summon/spread_below
 
 tag @s add sight
 execute as @s at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run function white_eyes:summon/sight_spawn

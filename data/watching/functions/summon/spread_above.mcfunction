@@ -259,18 +259,18 @@ execute if entity @s[y=254,distance=..0.1] positioned ^ ^ ^-16 run spreadplayers
 execute if entity @s[y=255,distance=..0.1] positioned ^ ^ ^-16 run spreadplayers ~ ~ 0 8 under 256 false @e[tag=spread]
 execute if entity @s[y=256,distance=..0.1] positioned ^ ^ ^-16 run spreadplayers ~ ~ 0 8 under 256 false @e[tag=spread]
 
-execute as @e[tag=spread] at @s if block ~ ~-1 ~ #watching:spawn_blocks run tp @s ~ ~-1 ~
-execute as @e[tag=spread] at @s if block ~ ~-1 ~ #watching:spawn_blocks run tp @s ~ ~-1 ~
-execute as @e[tag=spread] at @s if block ~ ~-1 ~ #watching:spawn_blocks run tp @s ~ ~-1 ~
+execute as @e[tag=spread] at @s if block ~ ~-1 ~ #white_eyes:spawn_blocks run tp @s ~ ~-1 ~
+execute as @e[tag=spread] at @s if block ~ ~-1 ~ #white_eyes:spawn_blocks run tp @s ~ ~-1 ~
+execute as @e[tag=spread] at @s if block ~ ~-1 ~ #white_eyes:spawn_blocks run tp @s ~ ~-1 ~
 
 execute if entity @e[tag=spread,distance=..2] run function watching:summon/spread_above
 
 tag @s add sight
-execute as @s at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run function watching:summon/sight_spawn
+execute as @s at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run function white_eyes:summon/sight_spawn
 
 tag @a remove watcher
 execute at @e[tag=spread,tag=above] as @a[distance=0.1..32] at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.6] at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run tag @s add watcher
 execute at @e[tag=spread,tag=!above] as @a[distance=0.1..32] at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.85] at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run tag @s add watcher
 
 tag @a[tag=watcher] add sight
-execute as @a[tag=watcher] at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run function watching:summon/sight_spawn
+execute as @a[tag=watcher] at @s anchored eyes facing entity @e[sort=nearest,limit=1,tag=spread] eyes positioned ^ ^ ^ run function white_eyes:summon/sight_spawn
