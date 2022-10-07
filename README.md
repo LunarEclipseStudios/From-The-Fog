@@ -8,6 +8,9 @@ From The Fog is a Minecraft mod/datapack that adds Herobrine in the most vanilla
 ![2022-10-05_23 58 50](https://user-images.githubusercontent.com/106862027/194214980-535ad164-fd5c-4163-94c7-3b616eac2cac.png)
 ![2](https://user-images.githubusercontent.com/106862027/194215617-58532519-8155-45d0-9e2b-204e824d1c81.png)
 ![3](https://user-images.githubusercontent.com/106862027/194215624-19fc1c76-dfe5-4be4-93f2-80135feadef8.png)
+![4](https://user-images.githubusercontent.com/106862027/194452146-b049a2f1-bef5-4a55-934c-411f7095a8ab.png)
+![5](https://user-images.githubusercontent.com/106862027/194452157-4b8aea25-fcef-4029-9620-955cafa00d3a.png)
+![6](https://user-images.githubusercontent.com/106862027/194452160-328fbe6f-c925-4115-a57e-6c69662e1119.png)
 
 
 ## Installation
