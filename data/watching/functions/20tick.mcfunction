@@ -1,9 +1,17 @@
 #reset
 scoreboard players reset watchingtick 20tick
 
+#20ticks
+execute as @e[tag=torch_check] at @s run function watching:ticks/torch_check_20tick
+
+
 ##summon
 execute unless predicate watching:time/is_night if score true started matches 1 as @r at @s unless entity @e[tag=spread] unless entity @e[tag=door_open] if predicate watching:checks/sighting_chance run function watching:summon/summon
 execute if predicate watching:time/is_night if score true started matches 1 as @r at @s unless entity @e[tag=spread] unless entity @e[tag=door_open] if predicate watching:checks/sighting_chance_night run function watching:summon/summon
+
+#watching
+execute unless predicate watching:time/is_night if score true started matches 1 as @r at @s unless entity @e[tag=spread] unless entity @e[tag=door_open] if predicate watching:checks/sighting_chance run function watching:summon/watching_summon
+execute if predicate watching:time/is_night if score true started matches 1 as @r at @s unless entity @e[tag=spread] unless entity @e[tag=door_open] if predicate watching:checks/sighting_chance_night run function watching:summon/watching_summon
 
 
 ##sounds
@@ -15,23 +23,6 @@ execute in overworld as @a[distance=0..] at @s if block ~ ~-1 ~ #minecraft:base_
 
 ##door_open
 execute if predicate watching:time/is_night if score true started matches 1 as @r at @s unless blocks ~ ~ ~ ~ 256 ~ ~ ~2 ~ masked if predicate watching:checks/sighting_chance unless entity @e[tag=spread] unless entity @e[tag=door_open] run function watching:events/door_open_spawn
-
-##torch_check
-#east
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:5b} if block ~-1 ~ ~ #watching:spawn_blocks run function watching:torch_check/air_detected
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:5b} unless block ~-1 ~ ~ #watching:spawn_blocks run kill @s
-#west
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:4b} if block ~1 ~ ~ #watching:spawn_blocks run function watching:torch_check/air_detected
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:4b} unless block ~1 ~ ~ #watching:spawn_blocks run kill @s
-#south
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:3b} if block ~ ~ ~-1 #watching:spawn_blocks run function watching:torch_check/air_detected
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:3b} unless block ~ ~ ~-1 #watching:spawn_blocks run kill @s
-#north
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:2b} if block ~ ~ ~1 #watching:spawn_blocks run function watching:torch_check/air_detected
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:2b} unless block ~ ~ ~1 #watching:spawn_blocks run kill @s
-#up
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:1b} if block ~ ~-1 ~ #watching:air_blocks run function watching:torch_check/air_detected
-execute as @e[tag=torch_check] at @s if data entity @s {Facing:1b} unless block ~ ~-1 ~ #watching:air_blocks run kill @s
 
 ##disappearing_torch
 execute as @e[tag=torch_trace,tag=logged] at @s unless block ~ ~-383 ~ #watching:torches run kill @s

@@ -18,3 +18,6 @@ scoreboard objectives add block_breaking dummy
 ##teams
 team add nocol
 team modify nocol collisionRule never
+
+#3sTick
+schedule function watching:3stick 2s

@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
       "targeted_entity": {
-        "nbt": "{Tags:[\"move\"]}"
+        "nbt": "{Tags:[\"spread\"]}"
       }
     }
   }
