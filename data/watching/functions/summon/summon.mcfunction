@@ -1,3 +1,5 @@
+kill @e[tag=herobrine]
+
 ##summon
 summon armor_stand ~ 0 ~ {Tags:["spread","model","herobrine"],Marker:0b,Invisible:1b,Invulnerable:1b,NoGravity:0b,DisabledSlots:2039583}
 

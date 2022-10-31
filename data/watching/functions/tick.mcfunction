@@ -10,3 +10,4 @@ execute unless score true started matches 1.. if score day spawn_delay matches 3
 execute as @a at @s run function watching:ticks/everyone
 execute as @e[tag=herobrine] at @s run function watching:ticks/herobrine
 execute as @e[tag=door_open] at @s run function watching:ticks/door_open
+#execute as @e[tag=block_check] at @s run function watching:ticks/block_check
