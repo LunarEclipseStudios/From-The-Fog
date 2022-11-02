@@ -1,5 +1,5 @@
 #20tick
-schedule function watching:20tick 1s
+schedule function watching:main/20tick 1s
 
 ##scoreboards
 scoreboard objectives add summon_rotation dummy
@@ -25,7 +25,21 @@ team modify nocol collisionRule never
 
 #schedule
 schedule function watching:events/day_passed 1d
-schedule function watching:30stick 30s
+schedule function watching:main/30stick 30s
 
 #3sTick
-schedule function watching:3stick 2s
+schedule function watching:main/3stick 2s
+
+#15stick
+schedule function watching:main/15stick 15s
+
+#config
+scoreboard players reset true started
+scoreboard objectives add crashConfig dummy
+scoreboard objectives add dayDelayConfig dummy
+scoreboard objectives add ghostDoorConfig dummy
+scoreboard objectives add creepingConfig dummy
+scoreboard objectives add stalkingConfig dummy
+scoreboard objectives add ghostMineConfig dummy
+scoreboard objectives add poofingTorchesConfig dummy
+function config:config

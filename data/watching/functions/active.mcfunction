@@ -1,1 +1,0 @@
-execute if entity @a

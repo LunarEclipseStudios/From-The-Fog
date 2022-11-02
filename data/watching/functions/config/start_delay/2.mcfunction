@@ -1,0 +1,1 @@
+scoreboard players set number dayDelayConfig 2

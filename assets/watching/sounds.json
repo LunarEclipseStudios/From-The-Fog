@@ -12,7 +12,7 @@
 		]
 	},
 	"outside_footsteps" : {
-		"subtitle": "Footsteps",
+		"subtitle": "Footsteps behind you",
 		"sounds":[
 			{
 				"name": "watching:outside_footsteps",
@@ -23,7 +23,7 @@
 		]
 	},
 	"cave_footsteps" : {
-		"subtitle": "Footsteps",
+		"subtitle": "Footsteps behind you",
 		"sounds":[
 			{
 				"name": "watching:cave_footsteps",
