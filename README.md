@@ -5,12 +5,12 @@
 
 From The Fog is a Minecraft mod/datapack that adds Herobrine in the most vanilla and spooky way possible.
 
-![2022-10-05_23 58 50](https://user-images.githubusercontent.com/106862027/194214980-535ad164-fd5c-4163-94c7-3b616eac2cac.png)
-![2](https://user-images.githubusercontent.com/106862027/194215617-58532519-8155-45d0-9e2b-204e824d1c81.png)
-![3](https://user-images.githubusercontent.com/106862027/194215624-19fc1c76-dfe5-4be4-93f2-80135feadef8.png)
-![4](https://user-images.githubusercontent.com/106862027/194452146-b049a2f1-bef5-4a55-934c-411f7095a8ab.png)
-![5](https://user-images.githubusercontent.com/106862027/194452157-4b8aea25-fcef-4029-9620-955cafa00d3a.png)
-![6](https://user-images.githubusercontent.com/106862027/194452160-328fbe6f-c925-4115-a57e-6c69662e1119.png)
+![1_new](https://user-images.githubusercontent.com/26262092/200358526-35bb203a-2f79-4944-a958-9c9369222562.png)
+![2_new](https://user-images.githubusercontent.com/26262092/200358537-bcac5863-c8a0-44ce-9bcc-e323fe10e969.png)
+![3_new](https://user-images.githubusercontent.com/26262092/200358553-6781d017-794d-4a5a-be53-d4068598b9ce.png)
+![4_new](https://user-images.githubusercontent.com/26262092/200358561-e73234c8-632f-4c2b-9056-b850cdcf7438.png)
+![5_new](https://user-images.githubusercontent.com/26262092/200358574-802f0b2b-34a0-4baa-9acf-18edf2e72358.png)
+![6_new](https://user-images.githubusercontent.com/26262092/200358582-4e74c2f9-85c4-495b-b6b9-9ce012e4639a.png)
 
 
 ## Installation
