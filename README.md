@@ -19,7 +19,7 @@ From The Fog is a Minecraft mod/datapack that adds Herobrine in the most vanilla
 
 ![GitHub release](https://img.shields.io/github/v/release/LunarEclipseStudios/From-The-Fog)
 
-The latest releases of Feathery Messengers is published to our [GitHub release](https://github.com/LunarEclipseStudios/From-The-Fog/releases) pages. 
+The latest releases of From The Fog is published to our [GitHub release](https://github.com/LunarEclipseStudios/From-The-Fog/releases) pages. 
 Releases are considered to be **suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
 
 ---
