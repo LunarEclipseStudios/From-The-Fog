@@ -13,6 +13,7 @@ scoreboard objectives add shrine_lit dummy
 scoreboard objectives add fire_charge minecraft.used:minecraft.fire_charge
 scoreboard objectives add flint_and_steel minecraft.used:minecraft.flint_and_steel
 scoreboard objectives add torch_placed minecraft.used:minecraft.torch
+scoreboard objectives add bed_placed minecraft.used:minecraft.white_bed
 scoreboard objectives add day_passed dummy
 scoreboard objectives add blockCheckHeight dummy
 #sounds
@@ -42,4 +43,5 @@ scoreboard objectives add creepingConfig dummy
 scoreboard objectives add stalkingConfig dummy
 scoreboard objectives add ghostMineConfig dummy
 scoreboard objectives add poofingTorchesConfig dummy
+scoreboard objectives add burningBaseConfig dummy
 function config:config

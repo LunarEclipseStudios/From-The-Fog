@@ -1,1 +1,1 @@
-scoreboard players set true crashConfig 0
+scoreboard players set true burningBaseConfig 0

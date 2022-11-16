@@ -28,3 +28,7 @@ function watching:config/stalking/true
 ## Changes whether or not Herobrine will try to break your torches once you leave the area (one check per in-game day)
 # Allows "true" or "false" (true is the default)
 function watching:config/disappearing_torches/true
+
+## Changes whether or not Herobrine will try to burn down your house once you leave the area (one check per in-game day)
+# Allows "true" or "false" (false is the default)
+function watching:config/burning_base/false
