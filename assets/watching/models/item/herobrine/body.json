@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"skin": "watching:watching"
+		"skin": "watching:item/herobrine/watching"
 	},
 	"elements": [
 		{
