@@ -1,0 +1,1 @@
+scoreboard players reset true day_passed

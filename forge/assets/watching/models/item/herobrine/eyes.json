@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"skin": "watching:item/herobrine/watching"
+	},
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [4, 24, 4],
+			"to": [12, 32, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#skin"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#skin"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#skin"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#skin"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#skin"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#skin"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -31.04, 0],
+			"scale": [1.501, 1.501, 1.501]
+		}
+	}
+}

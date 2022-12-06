@@ -1,1 +1,0 @@
-scoreboard players set true ghostDoorConfig 1

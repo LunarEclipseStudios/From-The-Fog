@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_hoe"
+  },
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "watching:item/herobrine/head" },
+		{ "predicate": { "custom_model_data": 2}, "model": "watching:item/herobrine/body" },
+		{ "predicate": { "custom_model_data": 3}, "model": "watching:item/herobrine/arm" },
+		{ "predicate": { "custom_model_data": 4}, "model": "watching:item/herobrine/eyes" }
+	]
+}

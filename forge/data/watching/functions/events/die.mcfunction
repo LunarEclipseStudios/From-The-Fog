@@ -1,0 +1,1 @@
+execute as @e[tag=door_open] at @s run kill @s

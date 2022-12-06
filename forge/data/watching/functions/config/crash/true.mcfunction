@@ -1,0 +1,1 @@
+scoreboard players set true crashConfig 1

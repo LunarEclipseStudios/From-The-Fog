@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.2,
+          "feature": "watching:leafless_birch_tree"
+        },
+        {
+          "chance": 0.1,
+          "feature": "watching:leafless_oak_tree"
+        }
+      ],
+      "default": "watching:leafless_oak_tree"
+    }
+  }
+  

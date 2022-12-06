@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "watching:redstone_torch_trail1",
+      "weight": 1
+    },
+    {
+      "structure": "watching:redstone_torch_trail2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1057836597,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.0032,
+    "spacing": 5,
+    "separation": 3
+  }
+}

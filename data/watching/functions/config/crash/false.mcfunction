@@ -1,1 +1,0 @@
-scoreboard players set true burningBaseConfig 0

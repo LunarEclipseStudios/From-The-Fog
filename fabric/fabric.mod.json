@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "environment": "*",
+    "depends": {
+      "fabricloader": ">=0.12.12",
+      "minecraft": "1.19.x",
+      "java": ">=16"
+    },
+    "name": "From The Fog",
+    "id": "watching",
+    "version": "1.1.0",
+    "description": "From The Fog is a Minecraft mod/datapack that adds Herobrine in the most vanilla and spooky way possible.",
+    "pack_format": 10,
+    "icon": "pack.png",
+    "authors": [
+      "§5☆Lunar Eclipse Studios☆",
+      "Bret06"
+    ],
+    "contact": {
+        "homepage": "https://lunareclipse.studio",
+        "sources": "https://github.com/LunarEclipseStudios/From-The-Fog",
+        "discord": "https://discord.gg/RmMtqxJJgH",
+        "issues": "https://github.com/LunarEclipseStudios/From-The-Fog/issues"
+    },
+    "jars": [
+      {
+          "file": "META-INF/jars/DisableCustomWorldsAdvice-3.0.jar"
+      }
+  ]
+}

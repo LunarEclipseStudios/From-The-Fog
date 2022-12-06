@@ -1,0 +1,15 @@
+{
+  "name": "leafless_grove2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "watching:leafless_grove2",
+        "processors": "watching:replace_leaves"
+      }
+    }
+  ]
+}

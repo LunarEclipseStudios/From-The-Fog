@@ -1,0 +1,1 @@
+execute as @e[tag=herobrineFake] at @s run tp @s ~ ~ ~ facing entity @p

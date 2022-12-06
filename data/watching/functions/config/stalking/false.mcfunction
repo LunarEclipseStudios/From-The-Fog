@@ -1,1 +1,0 @@
-scoreboard players set true stalkingConfig 0

@@ -1,0 +1,1 @@
+execute as @e[tag=mine_stone_block] at @s run playsound minecraft:block.stone.hit block @a ~ ~ ~ 0.5 0.5

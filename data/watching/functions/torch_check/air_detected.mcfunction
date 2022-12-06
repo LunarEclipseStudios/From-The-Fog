@@ -1,2 +1,0 @@
-setblock ~ ~ ~ air
-kill @s

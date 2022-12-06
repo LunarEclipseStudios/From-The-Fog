@@ -1,0 +1,17 @@
+{
+    "structures": [
+      {
+        "structure": "watching:torch_cave",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "frequency_reduction_method": "legacy_type_2",
+      "frequency": 0.066,
+      "salt": 159124406,
+      "spacing": 2,
+      "separation": 0
+    }
+  }
+  

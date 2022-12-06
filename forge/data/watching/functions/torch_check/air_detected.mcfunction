@@ -1,0 +1,2 @@
+setblock ~ ~ ~ air
+kill @s
