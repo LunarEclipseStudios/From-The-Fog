@@ -5,7 +5,7 @@ logoFile="banner.png"
 
 [[mods]]
 modId="watching"
-version="1.3.1"
+version="1.3.2"
 displayName="From The Fog"
 credits="§8Created by §5☆Lunar Eclipse Studios☆"
 displayURL="https://lunareclipse.studio/from-the-fog"
@@ -23,7 +23,7 @@ description='''From The Fog is a Minecraft mod/datapack that adds Herobrine in t
 [[dependencies.watching]]
     modId="watching"
     mandatory=true
-    versionRange="[1.3.1]"
+    versionRange="[1.3.2]"
     ordering="NONE"
     side="BOTH"
 
