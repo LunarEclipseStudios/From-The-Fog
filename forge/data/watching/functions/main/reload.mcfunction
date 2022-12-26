@@ -15,7 +15,9 @@ scoreboard objectives add flint_and_steel minecraft.used:minecraft.flint_and_ste
 scoreboard objectives add torch_placed minecraft.used:minecraft.torch
 scoreboard objectives add bed_placed minecraft.used:minecraft.white_bed
 scoreboard objectives add day_passed dummy
+scoreboard objectives add day_passed2 dummy
 scoreboard objectives add blockCheckHeight dummy
+scoreboard objectives add firstReload dummy
 #sounds
 scoreboard objectives add footsteps dummy
 scoreboard objectives add block_breaking dummy
@@ -26,6 +28,7 @@ team modify nocol collisionRule never
 
 #schedule
 schedule function watching:events/day_passed 1d
+schedule function watching:events/day_passed2 1d
 schedule function watching:main/30stick 30s
 
 #3sTick
@@ -44,4 +47,7 @@ scoreboard objectives add stalkingConfig dummy
 scoreboard objectives add ghostMineConfig dummy
 scoreboard objectives add poofingTorchesConfig dummy
 scoreboard objectives add burningBaseConfig dummy
-function config:config
+scoreboard objectives add spotNoiseConfig dummy
+
+execute unless score true firstReload matches 1 run function fromthefog:admin/default_config
+scoreboard players set true firstReload 1

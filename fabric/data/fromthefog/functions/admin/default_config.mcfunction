@@ -1,5 +1,6 @@
-### FROM THE FOG CONFIG
+### FROM THE FOG DEFAULTS
 # (Reload the game to confirm changes)
+
 
 ## Swaps the jumpscare mechanic for the og crash mechanic
 # Allows "true" or "false" (false is the default)
@@ -32,3 +33,9 @@ function watching:config/disappearing_torches/true
 ## Changes whether or not Herobrine will try to burn down your house once you leave the area (one check per in-game day)
 # Allows "true" or "false" (false is the default)
 function watching:config/burning_base/false
+
+## Changes whether or not a noise is played when the player spots Herobrine
+# Allows "true" or "false" (false is the default)
+function watching:config/spot_noise/true
+
+playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

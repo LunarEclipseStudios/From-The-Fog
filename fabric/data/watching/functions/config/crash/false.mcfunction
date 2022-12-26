@@ -1,1 +1,2 @@
-scoreboard players set true burningBaseConfig 0
+scoreboard players set true crashConfig 0
+function fromthefog:admin/config

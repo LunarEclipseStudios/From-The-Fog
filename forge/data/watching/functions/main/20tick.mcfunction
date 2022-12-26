@@ -35,7 +35,7 @@ execute as @e[type=marker,tag=bed_trace,tag=logged] at @s unless block ~ ~ ~ #mi
 #disappear
 execute if score true poofingTorchesConfig matches 1 as @e[type=marker,tag=torch_trace] at @s unless score true day_passed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/torch_break
 #building_burn
-execute if score true burningBaseConfig matches 1 as @e[type=marker,tag=bed_trace] at @s unless score true day_passed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/house_burn
+execute if score true burningBaseConfig matches 1 as @e[type=marker,tag=bed_trace] at @s unless score true day_passed2 matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/house_burn
 
 ##blocks_breaking
 #randomizer
