@@ -3,7 +3,7 @@
 
 # You can't see him, but I promise he can see you...
 
-From The Fog is a Minecraft mod/datapack that adds Herobrine in the most vanilla and spooky way possible.
+Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.
 
 ![1_new](https://user-images.githubusercontent.com/26262092/200358526-35bb203a-2f79-4944-a958-9c9369222562.png)
 ![2_new](https://user-images.githubusercontent.com/26262092/200358537-bcac5863-c8a0-44ce-9bcc-e323fe10e969.png)
