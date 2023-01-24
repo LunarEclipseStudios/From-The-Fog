@@ -2,7 +2,7 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "position": {
-      "y": 255
+      "y": 318
     }
   }
 }

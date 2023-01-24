@@ -1,12 +1,224 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/diamond_hoe"
-  },
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/diamond_hoe"
+	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1}, "model": "watching:item/herobrine/head" },
-		{ "predicate": { "custom_model_data": 2}, "model": "watching:item/herobrine/body" },
-		{ "predicate": { "custom_model_data": 3}, "model": "watching:item/herobrine/arm" },
-		{ "predicate": { "custom_model_data": 4}, "model": "watching:item/herobrine/eyes" }
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "watching:item/herobrine/default/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "watching:item/herobrine/default/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "watching:item/herobrine/default/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "watching:item/herobrine/default/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "watching:item/herobrine/default/right_arm"
+		},
+		
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "watching:item/herobrine/classic/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "watching:item/herobrine/classic/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "watching:item/herobrine/classic/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "watching:item/herobrine/classic/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "watching:item/herobrine/classic/right_arm"
+		},
+		
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "watching:item/herobrine/black_eyed/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "watching:item/herobrine/black_eyed/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "watching:item/herobrine/black_eyed/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "watching:item/herobrine/black_eyed/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 15
+			},
+			"model": "watching:item/herobrine/black_eyed/right_arm"
+		},
+
+		{
+			"predicate": {
+				"custom_model_data": 16
+			},
+			"model": "watching:item/herobrine/entity_303/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 17
+			},
+			"model": "watching:item/herobrine/entity_303/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 18
+			},
+			"model": "watching:item/herobrine/entity_303/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 19
+			},
+			"model": "watching:item/herobrine/entity_303/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20
+			},
+			"model": "watching:item/herobrine/entity_303/right_arm"
+		},
+		
+		{
+			"predicate": {
+				"custom_model_data": 21
+			},
+			"model": "watching:item/herobrine/glitch/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 22
+			},
+			"model": "watching:item/herobrine/glitch/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 23
+			},
+			"model": "watching:item/herobrine/glitch/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 24
+			},
+			"model": "watching:item/herobrine/glitch/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 25
+			},
+			"model": "watching:item/herobrine/glitch/right_arm"
+		},
+
+		{
+			"predicate": {
+				"custom_model_data": 26
+			},
+			"model": "watching:item/herobrine/null/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 27
+			},
+			"model": "watching:item/herobrine/null/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 28
+			},
+			"model": "watching:item/herobrine/null/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 29
+			},
+			"model": "watching:item/herobrine/null/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 30
+			},
+			"model": "watching:item/herobrine/null/right_arm"
+		},
+
+		{
+			"predicate": {
+				"custom_model_data": 31
+			},
+			"model": "watching:item/herobrine/webster/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 32
+			},
+			"model": "watching:item/herobrine/webster/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 33
+			},
+			"model": "watching:item/herobrine/webster/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 34
+			},
+			"model": "watching:item/herobrine/webster/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 35
+			},
+			"model": "watching:item/herobrine/webster/right_arm"
+		}
 	]
 }

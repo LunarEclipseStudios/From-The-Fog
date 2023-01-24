@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=ghostMiner] at @s run playsound minecraft:block.stone.hit block @a ~ ~ ~ 0.5 0.5

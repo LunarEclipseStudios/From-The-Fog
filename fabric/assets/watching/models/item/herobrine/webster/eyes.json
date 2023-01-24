@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "watching:item/herobrine/webster/webster",
+		"particle": "watching:item/herobrine/webster/webster",
+		"skin": "watching:item/herobrine/webster/webster_main"
+	},
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [4, 20, 4],
+			"to": [12, 28, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#skin"},
+				"east": {"uv": [14, 0, 16, 2], "texture": "#skin"},
+				"south": {"uv": [14, 0, 16, 2], "texture": "#skin"},
+				"west": {"uv": [14, 0, 16, 2], "texture": "#skin"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#skin"},
+				"down": {"uv": [14, 0, 16, 2], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [6.5, 28, 3],
+			"to": [9.5, 31, 6],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 29.0067, 7.51982]},
+			"faces": {
+				"north": {"uv": [11.5, 10, 13, 11.5], "texture": "#1"},
+				"east": {"uv": [10, 10, 11.5, 11.5], "texture": "#1"},
+				"south": {"uv": [14.5, 0, 16, 1.5], "texture": "#1"},
+				"west": {"uv": [13, 10, 14.5, 11.5], "texture": "#1"},
+				"up": {"uv": [16, 1.5, 14.5, 0], "texture": "#1"},
+				"down": {"uv": [16, 0, 14.5, 1.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -25.04, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

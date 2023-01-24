@@ -38,4 +38,11 @@ function watching:config/burning_base/false
 # Allows "true" or "false" (false is the default)
 function watching:config/spot_noise/true
 
+## Changes whether or not Herobrine will have glowing eyes. Useful for players who want to make him more vanilla, or that use dynamic lighting.
+# Allows "true" or "false" (true is the default)
+function watching:config/glowing_eyes/true
+
+
+function watching:config/herobrine_skin/1_default
+
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

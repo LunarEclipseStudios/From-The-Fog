@@ -1,0 +1,6 @@
+{
+  "parent": "watching:item/herobrine/template/eyes",
+  "textures": {
+    "skin": "watching:item/herobrine/black_eyed/black_eyed"
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [4, 23, 4],
+			"to": [12, 31, 12],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#skin"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#skin"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#skin"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#skin"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#skin"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [3.5, 22.5, 3.5],
+			"to": [12.5, 31.5, 12.5],
+			"faces": {
+				"north": {"uv": [10, 2, 12, 4], "texture": "#skin"},
+				"east": {"uv": [8, 2, 10, 4], "texture": "#skin"},
+				"south": {"uv": [14, 2, 16, 4], "texture": "#skin"},
+				"west": {"uv": [12, 2, 14, 4], "texture": "#skin"},
+				"up": {"uv": [10, 0, 12, 2], "texture": "#skin"},
+				"down": {"uv": [12, 0, 14, 2], "texture": "#skin"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -29.54, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}
