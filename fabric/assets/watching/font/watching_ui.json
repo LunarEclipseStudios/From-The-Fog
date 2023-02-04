@@ -10,7 +10,7 @@
             {
                 "type": "bitmap",
                 "file": "minecraft:font/ascii.png",
-                "ascent": 2,
+                "ascent": 7,
                 "height": 8,
                 "chars": [
                     "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
@@ -38,6 +38,241 @@
                 ],
                 "file": "watching:font/watching_ui/logo.png",
                 "height": 17,
+                "type": "bitmap"
+            },
+
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC01"
+                ],
+                "file": "watching:font/watching_ui/pixel_nosplit.png",
+                "height": -12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC02"
+                ],
+                "file": "watching:font/watching_ui/pixel_nosplit.png",
+                "height": -3,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uBC00"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/selected.png",
+                "height": 10,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uBC03"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/deselected.png",
+                "height": 10,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB02"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/default.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB03"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/classic.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB04"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/black_eyed.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB05"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/entity_303.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB06"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/glitch.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB07"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/null.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB08"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/lunar_eclipse.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB09"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/apparition.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB10"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/zombie.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB11"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/nullified.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB12"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/custom/1.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB13"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/faceless.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB14"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/custom/2.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB15"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/custom/3.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB16"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/custom/4.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB17"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/custom/5.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB18"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/distorted.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB19"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/alex.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB20"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/lick.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB21"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/fallen_kingdom.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB22"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/sculk_infested.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB23"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/netherbrine.png",
+                "height": 8,
                 "type": "bitmap"
             }
         ]

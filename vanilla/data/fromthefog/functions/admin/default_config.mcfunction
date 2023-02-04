@@ -45,4 +45,8 @@ function watching:config/glowing_eyes/true
 
 function watching:config/herobrine_skin/1_default
 
+function watching:config/randomize_skins/false
+
+function watching:config/sighting_chance/2_uncommon
+
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

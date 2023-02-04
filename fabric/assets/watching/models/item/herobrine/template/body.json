@@ -6,12 +6,25 @@
 			"from": [4, 0, 6],
 			"to": [8, 12, 10],
 			"faces": {
-				"north": {"uv": [1, 5, 2, 8], "texture": "#skin"},
-				"east": {"uv": [0, 5, 1, 8], "texture": "#skin"},
-				"south": {"uv": [3, 5, 4, 8], "texture": "#skin"},
-				"west": {"uv": [2, 5, 3, 8], "texture": "#skin"},
-				"up": {"uv": [1, 4, 2, 5], "texture": "#skin"},
-				"down": {"uv": [2, 4, 3, 5], "texture": "#skin"}
+				"north": {"uv": [5, 13, 6, 16], "texture": "#skin"},
+				"east": {"uv": [4, 13, 5, 16], "texture": "#skin"},
+				"south": {"uv": [7, 13, 8, 16], "texture": "#skin"},
+				"west": {"uv": [6, 13, 7, 16], "texture": "#skin"},
+				"up": {"uv": [5, 12, 6, 13], "texture": "#skin"},
+				"down": {"uv": [6, 12, 7, 13], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "leg",
+			"from": [3.75, -0.25, 5.75],
+			"to": [8.25, 12.25, 10.25],
+			"faces": {
+				"north": {"uv": [1, 13, 2, 16], "texture": "#skin"},
+				"east": {"uv": [0, 13, 1, 16], "texture": "#skin"},
+				"south": {"uv": [3, 13, 4, 16], "texture": "#skin"},
+				"west": {"uv": [2, 13, 3, 16], "texture": "#skin"},
+				"up": {"uv": [1, 12, 2, 13], "texture": "#skin"},
+				"down": {"uv": [2, 12, 3, 13], "texture": "#skin"}
 			}
 		},
 		{
@@ -28,6 +41,19 @@
 			}
 		},
 		{
+			"name": "leg",
+			"from": [7.75, -0.25, 5.75],
+			"to": [12.25, 12.25, 10.25],
+			"faces": {
+				"north": {"uv": [1, 9, 2, 12], "texture": "#skin"},
+				"east": {"uv": [0, 9, 1, 12], "texture": "#skin"},
+				"south": {"uv": [3, 9, 4, 12], "texture": "#skin"},
+				"west": {"uv": [2, 9, 3, 12], "texture": "#skin"},
+				"up": {"uv": [1, 8, 2, 9], "texture": "#skin"},
+				"down": {"uv": [2, 8, 3, 9], "texture": "#skin"}
+			}
+		},
+		{
 			"name": "Box4",
 			"from": [4, 12, 6],
 			"to": [12, 24, 10],
@@ -38,6 +64,19 @@
 				"west": {"uv": [7, 5, 8, 8], "texture": "#skin"},
 				"up": {"uv": [5, 4, 7, 5], "texture": "#skin"},
 				"down": {"uv": [7, 4, 9, 5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [3.75, 11.75, 5.75],
+			"to": [12.25, 24.25, 10.25],
+			"faces": {
+				"north": {"uv": [5, 9, 7, 12], "texture": "#skin"},
+				"east": {"uv": [4, 9, 5, 12], "texture": "#skin"},
+				"south": {"uv": [8, 9, 10, 12], "texture": "#skin"},
+				"west": {"uv": [7, 9, 8, 12], "texture": "#skin"},
+				"up": {"uv": [5, 8, 7, 9], "texture": "#skin"},
+				"down": {"uv": [7, 8, 9, 9], "texture": "#skin"}
 			}
 		}
 	],

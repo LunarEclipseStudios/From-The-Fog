@@ -49,6 +49,9 @@ scoreboard objectives add poofingTorchesConfig dummy
 scoreboard objectives add burningBaseConfig dummy
 scoreboard objectives add spotNoiseConfig dummy
 scoreboard objectives add glowingEyesConfig dummy
+scoreboard objectives add randomizeSkinsConfig dummy
+scoreboard objectives add randomSkinSkipAmount dummy
+scoreboard objectives add sightingChanceConfig dummy
 
 #configDefaults
 execute unless score true crashConfig matches 0.. run function watching:config/crash/false
@@ -61,7 +64,9 @@ execute unless score true poofingTorchesConfig matches 0.. run function watching
 execute unless score true burningBaseConfig matches 0.. run function watching:config/burning_base/false
 execute unless score true spotNoiseConfig matches 0.. run function watching:config/spot_noise/true
 execute unless score true glowingEyesConfig matches 0.. run function watching:config/glowing_eyes/true
-execute unless score skin herobrineSkinConfig matches 0.. run function watching:config/herobrine_skin/1_default
+execute unless score skin herobrineSkinConfig matches -5.. run function watching:config/herobrine_skin/1_default
+execute unless score true randomizeSkinsConfig matches 0.. run function watching:config/randomize_skins/false
+execute unless score chance sightingChanceConfig matches 0.. run function watching:config/sighting_chance/2_uncommon
 
 #noCollisionTeam
 team add nocol

@@ -1,0 +1,6 @@
+{
+  "parent": "watching:item/herobrine/custom/4/head",
+  "textures": {
+    "skin": "watching:item/herobrine/custom/4_emissive"
+  }
+}

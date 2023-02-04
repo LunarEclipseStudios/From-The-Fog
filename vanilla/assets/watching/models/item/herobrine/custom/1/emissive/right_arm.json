@@ -1,0 +1,6 @@
+{
+  "parent": "watching:item/herobrine/custom/1/right_arm",
+  "textures": {
+    "skin": "watching:item/herobrine/custom/1_emissive"
+  }
+}

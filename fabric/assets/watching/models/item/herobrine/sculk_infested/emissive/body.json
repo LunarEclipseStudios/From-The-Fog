@@ -1,0 +1,6 @@
+{
+  "parent": "watching:item/herobrine/sculk_infested/body",
+  "textures": {
+    "skin": "watching:item/herobrine/sculk_infested/sculk_infested_emissive"
+  }
+}

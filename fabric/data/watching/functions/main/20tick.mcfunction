@@ -4,12 +4,11 @@ schedule function watching:main/20tick 1s
 #creepingPosRandomizer
 scoreboard players add random creepingPosRandomizer 1
 execute if score random creepingPosRandomizer matches 4.. run scoreboard players set random creepingPosRandomizer 1
-#stalkingSightingRules
-execute if score true startedEvents matches 1 if score true stalkingConfig matches 1 unless predicate watching:checks/is_night_check if predicate watching:chances/sighting_chance as @r at @s unless entity @e[type=armor_stand,tag=spread] unless entity @e[type=villager,tag=door_open] run function watching:events/sightings/stalking
-execute if score true startedEvents matches 1 if score true stalkingConfig matches 1 if predicate watching:checks/is_night_check if predicate watching:chances/sighting_chance_night as @r at @s unless entity @e[type=armor_stand,tag=spread] unless entity @e[type=villager,tag=door_open] run function watching:events/sightings/stalking
-#creepingSightingRules
-execute if score true startedEvents matches 1 if score true creepingConfig matches 1 unless predicate watching:checks/is_night_check if predicate watching:chances/sighting_chance as @r at @s unless entity @e[type=armor_stand,tag=spread] unless entity @e[type=villager,tag=door_open] run function watching:events/sightings/creeping
-execute if score true startedEvents matches 1 if score true creepingConfig matches 1 if predicate watching:checks/is_night_check if predicate watching:chances/sighting_chance_night as @r at @s unless entity @e[type=armor_stand,tag=spread] unless entity @e[type=villager,tag=door_open] run function watching:events/sightings/creeping
+
+#sightingChances
+execute if score chance sightingChanceConfig matches 1 if score true startedEvents matches 1 run function watching:events/sightings/chances/1_common
+execute if score chance sightingChanceConfig matches 2 if score true startedEvents matches 1 run function watching:events/sightings/chances/2_uncommon
+execute if score chance sightingChanceConfig matches 3 if score true startedEvents matches 1 run function watching:events/sightings/chances/3_rare
 
 #removeTraces
 execute as @e[type=marker,tag=doorTrace,tag=logged] at @s unless block ~ ~ ~ #doors run function watching:events/general/kill/kill_trace_marker
@@ -33,6 +32,13 @@ execute if score randomPos ghostMinerEvents matches 5.. run scoreboard players s
 
 #bodyTurningAnimation
 execute as @e[tag=seen,tag=!head,tag=!eyes,tag=!move] at @s run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator]
+
+#randomizeSkinSkipAmount
+execute if score true randomizeSkinsConfig matches 1 run scoreboard players add amount randomSkinSkipAmount 1
+execute if score true randomizeSkinsConfig matches 1 if score amount randomSkinSkipAmount matches 4.. run scoreboard players set amount randomSkinSkipAmount 1
+
+#redstoneTorchTunnelAirCheck
+execute as @e[type=item_frame,tag=torchCheck] at @s run function watching:main/ticks/torch_check
 
 #tempTraceReplace
 execute as @e[type=marker,tag=torch_trace,tag=!torchTrace] run tag @s add torchTrace

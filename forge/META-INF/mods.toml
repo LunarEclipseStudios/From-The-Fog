@@ -5,13 +5,13 @@ logoFile="banner.png"
 
 [[mods]]
 modId="watching"
-version="1.5"
+version="1.5.1"
 displayName="From The Fog"
 credits="§8Created by §5☆Lunar Eclipse Studios☆"
 displayURL="https://lunareclipse.studio/from-the-fog"
 issueTrackerURL="https://github.com/LunarEclipseStudios/From-The-Fog/issues"
 authors="Bret06"
-description='''From The Fog is a Minecraft mod/datapack that adds Herobrine in the most vanilla and spooky way possible.'''
+description='''Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.'''
 
 [[dependencies.watching]]
     modId="minecraft"
@@ -23,7 +23,7 @@ description='''From The Fog is a Minecraft mod/datapack that adds Herobrine in t
 [[dependencies.watching]]
     modId="watching"
     mandatory=true
-    versionRange="[1.5]"
+    versionRange="[1.5.1]"
     ordering="NONE"
     side="BOTH"
 
