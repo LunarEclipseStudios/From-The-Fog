@@ -1,11 +1,7 @@
 {
   "structures": [
     {
-      "structure": "watching:mossy_pyramid1",
-      "weight": 1
-    },
-    {
-      "structure": "watching:mossy_pyramid2",
+      "structure": "watching:mossy_pyramid",
       "weight": 1
     }
   ],

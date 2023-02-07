@@ -1,5 +1,5 @@
 {
-  "name": "leafless_grove",
+  "name": "redstone_torch_trail",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,8 +7,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "watching:leafless_grove/grove1",
-        "processors": "watching:replace_leaves"
+        "location": "watching:redstone_torch_trail/trail1",
+        "processors": "minecraft:empty"
       }
     },
     {
@@ -16,8 +16,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "watching:leafless_grove/grove2",
-        "processors": "watching:replace_leaves"
+        "location": "watching:redstone_torch_trail/trail2",
+        "processors": "minecraft:empty"
       }
     }
   ]

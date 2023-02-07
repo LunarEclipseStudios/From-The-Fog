@@ -1,11 +1,7 @@
 {
   "structures": [
     {
-      "structure": "watching:redstone_torch_trail1",
-      "weight": 1
-    },
-    {
-      "structure": "watching:redstone_torch_trail2",
+      "structure": "watching:redstone_torch_trail",
       "weight": 1
     }
   ],

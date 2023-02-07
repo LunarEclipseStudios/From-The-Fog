@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#minecraft:is_forest",
+    "minecraft:plains",
+    "#minecraft:has_structure/desert_pyramid"
+  ]
+}

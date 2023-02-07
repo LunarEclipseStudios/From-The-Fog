@@ -1,11 +1,7 @@
 {
   "structures": [
     {
-      "structure": "watching:sandstone_pyramid1",
-      "weight": 1
-    },
-    {
-      "structure": "watching:sandstone_pyramid2",
+      "structure": "watching:sandstone_pyramid",
       "weight": 1
     }
   ],
