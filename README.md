@@ -1,5 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/106862027/194214856-bdd29bb7-8e81-44c0-ba6f-3fba6a902a38.png)
-## Mod/Datapack for Minecraft: Java Edition
+
+## **Mod/Datapack for Minecraft: Java Edition**
 
 # You can't see him, but I promise he can see you...
 
@@ -13,7 +14,7 @@ Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings
 ![6_new](https://user-images.githubusercontent.com/26262092/200358582-4e74c2f9-85c4-495b-b6b9-9ce012e4639a.png)
 
 
-## Installation
+## **Installation**
 
 #### Stable releases
 
@@ -24,7 +25,7 @@ Releases are considered to be **suitable for general use**, but they are not gua
 
 ---
 
-### Community
+## **Community**
 [![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/RmMtqxJJgH)
 
 We have an [official Discord community.](https://discord.gg/RmMtqxJJgH) By joining, you can:
@@ -34,7 +35,13 @@ We have an [official Discord community.](https://discord.gg/RmMtqxJJgH) By joini
 
 ---
 
-### Website
+## **License**
+
+This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Feel free to use and modify the mod/datapack as you see fit, as long as you give credit to the original authors, do not use it for commercial purposes, and share any modifications under the same license. See the [LICENSE](https://github.com/LunarEclipseStudios/From-The-Fog/blob/main/LICENSE.md) file for more details.
+
+---
+
+## **Website**
 Feel free to check out our website!
 https://lunareclipse.studio
 
