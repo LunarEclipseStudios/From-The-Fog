@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/106862027/194214856-bdd29bb7-8e81-44c0-ba6f-3fba6a902a38.png)
+![logo](https://www.lunareclipse.studio/assets/img/from-the-fog/logo.png)
 
 ## **Mod/Datapack for Minecraft: Java Edition**
 
