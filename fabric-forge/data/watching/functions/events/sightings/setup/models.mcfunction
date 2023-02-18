@@ -11,6 +11,9 @@ execute if score true glowingEyesConfig matches 0 at @e[tag=spread] run summon a
 execute as @e[tag=body] at @s run tp @s ~ ~ ~ facing entity @p
 scoreboard players set @e[tag=body] armPos 1
 
+#noSleepMob
+execute at @e[tag=spread] run summon zombie ~ ~ ~ {Tags:["herobrine"],Silent:1b,Invulnerable:1b,DeathLootTable:"/",Team:"nocol",NoAI:1b,IsBaby:1b,DrownedConversionTime:-99999,ActiveEffects:[{Id:11,Amplifier:12b,Duration:1999980,ShowParticles:0b},{Id:14,Amplifier:1b,Duration:1999980,ShowParticles:0b}]}
+
 #randomizeSkins
 execute if score true randomizeSkinsConfig matches 1 if score amount randomSkinSkipAmount matches 1 run scoreboard players add skin herobrineSkinConfig 1
 execute if score true randomizeSkinsConfig matches 1 if score amount randomSkinSkipAmount matches 2 run scoreboard players add skin herobrineSkinConfig 2

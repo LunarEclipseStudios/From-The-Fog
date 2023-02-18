@@ -52,10 +52,13 @@ scoreboard objectives add glowingEyesConfig dummy
 scoreboard objectives add randomizeSkinsConfig dummy
 scoreboard objectives add randomSkinSkipAmount dummy
 scoreboard objectives add sightingChanceConfig dummy
+scoreboard objectives add jumpscareConfig dummy
+scoreboard objectives add creepingVanishingDelayConfig dummy
+scoreboard objectives add stalkingVanishingDelayConfig dummy
 
 #configDefaults
 execute unless score true crashConfig matches 0.. run function watching:config/crash/false
-execute unless score true dayDelayConfig matches 0.. run function watching:config/start_delay/3
+execute unless score number dayDelayConfig matches 0.. run function watching:config/start_delay/3
 execute unless score true ghostDoorConfig matches 0.. run function watching:config/ghost_door/true
 execute unless score true creepingConfig matches 0.. run function watching:config/creeping/true
 execute unless score true stalkingConfig matches 0.. run function watching:config/stalking/true
@@ -67,6 +70,9 @@ execute unless score true glowingEyesConfig matches 0.. run function watching:co
 execute unless score skin herobrineSkinConfig matches -5.. run function watching:config/herobrine_skin/1_default
 execute unless score true randomizeSkinsConfig matches 0.. run function watching:config/randomize_skins/false
 execute unless score chance sightingChanceConfig matches 0.. run function watching:config/sighting_chance/2_uncommon
+execute unless score true jumpscareConfig matches 0.. run function watching:config/jumpscare/true
+execute unless score number creepingVanishingDelayConfig matches 0.. run function watching:config/creeping_vanishing_delay/none
+execute unless score number stalkingVanishingDelayConfig matches 0.. run function watching:config/stalking_vanishing_delay/none
 
 #noCollisionTeam
 team add nocol

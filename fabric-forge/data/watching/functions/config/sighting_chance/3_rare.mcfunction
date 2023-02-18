@@ -1,2 +1,2 @@
 scoreboard players set chance sightingChanceConfig 3
-function watching:config/pages/4
+function fromthefog:admin/config

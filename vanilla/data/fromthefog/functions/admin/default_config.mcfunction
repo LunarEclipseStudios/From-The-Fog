@@ -49,4 +49,6 @@ function watching:config/randomize_skins/false
 
 function watching:config/sighting_chance/2_uncommon
 
+function watching:config/jumpscare/true
+
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

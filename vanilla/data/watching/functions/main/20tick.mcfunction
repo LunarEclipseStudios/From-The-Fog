@@ -22,7 +22,7 @@ execute as @e[type=marker,tag=doorTrace,tag=logged] at @s if score true ghostDoo
 execute if score true poofingTorchesConfig matches 1 as @e[type=marker,tag=torchTrace] at @s unless score true torchDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/torch_break/try_break
 
 #burningBase
-execute if score true burningBaseConfig matches 1 as @e[type=marker,tag=bedTrace] at @s if score true startedEvents matches 1 unless score true bedDayPassed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/burning_base/try_burn
+execute if score true burningBaseConfig matches 1 as @e[type=marker,tag=bedTrace,sort=random,limit=1] at @s if score true startedEvents matches 1 unless score true bedDayPassed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/burning_base/try_burn
 
 #ghostMiner
 execute if score true startedEvents matches 1 if score true ghostMineConfig matches 1 in overworld as @a[distance=0..] at @s unless entity @e[type=marker,tag=ghostMiner] if block ~ ~-1 ~ #minecraft:base_stone_overworld unless blocks ~ ~ ~ ~ 256 ~ ~ ~2 ~ masked if block ~ ~ ~ air if predicate watching:chances/ghost_miner_chance unless block ^1 ^1 ^ #watching:air_blocks unless block ^-1 ^1 ^ #watching:air_blocks run function watching:events/ghost_miner/start_mining

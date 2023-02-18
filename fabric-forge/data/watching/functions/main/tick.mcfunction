@@ -8,3 +8,6 @@ execute as @e[type=armor_stand,tag=herobrine] at @s run function watching:main/t
 execute as @e[type=armor_stand,tag=herobrineFake] at @s run function watching:main/ticks/herobrine_fake
 execute as @e[type=villager,tag=doorGhost] at @s run function watching:main/ticks/door_ghost
 execute as @e[type=marker,tag=leaflessCheck,limit=1] at @s run function watching:main/ticks/leafless_check
+
+#quickNoSleepMobRemove
+execute as @e[type=zombie,tag=herobrine] at @s unless entity @e[type=armor_stand,tag=spread,distance=..3] run function watching:events/general/kill/kill
