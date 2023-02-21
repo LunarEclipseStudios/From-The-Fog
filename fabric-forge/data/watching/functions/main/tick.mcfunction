@@ -10,4 +10,4 @@ execute as @e[type=villager,tag=doorGhost] at @s run function watching:main/tick
 execute as @e[type=marker,tag=leaflessCheck,limit=1] at @s run function watching:main/ticks/leafless_check
 
 #quickNoSleepMobRemove
-execute as @e[type=zombie,tag=herobrine] at @s unless entity @e[type=armor_stand,tag=spread,distance=..3] run function watching:events/general/kill/kill
+execute as @e[type=husk,tag=herobrine] at @s unless entity @e[type=armor_stand,tag=spread,distance=..3] run function watching:events/general/kill/kill

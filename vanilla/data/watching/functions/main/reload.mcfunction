@@ -55,6 +55,7 @@ scoreboard objectives add sightingChanceConfig dummy
 scoreboard objectives add jumpscareConfig dummy
 scoreboard objectives add creepingVanishingDelayConfig dummy
 scoreboard objectives add stalkingVanishingDelayConfig dummy
+scoreboard objectives add noSleepConfig dummy
 
 #configDefaults
 execute unless score true crashConfig matches 0.. run function watching:config/crash/false
@@ -73,6 +74,7 @@ execute unless score chance sightingChanceConfig matches 0.. run function watchi
 execute unless score true jumpscareConfig matches 0.. run function watching:config/jumpscare/true
 execute unless score number creepingVanishingDelayConfig matches 0.. run function watching:config/creeping_vanishing_delay/none
 execute unless score number stalkingVanishingDelayConfig matches 0.. run function watching:config/stalking_vanishing_delay/none
+execute unless score true noSleepConfig matches 0.. run function watching:config/no_sleep/true
 
 #noCollisionTeam
 team add nocol

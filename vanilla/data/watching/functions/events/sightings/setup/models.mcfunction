@@ -12,7 +12,8 @@ execute as @e[tag=body] at @s run tp @s ~ ~ ~ facing entity @p
 scoreboard players set @e[tag=body] armPos 1
 
 #noSleepMob
-execute at @e[tag=spread] run summon zombie ~ ~ ~ {Tags:["herobrine"],Silent:1b,Invulnerable:1b,DeathLootTable:"/",Team:"nocol",NoAI:1b,IsBaby:1b,DrownedConversionTime:-99999,ActiveEffects:[{Id:11,Amplifier:12b,Duration:1999980,ShowParticles:0b},{Id:14,Amplifier:1b,Duration:1999980,ShowParticles:0b}]}
+execute if score true noSleepConfig matches 1 if predicate watching:checks/is_night_check at @e[tag=spread] run summon husk ~ -1 ~ {Tags:["herobrine"],Silent:1b,NoGravity:1b,Invulnerable:1b,DeathLootTable:"/",Team:"nocol",NoAI:1b,IsBaby:1b,DrownedConversionTime:-99999,ActiveEffects:[{Id:12,Amplifier:1b,Duration:199999980,ShowParticles:0b},{Id:14,Amplifier:1b,Duration:199999980,ShowParticles:0b}]}
+execute if score true noSleepConfig matches 1 if predicate watching:checks/is_night_check at @e[tag=spread] run tp @e[type=husk,tag=herobrine] ~ ~ ~
 
 #randomizeSkins
 execute if score true randomizeSkinsConfig matches 1 if score amount randomSkinSkipAmount matches 1 run scoreboard players add skin herobrineSkinConfig 1

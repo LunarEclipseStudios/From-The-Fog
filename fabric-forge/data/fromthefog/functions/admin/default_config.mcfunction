@@ -51,4 +51,9 @@ function watching:config/sighting_chance/2_uncommon
 
 function watching:config/jumpscare/true
 
+function watching:config/creeping_vanishing_delay/none
+function watching:config/stalking_vanishing_delay/none
+
+function watching:config/no_sleep/true
+
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

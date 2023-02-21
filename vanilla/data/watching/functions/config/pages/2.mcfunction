@@ -2,7 +2,7 @@ playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0
 
 tellraw @s "\n\n\n\n\n\n\n\n\n\n"
 tellraw @s {"text":"\uBB01\n","font": "watching:watching_ui"}
-tellraw @s {"text":"Config [2/4]\n","underlined": true}
+tellraw @s {"text":"Config [2/5]\n","underlined": true}
 
 #creepingMechanic
 tellraw @s {"text":"Creeping Mechanic","underlined":false,"hoverEvent":{"action":"show_text","contents":"Changes whether or not Herobrine will stand behind you waiting for you to turn around."}}
@@ -31,4 +31,4 @@ tellraw @s ""
 
 #pageSelect
 tellraw @s {"text":"Pages","underlined":false,"color": "gray"}
-tellraw @s [{"text":"[1]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function fromthefog:admin/config"}},{"text":" | ","underlined":false,"color":"dark_gray","clickEvent":{"action":"copy_to_clipboard","value":"He's Watching..."}},{"text":"[2]","underlined":true,"color": "green","clickEvent":{"action":"run_command","value":"/function watching:config/pages/2"}},{"text":" | ","underlined":false,"color":"dark_gray","clickEvent":{"action":"copy_to_clipboard","value":"He's Watching..."}},{"text":"[3]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function watching:config/pages/3"}},{"text":" | ","underlined":false,"color":"dark_gray","clickEvent":{"action":"copy_to_clipboard","value":"He's Watching..."}},{"text":"[4]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function watching:config/pages/4"}}]
+tellraw @s ["",{"text":"[1]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function fromthefog:admin/config"}},{"text":" | ","underlined":false,"color":"dark_gray"},{"text":"[2]","underlined":true,"color": "green","clickEvent":{"action":"run_command","value":"/function watching:config/pages/2"}},{"text":" | ","underlined":false,"color":"dark_gray"},{"text":"[3]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function watching:config/pages/3"}},{"text":" | ","underlined":false,"color":"dark_gray"},{"text":"[4]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function watching:config/pages/4"}},{"text":" | ","underlined":false,"color":"dark_gray"},{"text":"[5]","underlined":false,"color": "red","clickEvent":{"action":"run_command","value":"/function watching:config/pages/5"}}]
