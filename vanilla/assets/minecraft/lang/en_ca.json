@@ -6,5 +6,7 @@
   "watchingSkin.customSkin2.name": "Custom Skin 2",
   "watchingSkin.customSkin3.name": "Custom Skin 3",
   "watchingSkin.customSkin4.name": "Custom Skin 4",
-  "watchingSkin.customSkin5.name": "Custom Skin 5"
+  "watchingSkin.customSkin5.name": "Custom Skin 5",
+  "selectWorld.warning.experimental.title": "Unknown Entity Error",
+  "selectWorld.warning.experimental.question": "Minecraft has detected an unknown presence in this world. It is advised that you DO NOT PASS THIS SCREEN. Ignoring this warning may result in strange occurrences and/or encounters. Remember, don't stare directly at the bugs."
 }

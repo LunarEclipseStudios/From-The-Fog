@@ -78,6 +78,15 @@
                 "type": "bitmap"
             },
             {
+                "ascent": 40,
+                "chars": [
+                    "\uBC04"
+                ],
+                "file": "watching:font/watching_ui/crash_screen.png",
+                "height": 200,
+                "type": "bitmap"
+            },
+            {
                 "ascent": 7,
                 "chars": [
                     "\uBB02"

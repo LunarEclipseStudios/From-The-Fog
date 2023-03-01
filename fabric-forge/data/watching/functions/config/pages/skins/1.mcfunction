@@ -30,7 +30,7 @@ execute if score skin herobrineSkinConfig matches 16 run tellraw @s [{"text":"",
 execute if score skin herobrineSkinConfig matches 17 run tellraw @s [{"text":"","font":"watching:watching_ui"},{"text":"\uBB21","hoverEvent":{"action":"show_text","contents":"Fallen Kingdom"},"underlined":false,"clickEvent":{"action":"run_command","value":"/function watching:config/herobrine_skin/15_fallen_kingdom"}},{"text":" "},{"text":"\uBB22","hoverEvent":{"action":"show_text","contents":"Sculk Infested"},"underlined":false,"clickEvent":{"action":"run_command","value":"/function watching:config/herobrine_skin/16_sculk_infested"}},{"text":" "},{"text":"밂\uBC00밁"},{"text":"\uBB23","hoverEvent":{"action":"show_text","contents":"Netherbrine"},"underlined":false,"clickEvent":{"action":"run_command","value":"/function watching:config/herobrine_skin/17_netherbrine"}},{"text":" "}]
 
 #extraSpace
-tellraw @s "\n"
+tellraw @s "\n\n\n"
 
 #customSkins
 tellraw @s {"translate":"watchingSkin.customSkinPack.name","underlined": false}

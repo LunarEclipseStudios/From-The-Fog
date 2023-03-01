@@ -55,5 +55,8 @@ function watching:config/creeping_vanishing_delay/none
 function watching:config/stalking_vanishing_delay/none
 
 function watching:config/no_sleep/true
+function watching:config/dreadful_donation/true
+
+function watching:config/crimson_curse/true
 
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

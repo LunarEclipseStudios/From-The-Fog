@@ -8,6 +8,8 @@ schedule function watching:main/600tick 30s
 #scheduleEvents
 schedule function watching:events/scheduled/torch_break_day_passed 1d
 schedule function watching:events/scheduled/burning_base_day_passed 1d
+schedule function watching:events/scheduled/herobrine_gift_day_passed 1d
+schedule function watching:events/scheduled/crimson_curse_day_passed 1d
 
 #tempRemoveOldScorboards
 scoreboard objectives remove summon_rotation
@@ -35,8 +37,11 @@ scoreboard objectives add spawnDelay dummy
 scoreboard objectives add armPos dummy
 scoreboard objectives add crash dummy
 scoreboard objectives add torchDayPassed dummy
+scoreboard objectives add crimsonCurseDayPassed dummy
+scoreboard objectives add giftDayPassed dummy
 scoreboard objectives add bedDayPassed dummy
 scoreboard objectives add lifeLimit dummy
+scoreboard objectives add LBSpecialEvent1 dummy
 scoreboard objectives add ghostMinerEvents dummy
 scoreboard objectives add crashConfig dummy
 scoreboard objectives add dayDelayConfig dummy
@@ -56,6 +61,8 @@ scoreboard objectives add jumpscareConfig dummy
 scoreboard objectives add creepingVanishingDelayConfig dummy
 scoreboard objectives add stalkingVanishingDelayConfig dummy
 scoreboard objectives add noSleepConfig dummy
+scoreboard objectives add dreadfulDonationConfig dummy
+scoreboard objectives add crimsonCurseConfig dummy
 
 #configDefaults
 execute unless score true crashConfig matches 0.. run function watching:config/crash/false
@@ -75,6 +82,8 @@ execute unless score true jumpscareConfig matches 0.. run function watching:conf
 execute unless score number creepingVanishingDelayConfig matches 0.. run function watching:config/creeping_vanishing_delay/none
 execute unless score number stalkingVanishingDelayConfig matches 0.. run function watching:config/stalking_vanishing_delay/none
 execute unless score true noSleepConfig matches 0.. run function watching:config/no_sleep/true
+execute unless score true dreadfulDonationConfig matches 0.. run function watching:config/dreadful_donation/true
+execute unless score true crimsonCurseConfig matches 0.. run function watching:config/crimson_curse/true
 
 #noCollisionTeam
 team add nocol

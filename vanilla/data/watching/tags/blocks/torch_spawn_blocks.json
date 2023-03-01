@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:base_stone_overworld",
+        "#minecraft:logs",
+        "grass_block",
+        "dirt",
+        "sand",
+        "gravel"
+    ]
+}

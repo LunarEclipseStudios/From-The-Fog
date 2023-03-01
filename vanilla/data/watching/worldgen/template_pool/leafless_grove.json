@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "watching:leafless_grove/grove1",
+        "location": "watching:leafless_grove/oak_birch/grove1",
         "processors": "watching:replace_leaves"
       }
     },
@@ -16,7 +16,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "watching:leafless_grove/grove2",
+        "location": "watching:leafless_grove/oak_birch/grove2",
         "processors": "watching:replace_leaves"
       }
     }
