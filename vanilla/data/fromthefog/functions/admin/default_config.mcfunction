@@ -59,4 +59,8 @@ function watching:config/dreadful_donation/true
 
 function watching:config/crimson_curse/true
 
+function watching:config/og_shrine/false
+
+function watching:config/nightmare/true
+
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

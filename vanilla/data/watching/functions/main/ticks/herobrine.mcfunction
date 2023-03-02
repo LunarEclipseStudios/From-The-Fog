@@ -1,5 +1,5 @@
 #headAnimations
-execute as @s[type=armor_stand,tag=move,tag=seen] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator] 
+execute as @s[type=armor_stand,tag=move,tag=seen] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator]
 execute as @s[type=armor_stand,tag=headRotation] run data modify entity @s Pose.Head[0] set from entity @e[type=armor_stand,tag=move,limit=1,sort=nearest] Rotation[1]
 execute as @s[type=armor_stand,tag=headRotation] run data modify entity @s Pose.Head[1] set from entity @e[type=armor_stand,tag=move,limit=1,sort=nearest] Rotation[0]
 
@@ -19,7 +19,7 @@ execute if entity @s[type=armor_stand,tag=spread] if block ~ ~1 ~ #minecraft:lea
 execute if entity @s[type=armor_stand,tag=spread] if block ~ ~-1 ~ #watching:liquid run kill @e[type=armor_stand,tag=spread]
 
 #creepingSpawnedTooClose
-execute if entity @s[type=armor_stand,tag=spread] unless entity @e[type=armor_stand,tag=move] if entity @a[distance=..3] run kill @s
+execute if entity @s[type=armor_stand,tag=spread,tag=!nightmare] unless entity @e[type=armor_stand,tag=move] if entity @a[distance=..3] run kill @s
 
 #stalkingRangeLimit
 execute if entity @s[type=armor_stand,tag=spread,tag=stalking] if entity @a[distance=..20,gamemode=!spectator] run kill @s

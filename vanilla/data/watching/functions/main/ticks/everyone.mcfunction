@@ -6,7 +6,14 @@ execute if entity @e[type=armor_stand,tag=stalking,distance=..80] unless entity 
 #crash/jumpscare
 execute if score @s crash matches 1 unless entity @e[type=armor_stand,tag=spread,distance=..1.5] run scoreboard players reset @s crash
 execute as @s[scores={crash=1..}] at @s run function watching:events/sightings/jumpscare_crash
-execute as @s[gamemode=!spectator] at @s unless score @s crash matches 1.. if entity @e[type=armor_stand,tag=spread,distance=..1.5] run scoreboard players add @s crash 1
+execute as @s[gamemode=!spectator] at @s unless score @s crash matches 1.. if entity @e[type=armor_stand,tag=spread,tag=creeping,distance=..1.5] run scoreboard players add @s crash 1
 
 #footsteps
 execute if score true startedEvents matches 1 unless entity @e[type=marker,tag=footstepsEmitter] unless entity @e[type=armor_stand,tag=spread] unless entity @e[type=villager,tag=door_open] if block ~ ~-1 ~ #watching:footsteps_blocks if predicate watching:chances/footsteps_chance run function watching:events/sounds/footsteps
+
+#placeNewChestMarker
+execute if score @s openedChest matches 1.. run function watching:events/block_detection/placed_chest
+
+#nightmareMechanic
+execute if entity @s[tag=nightmarePlayer] unless block ~ ~ ~ #minecraft:beds[occupied=true] run function watching:events/general/kill/kill_nightmare_entity
+execute if entity @s[tag=nightmarePlayer] unless entity @e[type=armor_stand,tag=nightmare] run function watching:events/general/kill/kill_nightmare_entity

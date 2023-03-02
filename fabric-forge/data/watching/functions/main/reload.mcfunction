@@ -36,6 +36,7 @@ scoreboard objectives add startedEvents dummy
 scoreboard objectives add spawnDelay dummy
 scoreboard objectives add armPos dummy
 scoreboard objectives add crash dummy
+scoreboard objectives add openedChest custom:open_chest
 scoreboard objectives add torchDayPassed dummy
 scoreboard objectives add crimsonCurseDayPassed dummy
 scoreboard objectives add giftDayPassed dummy
@@ -63,10 +64,12 @@ scoreboard objectives add stalkingVanishingDelayConfig dummy
 scoreboard objectives add noSleepConfig dummy
 scoreboard objectives add dreadfulDonationConfig dummy
 scoreboard objectives add crimsonCurseConfig dummy
+scoreboard objectives add OGshrineMechanicConfig dummy
+scoreboard objectives add nightmareMechanicConfig dummy
 
 #configDefaults
 execute unless score true crashConfig matches 0.. run function watching:config/crash/false
-execute unless score number dayDelayConfig matches 0.. run function watching:config/start_delay/3
+execute unless score number dayDelayConfig matches -1.. run function watching:config/start_delay/3
 execute unless score true ghostDoorConfig matches 0.. run function watching:config/ghost_door/true
 execute unless score true creepingConfig matches 0.. run function watching:config/creeping/true
 execute unless score true stalkingConfig matches 0.. run function watching:config/stalking/true
@@ -84,6 +87,8 @@ execute unless score number stalkingVanishingDelayConfig matches 0.. run functio
 execute unless score true noSleepConfig matches 0.. run function watching:config/no_sleep/true
 execute unless score true dreadfulDonationConfig matches 0.. run function watching:config/dreadful_donation/true
 execute unless score true crimsonCurseConfig matches 0.. run function watching:config/crimson_curse/true
+execute unless score true OGshrineMechanicConfig matches 0.. run function watching:config/og_shrine/false
+execute unless score true nightmareMechanicConfig matches 0.. run function watching:config/nightmare/true
 
 #noCollisionTeam
 team add nocol

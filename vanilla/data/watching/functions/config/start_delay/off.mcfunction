@@ -1,3 +1,3 @@
-scoreboard players set number dayDelayConfig 0
-function watching:setup/begin
+scoreboard players set number dayDelayConfig -1
+scoreboard players reset true startedEvents
 function fromthefog:admin/config

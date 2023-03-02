@@ -18,19 +18,19 @@ execute as @e[type=marker,tag=chestTrace,tag=logged] at @s unless block ~ ~ ~ ch
 execute as @e[type=marker,tag=lanternTrace,tag=logged] at @s unless block ~ ~ ~ lantern run function watching:events/general/kill/kill_trace_marker
 
 #ghostDoors
-execute as @e[type=marker,tag=doorTrace,tag=logged] at @s if score true ghostDoorConfig matches 1 if predicate watching:chances/door_ghost_chance if predicate watching:checks/is_night_check unless entity @e[tag=spread] unless entity @e[tag=doorGhost] run function watching:events/door_open/create_door_ghost
+execute as @e[type=marker,tag=doorTrace,tag=logged] at @s if entity @a if score true ghostDoorConfig matches 1 if predicate watching:chances/door_ghost_chance if predicate watching:checks/is_night_check unless entity @e[tag=spread] unless entity @e[tag=doorGhost] run function watching:events/door_open/create_door_ghost
 
 #disappearingTorches
-execute if score true poofingTorchesConfig matches 1 as @e[type=marker,tag=torchTrace] at @s unless score true torchDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/torch_break/try_break
+execute if score true poofingTorchesConfig matches 1 if entity @a as @e[type=marker,tag=torchTrace] at @s unless score true torchDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/torch_break/try_break
 
 #burningBase
-execute if score true burningBaseConfig matches 1 as @e[type=marker,tag=bedTrace,sort=random,limit=1] at @s if score true startedEvents matches 1 unless score true bedDayPassed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/burning_base/try_burn
+execute if score true burningBaseConfig matches 1 if entity @a as @e[type=marker,tag=bedTrace,sort=random,limit=1] at @s if score true startedEvents matches 1 unless score true bedDayPassed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/burning_base/try_burn
 
 #dreadfulDonation
-execute if score true dreadfulDonationConfig matches 1 as @e[type=marker,tag=chestTrace,sort=random,limit=1] at @s unless score true giftDayPassed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/dreadful_donation/try_donate
+execute if score true dreadfulDonationConfig matches 1 if entity @a as @e[type=marker,tag=chestTrace,sort=random,limit=1] at @s unless score true giftDayPassed matches 1.. unless entity @a[distance=..50,gamemode=!spectator] run function watching:events/dreadful_donation/try_donate
 
 #crimsonCurse
-execute if score true crimsonCurseConfig matches 1 as @e[type=marker,tag=torchTrace] at @s if score true startedEvents matches 1 unless score true crimsonCurseDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/crimson_curse/try_curse
+execute if score true crimsonCurseConfig matches 1 if entity @a as @e[type=marker,tag=torchTrace] at @s if score true startedEvents matches 1 unless score true crimsonCurseDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/crimson_curse/try_curse
 
 #ghostMiner
 execute if score true startedEvents matches 1 if score true ghostMineConfig matches 1 in overworld as @a[distance=0..] at @s unless entity @e[type=marker,tag=ghostMiner] if block ~ ~-1 ~ #minecraft:base_stone_overworld unless blocks ~ ~ ~ ~ 256 ~ ~ ~2 ~ masked if block ~ ~ ~ air if predicate watching:chances/ghost_miner_chance unless block ^1 ^1 ^ #watching:air_blocks unless block ^-1 ^1 ^ #watching:air_blocks run function watching:events/ghost_miner/start_mining

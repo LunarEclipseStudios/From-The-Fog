@@ -1,5 +1,5 @@
 #creepingSound
-execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=spread,distance=..2.2] if entity @e[type=armor_stand,tag=creeping,tag=!spottedByPlayer] run function watching:events/sounds/spotted
+execute positioned ~ ~-0.1 ~ if predicate watching:chances/number/50 if entity @e[type=armor_stand,tag=spread,distance=..2.2] if entity @e[type=armor_stand,tag=creeping,tag=!spottedByPlayer] run function watching:events/sounds/spotted
 #removeHerobrine
 execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=spread,distance=..2.2] run tag @e[type=armor_stand,tag=spread] add spottedByPlayer
 execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=creeping] if entity @e[type=armor_stand,tag=spread,distance=..2.2] run function watching:events/sightings/spotted/creeping

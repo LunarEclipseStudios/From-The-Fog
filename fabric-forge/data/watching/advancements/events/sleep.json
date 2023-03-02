@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "rewards": {
+        "function": "watching:events/general/slept"
+    }
+}

@@ -29,4 +29,3 @@ execute as @e[type=marker,tag=fireTrace] at @s if block ~ ~ ~ minecraft:fire run
 
 #foundFire
 execute at @e[type=marker,tag=fireTrace,tag=found,tag=!logged] unless score true startedEvents matches 1.. if block ~ ~-1 ~ netherrack if block ~ ~-2 ~ #watching:shrine_center if block ~1 ~-2 ~ gold_block if block ~-1 ~-2 ~ gold_block if block ~ ~-2 ~1 gold_block if block ~ ~-2 ~-1 gold_block if block ~1 ~-2 ~1 gold_block if block ~-1 ~-2 ~-1 gold_block if block ~1 ~-2 ~-1 gold_block if block ~-1 ~-2 ~1 gold_block if block ~1 ~-1 ~ redstone_torch if block ~-1 ~-1 ~ redstone_torch if block ~ ~-1 ~-1 redstone_torch if block ~ ~-1 ~1 redstone_torch as @s at @s run function watching:events/found_shrine
-execute as @e[type=marker,tag=fireTrace] at @s run kill @s
