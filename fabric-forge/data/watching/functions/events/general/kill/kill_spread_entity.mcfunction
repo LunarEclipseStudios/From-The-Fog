@@ -1,1 +1,1 @@
-kill @e[type=armor_stand,tag=spread]
+kill @e[type=armor_stand,tag=spread,tag=!fake]

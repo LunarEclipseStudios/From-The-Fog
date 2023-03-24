@@ -1,0 +1,24 @@
+{
+  "structures": [
+    {
+      "structure": "watching:torch_tunnel/1x2/torchless_tunnel",
+      "weight": 1
+    },
+    {
+      "structure": "watching:torch_tunnel/1x2/tunnel",
+      "weight": 1
+    },
+    {
+      "structure": "watching:torch_tunnel/2x2_tunnel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1879498052,
+    "frequency_reduction_method": "legacy_type_1",
+    "frequency": 0.02,
+    "spacing": 8,
+    "separation": 4
+  }
+}

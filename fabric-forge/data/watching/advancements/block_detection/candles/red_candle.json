@@ -1,0 +1,14 @@
+{
+    "parent": "watching:block_detection/candles/candle_root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:red_candle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "watching:events/block_detection/placed_candle"
+    }
+}

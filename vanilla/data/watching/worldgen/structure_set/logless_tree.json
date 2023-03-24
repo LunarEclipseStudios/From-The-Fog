@@ -1,0 +1,28 @@
+{
+  "structures": [
+    {
+      "structure": "watching:logless_tree/oak",
+      "weight": 1
+    },
+    {
+      "structure": "watching:logless_tree/birch",
+      "weight": 1
+    },
+    {
+      "structure": "watching:logless_tree/spruce",
+      "weight": 1
+    },
+    {
+      "structure": "watching:logless_tree/acacia",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1825667572,
+    "frequency_reduction_method": "legacy_type_1",
+    "frequency": 0.2232,
+    "spacing": 8,
+    "separation": 4
+  }
+}

@@ -1,0 +1,2 @@
+#resetScoreboard
+scoreboard players reset true playerViewingHerobrine

@@ -1,4 +1,4 @@
-modLoader = "lowcodefml"
+modLoader = "javafml"
 loaderVersion="[40,)"
 license="None"
 logoFile="banner.png"

@@ -62,5 +62,12 @@ function watching:config/crimson_curse/true
 function watching:config/og_shrine/false
 
 function watching:config/nightmare/true
+function watching:config/window_watcher/true
+function watching:config/chilled_candles/true
+
+function watching:config/sinister_signs/true
+function watching:config/lurking_language/english
+
+
 
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0

@@ -1,5 +1,8 @@
+#tick
+execute if entity @s[tag=glassSpotted] run function watching:main/ticks/glass_spotted
+
 #headAnimations
-execute as @s[type=armor_stand,tag=move,tag=seen] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator]
+execute unless entity @e[type=armor_stand,tag=runAway] as @s[type=armor_stand,tag=move,tag=seen] unless entity @e[type=armor_stand,tag=fake] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator]
 execute as @s[type=armor_stand,tag=headRotation] run data modify entity @s Pose.Head[0] set from entity @e[type=armor_stand,tag=move,limit=1,sort=nearest] Rotation[1]
 execute as @s[type=armor_stand,tag=headRotation] run data modify entity @s Pose.Head[1] set from entity @e[type=armor_stand,tag=move,limit=1,sort=nearest] Rotation[0]
 
@@ -11,30 +14,57 @@ execute as @s[type=armor_stand,tag=body,tag=seen,scores={armPos=38..}] run tag @
 execute as @s[type=armor_stand,tag=body,tag=seen] store result entity @s Pose.RightArm[2] float 0.16 run scoreboard players get @s armPos
 execute as @s[type=armor_stand,tag=body,tag=seen] store result entity @s Pose.LeftArm[2] float -0.16 run scoreboard players get @s armPos
 
+#legAnimations
+execute if entity @s[tag=legs,tag=walking] run function watching:events/sightings/animations/walking
+execute if entity @s[tag=legs,tag=sprinting] run function watching:events/sightings/animations/sprinting
+
 #groundCorrection
 execute if entity @s[type=armor_stand,tag=spread] run tp @e[type=armor_stand,tag=model,distance=0.1..] ~ ~ ~
-execute if entity @s[type=armor_stand,tag=spread] if block ~ ~-0.1 ~ #watching:spawn_blocks positioned ~ ~-0.1 ~ run function watching:events/sightings/setup/ground_correction
-execute if entity @s[type=armor_stand,tag=spread] unless block ~ ~ ~ #watching:spawn_blocks positioned ~ ~ ~ run function watching:events/sightings/setup/ground_correction
-execute if entity @s[type=armor_stand,tag=spread] if block ~ ~1 ~ #minecraft:leaves run kill @e[type=armor_stand,tag=spread]
-execute if entity @s[type=armor_stand,tag=spread] if block ~ ~-1 ~ #watching:liquid run kill @e[type=armor_stand,tag=spread]
+execute unless entity @s[tag=runAway] unless entity @s[tag=spottedByPlayer] if entity @s[type=armor_stand,tag=spread,tag=!fake] if block ~ ~-0.1 ~ #watching:spawn_blocks positioned ~ ~-0.1 ~ run function watching:events/sightings/setup/ground_correction
+execute unless entity @s[tag=runAway] unless entity @s[tag=spottedByPlayer] if entity @s[type=armor_stand,tag=spread,tag=!fake] unless block ~ ~ ~ #watching:spawn_blocks positioned ~ ~ ~ run function watching:events/sightings/setup/ground_correction
+execute if entity @s[type=armor_stand,tag=spread] unless entity @e[type=armor_stand,tag=runAway] if block ~ ~1 ~ #minecraft:leaves run function watching:events/general/kill/kill
+execute if entity @s[type=armor_stand,tag=spread] if block ~ ~ ~ #watching:liquid run function watching:events/general/kill/kill
 
 #creepingSpawnedTooClose
-execute if entity @s[type=armor_stand,tag=spread,tag=!nightmare] unless entity @e[type=armor_stand,tag=move] if entity @a[distance=..3] run kill @s
+execute if entity @s[type=armor_stand,tag=spread,tag=!nightmare] unless entity @e[type=armor_stand,tag=move] if entity @a[distance=..3] run function watching:events/general/kill/kill
 
 #stalkingRangeLimit
-execute if entity @s[type=armor_stand,tag=spread,tag=stalking] if entity @a[distance=..20,gamemode=!spectator] run kill @s
+execute if entity @s[type=armor_stand,tag=spread,tag=stalking] if entity @a[distance=..20,gamemode=!spectator] run function watching:events/general/kill/kill
 
 #distanceLimitCreeping
-execute as @s[type=armor_stand,tag=spread,tag=creeping] at @s unless entity @a[distance=..16] run kill @s
+execute as @s[type=armor_stand,tag=spread,tag=creeping] at @s unless entity @a[distance=..16] run function watching:events/general/kill/kill
 #distanceLimitStalking
-execute as @s[type=armor_stand,tag=spread,tag=stalking] at @s unless entity @a[distance=..50] run kill @s
+execute unless entity @e[type=armor_stand,tag=runAway] as @s[type=armor_stand,tag=spread,tag=stalking] at @s unless entity @a[distance=..50] run function watching:events/general/kill/kill
 
 #lifeLimit
 scoreboard players add @s[type=armor_stand,tag=spread,tag=!seen] lifeLimit 1
-execute as @s[type=armor_stand,tag=spread] at @s if score @s lifeLimit matches 600.. run kill @s
+execute as @s[type=armor_stand,tag=spread] at @s if score @s lifeLimit matches 600.. run function watching:events/general/kill/kill
 
 #removeStrayHerobrineModel
-execute as @s[tag=herobrineModel] at @s unless entity @e[type=armor_stand,tag=spread,distance=..3] run function watching:events/general/kill/kill
+execute unless entity @e[type=armor_stand,tag=runAway] as @s[tag=herobrineModel] at @s unless entity @e[type=armor_stand,tag=spread,distance=..3] run function watching:events/general/kill/kill
 
-#moveSetup
-execute if entity @s[type=armor_stand,tag=move] run effect give @s invisibility 4 1 true
+#wolfGrowling
+execute if entity @s[type=armor_stand,tag=move] as @e[type=wolf,distance=..30,nbt={AngerTime:0}] at @s if data entity @s Owner run function watching:events/angry_wolf/induce_angry
+
+#slipBehindBlock
+execute if entity @s[tag=move] anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
+execute if entity @s[tag=move] anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
+execute if entity @s[tag=move] anchored eyes if block ^1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^1 #watching:glass_sight_blocks run tag @s remove ableToSlip
+execute if entity @s[tag=moveRight] run function watching:events/sightings/spotted/slip_behind_block/right
+execute if entity @s[tag=moveLeft] run function watching:events/sightings/spotted/slip_behind_block/left
+
+#facingDirection
+#south
+execute if entity @s[y_rotation=-45..45] run scoreboard players set @s facingDirection 1
+#west
+execute if entity @s[y_rotation=45..135] run scoreboard players set @s facingDirection 2
+#north
+execute if entity @s[y_rotation=135..225] run scoreboard players set @s facingDirection 3
+#east
+execute if entity @s[y_rotation=225..315] run scoreboard players set @s facingDirection 4
+
+#runAway
+execute if entity @s[tag=move,tag=runAway] run function watching:events/sightings/spotted/run_away_pathfinding/pathfinding
+
+#turnAround
+execute if entity @s[tag=turnAround] run function watching:events/sightings/spotted/turn_around

@@ -1,9 +1,6 @@
 {
 	"credit": "Made by Bret06 using Blockbench",
 	"texture_size": [64, 64],
-	"textures": {
-		"skin": "#skin"
-	},
 	"elements": [
 		{
 			"name": "Box5",
@@ -31,6 +28,20 @@
 				"west": {"uv": [11.75, 9, 12.75, 12], "texture": "#skin"},
 				"up": {"uv": [11.75, 9, 11, 8], "texture": "#skin"},
 				"down": {"uv": [12.5, 8, 11.75, 9], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [9.25, 24.25, 10.25],
+			"to": [5.75, 11.75, 5.75],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, -6, 8]},
+			"faces": {
+				"north": {"uv": [12.75, 12, 13.5, 9], "texture": "#skin"},
+				"east": {"uv": [11.75, 12, 12.75, 9], "texture": "#skin"},
+				"south": {"uv": [11, 12, 11.75, 9], "texture": "#skin"},
+				"west": {"uv": [10, 12, 11, 9], "texture": "#skin"},
+				"up": {"uv": [11.75, 8, 12.5, 9], "texture": "#skin"},
+				"down": {"uv": [11, 9, 11.75, 8], "texture": "#skin"}
 			}
 		}
 	],

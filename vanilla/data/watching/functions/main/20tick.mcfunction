@@ -1,6 +1,9 @@
 #20tick
 schedule function watching:main/20tick 1s
 
+#ticks
+execute as @a at @s run function watching:main/ticks/everyone_20tick
+
 #creepingPosRandomizer
 scoreboard players add random creepingPosRandomizer 1
 execute if score random creepingPosRandomizer matches 4.. run scoreboard players set random creepingPosRandomizer 1
@@ -11,14 +14,13 @@ execute if score chance sightingChanceConfig matches 2 if score true startedEven
 execute if score chance sightingChanceConfig matches 3 if score true startedEvents matches 1 run function watching:events/sightings/chances/3_rare
 
 #removeTraces
-execute as @e[type=marker,tag=doorTrace,tag=logged] at @s unless block ~ ~ ~ #doors run function watching:events/general/kill/kill_trace_marker
-execute as @e[type=marker,tag=torchTrace,tag=logged] at @s unless block ~ ~ ~ #watching:torches run function watching:events/general/kill/kill_trace_marker
-execute as @e[type=marker,tag=bedTrace,tag=logged] at @s unless block ~ ~ ~ #beds run function watching:events/general/kill/kill_trace_marker
-execute as @e[type=marker,tag=chestTrace,tag=logged] at @s unless block ~ ~ ~ chest run function watching:events/general/kill/kill_trace_marker
-execute as @e[type=marker,tag=lanternTrace,tag=logged] at @s unless block ~ ~ ~ lantern run function watching:events/general/kill/kill_trace_marker
+execute as @e[type=marker,tag=logged] at @s run function watching:events/block_detection/technical/remove_traces
+
+#chilledCandles
+execute if score true chilledCandlesConfig matches 1 as @e[type=marker,tag=candleTrace,tag=logged] at @s unless score true chilledCandlesDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/chilled_candles/try_douse
 
 #ghostDoors
-execute as @e[type=marker,tag=doorTrace,tag=logged] at @s if entity @a if score true ghostDoorConfig matches 1 if predicate watching:chances/door_ghost_chance if predicate watching:checks/is_night_check unless entity @e[tag=spread] unless entity @e[tag=doorGhost] run function watching:events/door_open/create_door_ghost
+execute if score true ghostDoorConfig matches 1 as @e[type=marker,tag=doorTrace,tag=logged] at @s if entity @a if predicate watching:chances/door_ghost_chance if predicate watching:checks/is_night_check unless entity @e[tag=spread] unless entity @e[tag=doorGhost] run function watching:events/door_open/create_door_ghost
 
 #disappearingTorches
 execute if score true poofingTorchesConfig matches 1 if entity @a as @e[type=marker,tag=torchTrace] at @s unless score true torchDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/torch_break/try_break
@@ -39,16 +41,16 @@ scoreboard players add randomPos ghostMinerEvents 1
 execute if score randomPos ghostMinerEvents matches 5.. run scoreboard players set randomPos ghostMinerEvents 1
 
 #bodyTurningAnimation
-execute as @e[tag=seen,tag=!head,tag=!eyes,tag=!move] at @s run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator]
+execute as @e[type=armor_stand,tag=secondaryRotate] at @s unless entity @s[tag=pauseRot] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator]
 
 #randomizeSkinSkipAmount
 execute if score true randomizeSkinsConfig matches 1 run scoreboard players add amount randomSkinSkipAmount 1
 execute if score true randomizeSkinsConfig matches 1 if score amount randomSkinSkipAmount matches 4.. run scoreboard players set amount randomSkinSkipAmount 1
 
+#randomizeSignType
+execute unless score true sinisterSignsConfig matches 0 run scoreboard players add type signType 1
+execute unless score true sinisterSignsConfig matches 0 if score type signType matches 13.. run scoreboard players set type signType 1
+
 #redstoneTorchStructuresAirCheck
 execute as @e[type=item_frame,tag=torchCheck] at @s run function watching:main/ticks/torch_check
-
-#tempTraceReplace
-execute as @e[type=marker,tag=torch_trace,tag=!torchTrace] run tag @s add torchTrace
-execute as @e[type=marker,tag=bed_trace,tag=!bedTrace] run tag @s add bedTrace
 

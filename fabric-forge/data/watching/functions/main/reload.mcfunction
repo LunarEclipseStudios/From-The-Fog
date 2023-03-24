@@ -5,12 +5,6 @@ schedule function watching:main/40tick 2s
 #600tick
 schedule function watching:main/600tick 30s
 
-#scheduleEvents
-schedule function watching:events/scheduled/torch_break_day_passed 1d
-schedule function watching:events/scheduled/burning_base_day_passed 1d
-schedule function watching:events/scheduled/herobrine_gift_day_passed 1d
-schedule function watching:events/scheduled/crimson_curse_day_passed 1d
-
 #tempRemoveOldScorboards
 scoreboard objectives remove summon_rotation
 scoreboard objectives remove arm_pos
@@ -34,10 +28,20 @@ scoreboard objectives add leaflessCheckLevel dummy
 scoreboard objectives add creepingPosRandomizer dummy
 scoreboard objectives add startedEvents dummy
 scoreboard objectives add spawnDelay dummy
+scoreboard objectives add turnAround dummy
+scoreboard objectives add slipBehindBlock dummy
+scoreboard objectives add facingDirection dummy
+scoreboard objectives add signType dummy
+scoreboard objectives add playerViewingHerobrine dummy
 scoreboard objectives add armPos dummy
+scoreboard objectives add rightLegPos dummy
+scoreboard objectives add leftLegPos dummy
+scoreboard objectives add rightArmPos dummy
+scoreboard objectives add leftArmPos dummy
 scoreboard objectives add crash dummy
 scoreboard objectives add openedChest custom:open_chest
 scoreboard objectives add torchDayPassed dummy
+scoreboard objectives add chilledCandlesDayPassed dummy
 scoreboard objectives add crimsonCurseDayPassed dummy
 scoreboard objectives add giftDayPassed dummy
 scoreboard objectives add bedDayPassed dummy
@@ -66,6 +70,17 @@ scoreboard objectives add dreadfulDonationConfig dummy
 scoreboard objectives add crimsonCurseConfig dummy
 scoreboard objectives add OGshrineMechanicConfig dummy
 scoreboard objectives add nightmareMechanicConfig dummy
+scoreboard objectives add windowWatcherConfig dummy
+scoreboard objectives add chilledCandlesConfig dummy
+scoreboard objectives add sinisterSignsConfig dummy
+scoreboard objectives add lurkingLanguageConfig dummy
+
+#scheduleEvents
+schedule function watching:events/scheduled/torch_break_day_passed 1d
+schedule function watching:events/scheduled/burning_base_day_passed 1d
+schedule function watching:events/scheduled/herobrine_gift_day_passed 1d
+schedule function watching:events/scheduled/crimson_curse_day_passed 1d
+schedule function watching:events/scheduled/chilled_candles_day_passed 1d
 
 #configDefaults
 execute unless score true crashConfig matches 0.. run function watching:config/crash/false
@@ -89,6 +104,10 @@ execute unless score true dreadfulDonationConfig matches 0.. run function watchi
 execute unless score true crimsonCurseConfig matches 0.. run function watching:config/crimson_curse/true
 execute unless score true OGshrineMechanicConfig matches 0.. run function watching:config/og_shrine/false
 execute unless score true nightmareMechanicConfig matches 0.. run function watching:config/nightmare/true
+execute unless score true windowWatcherConfig matches 0.. run function watching:config/window_watcher/true
+execute unless score true chilledCandlesConfig matches 0.. run function watching:config/chilled_candles/true
+execute unless score true sinisterSignsConfig matches 0.. run function watching:config/sinister_signs/true
+execute unless score lang lurkingLanguageConfig matches 0.. run function watching:config/lurking_language/english
 
 #noCollisionTeam
 team add nocol

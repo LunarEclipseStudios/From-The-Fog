@@ -1,5 +1,5 @@
 #rescheduleEvent
 schedule function watching:events/scheduled/crimson_curse_day_passed 1d
 
-#resetTorchBreakCheck
+#resetCheck
 scoreboard players reset true crimsonCurseDayPassed

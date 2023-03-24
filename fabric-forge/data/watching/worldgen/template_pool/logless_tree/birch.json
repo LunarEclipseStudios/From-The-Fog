@@ -1,0 +1,24 @@
+{
+  "name": "logless_tree",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "watching:logless_tree/birch/logless_tree1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "watching:logless_tree/birch/logless_tree2",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

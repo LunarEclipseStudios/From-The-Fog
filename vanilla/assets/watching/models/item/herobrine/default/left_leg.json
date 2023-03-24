@@ -1,0 +1,6 @@
+{
+  "parent": "watching:item/herobrine/template/left_leg",
+  "textures": {
+    "skin": "watching:item/herobrine/default/default"
+  }
+}

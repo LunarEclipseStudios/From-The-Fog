@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "watching:sand_pyramid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1038059633,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.6,
+    "spacing": 8,
+    "separation": 5
+  }
+}

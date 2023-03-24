@@ -1,0 +1,2 @@
+execute if predicate watching:chances/chilled_candles_chance as @e[distance=..50,tag=candleTrace] at @s run function watching:events/chilled_candles/douse
+scoreboard players set true chilledCandlesDayPassed 1
