@@ -16,6 +16,9 @@ execute if score chance sightingChanceConfig matches 3 if score true startedEven
 #removeTraces
 execute as @e[type=marker,tag=logged] at @s run function watching:events/block_detection/technical/remove_traces
 
+#relightShrine
+execute as @e[type=marker,tag=fireTrace,tag=logged] at @s unless entity @a[distance=..100,gamemode=!spectator] unless block ~ ~ ~ fire run setblock ~ ~ ~ fire
+
 #chilledCandles
 execute if score true chilledCandlesConfig matches 1 as @e[type=marker,tag=candleTrace,tag=logged] at @s unless score true chilledCandlesDayPassed matches 1.. unless entity @a[distance=..100,gamemode=!spectator] run function watching:events/chilled_candles/try_douse
 

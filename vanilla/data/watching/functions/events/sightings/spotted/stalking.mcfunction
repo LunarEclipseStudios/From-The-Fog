@@ -1,6 +1,10 @@
 #slipBehindBlock
 execute anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add moveRight
 execute unless entity @s[tag=moveRight] anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add moveLeft
+execute anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
+execute anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
+execute anchored eyes if block ^1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^1 #watching:glass_sight_blocks run tag @s remove ableToSlip
+execute anchored eyes unless block ^1 ^ ^ #watching:glass_sight_blocks unless block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s remove ableToSlip
 execute if entity @s[tag=ableToSlip] run tag @e[type=armor_stand,tag=secondaryRotate] add pauseRot
 execute if entity @s[tag=moveRight] as @e[type=armor_stand,tag=secondaryRotate] at @s run tp @s ~ ~ ~ ~45 ~
 execute if entity @s[tag=moveLeft] as @e[type=armor_stand,tag=secondaryRotate] at @s run tp @s ~ ~ ~ ~-45 ~

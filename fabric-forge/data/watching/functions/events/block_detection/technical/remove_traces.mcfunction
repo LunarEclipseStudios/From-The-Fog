@@ -4,3 +4,4 @@ execute if entity @s[tag=bedTrace] unless block ~ ~ ~ #beds run function watchin
 execute if entity @s[tag=chestTrace] unless block ~ ~ ~ chest run function watching:events/general/kill/kill_trace_marker
 execute if entity @s[tag=lanternTrace] unless block ~ ~ ~ lantern run function watching:events/general/kill/kill_trace_marker
 execute if entity @s[tag=candleTrace] unless block ~ ~ ~ #candles run function watching:events/general/kill/kill_trace_marker
+execute if entity @s[tag=fireTrace] unless block ~ ~-1 ~ netherrack run function watching:events/general/kill/kill_trace_marker

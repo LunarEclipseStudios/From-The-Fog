@@ -50,6 +50,7 @@ execute if entity @s[type=armor_stand,tag=move] as @e[type=wolf,distance=..30,nb
 execute if entity @s[tag=move] anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
 execute if entity @s[tag=move] anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
 execute if entity @s[tag=move] anchored eyes if block ^1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^1 #watching:glass_sight_blocks run tag @s remove ableToSlip
+execute if entity @s[tag=move] anchored eyes unless block ^1 ^ ^ #watching:glass_sight_blocks unless block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s remove ableToSlip
 execute if entity @s[tag=moveRight] run function watching:events/sightings/spotted/slip_behind_block/right
 execute if entity @s[tag=moveLeft] run function watching:events/sightings/spotted/slip_behind_block/left
 
