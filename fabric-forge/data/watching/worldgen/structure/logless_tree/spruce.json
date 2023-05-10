@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#watching:logless_tree/spruce",
+  "biomes": "#watching:structure_spawns/logless_tree/spruce",
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "watching:logless_tree/spruce",

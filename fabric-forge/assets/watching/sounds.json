@@ -1,6 +1,6 @@
 {
 	"message.warning": {
-		"subtitle": "I'm watching...",
+		"subtitle": "subtitle.message.warning",
 		"sounds": [
 			{
 				"name": "watching:warning",

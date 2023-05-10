@@ -16,6 +16,20 @@
 		},
 		{
 			"name": "Box5",
+			"from": [12, 24, 10],
+			"to": [4, 12, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"north": {"uv": [8, 8, 10, 5], "texture": "#skin"},
+				"east": {"uv": [7, 8, 8, 5], "texture": "#skin"},
+				"south": {"uv": [5, 8, 7, 5], "texture": "#skin"},
+				"west": {"uv": [4, 8, 5, 5], "texture": "#skin"},
+				"up": {"uv": [9, 4, 7, 5], "texture": "#skin"},
+				"down": {"uv": [5, 5, 7, 4], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box5",
 			"from": [3.75, 11.75, 5.75],
 			"to": [12.25, 24.25, 10.25],
 			"faces": {

@@ -82,3 +82,6 @@ execute if block ~ ~ ~ black_candle[lit=true,candles=1] run setblock ~ ~ ~ black
 execute if block ~ ~ ~ black_candle[lit=true,candles=2] run setblock ~ ~ ~ black_candle[lit=false,candles=2]
 execute if block ~ ~ ~ black_candle[lit=true,candles=3] run setblock ~ ~ ~ black_candle[lit=false,candles=3]
 execute if block ~ ~ ~ black_candle[lit=true,candles=4] run setblock ~ ~ ~ black_candle[lit=false,candles=4]
+
+#debugMode
+tellraw @a[tag=debugMode] ["",{"text":"Chilled Candles event succeeded!","color": "green"}]

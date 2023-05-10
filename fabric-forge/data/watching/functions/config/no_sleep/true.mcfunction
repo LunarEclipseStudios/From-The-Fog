@@ -1,2 +1,2 @@
-scoreboard players set true noSleepConfig 1
-function watching:config/pages/5
+scoreboard players set noSleepConfig ftf.configOptions 1
+function watching:config/pages/3

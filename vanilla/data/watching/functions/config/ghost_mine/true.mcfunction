@@ -1,2 +1,2 @@
-scoreboard players set true ghostMineConfig 1
+scoreboard players set ghostMineConfig ftf.configOptions 1
 function fromthefog:admin/config

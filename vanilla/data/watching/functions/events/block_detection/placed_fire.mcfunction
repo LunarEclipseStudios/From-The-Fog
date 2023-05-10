@@ -28,6 +28,12 @@ execute anchored eyes run tp @e[type=marker,tag=fireTrace,tag=!found] ^ ^ ^5 ~ ~
 execute as @e[type=marker,tag=fireTrace] at @s if block ~ ~ ~ minecraft:fire run tag @s add found
 
 #foundFire
-execute as @e[type=marker,tag=fireTrace,tag=found,tag=!logged] at @s if entity @e[type=marker,tag=fireTrace,tag=logged,distance=..1] run kill @s
-execute as @e[type=marker,tag=fireTrace,tag=found,tag=!logged] at @s run tag @s add logged
-execute at @e[type=marker,tag=fireTrace,tag=found] unless score true startedEvents matches 1.. if block ~ ~-1 ~ netherrack if block ~ ~-2 ~ #watching:shrine_center if block ~1 ~-2 ~ gold_block if block ~-1 ~-2 ~ gold_block if block ~ ~-2 ~1 gold_block if block ~ ~-2 ~-1 gold_block if block ~1 ~-2 ~1 gold_block if block ~-1 ~-2 ~-1 gold_block if block ~1 ~-2 ~-1 gold_block if block ~-1 ~-2 ~1 gold_block if block ~1 ~-1 ~ redstone_torch if block ~-1 ~-1 ~ redstone_torch if block ~ ~-1 ~-1 redstone_torch if block ~ ~-1 ~1 redstone_torch as @s at @s run function watching:events/found_shrine
+execute as @e[type=marker,tag=fireTrace,tag=found,tag=!logged] at @s if entity @e[type=marker,tag=fireTrace,tag=logged,distance=..1] run kill @e[type=marker,tag=fireTrace,tag=logged,sort=nearest,limit=1]
+
+#foundShrine
+execute as @e[type=marker,tag=fireTrace,tag=found,tag=!logged] at @s if block ~ ~-1 ~ netherrack if block ~ ~-2 ~ #watching:shrine_center if block ~1 ~-2 ~ gold_block if block ~-1 ~-2 ~ gold_block if block ~ ~-2 ~1 gold_block if block ~ ~-2 ~-1 gold_block if block ~1 ~-2 ~1 gold_block if block ~-1 ~-2 ~-1 gold_block if block ~1 ~-2 ~-1 gold_block if block ~-1 ~-2 ~1 gold_block if block ~1 ~-1 ~ redstone_torch if block ~-1 ~-1 ~ redstone_torch if block ~ ~-1 ~-1 redstone_torch if block ~ ~-1 ~1 redstone_torch run tag @s add logged
+execute at @e[type=marker,tag=fireTrace,tag=found] if block ~ ~-1 ~ netherrack if block ~ ~-2 ~ #watching:shrine_center if block ~1 ~-2 ~ gold_block if block ~-1 ~-2 ~ gold_block if block ~ ~-2 ~1 gold_block if block ~ ~-2 ~-1 gold_block if block ~1 ~-2 ~1 gold_block if block ~-1 ~-2 ~-1 gold_block if block ~1 ~-2 ~-1 gold_block if block ~-1 ~-2 ~1 gold_block if block ~1 ~-1 ~ redstone_torch if block ~-1 ~-1 ~ redstone_torch if block ~ ~-1 ~-1 redstone_torch if block ~ ~-1 ~1 redstone_torch as @s at @s run function watching:events/found_shrine
+
+#foundOldHerobrineModShrine
+execute as @e[type=marker,tag=fireTrace,tag=found,tag=!logged] at @s if block ~ ~-1 ~ netherrack if block ~ ~-2 ~ netherrack if block ~ ~-3 ~ gold_block if block ~ ~-4 ~ gold_block run tag @s add logged
+execute at @e[type=marker,tag=fireTrace,tag=found] if block ~ ~-1 ~ netherrack if block ~ ~-2 ~ netherrack if block ~ ~-3 ~ gold_block if block ~ ~-4 ~ gold_block run function watching:events/found_shrine

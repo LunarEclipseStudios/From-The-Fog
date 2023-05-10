@@ -1,0 +1,77 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "watching:item/herobrine/farlander/farlander"
+	},
+	"elements": [
+		{
+			"name": "Box5",
+			"from": [7, 12, 6],
+			"to": [10, 20, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 22, 8]},
+			"faces": {
+				"north": {"uv": [5, 14, 5.75, 16], "texture": "#skin"},
+				"east": {"uv": [4, 14, 5, 16], "texture": "#skin"},
+				"south": {"uv": [6.75, 14, 7.5, 16], "texture": "#skin"},
+				"west": {"uv": [5.75, 14, 6.75, 16], "texture": "#skin"},
+				"up": {"uv": [5.75, 14, 5, 13], "texture": "#skin"},
+				"down": {"uv": [6.5, 13, 5.75, 14], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box6",
+			"from": [6, 21, 7],
+			"to": [8, 23, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 22, 8]},
+			"faces": {
+				"north": {"uv": [14, 8, 14.5, 8.5], "texture": "#skin"},
+				"east": {"uv": [13, 8, 14, 8.5], "texture": "#skin"},
+				"south": {"uv": [15.5, 8, 16, 8.5], "texture": "#skin"},
+				"west": {"uv": [14.5, 8, 15.5, 8.5], "texture": "#skin"},
+				"up": {"uv": [14.5, 8, 14, 7], "texture": "#skin"},
+				"down": {"uv": [15, 7, 14.5, 8], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [7, 25, 12],
+			"to": [9, 27, 14],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 22, 8]},
+			"faces": {
+				"north": {"uv": [14, 8, 14.5, 8.5], "texture": "#skin"},
+				"east": {"uv": [13.5, 8, 14, 8.5], "texture": "#skin"},
+				"south": {"uv": [15, 8, 15.5, 8.5], "texture": "#skin"},
+				"west": {"uv": [14.5, 8, 15, 8.5], "texture": "#skin"},
+				"up": {"uv": [14.5, 8, 14, 7.5], "texture": "#skin"},
+				"down": {"uv": [15, 7.5, 14.5, 8], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [6, 23, 7],
+			"to": [7, 24, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 22, 8]},
+			"faces": {
+				"north": {"uv": [14.5, 6, 14.75, 6.25], "texture": "#skin"},
+				"east": {"uv": [13.5, 6, 14.5, 6.25], "texture": "#skin"},
+				"south": {"uv": [15.75, 6, 16, 6.25], "texture": "#skin"},
+				"west": {"uv": [14.75, 6, 15.75, 6.25], "texture": "#skin"},
+				"up": {"uv": [14.75, 6, 14.5, 5], "texture": "#skin"},
+				"down": {"uv": [15, 5, 14.75, 6], "texture": "#skin"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-0.6, -2, -4.44],
+			"scale": [0.94, 0.94, 0.94]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-0.6, -2, -4.44],
+			"scale": [0.94, 0.94, 0.94]
+		}
+	}
+}

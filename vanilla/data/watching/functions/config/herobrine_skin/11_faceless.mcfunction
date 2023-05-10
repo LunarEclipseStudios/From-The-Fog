@@ -1,2 +1,2 @@
-scoreboard players set skin herobrineSkinConfig 11
+scoreboard players set herobrineSkinConfig ftf.configOptions 11
 function watching:config/pages/skins/1

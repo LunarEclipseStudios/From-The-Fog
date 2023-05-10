@@ -1,0 +1,42 @@
+{
+    "parent": "watching:main/be_the_librarian",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359009}"
+        },
+        "title": {
+            "translate": "advancements.ftf.liberty_lantern.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.liberty_lantern.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "watching:main/root": true
+                        }
+                    }
+                },
+                "item": {
+                    "items": [
+                        "minecraft:lantern"
+                    ]
+                },
+                "entity": {
+                    "type": "minecraft:allay"
+                }
+            }
+        }
+    }
+}

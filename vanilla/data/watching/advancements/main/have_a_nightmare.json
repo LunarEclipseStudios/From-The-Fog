@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/built_shrine",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359007}"
+        },
+        "title": {
+            "translate": "advancements.ftf.have_a_nightmare.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.have_a_nightmare.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

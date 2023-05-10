@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/mineshaft",
+  "biomes": "#watching:structure_spawns/torch_cave",
   "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",

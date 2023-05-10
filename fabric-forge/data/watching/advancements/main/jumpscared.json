@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/spotted_herobrine",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359002}"
+        },
+        "title": {
+            "translate": "advancements.ftf.jumpscared.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.jumpscared.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

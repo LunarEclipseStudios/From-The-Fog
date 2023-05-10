@@ -1,0 +1,2 @@
+execute as @p if entity @s[advancements={watching:main/root=true,watching:main/take_gm_torch=false}] run advancement grant @s only watching:main/take_gm_torch
+function watching:events/general/kill/kill_trace_marker

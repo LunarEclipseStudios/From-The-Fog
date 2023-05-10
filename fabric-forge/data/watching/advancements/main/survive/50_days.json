@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/survive/10_days",
+    "display": {
+        "icon": {
+            "item": "iron_block"
+        },
+        "title": {
+            "translate": "advancements.ftf.survive_50_days.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.survive_50_days.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

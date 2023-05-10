@@ -1,6 +1,9 @@
 {
 	"credit": "Made by Bret06 using Blockbench",
 	"texture_size": [64, 64],
+	"textures": {
+		"particle": "watching:item/herobrine/grimreaper/grimreaper"
+	},
 	"elements": [
 		{
 			"name": "Box4",
@@ -13,6 +16,20 @@
 				"west": {"uv": [4, 2, 6, 4], "texture": "#skin"},
 				"up": {"uv": [4, 2, 2, 0], "texture": "#skin"},
 				"down": {"uv": [6, 0, 4, 2], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [12, 31, 12],
+			"to": [4, 23, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"north": {"uv": [6, 4, 8, 2], "texture": "#skin"},
+				"east": {"uv": [4, 4, 6, 2], "texture": "#skin"},
+				"south": {"uv": [2, 4, 4, 2], "texture": "#skin"},
+				"west": {"uv": [0, 4, 2, 2], "texture": "#skin"},
+				"up": {"uv": [4, 0, 6, 2], "texture": "#skin"},
+				"down": {"uv": [2, 2, 4, 0], "texture": "#skin"}
 			}
 		},
 		{
@@ -45,6 +62,10 @@
 		}
 	],
 	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -16.5, 0]
+		},
 		"head": {
 			"translation": [0, -29.54, 0],
 			"scale": [1.5, 1.5, 1.5]

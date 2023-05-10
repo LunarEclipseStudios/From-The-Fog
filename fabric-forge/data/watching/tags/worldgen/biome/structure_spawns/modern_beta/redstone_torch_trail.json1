@@ -1,0 +1,10 @@
+{
+  "values": [
+    "modern_beta:beta_forest",
+    "modern_beta:beta_plains",
+    "modern_beta:beta_shrubland",
+    "modern_beta:beta_desert",
+
+    "modern_beta:alpha"
+  ]
+}

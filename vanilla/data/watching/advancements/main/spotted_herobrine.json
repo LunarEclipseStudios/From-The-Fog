@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/built_shrine",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-465008279,1042632222,-1922979353,-419106848],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NjQyNzMzNjM0NywKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NjZjY2QwMTM5ZTFmOWVkMjc1NTRhMGMzOWE0ZWZmYzczNjEwYjg2YWEwNTc5ZTQwNWY2NDFjZDFkNjc4YzQ1IgogICAgfQogIH0KfQ==\"}]}}}"
+        },
+        "title": {
+            "translate": "advancements.ftf.spotted_herobrine.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.spotted_herobrine.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

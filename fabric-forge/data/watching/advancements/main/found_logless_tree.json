@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/found_herobrine_structure",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359005}"
+        },
+        "title": {
+            "translate": "advancements.ftf.found_logless_tree.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.found_logless_tree.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,3 +1,5 @@
-scoreboard players set true giftDayPassed 1
-execute if score lang lurkingLanguageConfig matches 0 if predicate watching:chances/dreadful_donation_chance run loot insert ~ ~ ~ loot watching:events/dreadful_donation/english
-execute if score lang lurkingLanguageConfig matches 1 if predicate watching:chances/dreadful_donation_chance run loot insert ~ ~ ~ loot watching:events/dreadful_donation/swedish
+#debugMode
+tellraw @a[tag=debugMode] ["",{"text":"Tried to execute Dreadful Donation event at ","color": "gray"},{"nbt":"Pos","entity":"@s","color": "dark_gray"}]
+
+scoreboard players set true ftf.giftDayPassed 1
+execute if predicate watching:chances/dreadful_donation_chance run function watching:events/dreadful_donation/donate

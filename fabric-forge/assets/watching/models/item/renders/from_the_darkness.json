@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "watching:item/renders/from_the_darkness"
+  }
+}

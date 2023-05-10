@@ -1,2 +1,2 @@
-scoreboard players set true nightmareMechanicConfig 1
-function watching:config/pages/6
+scoreboard players set nightmareMechanicConfig ftf.configOptions 1
+function watching:config/pages/4

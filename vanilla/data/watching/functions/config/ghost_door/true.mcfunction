@@ -1,2 +1,2 @@
-scoreboard players set true ghostDoorConfig 1
+scoreboard players set ghostDoorConfig ftf.configOptions 1
 function fromthefog:admin/config

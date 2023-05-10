@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/survive/3_days",
+    "display": {
+        "icon": {
+            "item": "stone"
+        },
+        "title": {
+            "translate": "advancements.ftf.survive_10_days.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.survive_10_days.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

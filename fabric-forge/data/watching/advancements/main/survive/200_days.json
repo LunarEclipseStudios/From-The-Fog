@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/survive/100_days",
+    "display": {
+        "icon": {
+            "item": "diamond_block"
+        },
+        "title": {
+            "translate": "advancements.ftf.survive_200_days.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.survive_200_days.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

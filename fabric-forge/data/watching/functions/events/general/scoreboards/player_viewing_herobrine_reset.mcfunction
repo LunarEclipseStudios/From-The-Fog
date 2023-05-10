@@ -1,2 +1,2 @@
 #resetScoreboard
-scoreboard players reset true playerViewingHerobrine
+scoreboard players reset true ftf.playerViewingHerobrine

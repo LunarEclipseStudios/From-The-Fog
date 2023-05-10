@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#watching:mysterious_biomes",
+  "biomes": "#watching:structure_spawns/redstone_torch_trail",
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "watching:redstone_torch_trail",

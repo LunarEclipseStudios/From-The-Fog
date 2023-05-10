@@ -1,2 +1,2 @@
-scoreboard players set number dayDelayConfig 3
+scoreboard players set dayDelayConfig ftf.configOptions 3
 function fromthefog:admin/config

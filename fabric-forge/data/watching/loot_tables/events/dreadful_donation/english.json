@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Help.\"}'}}"
+                            "tag": "{display:{Name:'{\"text\":\"Help.\"}'},dreadfulDonation:1b,namedItem:1b}"
                         }
                     ]
                 },
@@ -21,7 +21,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"I see you.\"}'}}"
+                            "tag": "{display:{Name:'{\"text\":\"I see you.\"}'},dreadfulDonation:1b,namedItem:1b}"
                         }
                     ]
                 },
@@ -32,19 +32,31 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"You are not alone.\"}'}}"
+                            "tag": "{display:{Name:'{\"text\":\"You are not alone.\"}'},dreadfulDonation:1b,namedItem:1b}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 80,
-                    "name": "minecraft:mossy_cobblestone"
+                    "name": "minecraft:mossy_cobblestone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 90,
-                    "name": "minecraft:rotten_flesh"
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
                 }
             ]
         }

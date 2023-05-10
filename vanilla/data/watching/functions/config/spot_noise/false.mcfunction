@@ -1,2 +1,2 @@
-scoreboard players set true spotNoiseConfig 0
-function watching:config/pages/3
+scoreboard players set spotNoiseConfig ftf.configOptions 0
+function watching:config/pages/2

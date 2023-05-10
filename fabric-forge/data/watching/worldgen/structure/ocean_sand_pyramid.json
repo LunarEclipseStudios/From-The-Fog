@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:is_ocean",
+  "biomes": "#watching:structure_spawns/ocean_sand_pyramid",
   "step": "top_layer_modification",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",

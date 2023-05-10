@@ -1,0 +1,323 @@
+{
+  "selectWorld.backupQuestion.experimental": "Onbekende Entity Fout",
+  "selectWorld.backupWarning.experimental": "Minecraft heeft gedetecteerd dat je spel een vreemde enity heeft.het is geadvieseerd dat je NIET DOOR GAAT NA DEZE SCHERM. negeren van deze waarschuwing kan rare dingen gebeuren in je wereld. onthoud, kijk niet dat je naar de fouten kijkt.",
+  "selectWorld.warning.experimental.title": "Onbekende Entity Fout",
+  "selectWorld.warning.experimental.question": "Minecraft heeft gedetecteerd dat je spel een vreemde enity heeft.het is geadvieseerd dat je NIET DOOR GAAT NA DEZE SCHERM. negeren van deze waarschuwing kan rare dingen gebeuren in je wereld. onthoud, kijk niet dat je naar de fouten kijkt.",
+
+
+
+  "config.page1.progress": "Configuratie [1/5]",
+  "config.page2.progress": "Configuratie [2/5]",
+  "config.page3.progress": "Configuratie [3/5]",
+  "config.page4.progress": "Configuratie [4/5]",
+  "config.page5.progress": "Configuratie [5/5]",
+  "config.skin_library.progress": "Configuratie [Klerenkast]",
+
+  "config.page1.title": "Pagina 1",
+  "config.page2.title": "Pagina 2",
+  "config.page3.title": "Pagina 3",
+  "config.page4.title": "Pagina 4",
+  "config.page5.title": "Pagina 5",
+  "config.sss.title": "Super Geheime Instellingen",
+  "config.pages.title": "Pagina's",
+
+
+
+  "config.sightingChanceConfig.title": "Waarnemings Kans",
+  "config.sightingChanceConfig.description": "veranderd de kans dat herobrine vershijnt.",
+  "config.sightingChanceConfig.setting1": "Gewoon",
+  "config.sightingChanceConfig.setting2": "Ongewoon",
+  "config.sightingChanceConfig.setting3": "Zeldzaam",
+
+  "config.dayDelayConfig.title": "spookachtig Uitstel",
+  "config.dayDelayConfig.description": "de tijd wanneer herobrine je begint te volgen (in-spel dagen).",
+  "config.dayDelayConfig.setting1": "Uit",
+  "config.dayDelayConfig.setting2": "Geen Uitstel",
+  "config.dayDelayConfig.setting3": "1 Dag",
+  "config.dayDelayConfig.setting4": "2 Dagen",
+  "config.dayDelayConfig.setting5": "3 Dagen",
+
+  "config.ghostDoorConfig.title": "Spook Deuren",
+  "config.ghostDoorConfig.description": "de kans dat Herobrine je deuren opent.",
+
+  "config.ghostMineConfig.title": "Spook Mijners",
+  "config.ghostMineConfig.description": "de kans dat Herobrine naast je gaat mijnen.",
+  
+  "config.creepingConfig.title": "Sluipen optie",
+  "config.creepingConfig.description": "veranderd of Herobrine achter je staat wanneer je rond draait.",
+
+  "config.stalkingConfig.title": "Stalken optie",
+  "config.stalkingConfig.description": "veranderd of Herobrine je stalkt van ver af.",
+
+
+
+  "config.poofingTorchesConfig.title": "Verdwijne Fakkels",
+  "config.poofingTorchesConfig.description": "de kans dat Herobrine je fakkels verwijder (1 check per in-spel dag).",
+
+  "config.burningBaseConfig.title": "Verbrande Basis",
+  "config.burningBaseConfig.description": "de kans dat Herobrine je huis verbrand (1 check per in-spel dag).",
+  
+  "config.spotNoiseConfig.title": "Waarneming Geluid",
+  "config.spotNoiseConfig.description": "de kans wanneer je een geluid hoort wanneer je Herobrine ziet.",
+
+  "config.glowingEyesConfig.title": "glisterende ogen",
+  "config.glowingEyesConfig.description": "veranderd dat Herobrine glisterende ogen heeft (werkt met mods dat heeft dynamisch light).",
+
+  "config.herobrineSkinConfig.title": "Herobrine kleren",
+  "config.herobrineSkinConfig.description": "veranderd Herobrine's uiterlijk texture/model.",
+  "config.herobrineSkinConfig.setting1": "klerenkast",
+
+  "config.lurkingLanguageConfig.title": "Loeren Taal",
+  "config.lurkingLanguageConfig.description": "Veranderd de taal hoe Herobrine communiseerd met borden.",
+  "config.lurkingLanguageConfig.setting1": "Zweeds",
+  "config.lurkingLanguageConfig.setting2": "Nederlands",
+
+
+
+  "config.jumpscareConfig.title": "Schrik Optie",
+  "config.jumpscareConfig.description": "Herobrine kan je schrikken als je dichtbij komt.",
+
+  "config.crashConfig.title": "Crash Optie",
+  "config.crashConfig.description": "ruilt de schrik optie met de optie dat je spel crasht. [EPILEPSY WAARSCHUWING!] [GEBRUIK DIT NIET ALS JE COMPUTER ZWAK IS!] (is alleen aan wanneer de schrik optie aan is.)",
+
+  "config.creepingVanishingDelayConfig.title": "sluipen verdwijning uitstel",
+  "config.creepingVanishingDelayConfig.description": "veranderd hoe lang Herobrine verdwijnt als je hem ziet sluipen.",
+  "config.creepingVanishingDelayConfig.setting1": "Geen",
+  "config.creepingVanishingDelayConfig.setting2": "0.5 Seconde",
+  "config.creepingVanishingDelayConfig.setting3": "1 Seconde",
+  "config.creepingVanishingDelayConfig.setting4": "1.5 Seconden",
+  "config.creepingVanishingDelayConfig.setting5": "2 Seconden",
+
+  "config.stalkingVanishingDelayConfig.title": "Stalken verdwijning uitstel",
+  "config.stalkingVanishingDelayConfig.description": "veranderd hoe lang Herobrine verdwijnt als je hem ziet stalken.",
+  "config.stalkingVanishingDelayConfig.setting1": "Geen",
+  "config.stalkingVanishingDelayConfig.setting2": "0.5 Seconde",
+  "config.stalkingVanishingDelayConfig.setting3": "1 Seconde",
+  "config.stalkingVanishingDelayConfig.setting4": "1.5 Seconden",
+  "config.stalkingVanishingDelayConfig.setting5": "2 Seconden",
+
+  "config.noSleepConfig.title": "Geen Slaap",
+  "config.noSleepConfig.description": "veranderd of Herobrine je niet laat slapen als hij dicht bij is. (werkt niet op vredig.)",
+
+  "config.dreadfulDonationConfig.title": "Vreselijke Donatie",
+  "config.dreadfulDonationConfig.description": "veranderd of Herobrine je Kados leverd in je kist. (Kan gebeuren voor de 3 dagen telling of the altaar is gebouwed. 1 check per in-spel dag.)",
+  
+
+
+  "config.crimsonCurseConfig.title": "De Roie Vloek",
+  "config.crimsonCurseConfig.description": "veranderd of Herobrine dat ie fakkels naar redstone fakkels veranderd en lantaarns naar ziel lantaarns. (1 check per in-spel dag)",
+
+  "config.OGshrineMechanicConfig.title": "OG altaar Optie",
+  "config.OGshrineMechanicConfig.description": "veranderd of bliksem schigt op Herobrine's Altaar.",
+
+  "config.nightmareMechanicConfig.title": "Nachtmerrie Optie",
+  "config.nightmareMechanicConfig.description": "veranderd of Herobrine aan de voet van je bed staat.",
+
+  "config.windowWatcherConfig.title": "De Ramen Kijker",
+  "config.windowWatcherConfig.description": "veranderd of Herobrine je zit te gluren van een raam.",
+
+  "config.chilledCandlesConfig.title": "Koude Kaarsen",
+  "config.chilledCandlesConfig.description": "veranderd of Herobrine de spelers kaarsen uitblaas.",
+
+  "config.sinisterSignsConfig.title": "Onheilspellend Borden",
+  "config.sinisterSignsConfig.description": "veranderd of Herobrine dat hij borden plaatst.",
+  
+
+
+  "config.sightingSenseConfig.title": "Waarnemings gevoel",
+  "config.sightingSenseConfig.description": "veranderd dat de huisdieren op Herobrine reageren.",
+
+  "config.nameTagConfig.title": "Naamplaat",
+  "config.nameTagConfig.description": "veranderd of Herobrine een naamplaatje heeft en hoe het er uit ziet.",
+  "config.nameTagConfig.setting1": "Uit",
+  "config.nameTagConfig.setting2": "dynamisch",
+  "config.nameTagConfig.setting3": "verwarrend",
+
+  "config.rekindlingShrineConfig.title": "opnieuw ontsteken altaar",
+  "config.rekindlingShrineConfig.description": "veranderd of herobrine de altaar weer aan zet als ze gedoofed zijn.",
+
+  "config.advancementsConfig.title": "Vooruitgangen",
+  "config.advancementsConfig.description": "veranderd of de speler vooruitgangen kunnen krijgen. (VOORUITGANGEN WANNEER ZE AAN ZIJN GAAN WEG ALS JE ZE UIT ZET!!!)",
+
+  "config.fearfulFootstepsConfig.title": "Bange Voetstappen",
+  "config.fearfulFootstepsConfig.description": "veranderd dat herobrine achter je aan loopt met luide voetstappen.",
+
+
+
+  "config.hittingThatGriddyConfig.title": "doe een dansje",
+  "config.hittingThatGriddyConfig.description": "een kans dat Herobrine een dansje doet.",
+
+
+
+  "config.skinLibrary.randomizeSkinsConfig.title": "Willekeurige Uiterlijk",
+  "config.skinLibrary.builtInSkins.title": "Uiterlijk",
+  "config.skinLibrary.defaultSkin.title": "standaard",
+  "config.skinLibrary.classicSkin.title": "Klassiek",
+  "config.skinLibrary.blackEyesSkin.title": "Zwarte Ogen",
+  "config.skinLibrary.entity303Skin.title": "Entity 303",
+  "config.skinLibrary.glitchSkin.title": "Glitch",
+  "config.skinLibrary.nullSkin.title": "Nul",
+  "config.skinLibrary.lunarEclipseSkin.title": "Lunar Eclipse",
+  "config.skinLibrary.apparitionSkin.title": "verschijning",
+  "config.skinLibrary.zombieSkin.title": "Zombie",
+  "config.skinLibrary.nullifiedSkin.title": "nulificeert",
+  "config.skinLibrary.facelessSkin.title": "Gezichtloos",
+  "config.skinLibrary.distortedSkin.title": "Verwrongen",
+  "config.skinLibrary.alexSkin.title": "Alex",
+  "config.skinLibrary.lickSkin.title": "Lik",
+  "config.skinLibrary.fallenKingdomSkin.title": "Gevallen Koninkrijk",
+  "config.skinLibrary.sculkInfestedSkin.title": "Sculk Infesteerd",
+  "config.skinLibrary.netherBrineSkin.title": "nederbrine",
+  "config.skinLibrary.farlanderSkin.title": "verlander",
+  "config.skinLibrary.theHeadlessSkin.title": "De Hoofdloze",
+  "config.skinLibrary.lumberingJackSkin.title": "houtshakker",
+  "config.skinLibrary.smileSkin.title": "Glimlach",
+  "config.skinLibrary.theGrimreaperSkin.title": "De Magere Hein",
+
+  "watchingSkin.customSkinPack.name": "aangepaste uiterlijk",
+  "watchingSkin.customSkin1.name": "aangepaste uiterlijk 1",
+  "watchingSkin.customSkin2.name": "aangepaste uiterlijk 2",
+  "watchingSkin.customSkin3.name": "aangepaste uiterlijk 3",
+  "watchingSkin.customSkin4.name": "aangepaste uiterlijk 4",
+  "watchingSkin.customSkin5.name": "aangepaste uiterlijk 5",
+
+
+
+  "sign.type1.line1": "",
+  "sign.type1.line2": "ik kijk",
+  "sign.type1.line3": "naar je...",
+  "sign.type1.line4": "",
+
+  "sign.type2.line1": "",
+  "sign.type2.line2": "Help",
+  "sign.type2.line3": "",
+  "sign.type2.line4": "",
+
+  "sign.type3.line1": "",
+  "sign.type3.line2": "ik zie je.",
+  "sign.type3.line3": "",
+  "sign.type3.line4": "",
+
+  "sign.type4.line1": "",
+  "sign.type4.line2": "Hallo daar,",
+  "sign.type4.line3": "THIS IS THE PLAYERS USERNAME, CHANGING THIS HAS NO EFFECT.",
+  "sign.type4.line4": "",
+
+  "sign.type5.line1": "",
+  "sign.type5.line2": "WORDT WAKKER.",
+  "sign.type5.line3": "",
+  "sign.type5.line4": "",
+
+  "sign.type6.line1": "",
+  "sign.type6.line2": "jij bent niet",
+  "sign.type6.line3": "alleen.",
+  "sign.type6.line4": "",
+
+  "sign.type7.line1": "",
+  "sign.type7.line2": "Luister goed.",
+  "sign.type7.line3": "",
+  "sign.type7.line4": "",
+
+  "sign.type8.line1": "",
+  "sign.type8.line2": "Hoor je dat",
+  "sign.type8.line3": "ook?",
+  "sign.type8.line4": "",
+
+  "sign.type9.line1": "",
+  "sign.type9.line2": "Stop.",
+  "sign.type9.line3": "",
+  "sign.type9.line4": "",
+
+  "sign.type10.line1": "",
+  "sign.type10.line2": "Maak ik je",
+  "sign.type10.line3": "bang?",
+  "sign.type10.line4": "",
+
+  "sign.type11.line1": "je kan niet",
+  "sign.type11.line2": "weg van deze",
+  "sign.type11.line3": "nachtmerrie.",
+  "sign.type11.line4": "",
+
+  "sign.type12.line1": "waar kijk je",
+  "sign.type12.line2": "naar",
+  "sign.type12.line3": "Kaarshoofd?",
+  "sign.type12.line4": "",
+
+
+
+  "advancements.ftf.root.title": "From The Fog",
+  "advancements.ftf.root.description": "je kunt het niet zien, maar geloof mij het kan jou wel zien...",
+
+  "advancements.ftf.built_shrine.title": "je weet niet wat je hebt gedaan...",
+  "advancements.ftf.built_shrine.description": "Bouw een Herobrine altaar.",
+
+  "advancements.ftf.jumpscared.title": "Achter Je...",
+  "advancements.ftf.jumpscared.description": "schrik van herobrine voor de eerste keer.",
+
+  "advancements.ftf.found_herobrine_structure.title": "ik ben toch op singleplayer?",
+  "advancements.ftf.found_herobrine_structure.description": "ontdek een gebouw dat Herobrine heeft gebouwed.",
+
+  "advancements.ftf.herobrine_griddy.title": "WAT?!",
+  "advancements.ftf.herobrine_griddy.description": "zie herobrine dansen.",
+
+  "advancements.ftf.be_the_librarian.title": "Een licht in het donker...",
+  "advancements.ftf.be_the_librarian.description": "wordt de Librarian.",
+
+  "advancements.ftf.liberty_lantern.title": "Hallo Liberty.",
+  "advancements.ftf.liberty_lantern.description": "Geef een lantaarn aan een helper.",
+
+  "advancements.ftf.dog_growl.title": "ben je oke jongen?",
+  "advancements.ftf.dog_growl.description": "zie een temme wolf grommen naar Herobrine.",
+
+  "advancements.ftf.have_a_nightmare.title": "Dat  was maar een slechte droom... toch?",
+  "advancements.ftf.have_a_nightmare.description": "heeft een nachtmerrie voor de eerste keer.",
+
+  "advancements.ftf.found_logless_tree.title": "ik herinner me dit niet.",
+  "advancements.ftf.found_logless_tree.description": "ontdek een boom dat je zelf niet hebt omgehakt.",
+
+  "advancements.ftf.found_leafless_grove.title": "lava kan dit niet gedaan hebben...",
+  "advancements.ftf.found_leafless_grove.description": "ontdek een bladloze bos.",
+
+  "advancements.ftf.named_dd_item.title": "het communiseerd...",
+  "advancements.ftf.named_dd_item.description": "vindt een vreselijke donatie die een naam heeft.",
+
+  "advancements.ftf.spotted_herobrine.title": "ik zal Kevin bellen!",
+  "advancements.ftf.spotted_herobrine.description": "zag herobrine voor de eerste keer.",
+
+  "advancements.ftf.be_comical_bonzo.title": "Letterlijk Geweldig.",
+  "advancements.ftf.be_comical_bonzo.description": "word een komedische gast.",
+
+  "advancements.ftf.ghost_miner.title": "WAT WAS DAT?",
+  "advancements.ftf.ghost_miner.description": "kom Herobrine tegen dat je hem hoort mijnen.",
+
+  "advancements.ftf.take_gm_torch.title": "Ik ga dit nemen, >:)",
+  "advancements.ftf.take_gm_torch.description": "pak de Fakkel van de spook mijner.",
+
+  "advancements.ftf.dreadful_donation.title": "wie plaatste dit??",
+  "advancements.ftf.dreadful_donation.description": "vindt een vreselijke donatie van Herobrine.",
+
+  "advancements.ftf.didnt_notice_herobrine.title": "hij kijkt naar je...",
+  "advancements.ftf.didnt_notice_herobrine.description": "wordt achtervolgt door Herobrine zonder dat je het door heeft.",
+
+  "advancements.ftf.survive_3_days.title": "Is iemand mij aan het volgen?",
+  "advancements.ftf.survive_3_days.description": "overleef 3 dagen.",
+
+  "advancements.ftf.survive_10_days.title": "iemand volgt me...",
+  "advancements.ftf.survive_10_days.description": "overleef 10 dagen.",
+
+  "advancements.ftf.survive_50_days.title": "Laat me alleen.",
+  "advancements.ftf.survive_50_days.description": "overleef 50 dagen.",
+
+  "advancements.ftf.survive_100_days.title": "ik moet verstoppen.",
+  "advancements.ftf.survive_100_days.description": "overleef 100 dagen.",
+
+  "advancements.ftf.survive_200_days.title": "Haal me hier uit!",
+  "advancements.ftf.survive_200_days.description": "overleef 200 dagen.",
+
+  "advancements.ftf.found_torch_tunnel.title": "Ik ga daar niet in.",
+  "advancements.ftf.found_torch_tunnel.description": "Ontdek een tunnel dat is gemaakt door Herobrine.",
+
+
+
+  "subtitle.message.warning": "ik kijk naar je..."
+}

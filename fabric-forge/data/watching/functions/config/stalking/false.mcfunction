@@ -1,2 +1,2 @@
-scoreboard players set true stalkingConfig 0
-function watching:config/pages/2
+scoreboard players set stalkingConfig ftf.configOptions 0
+function fromthefog:admin/config

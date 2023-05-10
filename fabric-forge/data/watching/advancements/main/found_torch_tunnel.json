@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/found_herobrine_structure",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359018}"
+        },
+        "title": {
+            "translate": "advancements.ftf.found_torch_tunnel.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.found_torch_tunnel.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

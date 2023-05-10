@@ -1,0 +1,37 @@
+{
+    "parent": "watching:main/dreadful_donation",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359014}"
+        },
+        "title": {
+            "translate": "advancements.ftf.named_dd_item.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.named_dd_item.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "watching:main/root": true
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "nbt": "{dreadfulDonation:1b,namedItem:1b}"
+                    }
+                ]
+            }
+        }
+    }
+}

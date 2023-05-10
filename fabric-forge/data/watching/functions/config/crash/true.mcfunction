@@ -1,2 +1,2 @@
-scoreboard players set true crashConfig 1
-function watching:config/pages/4
+scoreboard players set crashConfig ftf.configOptions 1
+function watching:config/pages/3

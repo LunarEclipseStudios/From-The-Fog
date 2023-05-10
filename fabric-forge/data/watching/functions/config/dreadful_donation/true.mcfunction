@@ -1,2 +1,2 @@
-scoreboard players set true dreadfulDonationConfig 1
-function watching:config/pages/5
+scoreboard players set dreadfulDonationConfig ftf.configOptions 1
+function watching:config/pages/3

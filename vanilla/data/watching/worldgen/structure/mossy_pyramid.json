@@ -1,11 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "minecraft:forest",
-    "minecraft:birch_forest",
-    "minecraft:old_growth_birch_forest",
-    "minecraft:windswept_forest"
-  ],
+  "biomes": "#watching:structure_spawns/mossy_pyramid",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",

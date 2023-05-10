@@ -1,2 +1,2 @@
-scoreboard players set true glowingEyesConfig 0
-function watching:config/pages/3
+scoreboard players set glowingEyesConfig ftf.configOptions 0
+function watching:config/pages/2

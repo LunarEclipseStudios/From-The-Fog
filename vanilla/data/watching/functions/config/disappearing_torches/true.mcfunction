@@ -1,2 +1,2 @@
-scoreboard players set true poofingTorchesConfig 1
+scoreboard players set poofingTorchesConfig ftf.configOptions 1
 function watching:config/pages/2

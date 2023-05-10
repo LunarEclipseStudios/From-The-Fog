@@ -1,2 +1,2 @@
-scoreboard players set number creepingVanishingDelayConfig 3
-function watching:config/pages/4
+scoreboard players set creepingVanishingDelayConfig ftf.configOptions 3
+function watching:config/pages/3

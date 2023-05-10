@@ -1,5 +1,5 @@
 #revokeScoreboards
-scoreboard players reset @s openedChest
+scoreboard players reset @s ftf.openedChest
 #revokeAdvancements
 advancement revoke @s from watching:block_detection/chest
 

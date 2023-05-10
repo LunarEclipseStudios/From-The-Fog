@@ -1,2 +1,2 @@
-scoreboard players set number stalkingVanishingDelayConfig 4
-function watching:config/pages/4
+scoreboard players set stalkingVanishingDelayConfig ftf.configOptions 4
+function watching:config/pages/3

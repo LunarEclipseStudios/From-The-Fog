@@ -1,0 +1,24 @@
+{
+    "parent": "watching:main/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359015}"
+        },
+        "title": {
+            "translate": "advancements.ftf.be_comical_bonzo.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.be_comical_bonzo.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

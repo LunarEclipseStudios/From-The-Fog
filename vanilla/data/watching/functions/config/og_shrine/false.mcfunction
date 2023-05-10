@@ -1,2 +1,2 @@
-scoreboard players set true OGshrineMechanicConfig 0
-function watching:config/pages/5
+scoreboard players set OGshrineMechanicConfig ftf.configOptions 0
+function watching:config/pages/4

@@ -40,7 +40,6 @@
                 "height": 17,
                 "type": "bitmap"
             },
-
             {
                 "ascent": -32768,
                 "chars": [
@@ -282,6 +281,151 @@
                 ],
                 "file": "watching:font/watching_ui/icons/skins/netherbrine.png",
                 "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB24"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/farlander.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB25"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/the_headless.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB26"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/lumbering_jack.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB27"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/smile.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB28"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/grimreaper.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uBC26"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/randomize.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC27"
+                ],
+                "file": "watching:font/watching_ui/icons/config/switch/switch_off.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC28"
+                ],
+                "file": "watching:font/watching_ui/icons/config/switch/switch_on.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC29"
+                ],
+                "file": "watching:font/watching_ui/icons/config/slider/beginning.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC30"
+                ],
+                "file": "watching:font/watching_ui/icons/config/slider/end.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC31"
+                ],
+                "file": "watching:font/watching_ui/icons/config/slider/middle.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC32"
+                ],
+                "file": "watching:font/watching_ui/icons/config/slider/slider.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC33"
+                ],
+                "file": "watching:font/watching_ui/pixel_nosplit.png",
+                "height": -4,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC34"
+                ],
+                "file": "watching:font/watching_ui/icons/config/slider/beginning_slider.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC35"
+                ],
+                "file": "watching:font/watching_ui/icons/config/slider/end_slider.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 11,
+                "chars": [
+                    "\uBC36"
+                ],
+                "file": "watching:font/watching_ui/icons/config/skin_library.png",
+                "height": 15,
                 "type": "bitmap"
             }
         ]

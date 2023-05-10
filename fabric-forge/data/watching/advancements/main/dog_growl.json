@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/built_shrine",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359011}"
+        },
+        "title": {
+            "translate": "advancements.ftf.dog_growl.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.dog_growl.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

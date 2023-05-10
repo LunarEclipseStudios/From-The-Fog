@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#watching:structure_spawns/torch_tunnels",
   "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "none",

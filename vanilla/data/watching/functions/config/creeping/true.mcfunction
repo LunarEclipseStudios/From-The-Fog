@@ -1,2 +1,2 @@
-scoreboard players set true creepingConfig 1
-function watching:config/pages/2
+scoreboard players set creepingConfig ftf.configOptions 1
+function fromthefog:admin/config

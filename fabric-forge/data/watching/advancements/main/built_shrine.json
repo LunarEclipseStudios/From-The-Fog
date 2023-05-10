@@ -1,0 +1,23 @@
+{
+    "parent": "watching:main/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359001}"
+        },
+        "title": {
+            "translate": "advancements.ftf.built_shrine.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.built_shrine.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

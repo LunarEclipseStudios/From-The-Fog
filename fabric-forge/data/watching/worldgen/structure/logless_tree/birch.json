@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#watching:logless_tree/birch",
+  "biomes": "#watching:structure_spawns/logless_tree/birch",
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "watching:logless_tree/birch",

@@ -1,0 +1,22 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"parent": "watching:item/herobrine/template/right_leg",
+	"textures": {
+		"0": "watching:item/herobrine/grimreaper/grimreaper",
+		"particle": "watching:item/herobrine/grimreaper/grimreaper"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [0, 0, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	]
+}

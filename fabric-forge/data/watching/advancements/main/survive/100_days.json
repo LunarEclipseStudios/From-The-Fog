@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/survive/50_days",
+    "display": {
+        "icon": {
+            "item": "gold_block"
+        },
+        "title": {
+            "translate": "advancements.ftf.survive_100_days.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.survive_100_days.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

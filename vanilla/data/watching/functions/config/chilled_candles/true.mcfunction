@@ -1,2 +1,2 @@
-scoreboard players set true chilledCandlesConfig 1
-function watching:config/pages/6
+scoreboard players set chilledCandlesConfig ftf.configOptions 1
+function watching:config/pages/4

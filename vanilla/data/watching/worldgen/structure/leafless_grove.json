@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "plains",
+  "biomes": "#watching:structure_spawns/leafless_grove",
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "watching:leafless_grove",

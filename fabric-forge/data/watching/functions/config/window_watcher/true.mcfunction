@@ -1,2 +1,2 @@
-scoreboard players set true windowWatcherConfig 1
-function watching:config/pages/6
+scoreboard players set windowWatcherConfig ftf.configOptions 1
+function watching:config/pages/4

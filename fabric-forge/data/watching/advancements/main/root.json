@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359013}"
+        },
+        "title": {
+            "translate": "advancements.ftf.root.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.root.description"
+        },
+        "background": "watching:textures/ui/advancement_background.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -18,6 +18,20 @@
 		},
 		{
 			"name": "Box6",
+			"from": [9, 24, 10],
+			"to": [6, 12, 6],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, -6, 8]},
+			"faces": {
+				"north": {"uv": [12.75, 8, 13.5, 5], "texture": "#skin"},
+				"east": {"uv": [11.75, 8, 12.75, 5], "texture": "#skin"},
+				"south": {"uv": [11, 8, 11.75, 5], "texture": "#skin"},
+				"west": {"uv": [10, 8, 11, 5], "texture": "#skin"},
+				"up": {"uv": [11.75, 4, 12.5, 5], "texture": "#skin"},
+				"down": {"uv": [11, 5, 11.75, 4], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box6",
 			"from": [5.75, 11.75, 5.75],
 			"to": [9.25, 24.25, 10.25],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, 22, 8]},

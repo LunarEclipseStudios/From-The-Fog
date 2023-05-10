@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/ghost_miner",
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359017}"
+        },
+        "title": {
+            "translate": "advancements.ftf.take_gm_torch.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.take_gm_torch.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

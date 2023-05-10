@@ -1,208 +1,278 @@
 #defaultSkin
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:1}
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:2}
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:3}
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:4}
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:5}
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:6}
-execute if score skin herobrineSkinConfig matches 1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:7}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350001}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350002}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350003}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350004}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350005}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350006}
+execute if score herobrineSkinConfig ftf.configOptions matches 1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350007}
 #classicSkin
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:8}
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:9}
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:10}
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:11}
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:12}
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:13}
-execute if score skin herobrineSkinConfig matches 2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:14}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350008}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350009}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350010}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350011}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350012}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350013}
+execute if score herobrineSkinConfig ftf.configOptions matches 2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350014}
 #blackEyedSkin
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:15}
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:16}
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:17}
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:18}
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:19}
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:20}
-execute if score skin herobrineSkinConfig matches 3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:21}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350015}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350016}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350017}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350018}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350019}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350020}
+execute if score herobrineSkinConfig ftf.configOptions matches 3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350021}
 #Entity303Skin
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:22}
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:23}
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:24}
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:25}
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:26}
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:27}
-execute if score skin herobrineSkinConfig matches 4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:28}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350022}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350023}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350024}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350025}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350026}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350027}
+execute if score herobrineSkinConfig ftf.configOptions matches 4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350028}
 #glitchSkin
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:29}
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:30}
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:31}
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:32}
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:33}
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:34}
-execute if score skin herobrineSkinConfig matches 5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:35}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350029}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350030}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350031}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350032}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350033}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350034}
+execute if score herobrineSkinConfig ftf.configOptions matches 5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350035}
 #nullSkin
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:36}
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:37}
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:38}
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:39}
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:40}
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:41}
-execute if score skin herobrineSkinConfig matches 6 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:42}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350036}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350037}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350038}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350039}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350040}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350041}
+execute if score herobrineSkinConfig ftf.configOptions matches 6 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350042}
 #lunarEclipseSkin
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:43}
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:44}
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:45}
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:46}
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:47}
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:48}
-execute if score skin herobrineSkinConfig matches 7 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:49}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350043}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350044}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350045}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350046}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350047}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350048}
+execute if score herobrineSkinConfig ftf.configOptions matches 7 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350049}
 #apparitionSkin
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:50}
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:51}
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:52}
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:53}
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:54}
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:55}
-execute if score skin herobrineSkinConfig matches 8 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:56}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350050}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350051}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350052}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350053}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350054}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350055}
+execute if score herobrineSkinConfig ftf.configOptions matches 8 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350056}
 #zombieSkin
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:57}
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:58}
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:59}
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:60}
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:61}
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:62}
-execute if score skin herobrineSkinConfig matches 9 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:63}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350057}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350058}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350059}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350060}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350061}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350062}
+execute if score herobrineSkinConfig ftf.configOptions matches 9 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350063}
 #nullifiedSkin
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:64}
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:65}
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:66}
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:67}
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:68}
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:69}
-execute if score skin herobrineSkinConfig matches 10 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:70}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350064}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350065}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350066}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350067}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350068}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350069}
+execute if score herobrineSkinConfig ftf.configOptions matches 10 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350070}
 #facelessSkin
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:71}
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:72}
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:73}
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:74}
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:75}
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:76}
-execute if score skin herobrineSkinConfig matches 11 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:77}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350071}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350072}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350073}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350074}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350075}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350076}
+execute if score herobrineSkinConfig ftf.configOptions matches 11 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350077}
 #distortedSkin
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:78}
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:79}
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:80}
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:81}
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:82}
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:83}
-execute if score skin herobrineSkinConfig matches 12 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:84}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350078}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350079}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350080}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350081}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350082}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350083}
+execute if score herobrineSkinConfig ftf.configOptions matches 12 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350084}
 #alexSkin
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:85}
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:86}
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:87}
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:88}
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:89}
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:90}
-execute if score skin herobrineSkinConfig matches 13 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:91}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350085}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350086}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350087}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350088}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350089}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350090}
+execute if score herobrineSkinConfig ftf.configOptions matches 13 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350091}
 #lickSkin
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:92}
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:93}
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:94}
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:95}
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:96}
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:97}
-execute if score skin herobrineSkinConfig matches 14 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:98}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350092}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350093}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350094}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350095}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350096}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350097}
+execute if score herobrineSkinConfig ftf.configOptions matches 14 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350098}
 #fallenKingdomSkin
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:99}
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:100}
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:101}
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:102}
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:103}
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:104}
-execute if score skin herobrineSkinConfig matches 15 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:105}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350099}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350100}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350101}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350102}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350103}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350104}
+execute if score herobrineSkinConfig ftf.configOptions matches 15 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350105}
 #skulkInfestedSkin
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:106}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:107}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:108}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:109}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:110}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with diamond_hoe{CustomModelData:111}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:112}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:113}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:114}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:115}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:116}
-execute if score skin herobrineSkinConfig matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:117}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350106}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350107}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350108}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350109}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350110}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with disc_fragment_5{CustomModelData: 1350111}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350112}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350113}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350114}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350115}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350116}
+execute if score herobrineSkinConfig ftf.configOptions matches 16 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350117}
 #netherBrineSkin
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:118}
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:119}
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:120}
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:121}
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:122}
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:123}
-execute if score skin herobrineSkinConfig matches 17 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:124}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350118}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350119}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350120}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350121}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350122}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350123}
+execute if score herobrineSkinConfig ftf.configOptions matches 17 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350124}
+#farlanderSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350125}
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350126}
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350127}
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350128}
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350129}
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350130}
+execute if score herobrineSkinConfig ftf.configOptions matches 18 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350131}
+#theHeadlessSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350132}
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350133}
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350134}
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350135}
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350136}
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350137}
+execute if score herobrineSkinConfig ftf.configOptions matches 19 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350138}
+#lumberingJackSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350139}
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350140}
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350141}
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350142}
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350143}
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350144}
+execute if score herobrineSkinConfig ftf.configOptions matches 20 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350145}
+#smileSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350146}
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350147}
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350148}
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350149}
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350150}
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350151}
+execute if score herobrineSkinConfig ftf.configOptions matches 21 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350152}
+#grimReaperSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350153}
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350154}
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350155}
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350156}
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350157}
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350158}
+execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350159}
+
+
 
 
 #customSkin1
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:800}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:801}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:802}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:803}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:804}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with diamond_hoe{CustomModelData:805}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:806}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:807}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:808}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:809}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:810}
-execute if score skin herobrineSkinConfig matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:811}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350800}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350801}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350802}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350803}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350804}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with disc_fragment_5{CustomModelData: 1350805}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350806}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350807}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350808}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350809}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350810}
+execute if score herobrineSkinConfig ftf.configOptions matches -1 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350811}
 #customSkin2
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:812}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:813}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:814}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:815}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:816}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with diamond_hoe{CustomModelData:817}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:818}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:819}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:820}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:821}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:822}
-execute if score skin herobrineSkinConfig matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:823}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350812}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350813}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350814}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350815}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350816}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with disc_fragment_5{CustomModelData: 1350817}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350818}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350819}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350820}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350821}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350822}
+execute if score herobrineSkinConfig ftf.configOptions matches -2 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350823}
 #customSkin3
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:824}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:825}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:826}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:827}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:828}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with diamond_hoe{CustomModelData:829}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:830}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:831}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:832}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:833}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:834}
-execute if score skin herobrineSkinConfig matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:835}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350824}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350825}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350826}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350827}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350828}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with disc_fragment_5{CustomModelData: 1350829}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350830}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350831}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350832}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350833}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350834}
+execute if score herobrineSkinConfig ftf.configOptions matches -3 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350835}
 #customSkin4
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:836}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:837}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:838}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:839}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:840}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with diamond_hoe{CustomModelData:841}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:842}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:843}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:844}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:845}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:846}
-execute if score skin herobrineSkinConfig matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:847}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350836}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350837}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350838}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350839}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350840}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with disc_fragment_5{CustomModelData: 1350841}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350842}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350843}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350844}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350845}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350846}
+execute if score herobrineSkinConfig ftf.configOptions matches -4 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350847}
 #customSkin5
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe{CustomModelData:848}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe{CustomModelData:849}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe{CustomModelData:850}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:851}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:852}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with diamond_hoe{CustomModelData:853}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:854}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:855}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe{CustomModelData:856}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe{CustomModelData:857}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with diamond_hoe{CustomModelData:858}
-execute if score skin herobrineSkinConfig matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with diamond_hoe{CustomModelData:859}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350848}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350849}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350850}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350851}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350852}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] armor.head with disc_fragment_5{CustomModelData: 1350853}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350854}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=body,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350855}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350856}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350857}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350858}
+execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350859}
+
+#dynamicNameTag
+execute if score nameTagConfig ftf.configOptions matches 1 at @e[type=armor_stand,tag=move] run summon armor_stand ~ ~1.8 ~ {CustomName:'{"text":""}',CustomNameVisible:1b,Invisible:1b,NoGravity:1b,Marker:1b,Tags:["herobrine","herobrineModel","nameTagEntity","smithed.entity"]}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 1..3 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'{"text":"Herobrine"}'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 4 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'{"text":"303"}'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 5 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'{"text":"Herobrine","obfuscated":true}'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 6 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'{"translate":"config.skinLibrary.nullSkin.title"}'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 7..9 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'{"text":"Herobrine"}'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 10 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Hero","obfuscated":true},{"text":"brine"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 11..12 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Herobrine"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 13 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Herobree"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 14 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Lick"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 15..17 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Herobrine"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 18 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.farlanderSkin.title"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 19 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.theHeadlessSkin.title"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 20 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.lumberingJackSkin.title"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 21 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Herobrine"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 22 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.theGrimreaperSkin.title"}]'}
+
+
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches -1 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"watchingSkin.customSkin1.name"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches -2 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"watchingSkin.customSkin2.name"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches -3 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"watchingSkin.customSkin3.name"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches -4 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"watchingSkin.customSkin4.name"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches -5 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"watchingSkin.customSkin5.name"}]'}
+
+#obfuscatedNameTag
+execute if score nameTagConfig ftf.configOptions matches 2 at @e[type=armor_stand,tag=move] run summon armor_stand ~ ~1.8 ~ {CustomNameVisible:1b,Invisible:1b,CustomName:'{"text":"Herobrine","obfuscated":true}',NoGravity:1b,Marker:1b,Tags:["herobrine","herobrineModel","nameTagEntity","smithed.entity"]}

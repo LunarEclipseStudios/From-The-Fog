@@ -1,2 +1,2 @@
-scoreboard players set true crimsonCurseConfig 1
-function watching:config/pages/5
+scoreboard players set crimsonCurseConfig ftf.configOptions 1
+function watching:config/pages/4

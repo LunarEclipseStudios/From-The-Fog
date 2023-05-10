@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#watching:logless_tree/oak",
+  "biomes": "#watching:structure_spawns/logless_tree/oak",
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "watching:logless_tree/oak",

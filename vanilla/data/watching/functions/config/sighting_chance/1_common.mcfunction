@@ -1,2 +1,2 @@
-scoreboard players set chance sightingChanceConfig 1
+scoreboard players set sightingChanceConfig ftf.configOptions 1
 function fromthefog:admin/config

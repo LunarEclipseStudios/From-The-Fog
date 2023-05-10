@@ -1,2 +1,2 @@
-scoreboard players set lang lurkingLanguageConfig 0
-function watching:config/pages/7
+scoreboard players set lurkingLanguageConfig ftf.configOptions 0
+function watching:config/pages/2

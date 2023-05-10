@@ -1,0 +1,22 @@
+{
+    "parent": "watching:main/root",
+    "display": {
+        "icon": {
+            "item": "dirt"
+        },
+        "title": {
+            "translate": "advancements.ftf.survive_3_days.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.survive_3_days.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
