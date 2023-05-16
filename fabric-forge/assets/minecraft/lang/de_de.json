@@ -1,8 +1,8 @@
 {
   "selectWorld.backupQuestion.experimental": "Unbekannter Entity Error",
-  "selectWorld.backupWarning.experimental": "Minecraft hat eine unbekannte Entity in der Welt endeckt. Es wird empfohlen NICHT IN DIE WELT ZU GEHEN. Ein ignorieren dieser Warnung resultiert in komischen ereignissen und/oder Sichtungen. Nicht vergessen, gucke niemals die Bugs direkt an.",
+  "selectWorld.backupWarning.experimental": "Minecraft hat eine unbekannte Entity in der Welt entdeckt. Es wird empfohlen NICHT IN DIE WELT ZU GEHEN. Ein ignorieren dieser Warnung resultiert in komischen Ereignissen und/oder Sichtungen. Nicht vergessen, gucke niemals die Bugs direkt an.",
   "selectWorld.warning.experimental.title": "Unbekannter Entity Error",
-  "selectWorld.warning.experimental.question": "Minecraft hat eine unbekannte Entity in der Welt endeckt. Es wird empfohlen NICHT IN DIE WELT ZU GEHEN. Ein ignorieren dieser Warnung resultiert in komischen ereignissen und/oder Sichtungen. Nicht vergessen, gucke niemals die Bugs direkt an.",
+  "selectWorld.warning.experimental.question": "Minecraft hat eine unbekannte Entity in der Welt entdeckt. Es wird empfohlen NICHT IN DIE WELT ZU GEHEN. Ein ignorieren dieser Warnung resultiert in komischen Ereignissen und/oder Sichtungen. Nicht vergessen, gucke niemals die Bugs direkt an.",
 
 
 
@@ -13,18 +13,18 @@
   "config.page5.progress": "Einstellungen [5/5]",
   "config.skin_library.progress": "Einstellungen [Skin Bibliothek]",
 
-  "config.page1.title": "Steite 1",
-  "config.page2.title": "Steite 2",
-  "config.page3.title": "Steite 3",
-  "config.page4.title": "Steite 4",
-  "config.page5.title": "Steite 5",
+  "config.page1.title": "Seite 1",
+  "config.page2.title": "Seite 2",
+  "config.page3.title": "Seite 3",
+  "config.page4.title": "Seite 4",
+  "config.page5.title": "Seite 5",
   "config.sss.title": "Super geheime Einstellungen",
   "config.pages.title": "Seiten",
 
 
 
-  "config.sightingChanceConfig.title": "Sichtungs Chance",
-  "config.sightingChanceConfig.description": "Stellt wie oft du Herobrine sehen wirst.",
+  "config.sightingChanceConfig.title": "Sichtungs-Chance",
+  "config.sightingChanceConfig.description": "Stellt wie oft Du Herobrine sehen wirst.",
   "config.sightingChanceConfig.setting1": "Oft",
   "config.sightingChanceConfig.setting2": "Normal",
   "config.sightingChanceConfig.setting3": "Selten",
@@ -38,36 +38,36 @@
   "config.dayDelayConfig.setting5": "3 Tage",
 
   "config.ghostDoorConfig.title": "Geister Türen",
-  "config.ghostDoorConfig.description": "Stellt ein ob Herobrine deine Türen öffnen kann.",
+  "config.ghostDoorConfig.description": "Stellt ein ob Herobrine Deine Türen öffnen kann.",
 
   "config.ghostMineConfig.title": "Geister Bergarbeiter",
-  "config.ghostMineConfig.description": "Stellt ein ob Herobrine neben dir meinen kann wenn du Stripminest.",
+  "config.ghostMineConfig.description": "Stellt ein ob Herobrine neben Dir minen kann wenn du stripminest.",
   
   "config.creepingConfig.title": "Nah-Begegnugs Mechanik",
-  "config.creepingConfig.description": "Stellt ein ob Herobrine hinter dir stehen kann und wartet bis du dich umdrehst.",
+  "config.creepingConfig.description": "Stellt ein ob Herobrine hinter Dir stehen kann und wartet bis du dich umdrehst.",
 
   "config.stalkingConfig.title": "Beobachtungs Mechanik",
-  "config.stalkingConfig.description": "Stellt ein ob Herobrine dich aus der Ferne beobachten kann.",
+  "config.stalkingConfig.description": "Stellt ein ob Herobrine Dich aus der Ferne beobachten kann.",
 
 
 
-  "config.poofingTorchesConfig.title": "Verschwindende Fakeln",
-  "config.poofingTorchesConfig.description": "Stellt ein ob Herbrine Fakeln zerstört, sobald du aus dem Gebiet raus bist, oder nicht (ein Versuch pro in-game day).",
+  "config.poofingTorchesConfig.title": "Verschwindende Fackeln",
+  "config.poofingTorchesConfig.description": "Stellt ein ob Herobrine Fackeln zerstört, sobald du aus dem Gebiet raus bist, oder nicht (ein Versuch pro in-game day).",
 
   "config.burningBaseConfig.title": "Brennende Base",
-  "config.burningBaseConfig.description": "Stellt ein ob Herobrine versucht deine Base abzufakeln, sobald du aus dem Gebiet raus bist, oder nicht (ein Versuch pro in-game day).",
+  "config.burningBaseConfig.description": "Stellt ein, ob Herobrine versucht deine Base anzuzünden, sobald du dich aus dem Gebiet entfernst, oder nicht (ein Versuch pro in-game Tag).",
   
   "config.spotNoiseConfig.title": "Sichtungs Geräusch",
   "config.spotNoiseConfig.description": "Stellt ein ob Spieler ein Geräusch hören sobald sie Herobrine entdecken.",
 
-  "config.glowingEyesConfig.title": "Leucht Effekte",
+  "config.glowingEyesConfig.title": "Leuchteffekte",
   "config.glowingEyesConfig.description": "Stellt ein ob Herobrine leuchtet. Praktisch für Spieler die ihn mehr Vanilla machen wollen, oder dynamische Beleuchtung benutzen.",
 
   "config.herobrineSkinConfig.title": "Herobrine Aussehen",
   "config.herobrineSkinConfig.description": "Ändert Herobrine's Skin Textur/Modell.",
   "config.herobrineSkinConfig.setting1": "Skin Bibliothek",
 
-  "config.lurkingLanguageConfig.title": "Komunikations Sprache",
+  "config.lurkingLanguageConfig.title": "Sprache",
   "config.lurkingLanguageConfig.description": "Stellt die Sprache ein die Herobrine nutzt um mit dem Spieler zu Kommunizieren.",
   "config.lurkingLanguageConfig.setting1": "Swedish",
   "config.lurkingLanguageConfig.setting2": "German",
@@ -78,37 +78,37 @@
   "config.jumpscareConfig.description": "Stellt ein ob Herobrine den Spieler jumpscaren kann wenn diese zu nahe kommt.",
 
   "config.crashConfig.title": "Crash Mechanik",
-  "config.crashConfig.description": "Wechselt die Jumpscare Mechanik mit der OG Crash Mechanik. [EPILEPSIE-WARNUNG!] [NICHT GEIGNET FÜR SCHLECHTE MASCHINEN/COMPUTER!] (Funktioniert nur wenn die Jumpscare Mechanik an ist.)",
+  "config.crashConfig.description": "Wechselt die Jumpscare Mechanik mit der OG Crash Mechanik. [EPILEPSIE-WARNUNG!] [NICHT GEEIGNET FÜR SCHLECHTE MASCHINEN/COMPUTER!] (Funktioniert nur wenn die Jumpscare Mechanik an ist)",
 
-  "config.creepingVanishingDelayConfig.title": "Nah-Begegnugs Verschwinde Dauer",
-  "config.creepingVanishingDelayConfig.description": "Stellt ein wie lange es daurt bis Herobrine nach einer Nah-Begegnung verschwindet, wenn er vom Spieler gefunden wurde.",
-  "config.creepingVanishingDelayConfig.setting1": "Garnicht",
-  "config.creepingVanishingDelayConfig.setting2": "0.5 Sekunden",
+  "config.creepingVanishingDelayConfig.title": "Nah-Begegnungs Verschwinde Dauer",
+  "config.creepingVanishingDelayConfig.description": "Stellt ein wie lange es dauert bis Herobrine nach einer Nah-Begegnung verschwindet, wenn er vom Spieler gefunden wurde.",
+  "config.creepingVanishingDelayConfig.setting1": "Gar nicht",
+  "config.creepingVanishingDelayConfig.setting2": "0,5 Sekunden",
   "config.creepingVanishingDelayConfig.setting3": "1 Sekunde",
-  "config.creepingVanishingDelayConfig.setting4": "1.5 Sekunden",
+  "config.creepingVanishingDelayConfig.setting4": "1,5 Sekunden",
   "config.creepingVanishingDelayConfig.setting5": "2 Sekunden",
 
   "config.stalkingVanishingDelayConfig.title": "Beobachtungs Verschwinde Dauer",
-  "config.stalkingVanishingDelayConfig.description": "Stellt ein wie lange es dauert bis Herobrine beim beobachten des Speilers erwischt wurde.",
-  "config.stalkingVanishingDelayConfig.setting1": "Garnicht",
-  "config.stalkingVanishingDelayConfig.setting2": "0.5 Sekunden",
+  "config.stalkingVanishingDelayConfig.description": "Stellt ein wie lange es dauert bis Herobrine beim Beobachten des Spielers erwischt wurde.",
+  "config.stalkingVanishingDelayConfig.setting1": "Gar nicht",
+  "config.stalkingVanishingDelayConfig.setting2": "0,5 Sekunden",
   "config.stalkingVanishingDelayConfig.setting3": "1 Sekunde",
-  "config.stalkingVanishingDelayConfig.setting4": "1.5 Sekunden",
+  "config.stalkingVanishingDelayConfig.setting4": "1,5 Sekunden",
   "config.stalkingVanishingDelayConfig.setting5": "2 Sekunden",
 
   "config.noSleepConfig.title": "Kein Schlaf",
-  "config.noSleepConfig.description": "Stellt ein ob Herobrine dich vom Schlaf abhält wenn er in der Nähe ist. (Funktioniert nicht auf Freidlich.)",
+  "config.noSleepConfig.description": "Stellt ein ob Herobrine dich vom Schlaf abhält wenn er in der Nähe ist. (Funktioniert nicht auf Friedlich.)",
 
   "config.dreadfulDonationConfig.title": "Furchtbare Spende",
-  "config.dreadfulDonationConfig.description": "Stellt ein ob Herobrine Geschenke in deine Truhen hinterlässt. (Kann passieren bevor die 3Tage rum sind, oder ein Schrein gebaut  wurde. Ein Versuch pro in-game day.)",
+  "config.dreadfulDonationConfig.description": "Stellt ein ob Herobrine Geschenke in deine Truhen hinterlässt. (Kann passieren bevor die 3 Tage vorüber sind, oder ein Schrein gebaut wurde. (Ein Versuch pro in-game day)",
   
 
 
   "config.crimsonCurseConfig.title": "Herobrines Fluch",
-  "config.crimsonCurseConfig.description": "Stellt ein ob Herobrine deine Fakeln zu Redstone-Fakeln und deine Laternen zu blauen Laternen ändert. (Ein Versuch pro in-game day)",
+  "config.crimsonCurseConfig.description": "Stellt ein ob Herobrine deine Fackeln zu Redstone-Fackeln und deine Laternen zu blauen Laternen ändert. (Ein Versuch pro in-game day)",
 
-  "config.OGshrineMechanicConfig.title": "OG Schrein MechaniK",
-  "config.OGshrineMechanicConfig.description": "Stellt ein ob Blitze entsehen wenn man Herobrines Schrein enzündet.",
+  "config.OGshrineMechanicConfig.title": "OG Schrein Mechanik",
+  "config.OGshrineMechanicConfig.description": "Stellt ein ob Blitze entstehen wenn man Herobrines Schrein entzündet.",
 
   "config.nightmareMechanicConfig.title": "Albtraum Mechanik",
   "config.nightmareMechanicConfig.description": "Stellt ein ob Herobrine an deinen Bett erscheinen kann wenn du Schlafen gehen möchtest.",
@@ -120,12 +120,12 @@
   "config.chilledCandlesConfig.description": "Stellt ein ob Herobrine Kerzen auspusten kann.",
 
   "config.sinisterSignsConfig.title": "Düstere Schilder",
-  "config.sinisterSignsConfig.description": "Stellt ein ob Herobrine beschreibene Schilder whärend bestimmten Ereignissen hinterlässt.",
+  "config.sinisterSignsConfig.description": "Stellt ein ob Herobrine beschriebene Schilder während bestimmten Ereignissen hinterlässt.",
   
 
 
   "config.sightingSenseConfig.title": "Sichtungsgefühl",
-  "config.sightingSenseConfig.description": "Stellt ein ob Haustiere auf Herobrine reagieren wenn er in der nähe ist.",
+  "config.sightingSenseConfig.description": "Stellt ein ob Haustiere auf Herobrine reagieren wenn er in der Nähe ist.",
 
   "config.nameTagConfig.title": "Namensschild",
   "config.nameTagConfig.description": "Stellt ein ob Herobrine ein Namensschild trägt wenn er auftaucht.",
@@ -139,7 +139,7 @@
   "config.advancementsConfig.title": "Erfolge",
   "config.advancementsConfig.description": "Stellt ein ob der Spieler die From the Fog Erfolge bekommt. (ERFOLGE GEHEN NACH ABSCHALTEN DER FUNKTION VERLOREN!!!)",
 
-  "config.fearfulFootstepsConfig.title": "Angsbereitende Schritte",
+  "config.fearfulFootstepsConfig.title": "Angstbereitende Schritte",
   "config.fearfulFootstepsConfig.description": "Stellt ein ob Herobrine zum Spieler rennt und Schritte erzeugt.",
 
 
@@ -162,7 +162,7 @@
   "config.skinLibrary.zombieSkin.title": "Zombie",
   "config.skinLibrary.nullifiedSkin.title": "Nullified",
   "config.skinLibrary.facelessSkin.title": "Gesichtsloser",
-  "config.skinLibrary.distortedSkin.title": "Verzert",
+  "config.skinLibrary.distortedSkin.title": "Verzerrt",
   "config.skinLibrary.alexSkin.title": "Alex",
   "config.skinLibrary.lickSkin.title": "Lick",
   "config.skinLibrary.fallenKingdomSkin.title": "Fallen Kingdom",
@@ -246,13 +246,13 @@
 
 
   "advancements.ftf.root.title": "From The Fog",
-  "advancements.ftf.root.description": "Du kannst ihn nicht sehen, aber ich verpsreche ich sehe dich...",
+  "advancements.ftf.root.description": "Du kannst mich nicht sehen aber ich verspreche ich sehe dich...",
 
-  "advancements.ftf.built_shrine.title": "Du Weist Nicht Was Du Getann Hast...",
+  "advancements.ftf.built_shrine.title": "Du weißt nicht was Du getan hast...",
   "advancements.ftf.built_shrine.description": "Baue einen Schrein für Herobrine.",
 
   "advancements.ftf.jumpscared.title": "Hinter Dir...",
-  "advancements.ftf.jumpscared.description": "Bekomme einen Jumpscare von Herobrinn, zum ertsen mal.",
+  "advancements.ftf.jumpscared.description": "Bekomme einen Jumpscare von Herobrine zum ersten Mal.",
 
   "advancements.ftf.found_herobrine_structure.title": "Ich spiele doch alleine, oder?",
   "advancements.ftf.found_herobrine_structure.description": "Entdecke eine Struktur von Herobrine.",
@@ -260,17 +260,17 @@
   "advancements.ftf.herobrine_griddy.title": "WAS?!",
   "advancements.ftf.herobrine_griddy.description": "Sehe Herobrine tanzen, aber so richtig.",
 
-  "advancements.ftf.be_the_librarian.title": "Ein Licht im dunkeln...",
+  "advancements.ftf.be_the_librarian.title": "Ein Licht im Dunkeln...",
   "advancements.ftf.be_the_librarian.description": "sei The Librarian.",
 
   "advancements.ftf.liberty_lantern.title": "Hallo Liberty.",
-  "advancements.ftf.liberty_lantern.description": "Gib einem baluen Geist eine Laterne.",
+  "advancements.ftf.liberty_lantern.description": "Gib einem blauen Geist eine Laterne.",
 
   "advancements.ftf.dog_growl.title": "Was hast du Junge?",
   "advancements.ftf.dog_growl.description": "Lass deine Hund auf Herobrine reagieren.",
 
   "advancements.ftf.have_a_nightmare.title": "Nur ein Albtraum... Oder?",
-  "advancements.ftf.have_a_nightmare.description": "HAb zum ertsen Mal einen Albtraum.",
+  "advancements.ftf.have_a_nightmare.description": "Hab zum ersten Mal einen Albtraum.",
 
   "advancements.ftf.found_logless_tree.title": "Daran kann ich mich nicht erinnern.",
   "advancements.ftf.found_logless_tree.description": "Entdecke einen Baum den du nicht gefällt hast.",
@@ -279,7 +279,7 @@
   "advancements.ftf.found_leafless_grove.description": "Endecke einen Blattlosen Baum Hain.",
 
   "advancements.ftf.named_dd_item.title": "Es versucht zu kommunizieren...",
-  "advancements.ftf.named_dd_item.description": "Finde eine Furchtabre Spende mit Namen.",
+  "advancements.ftf.named_dd_item.description": "Finde eine furchtbare Spende mit Namen.",
 
   "advancements.ftf.spotted_herobrine.title": "Ich sollte Kevin anrufen!",
   "advancements.ftf.spotted_herobrine.description": "Entdecke Herobrine zum ersten Mal.",
@@ -291,28 +291,28 @@
   "advancements.ftf.ghost_miner.description": "Höre den Geister Bergarbeiter.",
 
   "advancements.ftf.take_gm_torch.title": "Das ist jetzt meins!",
-  "advancements.ftf.take_gm_torch.description": "Nimm eine Fakel des Geister Bergarbeiters.",
+  "advancements.ftf.take_gm_torch.description": "Nimm eine Fackel des Geister Bergarbeiters.",
 
-  "advancements.ftf.dreadful_donation.title": "Wer hat das hier hingetan?",
+  "advancements.ftf.dreadful_donation.title": "Wer hat das hier hin getan?",
   "advancements.ftf.dreadful_donation.description": "Bekomme eine Furchtbare Spende von Herobrine.",
 
   "advancements.ftf.didnt_notice_herobrine.title": "Ich beobachte dich...",
   "advancements.ftf.didnt_notice_herobrine.description": "Werde aus der Ferne beobachtet ohne es zu bemerken.",
 
   "advancements.ftf.survive_3_days.title": "Verfolgt mich wer?",
-  "advancements.ftf.survive_3_days.description": "Überlebe 3Tage.",
+  "advancements.ftf.survive_3_days.description": "Überlebe 3 Tage.",
 
   "advancements.ftf.survive_10_days.title": "Ich werde verfolgt...",
-  "advancements.ftf.survive_10_days.description": "Überleb 10Tage.",
+  "advancements.ftf.survive_10_days.description": "Überlebe 10 Tage.",
 
-  "advancements.ftf.survive_50_days.title": "Lass mich in Freiden.",
-  "advancements.ftf.survive_50_days.description": "Überlebe 50Tage.",
+  "advancements.ftf.survive_50_days.title": "Lass mich in Frieden.",
+  "advancements.ftf.survive_50_days.description": "Überlebe 50 Tage.",
 
   "advancements.ftf.survive_100_days.title": "Ich muss mich verstecken.",
-  "advancements.ftf.survive_100_days.description": "Überlebe 100Tage.",
+  "advancements.ftf.survive_100_days.description": "Überlebe 100 Tage.",
 
-  "advancements.ftf.survive_200_days.title": "Ich bin ein Star, HOLLT MICH HIER RAUS!",
-  "advancements.ftf.survive_200_days.description": "Überlebe 200Tage.",
+  "advancements.ftf.survive_200_days.title": "Ich bin ein Star, HOLT MICH HIER RAUS!",
+  "advancements.ftf.survive_200_days.description": "Überlebe 200 Tage.",
 
   "advancements.ftf.found_torch_tunnel.title": "Ich gehe da nicht runter.",
   "advancements.ftf.found_torch_tunnel.description": "Entdecke einen Tunnel, der von Herobrine gegraben wurde.",
