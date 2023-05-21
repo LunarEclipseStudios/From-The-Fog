@@ -1,4 +1,4 @@
-![logo](https://www.lunareclipse.studio/assets/img/from-the-fog/logo.png)
+![logo](https://cdn.lunareclipse.studio/img/projects/from-the-fog/banner-text.webp)
 
 ## **Mod/Datapack for Minecraft: Java Edition**
 
@@ -6,12 +6,15 @@
 
 Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.
 
-![1_new](https://user-images.githubusercontent.com/26262092/200358526-35bb203a-2f79-4944-a958-9c9369222562.png)
-![2_new](https://user-images.githubusercontent.com/26262092/200358537-bcac5863-c8a0-44ce-9bcc-e323fe10e969.png)
-![3_new](https://user-images.githubusercontent.com/26262092/200358553-6781d017-794d-4a5a-be53-d4068598b9ce.png)
-![4_new](https://user-images.githubusercontent.com/26262092/200358561-e73234c8-632f-4c2b-9056-b850cdcf7438.png)
-![5_new](https://lunareclipse.studio/assets/img/from-the-fog/img/5_new.png)
-![6_new](https://user-images.githubusercontent.com/26262092/200358582-4e74c2f9-85c4-495b-b6b9-9ce012e4639a.png)
+![banner](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/banner.webp)
+![forest-encounter](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/forest-encounter.webp)
+![window-watcher](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/window-watcher.webp)
+![new-grove](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/new-grove.webp)
+![shrine-surprise](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/shrine-suprise.webp)
+![unkown-entity-err](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/unknown-entity-err.webp)
+![more-skins!](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/more-skins!.webp)
+![ocean-sand-pyramid](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/ocean-sand-pyramid.webp)
+![2x2-tunnel](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/2x2-tunnel.webp)
 
 
 ## **Installation**
