@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Konfigurace [1/5]",
-  "config.page2.progress": "Konfigurace [2/5]",
-  "config.page3.progress": "Konfigurace [3/5]",
-  "config.page4.progress": "Konfigurace [4/5]",
-  "config.page5.progress": "Konfigurace [5/5]",
+  "config.page1.progress": "Konfigurace [1/6]",
+  "config.page2.progress": "Konfigurace [2/6]",
+  "config.page3.progress": "Konfigurace [3/6]",
+  "config.page4.progress": "Konfigurace [4/6]",
+  "config.page5.progress": "Konfigurace [5/6]",
+  "config.page6.progress": "Konfigurace [6/6]",
   "config.skin_library.progress": "Konfigurace [Knihovna Skinů]",
 
   "config.page1.title": "Stránka 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Stránka 3",
   "config.page4.title": "Stránka 4",
   "config.page5.title": "Stránka 5",
+  "config.page6.title": "Stránka 6",
   "config.sss.title": "Super Skryté Nastavení",
   "config.pages.title": "Stránky",
 
@@ -31,16 +33,13 @@
 
   "config.dayDelayConfig.title": "Prodleva Strašení",
   "config.dayDelayConfig.description": "Změní prodlevu, kdy začne Herobrine strašit (herní dny).",
-  "config.dayDelayConfig.setting1": "Vypnuto",
-  "config.dayDelayConfig.setting2": "Bez prodlevy",
-  "config.dayDelayConfig.setting3": "1 Den",
-  "config.dayDelayConfig.setting4": "2 Dny",
-  "config.dayDelayConfig.setting5": "3 Dny",
+  "config.dayDelayConfig.setting1": "Zmenšit prodlevu",
+  "config.dayDelayConfig.setting2": "Zvětšit prodlevu",
 
-  "config.ghostDoorConfig.title": "Dveře Ducha",
+  "config.ghostDoorConfig.title": "Strašidelné dveře",
   "config.ghostDoorConfig.description": "Změní, jestli může Herobrine otevírat dveře.",
 
-  "config.ghostMineConfig.title": "Duch Horník",
+  "config.ghostMineConfig.title": "Strašidelný horník",
   "config.ghostMineConfig.description": "Změní, jestli vedle tebe může v dolech Herobrine těžit",
   
   "config.creepingConfig.title": "Mechanika Plížení",
@@ -142,6 +141,18 @@
   "config.fearfulFootstepsConfig.title": "Strašidelné Kroky",
   "config.fearfulFootstepsConfig.description": "Změní, jestli bude Herobrine běhat za hráčem a dělat kroky.",
 
+  "config.shrineSupriseConfig.title": "Překvapení totemu",
+  "config.shrineSupriseConfig.description": "Změní, jestli se při zapálení totemu zjeví Herobrine",
+    
+
+
+  "config.lurkingConfig.title": "Plížící mechanika",
+  "config.lurkingConfig.description": "Změní, jestli bude Herobrine z dálky pozorovat hráče.",
+
+  "config.autoConfigDisable.title": "Vzít zpět kontrolu",
+  "config.autoConfigEnable.title": "Předat kontrolu",
+  "config.autoConfig.description": "Změní, jestli může Herobrine měnit nastavení.",
+
 
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
@@ -151,7 +162,7 @@
 
   "config.skinLibrary.randomizeSkinsConfig.title": "Náhodné Skiny",
   "config.skinLibrary.builtInSkins.title": "Skiny",
-  "config.skinLibrary.defaultSkin.title": "Defaultní",
+  "config.skinLibrary.defaultSkin.title": "Výchozí",
   "config.skinLibrary.classicSkin.title": "Klasický",
   "config.skinLibrary.blackEyesSkin.title": "Black Eyes",
   "config.skinLibrary.entity303Skin.title": "Entity 303",
@@ -173,6 +184,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Lumbering Jack",
   "config.skinLibrary.smileSkin.title": "Smile",
   "config.skinLibrary.theGrimreaperSkin.title": "The Grimreaper",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "White Eyes (Klasický)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "The White Pumpkin",
 
   "watchingSkin.customSkinPack.name": "Vlastní Skiny",
   "watchingSkin.customSkin1.name": "Vlastní Skin 1",
@@ -319,5 +332,23 @@
 
 
 
-  "subtitle.message.warning": "Sleduju tě..."
+  "subtitle.message.warning": "Sleduju tě...",
+
+
+
+  "chat.cleanup.execute.statement": "Odebírání Herobine.",
+  "chat.cleanup.failure.statement": "Chyba při odebírání Herobrina!",
+  "chat.cleanup.failure.description": "Momentálně se na tomto světě nenachází žádný Herobrine!",
+  "chat.cleanup.success.statement": "Úspěšně odebrání všichni Herobrine!",
+
+  "chat.debug_mode.enable.statement": "Zapnutí ladícího režimu bylo úspěšný!",
+  "chat.debug_mode.disable.statement": "Vypnutí ladícího režimu bylo úspěšné!",
+
+  "chat.default_config.execute.statement": "Úspěšně obnoveno defaultní nastavení!",
+
+  "chat.sighting_summons.tutorial.statement": "Tutorial příkazů",
+  "chat.sighting_summons.creeping.tutorial.description": "Tento příkaz zapne plížící mechaniku a Herobrine se objeví za hráčem jakmile je spuštěn.",
+  "chat.sighting_summons.stalking.tutorial.description": "Tento příkaz zapne stalkovací mechaniku a Herobrine se objeví někde kolem hráče jakmile je spuštěn. Herobrine se nemusí objevit pokud je jeho spawn point nastavený v dohledu hráče",
+  "chat.sighting_summons.nightmare.tutorial.description": "Tento příkaz zapne mechaniku noční můry a Herobrine se objeví při nohou hráče jakmile je spuštěn. Herobrine se nezjeví pokud hráč není v posteli.",
+  "chat.sighting_summons.lurking.tutorial.description": "Tento příkaz změní plížící mechaniku a Herobrine se zjeví v dálce kolem hráče jakmile je spuštěn. Herobrine se nemusí objevit pokud je jeho spawn point v okolí 40 bloků od hráče."
 }

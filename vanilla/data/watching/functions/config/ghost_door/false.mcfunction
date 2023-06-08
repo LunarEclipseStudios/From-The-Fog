@@ -1,2 +1,2 @@
 scoreboard players set ghostDoorConfig ftf.configOptions 0
-function fromthefog:admin/config
+execute unless entity @s[tag=defautlingConfig] run function fromthefog:admin/config

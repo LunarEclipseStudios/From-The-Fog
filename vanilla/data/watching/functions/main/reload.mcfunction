@@ -49,6 +49,7 @@ scoreboard objectives add ftf.leftLegPos dummy
 scoreboard objectives add ftf.crash dummy
 scoreboard objectives add ftf.openedChest custom:open_chest
 scoreboard objectives add ftf.torchDayPassed dummy
+scoreboard objectives add ftf.autoConfigDaysPassed dummy
 scoreboard objectives add ftf.chilledCandlesDayPassed dummy
 scoreboard objectives add ftf.crimsonCurseDayPassed dummy
 scoreboard objectives add ftf.giftDayPassed dummy
@@ -58,6 +59,7 @@ scoreboard objectives add ftf.LBSpecialEvent1 dummy
 scoreboard objectives add ftf.ghostMinerEvents dummy
 scoreboard objectives add ftf.randomSkinSkipAmount dummy
 scoreboard objectives add ftf.timePlayed custom:play_time
+scoreboard objectives add ftf.raycastLimit dummy
 
 scoreboard objectives add ftf.configOptions dummy
 
@@ -67,6 +69,7 @@ schedule function watching:events/scheduled/burning_base_day_passed 1d
 schedule function watching:events/scheduled/herobrine_gift_day_passed 1d
 schedule function watching:events/scheduled/crimson_curse_day_passed 1d
 schedule function watching:events/scheduled/chilled_candles_day_passed 1d
+schedule function watching:events/scheduled/auto_config_day_passed 1d
 
 #configTransfer
 scoreboard players operation crashConfig ftf.configOptions = true crashConfig
@@ -98,10 +101,11 @@ scoreboard players operation lurkingLanguageConfig ftf.configOptions = lang lurk
 
 #configDefaults
 execute unless score crashConfig ftf.configOptions matches 0.. run function watching:config/crash/false
-execute unless score dayDelayConfig ftf.configOptions matches -1.. run function watching:config/start_delay/3
+execute unless score dayDelayConfig ftf.configOptions matches -1.. run function watching:config/start_delay/reset
 execute unless score ghostDoorConfig ftf.configOptions matches 0.. run function watching:config/ghost_door/true
 execute unless score creepingConfig ftf.configOptions matches 0.. run function watching:config/creeping/true
 execute unless score stalkingConfig ftf.configOptions matches 0.. run function watching:config/stalking/true
+execute unless score lurkingConfig ftf.configOptions matches 0.. run function watching:config/lurking/true
 execute unless score ghostMineConfig ftf.configOptions matches 0.. run function watching:config/ghost_mine/true
 execute unless score poofingTorchesConfig ftf.configOptions matches 0.. run function watching:config/disappearing_torches/true
 execute unless score burningBaseConfig ftf.configOptions matches 0.. run function watching:config/burning_base/false
@@ -129,6 +133,8 @@ execute unless score nameTagConfig ftf.configOptions matches 0.. run function wa
 execute unless score rekindlingShrineConfig ftf.configOptions matches 0.. run function watching:config/rekindling_shrine/true
 execute unless score advancementsConfig ftf.configOptions matches 0.. run function watching:config/advancements/false
 execute unless score fearfulFootstepsConfig ftf.configOptions matches 0.. run function watching:config/fearful_footsteps/true
+execute unless score shrineSupriseConfig ftf.configOptions matches 0.. run function watching:config/shrine_suprise/false
+execute unless score autoConfig ftf.configOptions matches 0.. run function watching:config/autoconfig/disable
 
 #tempRemoveOldConfigScoreboards
 scoreboard objectives remove crashConfig

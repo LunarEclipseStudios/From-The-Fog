@@ -179,6 +179,22 @@ execute if score herobrineSkinConfig ftf.configOptions matches 22 run item repla
 execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350157}
 execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350158}
 execute if score herobrineSkinConfig ftf.configOptions matches 22 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350159}
+#whiteEyesClassicSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350160}
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350161}
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350162}
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350163}
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350164}
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350165}
+execute if score herobrineSkinConfig ftf.configOptions matches 23 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350166}
+#theWhitePumpkinSkin
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=head] armor.head with disc_fragment_5{CustomModelData: 1350167}
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with disc_fragment_5{CustomModelData: 1350168}
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with disc_fragment_5{CustomModelData: 1350169}
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350170}
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350171}
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350172}
+execute if score herobrineSkinConfig ftf.configOptions matches 24 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350173}
 
 
 
@@ -266,6 +282,8 @@ execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSki
 execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 20 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.lumberingJackSkin.title"}]'}
 execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 21 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":"Herobrine"}]'}
 execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 22 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.theGrimreaperSkin.title"}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 23 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"text":""}]'}
+execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 24 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"config.skinLibrary.theWhitePumpkinSkin.title"}]'}
 
 
 execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches -1 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'["",{"translate":"watchingSkin.customSkin1.name"}]'}

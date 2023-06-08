@@ -4,3 +4,6 @@ execute if score stalkingConfig ftf.configOptions matches 1 if predicate watchin
 #creepingSightingRules
 execute if score creepingConfig ftf.configOptions matches 1 unless predicate watching:checks/is_night_check if predicate watching:chances/sighting_chances/uncommon_sighting_chance_day as @r at @s unless entity @e[tag=herobrineEntity] run function watching:events/sightings/creeping
 execute if score creepingConfig ftf.configOptions matches 1 if predicate watching:checks/is_night_check if predicate watching:chances/sighting_chances/uncommon_sighting_chance_night as @r at @s unless entity @e[tag=herobrineEntity] run function watching:events/sightings/creeping
+#lurkingSightingRules
+execute if score lurkingConfig ftf.configOptions matches 1 unless predicate watching:checks/is_night_check if predicate watching:chances/sighting_chances/uncommon_sighting_chance_day as @r at @s unless entity @e[tag=herobrineEntity] run function watching:events/sightings/lurking
+execute if score lurkingConfig ftf.configOptions matches 1 if predicate watching:checks/is_night_check if predicate watching:chances/sighting_chances/uncommon_sighting_chance_night as @r at @s unless entity @e[tag=herobrineEntity] run function watching:events/sightings/lurking

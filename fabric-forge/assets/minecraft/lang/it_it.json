@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Configurazione [1/5]",
-  "config.page2.progress": "Configurazione [2/5]",
-  "config.page3.progress": "Configurazione [3/5]",
-  "config.page4.progress": "Configurazione [4/5]",
-  "config.page5.progress": "Configurazione [5/5]",
+  "config.page1.progress": "Configurazione [1/6]",
+  "config.page2.progress": "Configurazione [2/6]",
+  "config.page3.progress": "Configurazione [3/6]",
+  "config.page4.progress": "Configurazione [4/6]",
+  "config.page5.progress": "Configurazione [5/6]",
+  "config.page6.progress": "Configurazione [6/6]",
   "config.skin_library.progress": "Configurazione [Libreria skin]",
 
   "config.page1.title": "Pagina 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Pagina 3",
   "config.page4.title": "Pagina 4",
   "config.page5.title": "Pagina 5",
+  "config.page6.title": "Pagina 6",
   "config.sss.title": "Impostazioni Super Segrete",
   "config.pages.title": "Pagine",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "Inizio Perseguitazione",
   "config.dayDelayConfig.description": "Cambia quanto tempo ci mette Herobrine per iniziare la perseguitazione (Giorni del gioco).",
-  "config.dayDelayConfig.setting1": "Off",
-  "config.dayDelayConfig.setting2": "Subito",
-  "config.dayDelayConfig.setting3": "1 Giorno",
-  "config.dayDelayConfig.setting4": "2 Giorni",
-  "config.dayDelayConfig.setting5": "3 Giorni",
+  "config.dayDelayConfig.setting1": "Riduci Ritardo",
+  "config.dayDelayConfig.setting2": "Aumenta Ritardo",
 
   "config.ghostDoorConfig.title": "Porte Fantasma",
   "config.ghostDoorConfig.description": "Cambia se Herobrine aprirà le porte.",
@@ -142,6 +141,18 @@
   "config.fearfulFootstepsConfig.title": "Passi Paurosi",
   "config.fearfulFootstepsConfig.description": "Cambia se Herobrine correrà dietro al giocatore creando suoni di passi.",
 
+  "config.shrineSupriseConfig.title": "Sorpresa del Santuario",
+  "config.shrineSupriseConfig.description": "Modifica se Herobrine apparirà o meno sulla cima del santuario quando viene acceso.",
+  
+  
+  
+  "config.lurkingConfig.title": "Meccanica dell'Appostamento",
+  "config.lurkingConfig.description": "Modifica se Herobrine si insinuerà attorno al giocatore osservando da una distanza molto lontana.",  
+  
+  "config.autoConfigDisable.title": "Riprendi il Controllo",
+  "config.autoConfigEnable.title": "Dagli il Controllo",
+  "config.autoConfig.description": "Modifica se Herobrine può o meno modificare la configurazione.",
+
 
 
   "config.hittingThatGriddyConfig.title": "Hittare il Griddy",
@@ -173,6 +184,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Boscaiolo",
   "config.skinLibrary.smileSkin.title": "Sorriso",
   "config.skinLibrary.theGrimreaperSkin.title": "Il Mietitore",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Occhi Bianchi (Classico)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "La Zucca Bianca",
 
   "watchingSkin.customSkinPack.name": "Skin Personalizzata",
   "watchingSkin.customSkin1.name": "Skin Personalizzata 1",
@@ -319,5 +332,23 @@
 
 
 
-  "subtitle.message.warning": "Sto Guardando..."
+  "subtitle.message.warning": "Sto Guardando...",
+
+
+
+  "chat.cleanup.execute.statement": "Rimozione di tutti gli Herobrine.",
+"chat.cleanup.failure.statement": "Impossibile rimuovere Herobrine!",
+"chat.cleanup.failure.description": "Attualmente non ci sono Herobrine caricati in questo mondo!",
+"chat.cleanup.success.statement": "Rimozione di tutti gli Herobrine completata con successo!",
+
+"chat.debug_mode.enable.statement": "Debug Mode abilitata con successo!",
+"chat.debug_mode.disable.statement": "Debug Mode disabilitata con successo!",
+
+"chat.default_config.execute.statement": "Configurazione predefinita ripristinata con successo!",
+
+"chat.sighting_summons.tutorial.statement": "Tutorial Comandi",
+"chat.sighting_summons.creeping.tutorial.description": "Questo comando attiva il meccanismo di insinuazione e fa apparire Herobrine dietro il giocatore su cui viene eseguito.",
+"chat.sighting_summons.stalking.tutorial.description": "Questo comando attiva il meccanismo di pedinamento e fa apparire Herobrine da qualche parte intorno al giocatore su cui viene eseguito. Herobrine potrebbe non apparire se il suo punto di spawn viene considerato in linea di vista di un altro giocatore.",
+"chat.sighting_summons.nightmare.tutorial.description": "Questo comando attiva il meccanismo dell'incubo e fa apparire Herobrine ai piedi del letto del giocatore su cui viene eseguito. Herobrine non apparirà se il giocatore non è a letto.",
+"chat.sighting_summons.lurking.tutorial.description": "Questo comando attiva il meccanismo dell'insidia e fa apparire Herobrine da qualche parte lontano in lontananza intorno al giocatore su cui viene eseguito. Herobrine potrebbe non apparire se il suo punto di spawn viene considerato entro 40 blocchi da un giocatore."
 }

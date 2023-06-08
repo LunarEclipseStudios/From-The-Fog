@@ -1,2 +1,2 @@
 scoreboard players set jumpscareConfig ftf.configOptions 0
-function watching:config/pages/3
+execute unless entity @s[tag=defautlingConfig] run function watching:config/pages/3

@@ -2,6 +2,7 @@
  "replace": false,
  "values": [
 "#minecraft:leaves",
+  "minecraft:fire",
   "minecraft:air",
   "minecraft:cave_air",
   "minecraft:oak_sapling",

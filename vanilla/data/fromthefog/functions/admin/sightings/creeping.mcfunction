@@ -1,3 +1,3 @@
-execute unless entity @s[tag=creepingTutorial] run tellraw @s ["",{"text":"Command Tutorial:","color": "red","underlined": true},{"text": " This command activates the creeping mechanic and spawns Herobrine behind the player it is executed on.","color": "gray"}]
+execute unless entity @s[tag=creepingTutorial] run tellraw @s ["",{"translate":"chat.sighting_summons.tutorial.statement","color": "red","underlined": true},{"text":":","color": "red","underlined": true}," ",{"translate": "chat.sighting_summons.creeping.tutorial.description","color": "gray"}]
 tag @s add creepingTutorial
 function watching:events/sightings/creeping

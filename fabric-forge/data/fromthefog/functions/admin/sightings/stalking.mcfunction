@@ -1,3 +1,3 @@
-execute unless entity @s[tag=stalkingTutorial] run tellraw @s ["",{"text":"Command Tutorial:","color": "red","underlined": true},{"text": " This command activates the stalking mechanic and spawns Herobrine somewhere around the player it is executed on. Herobrine may not spawn if his spawnpoint is determined to be in the line of sight another player.","color": "gray"}]
+execute unless entity @s[tag=stalkingTutorial] run tellraw @s ["",{"translate":"chat.sighting_summons.tutorial.statement","color": "red","underlined": true},{"text":":","color": "red","underlined": true}," ",{"translate": "chat.sighting_summons.stalking.tutorial.description","color": "gray"}]
 tag @s add stalkingTutorial
 function watching:events/sightings/stalking

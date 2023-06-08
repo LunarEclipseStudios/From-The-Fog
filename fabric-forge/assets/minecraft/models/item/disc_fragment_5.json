@@ -980,6 +980,92 @@
 			"model": "watching:item/herobrine/grimreaper/right_leg"
 		},
 
+		{
+			"predicate": {
+				"custom_model_data": 1350160
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350161
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350162
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350163
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350164
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350165
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350166
+			},
+			"model": "watching:item/herobrine/white_eyes_classic/right_leg"
+		},
+
+		{
+			"predicate": {
+				"custom_model_data": 1350167
+			},
+			"model": "watching:item/herobrine/white_pumpkin/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350168
+			},
+			"model": "watching:item/herobrine/white_pumpkin/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350169
+			},
+			"model": "watching:item/herobrine/white_pumpkin/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350170
+			},
+			"model": "watching:item/herobrine/white_pumpkin/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350171
+			},
+			"model": "watching:item/herobrine/white_pumpkin/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350172
+			},
+			"model": "watching:item/herobrine/white_pumpkin/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1350173
+			},
+			"model": "watching:item/herobrine/white_pumpkin/right_leg"
+		},
+
 
 
 

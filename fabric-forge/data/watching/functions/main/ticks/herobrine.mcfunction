@@ -29,19 +29,25 @@ execute if entity @s[type=armor_stand,tag=spread] unless entity @e[type=armor_st
 execute if entity @s[type=armor_stand,tag=spread] if block ~ ~ ~ #watching:liquid run function watching:events/general/kill/kill
 
 #creepingSpawnedTooClose
-execute if entity @s[type=armor_stand,tag=spread,tag=!nightmare] unless entity @e[type=armor_stand,tag=move] if entity @a[distance=..3] run function watching:events/general/kill/kill
+execute if entity @s[type=armor_stand,tag=spread,tag=!nightmare,tag=!shrine] unless entity @e[type=armor_stand,tag=move] if entity @a[distance=..3] run function watching:events/general/kill/kill
 
 #stalkingRangeLimit
 execute if entity @s[type=armor_stand,tag=spread,tag=stalking] if entity @a[distance=..20,gamemode=!spectator] run function watching:events/general/kill/kill
+
+#lurkingRangeLimit
+execute if entity @s[type=armor_stand,tag=spread,tag=lurking,tag=!turnAround] as @a[distance=..80,gamemode=!spectator] run function watching:events/sightings/spotted
+execute if entity @s[type=armor_stand,tag=spread,tag=lurking] if entity @a[distance=..40,gamemode=!spectator] run function watching:events/general/kill/kill
 
 #distanceLimitCreeping
 execute as @s[type=armor_stand,tag=spread,tag=creeping] at @s unless entity @a[distance=..16] run function watching:events/general/kill/kill
 #distanceLimitStalking
 execute unless entity @e[type=armor_stand,tag=runAway] as @s[type=armor_stand,tag=spread,tag=stalking] at @s unless entity @a[distance=..80] run function watching:events/general/kill/kill
+#distanceLimitLurking
+execute unless entity @e[type=armor_stand,tag=runAway] as @s[type=armor_stand,tag=spread,tag=lurking] at @s unless entity @a[distance=..150] run function watching:events/general/kill/kill
 
 #lifeLimit
 scoreboard players add @s[type=armor_stand,tag=spread,tag=!seen] ftf.lifeLimit 1
-execute as @s[type=armor_stand,tag=spread] at @s if score @s ftf.lifeLimit matches 600.. run function watching:events/sightings/despawn
+execute as @s[type=armor_stand,tag=spread,tag=!runAway] at @s if score @s ftf.lifeLimit matches 600.. run function watching:events/sightings/despawn
 
 #removeStrayHerobrineModel
 execute unless entity @e[type=armor_stand,tag=runAway] as @s[tag=herobrineModel] at @s unless entity @e[type=armor_stand,tag=spread,distance=..3] run function watching:events/general/kill/kill
@@ -72,3 +78,6 @@ execute if entity @s[tag=move,tag=runAway] run function watching:events/sighting
 
 #turnAround
 execute if entity @s[tag=turnAround] run function watching:events/sightings/spotted/turn_around
+
+#shrineHerobrineKill
+execute if entity @s[tag=shrine] if entity @p[distance=..1] run function watching:events/general/kill/kill

@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Config [1/5]",
-  "config.page2.progress": "Config [2/5]",
-  "config.page3.progress": "Config [3/5]",
-  "config.page4.progress": "Config [4/5]",
-  "config.page5.progress": "Config [5/5]",
+  "config.page1.progress": "Config [1/6]",
+  "config.page2.progress": "Config [2/6]",
+  "config.page3.progress": "Config [3/6]",
+  "config.page4.progress": "Config [4/6]",
+  "config.page5.progress": "Config [5/6]",
+  "config.page6.progress": "Config [6/6]",
   "config.skin_library.progress": "Config [bibliothèque de skin]",
 
   "config.page1.title": "Page 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Page 3",
   "config.page4.title": "Page 4",
   "config.page5.title": "Page 5",
+  "config.page6.title": "Page 6",
   "config.sss.title": "Super Secret Settings",
   "config.pages.title": "Pages",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "Délai de hantise",
   "config.dayDelayConfig.description": "Cette option change le délai pour définir combien de temps il faut à Herobrine avant de hanter majoritairement.",
-  "config.dayDelayConfig.setting1": "OFF",
-  "config.dayDelayConfig.setting2": "Aucun-délai",
-  "config.dayDelayConfig.setting3": "1 jour",
-  "config.dayDelayConfig.setting4": "2 jours",
-  "config.dayDelayConfig.setting5": "3 jours",
+  "config.dayDelayConfig.setting1": "Réduire le délai",
+  "config.dayDelayConfig.setting2": "Augmenter le délai",
 
   "config.ghostDoorConfig.title": "Portes Fantômes",
   "config.ghostDoorConfig.description": "Cette option change si Herobrine peut ouvrir des portes.",
@@ -141,6 +140,18 @@
   "config.fearfulFootstepsConfig.title": "Talonnage tériffiant",
   "config.fearfulFootstepsConfig.description": "Cette option change si Herobrine court jusqu'au joueur créant des sons de pas derrière le joueur",
 
+  "config.shrineSupriseConfig.title": "Suprise du sanctuaire",
+  "config.shrineSupriseConfig.description": "Détermine si Herobrine apparaîtra ou non au sommet du sanctuaire lorsqu'il est allumé.",
+    
+
+
+  "config.lurkingConfig.title": "Mécanique de l'embuscade",
+  "config.lurkingConfig.description": "Détermine si Herobrine se faufile ou non autour du joueur en observant depuis une très grande distance.",
+  
+  "config.autoConfigDisable.title": "Reprendre le contrôle",
+  "config.autoConfigEnable.title": "Lui donner le contrôle",
+  "config.autoConfig.description": "Modifie si Herobrine peut ou non modifier la configuration.",
+
 
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
@@ -172,6 +183,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Lumbering Jack",
   "config.skinLibrary.smileSkin.title": "Sourire",
   "config.skinLibrary.theGrimreaperSkin.title": "Le Grim Reaper",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "White Eyes (Classique)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "The White Pumpkin",
 
   "watchingSkin.customSkinPack.name": "Skin personalisées",
   "watchingSkin.customSkin1.name": "Skin personalisée 1",
@@ -318,5 +331,23 @@
   
 
 
-  "subtitle.message.warning": "Je t'observe.."
+  "subtitle.message.warning": "Je t'observe..",
+
+
+
+  "chat.cleanup.execute.statement": "Suppression de tous les Herobrines.",
+  "chat.cleanup.failure.statement": "Échec de la suppression de Herobrine !",
+  "chat.cleanup.failure.description": "Il n'y a actuellement aucun Herobrine chargé dans ce monde !",
+  "chat.cleanup.success.statement": "Suppression de tous les Herobrines effectuée avec succès !",
+  
+  "chat.debug_mode.enable.statement": "Mode de débogage activé avec succès !",
+  "chat.debug_mode.disable.statement": "Mode de débogage désactivé avec succès !",
+  
+  "chat.default_config.execute.statement": "Restauration réussie des configurations par défaut !",
+  
+  "chat.sighting_summons.tutorial.statement": "Tutoriel des commandes",
+  "chat.sighting_summons.creeping.tutorial.description": "Cette commande active le mécanisme de discrétion et fait apparaître Herobrine derrière le joueur sur lequel elle est exécutée.",
+  "chat.sighting_summons.stalking.tutorial.description": "Cette commande active le mécanisme de traque et fait apparaître Herobrine quelque part près du joueur sur lequel elle est exécutée. Herobrine peut ne pas apparaître si son point d'apparition est en ligne de mire d'un autre joueur.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Cette commande active le mécanisme de cauchemar et fait apparaître Herobrine au pied du lit du joueur sur lequel elle est exécutée. Herobrine ne va pas apparaître si le joueur n'est pas dans un lit.",
+  "chat.sighting_summons.lurking.tutorial.description": "Cette commande active le mécanisme de rôder et fait apparaître Herobrine quelque part au loin autour du joueur sur lequel elle est exécutée. Herobrine peut ne pas apparaître si son point d'apparition est à moins de 40 blocs d'un joueur."
 }

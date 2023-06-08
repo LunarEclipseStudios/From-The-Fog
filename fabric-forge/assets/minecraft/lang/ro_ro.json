@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Config [1/5]",
-  "config.page2.progress": "Config [2/5]",
-  "config.page3.progress": "Config [3/5]",
-  "config.page4.progress": "Config [4/5]",
-  "config.page5.progress": "Config [5/5]",
+  "config.page1.progress": "Config [1/6]",
+  "config.page2.progress": "Config [2/6]",
+  "config.page3.progress": "Config [3/6]",
+  "config.page4.progress": "Config [4/6]",
+  "config.page5.progress": "Config [5/6]",
+  "config.page6.progress": "Config [6/6]",
   "config.skin_library.progress": "Config [Biblioteca de Skin-uri]",
 
   "config.page1.title": "Pagina 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Pagina 3",
   "config.page4.title": "Pagina 4",
   "config.page5.title": "Pagina 5",
+  "config.page6.title": "Pagina 6",
   "config.sss.title": "Setări super secrete",
   "config.pages.title": "Pagini",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "întârzierea bântuirii",
   "config.dayDelayConfig.description": "Modifică cât să întârzie pentru ca Herobrine să înceapă bântuirea majoră(zile în joc).",
-  "config.dayDelayConfig.setting1": "Off",
-  "config.dayDelayConfig.setting2": "Fără întârziere",
-  "config.dayDelayConfig.setting3": "1 Zi",
-  "config.dayDelayConfig.setting4": "2 Zile",
-  "config.dayDelayConfig.setting5": "3 Zile",
+  "config.dayDelayConfig.setting1": "Reduce întârzierea",
+  "config.dayDelayConfig.setting2": "Crește întârzierea",
 
   "config.ghostDoorConfig.title": "Uși Fantome",
   "config.ghostDoorConfig.description": "Modifică dacă poate sau nu sa deschidă uși.",
@@ -141,6 +140,18 @@
   "config.fearfulFootstepsConfig.title": "Pași înfricoșători",
   "config.fearfulFootstepsConfig.description": "Schimbă dacă Herobrine poate fugii în spatele jucătorilor auzind pași sau nu.",
 
+  "config.shrineSupriseConfig.title": "surpriza altarului",
+  "config.shrineSupriseConfig.description": "Schimbă dacă Herobrine poate sau nu să apară pe vârful altarului când este aprins.",
+    
+
+
+  "config.lurkingConfig.title": "Mecanica pândirii",
+  "config.lurkingConfig.description": "Schimbă dacă Herobrine poate sau nu să pândească jucătorul din jurul său uitându-se dintr-o distanță foarte îndepărtată .",
+  
+  "config.autoConfigDisable.title": "Ia înapoi control",
+  "config.autoConfigEnable.title": "Dăi control",
+  "config.autoConfig.description": "Schimbă dacă Herobrine poate sau nu să schimbe config-ul.",
+
 
 
   "config.hittingThatGriddyConfig.title": "Lovind acel Griddy",
@@ -151,7 +162,7 @@
   "config.skinLibrary.randomizeSkinsConfig.title": "Skin-uri rendomizate",
   "config.skinLibrary.builtInSkins.title": "Skin-uri",
   "config.skinLibrary.defaultSkin.title": "Normal",
-  "config.skinLibrary.classicSkin.title": "Classic",
+  "config.skinLibrary.classicSkin.title": "Clasic",
   "config.skinLibrary.blackEyesSkin.title": "Ochi negrii",
   "config.skinLibrary.entity303Skin.title": "Entitatea 303",
   "config.skinLibrary.glitchSkin.title": "Eroare",
@@ -172,6 +183,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Jack lucrătorul",
   "config.skinLibrary.smileSkin.title": "Zâmbește",
   "config.skinLibrary.theGrimreaperSkin.title": "Grimreaper",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Ochi albi (Clasic)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "Dovleacul alb",
 
   "watchingSkin.customSkinPack.name": "Skin customizat",
   "watchingSkin.customSkin1.name": "Skin customizat 1",
@@ -318,5 +331,23 @@
 
 
 
-  "subtitle.message.warning": "Mă uit..."
+  "subtitle.message.warning": "Mă uit...",
+
+
+
+  "chat.cleanup.execute.statement": "Eliminând fiecare Herobrine.",
+  "chat.cleanup.failure.statement": "Eliminarea lui Herobrine a eșuat!",
+  "chat.cleanup.failure.description": "Nu este nici un Herobrine în momentul respectiv pe această hartă!",
+  "chat.cleanup.success.statement": "Eliminarea fiecărui Herobrine este un succes!",
+
+  "chat.debug_mode.enable.statement": "Modul depănare a fost activat cu succes!",
+  "chat.debug_mode.disable.statement": "Modul depănare a fost deactivat cu succes!",
+
+  "chat.default_config.execute.statement": "config-ul normal a fost restabilit cu succes!",
+
+  "chat.sighting_summons.tutorial.statement": "Tutorial-ul comenzilor",
+  "chat.sighting_summons.creeping.tutorial.description": "Această comandă activează meacnica de furiș și îl va genera pe Herobrine în spatele jucătorului ce a executat comanda.",
+  "chat.sighting_summons.stalking.tutorial.description": "Această comandă activează meacnica de pândire și îl va genera pe Herobrine undeva în jurul jucătorului ce a executat comanda.Herorine s-ar putea să nu se genereze dacă spawnpoint-ul său este determinat să fie în linia de vedere al altui jucător.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Această comandă activează meacnica de coșmar și îl va genera pe Herobrine lângă patul jucătorului ce a executat comanda.Herobrine nu se va genera dacă jucătorul nu este într-un pat.",
+  "chat.sighting_summons.lurking.tutorial.description": "Această comandă activează meacnica de târât și îl va genera pe Herobrine undeva în distanță în jurul jucătorului ce a executat comanda.Herobrine s-ar putea să nu se genereze dacă spawnpoint-ul său este determinat de a fii la 40 de blocuri distanță de un jucător."
 }

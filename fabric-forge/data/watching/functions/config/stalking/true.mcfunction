@@ -1,2 +1,2 @@
 scoreboard players set stalkingConfig ftf.configOptions 1
-function fromthefog:admin/config
+execute unless entity @s[tag=defautlingConfig] run function fromthefog:admin/config

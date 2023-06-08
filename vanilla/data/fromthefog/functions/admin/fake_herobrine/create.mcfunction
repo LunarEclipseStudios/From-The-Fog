@@ -6,7 +6,7 @@ summon armor_stand ~ ~ ~ {Tags:["spread","model","herobrine","fake","smithed.ent
 
 #createModel
 #createHeadTrack
-execute at @e[tag=spread] run summon minecraft:armor_stand ~ ~ ~ {Tags:["move","seen","herobrine","herobrineModel","smithed.entity","herobrineEntity"],Invisible:1b,NoAI:1b,Silent:1b,Invulnerable:1b,NoBasePlate:1b} 
+execute at @e[tag=spread] run summon minecraft:armor_stand ~ ~ ~ {Tags:["move","seen","herobrine","herobrineModel","smithed.entity","smithed.strict","herobrineEntity"],Invisible:1b,NoAI:1b,Silent:1b,Invulnerable:1b,NoBasePlate:1b} 
 #createHead&Eyes
 execute unless entity @e[type=armor_stand,tag=nightmare] at @e[tag=spread] run summon armor_stand ~ ~ ~ {Tags:["head","model","seen","herobrine","herobrineModel","headRotation","smithed.entity"],Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:2039583,Pose:{Head:[6f,9f,0f]}}
 execute unless entity @e[type=armor_stand,tag=nightmare] if score glowingEyesConfig ftf.configOptions matches 1 at @e[tag=spread] run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Tags:["eyes","model","seen","herobrine","herobrineModel","headRotation","smithed.entity"],Marker:1b,Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:2039583,Pose:{Head:[6f,9f,0f]}}

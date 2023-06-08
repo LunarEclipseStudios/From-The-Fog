@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Ustawienia [1/5]",
-  "config.page2.progress": "Ustawienia [2/5]",
-  "config.page3.progress": "Ustawienia [3/5]",
-  "config.page4.progress": "Ustawienia [4/5]",
-  "config.page5.progress": "Ustawienia [5/5]",
+  "config.page1.progress": "Ustawienia [1/6]",
+  "config.page2.progress": "Ustawienia [2/6]",
+  "config.page3.progress": "Ustawienia [3/6]",
+  "config.page4.progress": "Ustawienia [4/6]",
+  "config.page5.progress": "Ustawienia [5/6]",
+  "config.page6.progress": "Ustawienia [6/6]",
   "config.skin_library.progress": "Ustawienia [Biblioteka skórek]",
 
   "config.page1.title": "Strona 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Strona 3",
   "config.page4.title": "Strona 4",
   "config.page5.title": "Strona 5",
+  "config.page6.title": "Strona 6",
   "config.sss.title": "Super tajne ustawienia",
   "config.pages.title": "Strony",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "Opóźnienie nawiedzeń",
   "config.dayDelayConfig.description": "Zmienia jak długo zajmuje Herobrine'owi żeby zacząć większe nawiedzenia (dni w grze).",
-  "config.dayDelayConfig.setting1": "Wyłączone",
-  "config.dayDelayConfig.setting2": "Bez opóźnienia",
-  "config.dayDelayConfig.setting3": "1 Dzień",
-  "config.dayDelayConfig.setting4": "2 Dni",
-  "config.dayDelayConfig.setting5": "3 Dni",
+  "config.dayDelayConfig.setting1": "Zmniejsz opóźnienie",
+  "config.dayDelayConfig.setting2": "Zwiększ opóźnienie",
 
   "config.ghostDoorConfig.title": "Nawiedzone drzwi",
   "config.ghostDoorConfig.description": "Zmienia czy Herobrine może otwierać drzwi.",
@@ -124,7 +123,7 @@
   
 
 
-  "config.sightingSenseConfig.title": "Zmysł przed pojawieniami",
+  "config.sightingSenseConfig.title": "Zmysł przed zjawami",
   "config.sightingSenseConfig.description": "Zmienia czy zwierzęta będą reagować na obecność Herobrine'a.",
 
   "config.nameTagConfig.title": "Znacznik",
@@ -141,6 +140,18 @@
 
   "config.fearfulFootstepsConfig.title": "Strachliwe kroki",
   "config.fearfulFootstepsConfig.description": "Zmienia czy Herobrine będzie podbiegał do gracza robiąc głośne kroki.",
+
+  "config.shrineSupriseConfig.title": "Niespodzianka posągu",
+  "config.shrineSupriseConfig.description": "Zmienia czy Herobrine będzie pojawiać się na posągach gdy zostaną zapalone.",
+    
+
+
+  "config.lurkingConfig.title": "Mechanika czajenia się",
+  "config.lurkingConfig.description": "Zmienia czy Herobrine będzie czaił się na gracza obserwując go z daleka.",
+  
+  "config.autoConfigDisable.title": "Zabierz mu kontrolę",
+  "config.autoConfigEnable.title": "Nadaj mu kontrolę",
+  "config.autoConfig.description": "Zmienia czy Herobrine będzie mógł zmieniać config.",
 
 
 
@@ -173,6 +184,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Lumbering Jack",
   "config.skinLibrary.smileSkin.title": "Uśmiech",
   "config.skinLibrary.theGrimreaperSkin.title": "Ponury Żniwiarz",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Białe oczy (Klasyczny)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "Biała dynia",
 
   "watchingSkin.customSkinPack.name": "Niestandardowe skórki",
   "watchingSkin.customSkin1.name": "Niestandardowa skórka 1",
@@ -200,7 +213,7 @@
 
   "sign.type4.line1": "",
   "sign.type4.line2": "Witaj",
-  "sign.type4.line3": "THIS IS THE PLAYERS USERNAME, CHANGING THIS HAS NO EFFECT.",
+  "sign.type4.line3": "fghdsgfdhdhsfdhj",
   "sign.type4.line4": "",
 
   "sign.type5.line1": "",
@@ -318,5 +331,23 @@
   "advancements.ftf.found_torch_tunnel.description": "Odnaleź tunel wykopany przez Herobrine'a.",
 
 
-  "subtitle.message.warning": "Obserwuję cię..."
+  "subtitle.message.warning": "Obserwuję cię...",
+
+
+
+  "chat.cleanup.execute.statement": "Usuwanie wszystkich Herobrine'ów.",
+  "chat.cleanup.failure.statement": "Nie udało się usunąć Herobrine'ów!",
+  "chat.cleanup.failure.description": "Nie znaleziono żadnych Herobrine'ów na tym świecie!",
+  "chat.cleanup.success.statement": "Pomyślnie usunięto wszystkie Herobrine'y!",
+
+  "chat.debug_mode.enable.statement": "Pomyślnie włączono tryb debugowania!",
+  "chat.debug_mode.disable.statement": "Pomyślnie wyłączono tryb debugowania!",
+
+  "chat.default_config.execute.statement": "Pomyślnie przywrócono podstawowe ustawienia configu!",
+
+  "chat.sighting_summons.tutorial.statement": "Poradnik do komend",
+  "chat.sighting_summons.creeping.tutorial.description": "Ta komenda aktywuje mechanikę skradania się i pojawia Herobrine'a za graczem na którym zostanie użyta.",
+  "chat.sighting_summons.stalking.tutorial.description": "Ta komenda aktywuje mechanikę stalkowaniai pojawia Herobrine'a obok gracza na którym zostanie użyta. Herobrine może się nie pojawić, jeżeli jego miejsce pojawienia się będzie w linii wzroku innego gracza.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Ta komenda aktywuje mechanikę koszmaru and i pojawia Herobrine'a przy łóżku spiącego gracza na którym zostanie użyta. Herobrine nie pojawi się, jeżeli gracz nie będzie w łóżku.",
+  "chat.sighting_summons.lurking.tutorial.description": "Ta komenda aktywuje mechanikę czajenia się i pojawia Herobrine'a gdzieś w zasięgu od gracza na którym zostanie użyta. Herobrine może się nie pojawić, jeżeli jego miejsce pojawienia się jest bliższe niż 40 bloków od gracza."
 }

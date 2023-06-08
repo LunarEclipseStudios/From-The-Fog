@@ -328,6 +328,24 @@
                 "height": 8,
                 "type": "bitmap"
             },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB29"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/white_eyes_classic.png",
+                "height": 8,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uBB30"
+                ],
+                "file": "watching:font/watching_ui/icons/skins/white_pumpkin.png",
+                "height": 8,
+                "type": "bitmap"
+            },
 
             {
                 "ascent": 8,
@@ -426,6 +444,62 @@
                 ],
                 "file": "watching:font/watching_ui/icons/config/skin_library.png",
                 "height": 15,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC37",
+                    "\uBC38"
+                ],
+                "file": "watching:font/watching_ui/icons/config/counter/counter_on.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC39",
+                    "\uBC40"
+                ],
+                "file": "watching:font/watching_ui/icons/config/counter/counter_off.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC41"
+                ],
+                "file": "watching:font/watching_ui/icons/config/counter/counter_bg.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC42"
+                ],
+                "file": "watching:font/watching_ui/icons/config/switch/auto_switch_on.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 9,
+                "chars": [
+                    "\uBC43"
+                ],
+                "file": "watching:font/watching_ui/icons/config/switch/auto_switch_off.png",
+                "height": 12,
+                "type": "bitmap"
+            },
+            {
+                "ascent": -32768,
+                "chars": [
+                    "\uBC44"
+                ],
+                "file": "watching:font/watching_ui/pixel_nosplit.png",
+                "height": -42,
                 "type": "bitmap"
             }
         ]

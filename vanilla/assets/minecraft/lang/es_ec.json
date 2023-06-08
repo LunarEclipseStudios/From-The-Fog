@@ -1,16 +1,17 @@
 {
     "selectWorld.backupQuestion.experimental": "Error de Entidad Desconocida",
-    "selectWorld.backupWarning.experimental": "Minecraft ha detectado una presencia desconocida en este mundo. Se recomienda que NO PASE ESTA PANTALLA. Ignorar esta advertencia puede resultar en extrañas ocurrencias y/o encuentros. Recuerda, no mires directamente a los errores.",
+    "selectWorld.backupWarning.experimental": "Minecraft ha detectado una presencia desconocida en este mundo. Se recomienda que NO PASE ESTA PANTALLA. Ignorar esta advertencia puede resultar en extrañas ocurrencias y/o encuentros. Recuerda, no mires directamente a los errores o criaturas.",
     "selectWorld.warning.experimental.title": "Error de Entidad Desconocida",
-    "selectWorld.warning.experimental.question": "Minecraft ha detectado una presencia desconocida en este mundo. Se recomienda que NO PASE ESTA PANTALLA. Ignorar esta advertencia puede resultar en extrañas ocurrencias y/o encuentros. Recuerda, no mires directamente a los errores.",
+    "selectWorld.warning.experimental.question": "Minecraft ha detectado una presencia desconocida en este mundo. Se recomienda que NO PASE ESTA PANTALLA. Ignorar esta advertencia puede resultar en extrañas ocurrencias y/o encuentros. Recuerda, no mires directamente a los errores o criaturas.",
   
   
   
-    "config.page1.progress": "Configuración [1/5]",
-    "config.page2.progress": "Configuración [2/5]",
-    "config.page3.progress": "Configuración [3/5]",
-    "config.page4.progress": "Configuración [4/5]",
-    "config.page5.progress": "Configuración [5/5]",
+    "config.page1.progress": "Configuración [1/6]",
+    "config.page2.progress": "Configuración [2/6]",
+    "config.page3.progress": "Configuración [3/6]",
+    "config.page4.progress": "Configuración [4/6]",
+    "config.page5.progress": "Configuración [5/6]",
+    "config.page6.progress": "Configuración [6/6]",
     "config.skin_library.progress": "Configuración [Biblioteca de Skins]",
   
     "config.page1.title": "Página 1",
@@ -18,6 +19,7 @@
     "config.page3.title": "Página 3",
     "config.page4.title": "Página 4",
     "config.page5.title": "Página 5",
+    "config.page6.title": "Página 6",
     "config.sss.title": "Configuración Super Secreta",
     "config.pages.title": "Páginas",  
   
@@ -31,11 +33,8 @@
   
     "config.dayDelayConfig.title": "Retraso de Asedio",
     "config.dayDelayConfig.description": "Cambia el retraso de cuánto tiempo tarda Herobrine en comenzar el asedio principal (en días de juego).",
-    "config.dayDelayConfig.setting1": "Desactivado",
-    "config.dayDelayConfig.setting2": "Sin Retraso",
-    "config.dayDelayConfig.setting3": "1 Día",
-    "config.dayDelayConfig.setting4": "2 Días",
-    "config.dayDelayConfig.setting5": "3 Días",
+    "config.dayDelayConfig.setting1": "Reducir Retraso",
+    "config.dayDelayConfig.setting2": "Aumentar Retraso",
   
     "config.ghostDoorConfig.title": "Puertas Fantasma",
     "config.ghostDoorConfig.description": "Cambia si Herobrine puede o no abrir tus puertas.",
@@ -47,7 +46,7 @@
     "config.creepingConfig.description": "Cambia si Herobrine se quedará detrás de ti esperando a que te des la vuelta.",
   
     "config.stalkingConfig.title": "Mecánica de Acoso",
-    "config.stalkingConfig.description": "Cambia si Herobrine te acosará desde la distancia.",
+    "config.stalkingConfig.description": "Cambia si Herobrine te observará desde la distancia.",
   
   
   
@@ -74,11 +73,11 @@
 
   
     
-    "config.jumpscareConfig.title": "Mecánica de Sobresalto",
-    "config.jumpscareConfig.description": "Permite que Herobrine pueda sobresaltar al jugador cuando se acerca demasiado.",
+    "config.jumpscareConfig.title": "Mecánica de JumpScare",
+    "config.jumpscareConfig.description": "Permite que Herobrine pueda asustar al jugador cuando se acerca demasiado.",
     
-    "config.crashConfig.title": "Mecánica de Choque",
-    "config.crashConfig.description": "Intercambia la mecánica de sobresalto por la antigua mecánica de choque. [ADVERTENCIA DE EPILEPSIA!] [NO APTO PARA MÁQUINAS MÁS DÉBILES!] (Solo funciona cuando el sobresalto está activado).",
+    "config.crashConfig.title": "Mecánica de Crasheo",
+    "config.crashConfig.description": "Intercambia la mecánica de JumpScare por la antigua mecánica de Crasheo. [ADVERTENCIA DE EPILEPSIA!] [NO APTO PARA MÁQUINAS MÁS DÉBILES!] (Solo funciona cuando el sobresalto está activado).",
     
     "config.creepingVanishingDelayConfig.title": "Retraso de Desvanecimiento Sigiloso",
     "config.creepingVanishingDelayConfig.description": "Cambia cuánto tiempo le toma a Herobrine desaparecer después de ser visto acercándose sigilosamente al jugador.",
@@ -107,7 +106,7 @@
     "config.crimsonCurseConfig.title": "Maldición Carmesí",
     "config.crimsonCurseConfig.description": "Activa o desactiva la habilidad de Herobrine para cambiar tus antorchas a antorchas de piedra roja y tus linternas a linternas de alma. (una comprobación por día de juego)",
       
-    "config.OGshrineMechanicConfig.title": "Mecánica del Altar OG",
+    "config.OGshrineMechanicConfig.title": "Mecánica del Altar a la antigua",
     "config.OGshrineMechanicConfig.description": "Activa o desactiva los rayos durante la activación de un altar de Herobrine.",
       
     "config.nightmareMechanicConfig.title": "Mecánica de Pesadilla",
@@ -116,7 +115,7 @@
     "config.windowWatcherConfig.title": "Observador de Ventanas",
     "config.windowWatcherConfig.description": "Activa o desactiva la capacidad de Herobrine para desaparecer cuando se le ve a través de una ventana.",
       
-    "config.chilledCandlesConfig.title": "Velas Heladas",
+    "config.chilledCandlesConfig.title": "¿Quien apagó la vela?",
     "config.chilledCandlesConfig.description": "Activa o desactiva la habilidad de Herobrine para apagar las velas del jugador.",
       
     "config.sinisterSignsConfig.title": "Señales Siniestras",
@@ -141,6 +140,18 @@
     
     "config.fearfulFootstepsConfig.title": "Pasos temerosos",
     "config.fearfulFootstepsConfig.description": "Cambia si Herobrine correrá detrás de los jugadores creando sonidos de pasos.",
+
+    "config.shrineSupriseConfig.title": "Sorpresa en el altar",
+    "config.shrineSupriseConfig.description": "Cambia si Herobrine aparece o no encima del altar una vez este encendido.",
+      
+
+
+    "config.lurkingConfig.title": "Mecanica de Acecho",
+    "config.lurkingConfig.description": "Cambia si Herobrine te observa o no desde la distancia.",
+
+    "config.autoConfigDisable.title": "Recuperar Control",
+    "config.autoConfigEnable.title": "Entregar Control",
+    "config.autoConfig.description": "Cambia si Herobrine aplica o no aplica cambios a la configuracion.",
     
     
     
@@ -156,23 +167,25 @@
     "config.skinLibrary.blackEyesSkin.title": "Ojos negros",
     "config.skinLibrary.entity303Skin.title": "Entidad 303",
     "config.skinLibrary.glitchSkin.title": "Error",
-    "config.skinLibrary.nullSkin.title": "Nulo",
-    "config.skinLibrary.lunarEclipseSkin.title": "Eclipse lunar",
+    "config.skinLibrary.nullSkin.title": "Null",
+    "config.skinLibrary.lunarEclipseSkin.title": "Lunar Eclipse",
     "config.skinLibrary.apparitionSkin.title": "Aparición",
     "config.skinLibrary.zombieSkin.title": "Zombi",
-    "config.skinLibrary.nullifiedSkin.title": "Anulado",
+    "config.skinLibrary.nullifiedSkin.title": "Nullificado",
     "config.skinLibrary.facelessSkin.title": "Sin rostro",
     "config.skinLibrary.distortedSkin.title": "Distorsionado",
     "config.skinLibrary.alexSkin.title": "Alex",
-    "config.skinLibrary.lickSkin.title": "Lamer",
+    "config.skinLibrary.lickSkin.title": "Lick",
     "config.skinLibrary.fallenKingdomSkin.title": "Reino caído",
     "config.skinLibrary.sculkInfestedSkin.title": "Infestado de sculk",
     "config.skinLibrary.netherBrineSkin.title": "Netherbrine",
-    "config.skinLibrary.farlanderSkin.title": "Lejano",
-    "config.skinLibrary.theHeadlessSkin.title": "El sin cabeza",
+    "config.skinLibrary.farlanderSkin.title": "Farlander",
+    "config.skinLibrary.theHeadlessSkin.title": "Decapitado",
     "config.skinLibrary.lumberingJackSkin.title": "Jack el torpe",
-    "config.skinLibrary.smileSkin.title": "Sonrisa",
+    "config.skinLibrary.smileSkin.title": "Smiley",
     "config.skinLibrary.theGrimreaperSkin.title": "El segador",
+    "config.skinLibrary.whiteEyesClassicSkin.title": "Ojos Blancos (Clasico)",
+    "config.skinLibrary.theWhitePumpkinSkin.title": "Calabaza Blanca",
     
     "watchingSkin.customSkinPack.name": "Skins personalizadas",
     "watchingSkin.customSkin1.name": "Skin personalizada 1",
@@ -204,7 +217,7 @@
     "sign.type4.line4": "",
     
     "sign.type5.line1": "",
-    "sign.type5.line2": "DESPERTAR.",
+    "sign.type5.line2": "DESPIERTA.",
     "sign.type5.line3": "",
     "sign.type5.line4": "",
     
@@ -224,24 +237,24 @@
     "sign.type8.line4": "",
     
     "sign.type9.line1": "",
-    "sign.type9.line2": "Para.",
+    "sign.type9.line2": "BASTA.",
     "sign.type9.line3": "",
     "sign.type9.line4": "",
     
-    "sign.type10.line1": "",
-    "sign.type10.line2": "¿Te asusto?",
-    "sign.type10.line3": "",
-    "sign.type10.line4": "",
+    "sign.type10.line1": "Saludos",
+    "sign.type10.line2": "desde la",
+    "sign.type10.line3": "niebla",
+    "sign.type10.line4": ";)",
     
     "sign.type11.line1": "No puedes",
-    "sign.type11.line2": "escaparde esta",
-    "sign.type11.line3": "pesadilla.",
-    "sign.type11.line4": "",
+    "sign.type11.line2": "escapar de",
+    "sign.type11.line3": "esta",
+    "sign.type11.line4": "pesadilla.",
     
-    "sign.type12.line1": "¿A qué estás",
-    "sign.type12.line2": "mirando,",
-    "sign.type12.line3": "cabeza de vela?",
-    "sign.type12.line4": "",    
+    "sign.type12.line1": "No sabes",
+    "sign.type12.line2": "lo que has",
+    "sign.type12.line3": "hecho",
+    "sign.type12.line4": "¿Verdad? ;)",    
   
   
   
@@ -261,9 +274,9 @@
     "advancements.ftf.herobrine_griddy.description": "Enfréntate a Herobrine golpeando eso.",
 
     "advancements.ftf.be_the_librarian.title": "Una Luz En La Oscuridad...",
-    "advancements.ftf.be_the_librarian.description": "Sé el Bibliotecario.",
+    "advancements.ftf.be_the_librarian.description": "Sé The Librarian.",
 
-    "advancements.ftf.liberty_lantern.title": "Hola Libertad.",
+    "advancements.ftf.liberty_lantern.title": "Hola Liberty.",
     "advancements.ftf.liberty_lantern.description": "Regala una linterna a un aliado.",
 
     "advancements.ftf.dog_growl.title": "¿Estás Bien, Chico?",
@@ -278,7 +291,7 @@
     "advancements.ftf.found_leafless_grove.title": "La Lava No Pudo Causar Esto...",
     "advancements.ftf.found_leafless_grove.description": "Descubre un bosque sin hojas.",
 
-    "advancements.ftf.named_dd_item.title": "Está Comunicando...",
+    "advancements.ftf.named_dd_item.title": "Está Comunicandose...",
     "advancements.ftf.named_dd_item.description": "Encuentra una Donación Temible nombrada.",
 
     "advancements.ftf.spotted_herobrine.title": "Debería Llamar a Kevin!",
@@ -319,6 +332,24 @@
 
 
 
-    "subtitle.message.warning": "Te estoy observando..."
+    "subtitle.message.warning": "Te estoy observando...",
+
+
+
+    "chat.cleanup.execute.statement": "Remueve todos los Herobrines.",
+    "chat.cleanup.failure.statement": "No se puede remover a Herobrine!",
+    "chat.cleanup.failure.description": "No hay Herobrines cargados en este mundo!",
+    "chat.cleanup.success.statement": "Herobrines removidos exitosamente!",
+  
+    "chat.debug_mode.enable.statement": "Activar Modo Debug Exitosamente!",
+    "chat.debug_mode.disable.statement": "Desactivar Modo Debug Exitosamente!",
+  
+    "chat.default_config.execute.statement": "Configuraciones vueltas a la normalidad!",
+  
+    "chat.sighting_summons.tutorial.statement": "Tutorial de comandos",
+    "chat.sighting_summons.creeping.tutorial.description": "Este comando activa la mecánica sigilosa y hace aparecer a Herobrine detrás del jugador sobre el que se ejecuta.",
+    "chat.sighting_summons.stalking.tutorial.description": "Este comando activa la mecánica de acecho y desova a Herobrine en algún lugar alrededor del jugador sobre el que se ejecuta. Herobrine no puede aparecer si se determina que su punto de aparición está en la línea de visión de otro jugador.",
+    "chat.sighting_summons.nightmare.tutorial.description": "Este comando activa la mecánica de pesadilla y hace aparecer a Herobrine a los pies de la cama del jugador sobre el que se ejecuta. Herobrine no aparecerá si el jugador no está en una cama.",
+    "chat.sighting_summons.lurking.tutorial.description": "Este comando activa la mecánica de acecho y desova a Herobrine en algún lugar en la distancia alrededor del jugador sobre el que se ejecuta. Herobrine no puede aparecer si se determina que su spawnpoint está a menos de 40 manzanas de un jugador."
   }
   

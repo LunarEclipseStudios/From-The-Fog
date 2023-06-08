@@ -1,2 +1,2 @@
 scoreboard players set sinisterSignsConfig ftf.configOptions 0
-function watching:config/pages/4
+execute unless entity @s[tag=defautlingConfig] run function watching:config/pages/4

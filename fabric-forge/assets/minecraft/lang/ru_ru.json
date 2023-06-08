@@ -1,16 +1,17 @@
 {
   "selectWorld.backupQuestion.experimental": "Ошибка: Неизвестная сущность",
-  "selectWorld.backupWarning.experimental": "Minecraft обнаружил неизвестную сущность в данном мире. Советуется НЕ ПЕРЕХОДИТЬ ДАЛЬШЕ ЭТОГО СООБЩЕНИЯ. В случае игнорирования данного предупреждения помните, что сущность может повредить ваш мир с помощью ошибок/встреч. Помните, смотреть напрямую на баги нельзя.",
+  "selectWorld.backupWarning.experimental": "Minecraft обнаружил неизвестную сущность в данном мире. Советуется НЕ ПЕРЕХОДИТЬ ДАЛЬШЕ ЭТОГО СООБЩЕНИЯ. В случае игнорирования данного предупреждения помните, что сущность может повредить ваш мир из-за своего непредсказуемого поведения. Помните, что смотреть напрямую на баги нельзя.",
   "selectWorld.warning.experimental.title": "Ошибка: Неизвестная сущность",
-  "selectWorld.warning.experimental.question": "Minecraft обнаружил неизвестную сущность в данном мире. Советуется НЕ ПЕРЕХОДИТЬ ДАЛЬШЕ ЭТОГО СООБЩЕНИЯ. В случае игнорирования данного предупреждения помните, что сущность может повредить ваш мир с помощью ошибок/встреч. Помните, смотреть напрямую на баги нельзя.",
+  "selectWorld.warning.experimental.question": "Minecraft обнаружил неизвестную сущность в данном мире. Советуется НЕ ПЕРЕХОДИТЬ ДАЛЬШЕ ЭТОГО СООБЩЕНИЯ. В случае игнорирования данного предупреждения помните, что сущность может повредить ваш мир из-за своего непредсказуемого поведения. Помните, что смотреть напрямую на баги нельзя.",
 
 
 
-  "config.page1.progress": "Настройки [1/5]",
-  "config.page2.progress": "Настройки [2/5]",
-  "config.page3.progress": "Настройки [3/5]",
-  "config.page4.progress": "Настройки [4/5]",
-  "config.page5.progress": "Настройки [5/5]",
+  "config.page1.progress": "Настройки [1/6]",
+  "config.page2.progress": "Настройки [2/6]",
+  "config.page3.progress": "Настройки [3/6]",
+  "config.page4.progress": "Настройки [4/6]",
+  "config.page5.progress": "Настройки [5/6]",
+  "config.page6.progress": "Настройки [6/6]",
   "config.skin_library.progress": "Настройки [Список скинов]",
 
   "config.page1.title": "Стр. 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Стр. 3",
   "config.page4.title": "Стр. 4",
   "config.page5.title": "Стр. 5",
+  "config.page6.title": "Стр. 6",
   "config.sss.title": "Супер Секретные Настройки",
   "config.pages.title": "Страницы",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "Начало преследования",
   "config.dayDelayConfig.description": "Изменяет лимит внутриигровых дней, с которых Хиробрин начинает преследовать игрока.",
-  "config.dayDelayConfig.setting1": "Откл.",
-  "config.dayDelayConfig.setting2": "Сразу",
-  "config.dayDelayConfig.setting3": "1 День",
-  "config.dayDelayConfig.setting4": "2 Дня",
-  "config.dayDelayConfig.setting5": "3 Дня",
+  "config.dayDelayConfig.setting1": "Уменьшить",
+  "config.dayDelayConfig.setting2": "Добавить",
 
   "config.ghostDoorConfig.title": "Призрачные двери",
   "config.ghostDoorConfig.description": "Определяет, может ли Хиробрин открывать ваши двери.",
@@ -97,7 +96,7 @@
   "config.stalkingVanishingDelayConfig.setting5": "2 Секунды",
 
   "config.noSleepConfig.title": "Бессонница",
-  "config.noSleepConfig.description": "Определяет, может ли Хиробрин предотвращать сон игрока, если он поблизости (Не работает на мирной сложности).",
+  "config.noSleepConfig.description": "Определяет, может ли Хиробрин предотвращать сон игрока, если он находится поблизости (Не работает на мирной сложности).",
 
   "config.dreadfulDonationConfig.title": "Страшные дары",
   "config.dreadfulDonationConfig.description": "Определяет, может ли Хиробрин оставлять предметы в ваших сундуках (Может произойти и до начала преследования / постройки тотема).",
@@ -142,6 +141,18 @@
   "config.fearfulFootstepsConfig.title": "Шаги позади",
   "config.fearfulFootstepsConfig.description": "Определяет, может ли Хиробрин создавать шаги позади игрока.",
 
+  "config.shrineSupriseConfig.title": "На верху тотема",
+  "config.shrineSupriseConfig.description": "Определяет, будет ли Хиробрин появляться на верху тотема при его активации.",
+    
+
+
+  "config.lurkingConfig.title": "Дальняя слежка",
+  "config.lurkingConfig.description": "Определяет, будет ли Хиробрин следить на игроком с крайне большого расстояния.",
+
+  "config.autoConfigDisable.title": "Вернуть контроль игроку",
+  "config.autoConfigEnable.title": "Отдать Ему контроль",
+  "config.autoConfig.description": "Определяет, может ли Хиробрин менять настройки по своему усмотрению.",
+
 
 
   "config.hittingThatGriddyConfig.title": "Танец",
@@ -173,6 +184,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Дровосек Джек",
   "config.skinLibrary.smileSkin.title": "Улыбчивый",
   "config.skinLibrary.theGrimreaperSkin.title": "Мрачный Жнец",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Белые Глаза (Обычный)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "Белая Тыква",
 
   "watchingSkin.customSkinPack.name": "Пользовательские скины",
   "watchingSkin.customSkin1.name": "Пользовательский скин 1",
@@ -224,7 +237,7 @@
   "sign.type8.line4": "",
 
   "sign.type9.line1": "",
-  "sign.type9.line2": "Остановись.",
+  "sign.type9.line2": "Перестань.",
   "sign.type9.line3": "",
   "sign.type9.line4": "",
 
@@ -245,7 +258,7 @@
 
 
 
-  "advancements.ftf.root.title": "From The Fog",
+  "advancements.ftf.root.title": "Из тумана",
   "advancements.ftf.root.description": "Ты его не видишь, но уверяю, он тебя видит...",
 
   "advancements.ftf.built_shrine.title": "Что же ты натворил?...",
@@ -281,7 +294,7 @@
   "advancements.ftf.named_dd_item.title": "Оно общается...",
   "advancements.ftf.named_dd_item.description": "Получите переименованный страшный дар.",
 
-  "advancements.ftf.spotted_herobrine.title": "Я должен позвать Кевина!",
+  "advancements.ftf.spotted_herobrine.title": "Это оказалась не корова.",
   "advancements.ftf.spotted_herobrine.description": "Обнаружьте Хиробрина в первый раз.",
 
   "advancements.ftf.be_comical_bonzo.title": "Крутой буквально.",
@@ -318,5 +331,23 @@
   "advancements.ftf.found_torch_tunnel.description": "Найдите туннель, вырытый Хиробрином.",
 
 
-  "subtitle.message.warning": "Я наблюдаю..."
+  "subtitle.message.warning": "Я наблюдаю...",
+
+
+
+  "chat.cleanup.execute.statement": "Удаляем Хиробринов.",
+  "chat.cleanup.failure.statement": "Не удалось удалить Хиробрина!",
+  "chat.cleanup.failure.description": "На данный момент в мире нету Хиробрина!",
+  "chat.cleanup.success.statement": "Хиробрин был удалён!",
+
+  "chat.debug_mode.enable.statement": "Режим отладки активирован!",
+  "chat.debug_mode.disable.statement": "Режим отладки отключён!",
+
+  "chat.default_config.execute.statement": "Настройки были удачно сброшены!",
+
+  "chat.sighting_summons.tutorial.statement": "Помощь по команде",
+  "chat.sighting_summons.creeping.tutorial.description": "Эта команда активирует механику подкрадывания, спавня Хиробрина сзади игрока.",
+  "chat.sighting_summons.stalking.tutorial.description": "Эта команда активирует механику слежки, спавня Хиробрина неподалёку от игрока. Хиробрин может не заспавниться, если на его возможную точку спавна смотрит другой игрок.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Эта команда активирует механику ночного кошмара, спавня Хиробрина перед игроком, когда последний находится на кровати. Хиробрин не заспавнится, если игрок не находится на кровати в момент активации команды.",
+  "chat.sighting_summons.lurking.tutorial.description": "Эта команда активирует механику дальней слежки, спавня Хиробрина на большом расстоянии от игрока. Хиробрин может не заспавниться, если расстояние от игрока составляет менее 40 блоков."
 }

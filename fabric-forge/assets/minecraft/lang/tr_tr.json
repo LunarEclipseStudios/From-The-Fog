@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Ayarlar [1/5]",
-  "config.page2.progress": "Ayarlar [2/5]",
-  "config.page3.progress": "Ayarlar [3/5]",
-  "config.page4.progress": "Ayarlar [4/5]",
-  "config.page5.progress": "Ayarlar [5/5]",
+  "config.page1.progress": "Ayarlar [1/6]",
+  "config.page2.progress": "Ayarlar [2/6]",
+  "config.page3.progress": "Ayarlar [3/6]",
+  "config.page4.progress": "Ayarlar [4/6]",
+  "config.page5.progress": "Ayarlar [5/6]",
+  "config.page6.progress": "Ayarlar [6/6]",
   "config.skin_library.progress": "Ayarlar [Skin Kitaplığı]",
 
   "config.page1.title": "Sayfa 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Sayfa 3",
   "config.page4.title": "Sayfa 4",
   "config.page5.title": "Sayfa 5",
+  "config.page6.title": "Sayfa 6",
   "config.sss.title": "Süper gizli ayarlar",
   "config.pages.title": "Sayfalar",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "Geri Sayım",
   "config.dayDelayConfig.description": "Herobrine'ın dünyaya musallat olmaya başlaması içi geçmesi gereken süre (Oyun-içi gün).",
-  "config.dayDelayConfig.setting1": "Kapalı",
-  "config.dayDelayConfig.setting2": "Gecikme yok",
-  "config.dayDelayConfig.setting3": "1 Gün",
-  "config.dayDelayConfig.setting4": "2 Gün",
-  "config.dayDelayConfig.setting5": "3 Gün",
+  "config.dayDelayConfig.setting1": "Süreyi Azalt",
+  "config.dayDelayConfig.setting2": "Süreyi Arttır",
 
   "config.ghostDoorConfig.title": "Perili Kapılar",
   "config.ghostDoorConfig.description": "Herobrine'ın kapıları açıp açamayacağını belirler.",
@@ -140,7 +139,19 @@
   "config.advancementsConfig.description": "Oyuncunun From The Fog ile ilgili kazanımlar alıp almayacağını belirler. (BU AÇIKKEN KAZANILAN KAZANIMLAR BU KAPATILDIĞINDA KAYBEDİLİR!!!)",
 
   "config.fearfulFootstepsConfig.title": "Ayak Sesleri",
-  "config.fearfulFootstepsConfig.description": "Changes whether or not Herobrine will run up behind players creating footsteps.",
+  "config.fearfulFootstepsConfig.description": "Herobrine'ın oyuncunun arkasında ayak sesleri yapıp yapmayacağını belirler.",
+
+  "config.shrineSupriseConfig.title": "Tapınak Sürprizi",
+  "config.shrineSupriseConfig.description": "Herobrine'ın tapınak yakıldığında tapınağın üstünde belirip belirmeyeceğini belirler.",
+
+
+
+  "config.lurkingConfig.title": "Gizlice Takip Mekaniği",
+  "config.lurkingConfig.description": "Herobrine'ın oyuncuyu çok uzak bir mesafeden izleyip izlemeyeceğini belirler.",
+
+  "config.autoConfigDisable.title": "Kontrolu Geri Al",
+  "config.autoConfigEnable.title": "Kontrolu Ona Bırak",
+  "config.autoConfig.description": "Herobrine'ın ayarları değiştirip değiştiremeyeceğini belirler.",
 
 
 
@@ -173,6 +184,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Oduncu",
   "config.skinLibrary.smileSkin.title": "Gülümseme",
   "config.skinLibrary.theGrimreaperSkin.title": "Grimreaper",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Beyaz Gözler (Klasik)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "Beyaz Balkabağı",
 
   "watchingSkin.customSkinPack.name": "Özel Skinler",
   "watchingSkin.customSkin1.name": "Özel Skin 1",
@@ -246,7 +259,7 @@
 
 
   "advancements.ftf.root.title": "From The Fog",
-  "advancements.ftf.root.description": "Onu göremezsin, ama onun seni gördüğüne söz verebilirim...",
+  "advancements.ftf.root.description": "Onu göremezsin, ama onun seni gördüğüne eminim...",
 
   "advancements.ftf.built_shrine.title": "Ne yaptığını bilmiyorsun...",
   "advancements.ftf.built_shrine.description": "Bir Herobrine tapınağı inşa et.",
@@ -288,7 +301,7 @@
   "advancements.ftf.be_comical_bonzo.description": "Comical Bonzo ol.",
 
   "advancements.ftf.ghost_miner.title": "O DA NEYDİ?",
-  "advancements.ftf.ghost_miner.description": "Blok kazarken Herobrine'nın kazı yapmasına tanık ol.",
+  "advancements.ftf.ghost_miner.description": "kazı yaparken Herobrine'ın blok kırmasına tanık ol.",
 
   "advancements.ftf.take_gm_torch.title": "Bulan alır!",
   "advancements.ftf.take_gm_torch.description": "Herobrine'ın açtığı tünellerdeki meşalelerden bir tane al.",
@@ -319,5 +332,23 @@
 
 
 
-  "subtitle.message.warning": "Seni İzliyorum..."
+  "subtitle.message.warning": "Seni İzliyorum...",
+
+
+
+  "chat.cleanup.execute.statement": "Bütün Herobrine'lar kaldırılıyor.",
+  "chat.cleanup.failure.statement": "Herobrine kaldırılamadı!",
+  "chat.cleanup.failure.description": "Bu dünyada mevcut herhangi bir Herobrine bulunmamaktadır",
+  "chat.cleanup.success.statement": "Bütün Herobrine'lar başarıyla kaldırıldı!",
+
+  "chat.debug_mode.enable.statement": "Debug modu başarıyla etkinleştirildi!",
+  "chat.debug_mode.disable.statement": "Debug modu başarıyla kapatıldı!",
+
+  "chat.default_config.execute.statement": "Varsayılan ayarlar başarıyla uygulandı!",
+
+  "chat.sighting_summons.tutorial.statement": "Komutlar",
+  "chat.sighting_summons.creeping.tutorial.description": "Bu komut Korkutma Mekaniğini etkinleştirir ve Herobrine'ı oyuncunun arkasına koyar.",
+  "chat.sighting_summons.stalking.tutorial.description": "Bu komut Takip Mekaniğini etkinleştirir ve Herobrine'ı oyuncunun yakınında bir yere koyar. Eğer Herobrine'ın ışınlandığı yer bir oyuncunun görüş hizasında ise Herobrine çağırılamayabilir.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Bu komut Kabus Mekaniğini etkinleştirir ve Herobrine'ı oyuncunun yatağının ucuna koyar. Eğer oyuncu yatakta değilse Herobrine çağırılamayabilir.",
+  "chat.sighting_summons.lurking.tutorial.description": "Bu komut Gizlice Takip Mekaniğini etkinleştirir ve Herobrine'ı oyuncunun uzağında bir yere koyar. Eğer Herobrine'ın ışınlandığı yer bir oyuncunun 40 blok yakınında ise Herobrine çağırılamayabilir."
 }

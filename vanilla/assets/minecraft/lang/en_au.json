@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "Config [1/5]",
-  "config.page2.progress": "Config [2/5]",
-  "config.page3.progress": "Config [3/5]",
-  "config.page4.progress": "Config [4/5]",
-  "config.page5.progress": "Config [5/5]",
+  "config.page1.progress": "Config [1/6]",
+  "config.page2.progress": "Config [2/6]",
+  "config.page3.progress": "Config [3/6]",
+  "config.page4.progress": "Config [4/6]",
+  "config.page5.progress": "Config [5/6]",
+  "config.page6.progress": "Config [6/6]",
   "config.skin_library.progress": "Config [Skin Library]",
 
   "config.page1.title": "Page 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "Page 3",
   "config.page4.title": "Page 4",
   "config.page5.title": "Page 5",
+  "config.page6.title": "Page 6",
   "config.sss.title": "Super Secret Settings",
   "config.pages.title": "Pages",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "Haunting Delay",
   "config.dayDelayConfig.description": "Changes the delay for how long it takes for Herobrine to start major haunting (in-game days).",
-  "config.dayDelayConfig.setting1": "Off",
-  "config.dayDelayConfig.setting2": "No Delay",
-  "config.dayDelayConfig.setting3": "1 Day",
-  "config.dayDelayConfig.setting4": "2 Days",
-  "config.dayDelayConfig.setting5": "3 Days",
+  "config.dayDelayConfig.setting1": "Reduce Delay",
+  "config.dayDelayConfig.setting2": "Increase Delay",
 
   "config.ghostDoorConfig.title": "Ghost Doors",
   "config.ghostDoorConfig.description": "Changes whether or not Herobrine can open your doors.",
@@ -142,6 +141,18 @@
   "config.fearfulFootstepsConfig.title": "Fearful Footsteps",
   "config.fearfulFootstepsConfig.description": "Changes whether or not Herobrine will run up behind players creating footsteps.",
 
+  "config.shrineSupriseConfig.title": "Shrine Surprise",
+  "config.shrineSupriseConfig.description": "Changes whether or not Herobrine will appear on top of the shrine when lit.",
+
+
+
+  "config.lurkingConfig.title": "Lurking Mechanic",
+  "config.lurkingConfig.description": "Changes whether or not Herobrine will lurk around the player watching from a very far distance.",
+
+  "config.autoConfigDisable.title": "Take Back Control",
+  "config.autoConfigEnable.title": "Give It Control",
+  "config.autoConfig.description": "Changes whether or not Herobrine can modify the config.",
+
 
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
@@ -173,6 +184,8 @@
   "config.skinLibrary.lumberingJackSkin.title": "Lumbering Jack",
   "config.skinLibrary.smileSkin.title": "Smile",
   "config.skinLibrary.theGrimreaperSkin.title": "The Grimreaper",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "White Eyes (Classic)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "The White Pumpkin",
 
   "watchingSkin.customSkinPack.name": "Custom Skins",
   "watchingSkin.customSkin1.name": "Custom Skin 1",
@@ -319,5 +332,23 @@
 
 
 
-  "subtitle.message.warning": "I'm watching..."
+  "subtitle.message.warning": "I'm watching...",
+
+
+
+  "chat.cleanup.execute.statement": "Removing All Herobrines.",
+  "chat.cleanup.failure.statement": "Failed To Remove Herobrine!",
+  "chat.cleanup.failure.description": "There are currently no Herobrines loaded in this world!",
+  "chat.cleanup.success.statement": "Successfully Removed All Herobrines!",
+
+  "chat.debug_mode.enable.statement": "Enabled Debug Mode successfully!",
+  "chat.debug_mode.disable.statement": "Disabled Debug Mode successfully!",
+
+  "chat.default_config.execute.statement": "Successfully restored config defaults!",
+
+  "chat.sighting_summons.tutorial.statement": "Command Tutorial",
+  "chat.sighting_summons.creeping.tutorial.description": "This command activates the creeping mechanic and spawns Herobrine behind the player it is executed on.",
+  "chat.sighting_summons.stalking.tutorial.description": "This command activates the stalking mechanic and spawns Herobrine somewhere around the player it is executed on. Herobrine may not spawn if his spawnpoint is determined to be in the line of sight another player.",
+  "chat.sighting_summons.nightmare.tutorial.description": "This command activates the nightmare mechanic and spawns Herobrine at the foot of the bed of the player it is executed on. Herobrine will not spawn if the player isn't in a bed.",
+  "chat.sighting_summons.lurking.tutorial.description": "This command activates the lurking mechanic and spawns Herobrine somewhere off in the distance around the player it is executed on. Herobrine may not spawn if his spawnpoint is determined to be within 40 blocks of a player."
 }

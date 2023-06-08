@@ -1,2 +1,2 @@
 scoreboard players set advancementsConfig ftf.configOptions 0
-function watching:config/pages/5
+execute unless entity @s[tag=defautlingConfig] run function watching:config/pages/5

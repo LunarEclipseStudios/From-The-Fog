@@ -1,3 +1,3 @@
-execute unless entity @s[tag=nightmareTutorial] run tellraw @s ["",{"text":"Command Tutorial:","color": "red","underlined": true},{"text": " This command activates the nightmare mechanic and spawns Herobrine at the foot of the bed of the player it is executed on. Herobrine will not spawn if the player isn't in a bed.","color": "gray"}]
+execute unless entity @s[tag=nightmareTutorial] run tellraw @s ["",{"translate":"chat.sighting_summons.tutorial.statement","color": "red","underlined": true},{"text":":","color": "red","underlined": true}," ",{"translate": "chat.sighting_summons.nightmare.tutorial.description","color": "gray"}]
 tag @s add nightmareTutorial
 function watching:events/sightings/nightmare

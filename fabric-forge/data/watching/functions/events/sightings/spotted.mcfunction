@@ -12,6 +12,7 @@ execute positioned ~ ~-0.1 ~ if predicate watching:chances/number/50 if entity @
 #removeHerobrine
 execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=creeping] if entity @e[type=armor_stand,tag=spread,distance=..2.2] unless entity @e[type=armor_stand,tag=spottedByPlayer] as @e[type=armor_stand,tag=move] at @s run function watching:events/sightings/spotted/creeping
 execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=stalking] if entity @e[type=armor_stand,tag=spread,distance=..2.2] unless entity @e[type=armor_stand,tag=spottedByPlayer] as @e[type=armor_stand,tag=move] at @s run function watching:events/sightings/spotted/stalking
+execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=lurking] if entity @e[type=armor_stand,tag=spread,distance=..2.2] unless entity @e[type=armor_stand,tag=spottedByPlayer] as @e[type=armor_stand,tag=move] at @s run function watching:events/sightings/spotted/lurking
 execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=spread,distance=..2.2] run tag @e[type=armor_stand,tag=spread] add spottedByPlayer
 #checkIfHerobrineHasAppeared
 execute positioned ~ ~-0.1 ~ if entity @e[type=armor_stand,tag=spread,distance=..2.2] unless entity @e[type=armor_stand,tag=move] run function watching:events/general/kill/kill_spread_entity

@@ -2,7 +2,7 @@
 execute as @e[type=armor_stand,tag=herobrine] at @s run function watching:events/general/kill/kill
 
 #summon
-summon armor_stand ~ 0 ~ {Tags:["spread","model","stalking","herobrine","smithed.entity","herobrineEntity"],Marker:0b,Invisible:1b,Invulnerable:1b,NoGravity:0b,DisabledSlots:2039583,NoBasePlate:1b}
+summon armor_stand ~ 0 ~ {Tags:["spread","model","stalking","herobrine","smithed.entity","smithed.strict","herobrineEntity"],Marker:0b,Invisible:1b,Invulnerable:1b,NoGravity:0b,DisabledSlots:2039583,NoBasePlate:1b}
 
 #stalkingPos
 execute as @e[type=armor_stand,tag=spread] at @s run spreadplayers ~ ~ 35 46 false @s

@@ -1,16 +1,17 @@
 {
   "selectWorld.backupQuestion.experimental": "ɹoɹɹǝ ʎʇᴉʇuǝ uʍouʞu∩",
-  "selectWorld.backupWarning.experimental": ".sᵷnq ǝɥʇ ʇɐ ʎꞁʇɔǝɹᴉp ǝɹɐʇs ʇ,uop 'ɹǝqɯǝɯǝᴚ.sɹǝʇunoɔuǝ ɹo/puɐ sǝɔuǝɹɹnɔɔo ǝᵷuɐɹʇs uᴉ ʇꞁnsǝɹ ʎɐɯ ᵷuᴉuɹɐʍ sᴉɥʇ ᵷuᴉɹouᵷi.Nǝǝᴚɔs sih⟘ ssɐԁ ⟘on oᗡ noʎ ʇɐɥʇ pǝsᴉʌpɐ sᴉ ʇi.pꞁɹoʍ sᴉɥʇ uᴉ ǝɔuǝsǝɹd uʍouʞun uɐ pǝʇɔǝʇǝp sɐɥ ʇɟɐɹɔǝuᴉw",
+  "selectWorld.backupWarning.experimental": ".sᵷnq ǝɥʇ ʇɐ ʎꞁʇɔǝɹᴉp ǝɹɐʇs ʇ,uop 'ɹǝqɯǝɯǝᴚ .sɹǝʇunoɔuǝ ɹo/puɐ sǝɔuǝɹɹnɔɔo ǝᵷuɐɹʇs uᴉ ʇꞁnsǝɹ ʎɐɯ ᵷuᴉuɹɐʍ sᴉɥʇ ᵷuᴉɹouᵷI .NƎƎᴚƆS SIH⟘ SSⱯԀ ⟘ON Oᗡ noʎ ʇɐɥʇ pǝsᴉʌpɐ sᴉ ʇI .pꞁɹoʍ sᴉɥʇ uᴉ ǝɔuǝsǝɹd uʍouʞun uɐ pǝʇɔǝʇǝp sɐɥ ʇɟɐɹɔǝuᴉW",
   "selectWorld.warning.experimental.title": "ɹoɹɹǝ ʎʇᴉʇuǝ uʍouʞu∩",
-  "selectWorld.warning.experimental.question": ".sᵷnq ǝɥʇ ʇɐ ʎꞁʇɔǝɹᴉp ǝɹɐʇs ʇ,uop 'ɹǝqɯǝɯǝᴚ.sɹǝʇunoɔuǝ ɹo/puɐ sǝɔuǝɹɹnɔɔo ǝᵷuɐɹʇs uᴉ ʇꞁnsǝɹ ʎɐɯ ᵷuᴉuɹɐʍ sᴉɥʇ ᵷuᴉɹouᵷi.Nǝǝᴚɔs sih⟘ ssɐԁ ⟘on oᗡ noʎ ʇɐɥʇ pǝsᴉʌpɐ sᴉ ʇi.pꞁɹoʍ sᴉɥʇ uᴉ ǝɔuǝsǝɹd uʍouʞun uɐ pǝʇɔǝʇǝp sɐɥ ʇɟɐɹɔǝuᴉw",
+  "selectWorld.warning.experimental.question": ".sᵷnq ǝɥʇ ʇɐ ʎꞁʇɔǝɹᴉp ǝɹɐʇs ʇ,uop 'ɹǝqɯǝɯǝᴚ .sɹǝʇunoɔuǝ ɹo/puɐ sǝɔuǝɹɹnɔɔo ǝᵷuɐɹʇs uᴉ ʇꞁnsǝɹ ʎɐɯ ᵷuᴉuɹɐʍ sᴉɥʇ ᵷuᴉɹouᵷI .NƎƎᴚƆS SIH⟘ SSⱯԁ ⟘ON Oᗡ noʎ ʇɐɥʇ pǝsᴉʌpɐ sI ʇi.pꞁɹoʍ sᴉɥʇ uᴉ ǝɔuǝsǝɹd uʍouʞun uɐ pǝʇɔǝʇǝp sɐɥ ʇɟɐɹɔǝuᴉW",
 
 
 
-  "config.page1.progress": "ᵷᴉɟuoɔ [1/5]",
-  "config.page2.progress": "ᵷᴉɟuoɔ [2/5]",
-  "config.page3.progress": "ᵷᴉɟuoɔ [3/5]",
-  "config.page4.progress": "ᵷᴉɟuoɔ [4/5]",
-  "config.page5.progress": "ᵷᴉɟuoɔ [5/5]",
+  "config.page1.progress": "ᵷᴉɟuoɔ [1/6]",
+  "config.page2.progress": "ᵷᴉɟuoɔ [2/6]",
+  "config.page3.progress": "ᵷᴉɟuoɔ [3/6]",
+  "config.page4.progress": "ᵷᴉɟuoɔ [4/6]",
+  "config.page5.progress": "ᵷᴉɟuoɔ [5/6]",
+  "config.page6.progress": "ᵷᴉɟuoɔ [6/6]",
   "config.skin_library.progress": "[ʎɹɐɹqᴉꞁ uᴉʞs] ᵷᴉɟuoɔ",
 
   "config.page1.title": "⥝ ǝᵷɐԁ",
@@ -18,6 +19,7 @@
   "config.page3.title": "Ɛ ǝᵷɐԁ",
   "config.page4.title": "߈ ǝᵷɐԁ",
   "config.page5.title": "Ϛ ǝᵷɐԁ",
+  "config.page6.title": "9 ǝᵷɐԁ",
   "config.sss.title": "sᵷuᴉʇʇǝs ʇǝɹɔǝs ɹǝdns",
   "config.pages.title": "sǝᵷɐԁ",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "ʎɐꞁǝᗡ ᵷuᴉʇunɐh",
   "config.dayDelayConfig.description": ".(sʎɐp ǝɯɐᵷ-uᴉ) ᵷuᴉʇunɐɥ ɹoɾɐɯ ʇɹɐʇs oʇ ǝuᴉɹqoɹǝh ɹoɟ sǝʞɐʇ ʇᴉ ᵷuoꞁ ʍoɥ ɹoɟ ʎɐꞁǝp ǝɥʇ sǝᵷuɐɥɔ",
-  "config.dayDelayConfig.setting1": "ɟɟo",
-  "config.dayDelayConfig.setting2": "ʎɐꞁǝᗡ on",
-  "config.dayDelayConfig.setting3": "⥝ ʎɐᗡ",
-  "config.dayDelayConfig.setting4": "ᘔ sʎɐᗡ",
-  "config.dayDelayConfig.setting5": "Ɛ sʎɐᗡ",
+  "config.dayDelayConfig.setting1": "ʎɐꞁǝᗡ ǝɔnpǝᴚ",
+  "config.dayDelayConfig.setting2": "ʎɐꞁǝᗡ ǝsɐǝɹɔui",
 
   "config.ghostDoorConfig.title": "sɹooᗡ ʇsoɥ⅁",
   "config.ghostDoorConfig.description": ".sɹoop ɹnoʎ uǝdo uɐɔ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥɔ",
@@ -142,70 +141,84 @@
   "config.fearfulFootstepsConfig.title": "sdǝʇsʇooⅎ ꞁnɟɹɐǝⅎ",
   "config.fearfulFootstepsConfig.description": ".sdǝʇsʇooɟ ᵷuᴉʇɐǝɹɔ sɹǝʎɐꞁd puᴉɥǝq dn unɹ ꞁꞁᴉʍ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥɔ",
 
+  "config.shrineSupriseConfig.title": "ǝsᴉɹdɹns ǝuᴉɹɥs",
+  "config.shrineSupriseConfig.description": ".ʇᴉꞁ uǝɥʍ ǝuᴉɹɥs ǝɥʇ ɟo doʇ uo ɹɐǝddɐ ꞁꞁᴉʍ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥɔ",
+    
 
 
-  "config.hittingThatGriddyConfig.title": "ʎppᴉɹ⅁ ʇɐɥ⟘ ᵷuᴉʇʇᴉh",
-  "config.hittingThatGriddyConfig.description": ".ʎppᴉɹᵷ ǝɥʇ ᵷuᴉop uʍɐds ꞁꞁᴉʍ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥɔ",
+  "config.lurkingConfig.title": "ɔᴉuɐɥɔǝw ᵷuᴉʞɹnꞁ",
+  "config.lurkingConfig.description": ".ǝɔuɐʇsᴉp ɹɐɟ ʎɹǝʌ ɐ ɯoɹɟ ᵷuᴉɥɔʇɐʍ ɹǝʎɐꞁd ǝɥʇ punoɹɐ ʞɹnꞁ ꞁꞁᴉʍ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥɔ",
+
+  "config.autoConfigDisable.title": "ꞁoɹʇuoɔ ʞɔɐᗺ ǝʞɐ⟘",
+  "config.autoConfigEnable.title": "ꞁoɹʇuoɔ ʇi ǝʌᴉ⅁",
+  "config.autoConfig.description": ".ᵷᴉɟuoɔ ǝɥʇ ʎɟᴉpoɯ uɐɔ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥɔ",
 
 
 
-  "config.skinLibrary.randomizeSkinsConfig.title": "suᴉʞs ǝzᴉɯopuɐᴚ",
-  "config.skinLibrary.builtInSkins.title": "suᴉʞs",
+  "config.hittingThatGriddyConfig.title": "ʎppᴉɹ⅁ ʇɐɥ⟘ ᵷuᴉʇʇᴉH",
+  "config.hittingThatGriddyConfig.description": ".ʎppᴉɹᵷ ǝɥʇ ᵷuᴉop uʍɐds ꞁꞁᴉʍ ǝuᴉɹqoɹǝh ʇou ɹo ɹǝɥʇǝɥʍ sǝᵷuɐɥƆ",
+
+
+
+  "config.skinLibrary.randomizeSkinsConfig.title": "suᴉʞS ǝzᴉɯopuɐᴚ",
+  "config.skinLibrary.builtInSkins.title": "suᴉʞS",
   "config.skinLibrary.defaultSkin.title": "ʇꞁnɐɟǝᗡ",
-  "config.skinLibrary.classicSkin.title": "ɔᴉssɐꞁɔ",
+  "config.skinLibrary.classicSkin.title": "ɔᴉssɐꞁƆ",
   "config.skinLibrary.blackEyesSkin.title": "sǝʎǝ ʞɔɐꞁᗺ",
-  "config.skinLibrary.entity303Skin.title": "Ɛ0ɛ ʎʇᴉʇuǝ",
+  "config.skinLibrary.entity303Skin.title": "Ɛ0Ɛ ʎʇᴉʇuƎ",
   "config.skinLibrary.glitchSkin.title": "ɥɔʇᴉꞁ⅁",
-  "config.skinLibrary.nullSkin.title": "ꞁꞁnn",
-  "config.skinLibrary.lunarEclipseSkin.title": "ǝsdᴉꞁɔǝ ɹɐunꞁ",
-  "config.skinLibrary.apparitionSkin.title": "uoᴉʇᴉɹɐddɐ",
-  "config.skinLibrary.zombieSkin.title": "ǝᴉqɯoz",
-  "config.skinLibrary.nullifiedSkin.title": "pǝᴉɟᴉꞁꞁnn",
+  "config.skinLibrary.nullSkin.title": "ꞁꞁnN",
+  "config.skinLibrary.lunarEclipseSkin.title": "ǝsdᴉꞁɔƎ ɹɐunꞀ",
+  "config.skinLibrary.apparitionSkin.title": "uoᴉʇᴉɹɐddⱯ",
+  "config.skinLibrary.zombieSkin.title": "ǝᴉqɯoZ",
+  "config.skinLibrary.nullifiedSkin.title": "pǝᴉɟᴉꞁꞁnN",
   "config.skinLibrary.facelessSkin.title": "ssǝꞁǝɔɐⅎ",
   "config.skinLibrary.distortedSkin.title": "pǝʇɹoʇsᴉᗡ",
-  "config.skinLibrary.alexSkin.title": "xǝꞁɐ",
-  "config.skinLibrary.lickSkin.title": "ʞɔᴉꞁ",
+  "config.skinLibrary.alexSkin.title": "xǝꞁⱯ",
+  "config.skinLibrary.lickSkin.title": "ʞɔᴉꞀ",
   "config.skinLibrary.fallenKingdomSkin.title": "ɯopᵷuᴉʞ uǝꞁꞁɐⅎ",
   "config.skinLibrary.sculkInfestedSkin.title": "pǝʇsǝɟui ʞꞁnɔs",
-  "config.skinLibrary.netherBrineSkin.title": "ǝuᴉɹqɹǝɥʇǝn",
+  "config.skinLibrary.netherBrineSkin.title": "ǝuᴉɹqɹǝɥʇǝN",
   "config.skinLibrary.farlanderSkin.title": "ɹǝpuɐꞁɹɐⅎ",
-  "config.skinLibrary.theHeadlessSkin.title": "ssǝꞁpɐǝh ǝɥ⟘",
-  "config.skinLibrary.lumberingJackSkin.title": "ʞɔɐր ᵷuᴉɹǝqɯnꞁ",
-  "config.skinLibrary.smileSkin.title": "ǝꞁᴉɯs",
+  "config.skinLibrary.theHeadlessSkin.title": "ssǝꞁpɐǝH ǝɥ⟘",
+  "config.skinLibrary.lumberingJackSkin.title": "ʞɔɐր ᵷuᴉɹǝqɯnꞀ",
+  "config.skinLibrary.smileSkin.title": "ǝꞁᴉɯS",
   "config.skinLibrary.theGrimreaperSkin.title": "ɹǝdɐǝɹɯᴉɹ⅁ ǝɥ⟘",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "(ɔᴉssɐꞁɔ) sǝʎǝ ǝʇᴉɥM",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "uᴉʞdɯnԁ ǝʇᴉɥm ǝɥ⟘",
 
-  "watchingSkin.customSkinPack.name": "suᴉʞs ɯoʇsnɔ",
-  "watchingSkin.customSkin1.name": "⥝ uᴉʞs ɯoʇsnɔ",
-  "watchingSkin.customSkin2.name": "ᘔ uᴉʞs ɯoʇsnɔ",
-  "watchingSkin.customSkin3.name": "Ɛ uᴉʞs ɯoʇsnɔ",
-  "watchingSkin.customSkin4.name": "߈ uᴉʞs ɯoʇsnɔ",
-  "watchingSkin.customSkin5.name": "Ϛ uᴉʞs ɯoʇsnɔ",
+  "watchingSkin.customSkinPack.name": "suᴉʞs ɯoʇsnƆ",
+  "watchingSkin.customSkin1.name": "⥝ uᴉʞs ɯoʇsnƆ",
+  "watchingSkin.customSkin2.name": "ᘔ uᴉʞs ɯoʇsnƆ",
+  "watchingSkin.customSkin3.name": "Ɛ uᴉʞs ɯoʇsnƆ",
+  "watchingSkin.customSkin4.name": "߈ uᴉʞs ɯoʇsnƆ",
+  "watchingSkin.customSkin5.name": "Ϛ uᴉʞs ɯoʇsnƆ",
 
 
 
   "sign.type1.line1": "",
   "sign.type1.line2": "",
-  "sign.type1.line3": "...ᵷuᴉɥɔʇɐʍ ɯ,i",
+  "sign.type1.line3": "...ᵷuᴉɥɔʇɐʍ ɯ,I",
   "sign.type1.line4": "",
 
   "sign.type2.line1": "",
   "sign.type2.line2": "",
-  "sign.type2.line3": "dꞁǝh",
+  "sign.type2.line3": "dꞁǝH",
   "sign.type2.line4": "",
 
   "sign.type3.line1": "",
   "sign.type3.line2": "",
-  "sign.type3.line3": ".noʎ ǝǝs i",
+  "sign.type3.line3": ".noʎ ǝǝs I",
   "sign.type3.line4": "",
 
   "sign.type4.line1": "",
   "sign.type4.line2": "",
   "sign.type4.line3": "THIS IS THE PLAYERS USERNAME, CHANGING THIS HAS NO EFFECT.",
-  "sign.type4.line4": "'ǝɹǝɥʇ oꞁꞁǝh",
+  "sign.type4.line4": "'ǝɹǝɥʇ oꞁꞁǝH",
 
   "sign.type5.line1": "",
   "sign.type5.line2": "",
-  "sign.type5.line3": ".Ԁ∩ ǝʞɐm",
+  "sign.type5.line3": ".Ԁ∩ ǝʞɐM",
   "sign.type5.line4": "",
 
   "sign.type6.line1": "",
@@ -215,7 +228,7 @@
 
   "sign.type7.line1": "",
   "sign.type7.line2": "",
-  "sign.type7.line3": ".ʎꞁǝsoꞁɔ uǝʇsᴉꞁ",
+  "sign.type7.line3": ".ʎꞁǝsoꞁɔ uǝʇsᴉꞀ",
   "sign.type7.line4": "",
 
   "sign.type8.line1": "",
@@ -225,7 +238,7 @@
 
   "sign.type9.line1": "",
   "sign.type9.line2": "",
-  "sign.type9.line3": ".doʇs",
+  "sign.type9.line3": ".doʇS",
   "sign.type9.line4": "",
 
   "sign.type10.line1": "",
@@ -241,7 +254,7 @@
   "sign.type12.line1": "",
   "sign.type12.line2": "¿pɐǝɥǝꞁpuɐɔ",
   "sign.type12.line3": "ʇɐ ᵷuᴉʞooꞁ",
-  "sign.type12.line4": "noʎ ǝɹɐ ʇɐɥm",
+  "sign.type12.line4": "noʎ ǝɹɐ ʇɐɥM",
 
 
 
@@ -254,70 +267,88 @@
   "advancements.ftf.jumpscared.title": "...no⅄ puᴉɥǝᗺ",
   "advancements.ftf.jumpscared.description": ".ǝɯᴉʇ ʇsɹᴉɟ ǝɥʇ ɹoɟ ǝuᴉɹqoɹǝh ʎq pǝɹɐɔsdɯnɾ ʇǝ⅁",
 
-  "advancements.ftf.found_herobrine_structure.title": "¿ʇɥᵷᴉᴚ ɹǝʎɐꞁdǝꞁᵷuᴉs uo ɯ,i",
+  "advancements.ftf.found_herobrine_structure.title": "¿ʇɥᵷᴉᴚ 'ɹǝʎɐꞁdǝꞁᵷuᴉs uo ɯ,I",
   "advancements.ftf.found_herobrine_structure.description": ".ǝuᴉɹqoɹǝh ʎq pǝɔɐꞁd ǝɹnʇɔnɹʇs ʎuɐ ɹǝʌoɔsᴉᗡ",
 
-  "advancements.ftf.herobrine_griddy.title": "¡¿⟘ɐhm",
-  "advancements.ftf.herobrine_griddy.description": ".ʎppᴉɹᵷ ʇɐɥʇ ᵷuᴉʇʇᴉɥ ǝuᴉɹqoɹǝh ɹǝʇunoɔuǝ",
+  "advancements.ftf.herobrine_griddy.title": "¡¿⟘ⱯHM",
+  "advancements.ftf.herobrine_griddy.description": ".ʎppᴉɹᵷ ʇɐɥʇ ᵷuᴉʇʇᴉɥ ǝuᴉɹqoɹǝh ɹǝʇunoɔuƎ",
 
-  "advancements.ftf.be_the_librarian.title": "...ʞɹɐᗡ ǝɥ⟘ ui ʇɥᵷᴉꞁ ɐ",
+  "advancements.ftf.be_the_librarian.title": "...ʞɹɐᗡ ǝɥ⟘ ui ʇɥᵷᴉꞁ Ɐ",
   "advancements.ftf.be_the_librarian.description": ".uɐᴉɹɐɹqᴉꞁ ǝɥ⟘ ǝᗺ",
 
-  "advancements.ftf.liberty_lantern.title": ".ʎʇɹǝqᴉꞁ oꞁꞁǝh",
+  "advancements.ftf.liberty_lantern.title": ".ʎʇɹǝqᴉꞀ oꞁꞁǝH",
   "advancements.ftf.liberty_lantern.description": ".ʎɐꞁꞁɐ uɐ oʇ uɹǝʇuɐꞁ ɐ ǝʌᴉ⅁",
 
   "advancements.ftf.dog_growl.title": "¿ʎoᗺ ʎɐʞo no⅄",
-  "advancements.ftf.dog_growl.description": ".ǝuᴉɹqoɹǝh ʇɐ ꞁʍoɹᵷ ɟꞁoʍ pǝɯɐʇ ɐ ssǝuʇᴉm",
+  "advancements.ftf.dog_growl.description": ".ǝuᴉɹqoɹǝh ʇɐ ꞁʍoɹᵷ ɟꞁoʍ pǝɯɐʇ ɐ ssǝuʇᴉM",
 
   "advancements.ftf.have_a_nightmare.title": "¿ʇɥᵷᴉᴚ...ɯɐǝɹᗡ pɐᗺ ɐ ʇsnր",
   "advancements.ftf.have_a_nightmare.description": ".ǝɯᴉʇ ʇsɹᴉɟ ǝɥʇ ɹoɟ ǝɹɐɯʇɥᵷᴉu ɐ ǝʌɐh",
 
-  "advancements.ftf.found_logless_tree.title": ".sᴉɥ⟘ ᵷuᴉoᗡ ɹǝqɯǝɯǝᴚ ʇ,uoᗡ i",
+  "advancements.ftf.found_logless_tree.title": ".sᴉɥ⟘ ᵷuᴉoᗡ ɹǝqɯǝɯǝᴚ ʇ,uoᗡ I",
   "advancements.ftf.found_logless_tree.description": ".uʍop doɥɔ ʇ,upᴉp noʎ ʇɐɥʇ ǝǝɹʇ ɐ ɹǝʌoɔsᴉᗡ",
 
-  "advancements.ftf.found_leafless_grove.title": "...sᴉɥ⟘ ǝsnɐɔ ʇ,upꞁnoɔ ɐʌɐꞁ",
+  "advancements.ftf.found_leafless_grove.title": "...sᴉɥ⟘ ǝsnɐɔ ʇ,upꞁnoɔ ɐʌɐꞀ",
   "advancements.ftf.found_leafless_grove.description": ".ǝʌoɹ⅁ ssǝꞁɟɐǝꞁ ɐ ɹǝʌoɔsᴉᗡ",
 
-  "advancements.ftf.named_dd_item.title": "...ᵷuᴉʇɐɔᴉunɯɯoɔ s,ʇi",
+  "advancements.ftf.named_dd_item.title": "...ᵷuᴉʇɐɔᴉunɯɯoɔ s,ʇI",
   "advancements.ftf.named_dd_item.description": ".uoᴉʇɐuoᗡ ꞁnɟpɐǝɹᗡ pǝɯɐu ɐ puᴉⅎ",
 
-  "advancements.ftf.spotted_herobrine.title": "I sɥonꞁp ɔɐꞁꞁ ʞǝʌᴉu¡",
-  "advancements.ftf.spotted_herobrine.description": ".ǝɯᴉʇ ʇsɹᴉɟ ǝɥʇ ɹoɟ ǝuᴉɹqoɹǝh ʇods",
+  "advancements.ftf.spotted_herobrine.title": "¡uᴉʌǝꞰ ꞁꞁɐɔ pꞁnoɥs I",
+  "advancements.ftf.spotted_herobrine.description": ".ǝɯᴉʇ ʇsɹᴉɟ ǝɥʇ ɹoɟ ǝuᴉɹqoɹǝh ʇodS",
 
   "advancements.ftf.be_comical_bonzo.title": ".ǝɯosǝʍɐ ʎꞁꞁɐɹǝʇᴉꞁ",
   "advancements.ftf.be_comical_bonzo.description": ".ozuoᗺ ꞁɐɔᴉɯoɔ ǝᗺ",
 
-  "advancements.ftf.ghost_miner.title": "¿⟘ɐh⟘ sɐm ⟘ɐhm",
-  "advancements.ftf.ghost_miner.description": ".ᵷuᴉuᴉɯ ǝɹ,noʎ ǝꞁᴉɥʍ noʎ punoɹɐ ᵷuᴉᵷᵷᴉp ǝuᴉɹqoɹǝh ɹǝʇunoɔuǝ",
+  "advancements.ftf.ghost_miner.title": "¿⟘ɐh⟘ sɐm ⟘ɐhM",
+  "advancements.ftf.ghost_miner.description": ".ᵷuᴉuᴉɯ ǝɹ,noʎ ǝꞁᴉɥʍ noʎ punoɹɐ ᵷuᴉᵷᵷᴉp ǝuᴉɹqoɹǝh ɹǝʇunoɔuƎ",
 
-  "advancements.ftf.take_gm_torch.title": "¡noʎ ʍǝɹɔs 'ʇi ǝʞɐ⟘ ɐuuo⅁ ɯ,i",
+  "advancements.ftf.take_gm_torch.title": "¡noʎ ʍǝɹɔs 'ʇi ǝʞɐ⟘ ɐuuo⅁ ɯ,I",
   "advancements.ftf.take_gm_torch.description": ".ɹǝuᴉɯ ʇsoɥᵷ ǝɥʇ ɯoɹɟ ɥɔɹoʇ ǝɥʇ ǝʞɐ⟘",
 
-  "advancements.ftf.dreadful_donation.title": "¿ǝɹǝh sᴉɥ⟘ ʇnԁ oɥm",
+  "advancements.ftf.dreadful_donation.title": "¿ǝɹǝh sᴉɥ⟘ ʇnԁ oɥM",
   "advancements.ftf.dreadful_donation.description": ".ǝuᴉɹqoɹǝh ɯoɹɟ uoᴉʇɐuoᗡ ꞁnɟpɐǝɹᗡ ɐ puᴉⅎ",
 
-  "advancements.ftf.didnt_notice_herobrine.title": "...ᵷuᴉɥɔʇɐm s,ǝh",
+  "advancements.ftf.didnt_notice_herobrine.title": "...ᵷuᴉɥɔʇɐm s,ǝH",
   "advancements.ftf.didnt_notice_herobrine.description": ".ᵷuᴉɔᴉʇou ʇnoɥʇᴉʍ ǝuᴉɹqoɹǝh ʎq pǝʞꞁɐʇs ʇǝ⅁",
 
-  "advancements.ftf.survive_3_days.title": "¿ǝw ᵷuᴉʍoꞁꞁoⅎ ǝuoǝɯos si",
-  "advancements.ftf.survive_3_days.description": ".sʎɐp ɛ ǝʌᴉʌɹns",
+  "advancements.ftf.survive_3_days.title": "¿ǝw ᵷuᴉʍoꞁꞁoⅎ ǝuoǝɯos sI",
+  "advancements.ftf.survive_3_days.description": ".sʎɐp ɛ ǝʌᴉʌɹnS",
 
-  "advancements.ftf.survive_10_days.title": "...ǝw ᵷuᴉʍoꞁꞁoⅎ s,ǝuoǝɯos",
-  "advancements.ftf.survive_10_days.description": ".sʎɐp 0⥝ ǝʌᴉʌɹns",
+  "advancements.ftf.survive_10_days.title": "...ǝw ᵷuᴉʍoꞁꞁoⅎ s,ǝuoǝɯoS",
+  "advancements.ftf.survive_10_days.description": ".sʎɐp 0⥝ ǝʌᴉʌɹnS",
 
-  "advancements.ftf.survive_50_days.title": ".ǝuoꞁɐ ǝw ǝʌɐǝꞁ",
-  "advancements.ftf.survive_50_days.description": ".sʎɐp 0ϛ ǝʌᴉʌɹns",
+  "advancements.ftf.survive_50_days.title": ".ǝuoꞁɐ ǝw ǝʌɐǝꞀ",
+  "advancements.ftf.survive_50_days.description": ".sʎɐp 0ϛ ǝʌᴉʌɹnS",
 
-  "advancements.ftf.survive_100_days.title": ".ǝpᴉh o⟘ ǝʌɐh i",
-  "advancements.ftf.survive_100_days.description": ".sʎɐp 00⥝ ǝʌᴉʌɹns",
+  "advancements.ftf.survive_100_days.title": ".ǝpᴉh o⟘ ǝʌɐh I",
+  "advancements.ftf.survive_100_days.description": ".sʎɐp 00⥝ ǝʌᴉʌɹnS",
 
   "advancements.ftf.survive_200_days.title": "¡ǝɹǝh ɟo ʇno ǝw ʇǝ⅁",
-  "advancements.ftf.survive_200_days.description": ".sʎɐp 00ᘔ ǝʌᴉʌɹns",
+  "advancements.ftf.survive_200_days.description": ".sʎɐp 00ᘔ ǝʌᴉʌɹnS",
 
   "advancements.ftf.found_torch_tunnel.title": ".ʇɐɥ⟘ uʍoᗡ ɓuᴉo⅁ ʇoN ɯⱯ I",
   "advancements.ftf.found_torch_tunnel.description": ".ǝuᴉɹqoɹǝH ʎq ɓnp lǝuunʇ ɐ ɹǝʌoɔsᴉᗡ",
 
 
 
-  "subtitle.message.warning": "...ᵷuᴉɥɔʇɐʍ ɯ,i"
+  "subtitle.message.warning": "...ᵷuᴉɥɔʇɐʍ ɯ,I",
+
+
+
+  "chat.cleanup.execute.statement": ".sǝuᴉɹqoɹǝh ꞁꞁɐ ᵷuᴉʌoɯǝᴚ",
+  "chat.cleanup.failure.statement": "¡ǝuᴉɹqoɹǝh ǝʌoɯǝᴚ o⟘ pǝꞁᴉɐⅎ",
+  "chat.cleanup.failure.description": "¡pꞁɹoʍ sᴉɥʇ uᴉ pǝpɐoꞁ sǝuᴉɹqoɹǝh ou ʎꞁʇuǝɹɹnɔ ǝɹɐ ǝɹǝɥ⟘",
+  "chat.cleanup.success.statement": "¡sǝuᴉɹqoɹǝh ꞁꞁɐ pǝʌoɯǝᴚ ʎꞁꞁnɟssǝɔɔnS",
+
+  "chat.debug_mode.enable.statement": "¡ʎꞁꞁnɟssǝɔɔns ǝpoW ᵷnqǝᗡ pǝꞁqɐuƎ",
+  "chat.debug_mode.disable.statement": "¡ʎꞁꞁnɟssǝɔɔns ǝpoW ᵷnqǝᗡ pǝꞁqɐsᴉᗡ",
+
+  "chat.default_config.execute.statement": "¡sʇꞁnɐɟǝp ᵷᴉɟuoɔ pǝɹoʇsǝɹ ʎꞁꞁnɟssǝɔɔnS",
+
+  "chat.sighting_summons.tutorial.statement": "ꞁɐᴉɹoʇn⟘ puɐɯɯoƆ",
+  "chat.sighting_summons.creeping.tutorial.description": ".uo pǝʇnɔǝxǝ sᴉ ʇᴉ ɹǝʎɐꞁd ǝɥʇ puᴉɥǝq ǝuᴉɹqoɹǝH suʍɐds puɐ ɔᴉuɐɥɔǝɯ ᵷuᴉdǝǝɹɔ ǝɥʇ sǝʇɐʌᴉʇɔɐ puɐɯɯoɔ sᴉɥ⟘",
+  "chat.sighting_summons.stalking.tutorial.description": ".ɹǝʎɐꞁd ɹǝɥʇouɐ ʇɥᵷᴉs ɟo ǝuᴉꞁ ǝɥʇ uᴉ ǝq oʇ pǝuᴉɯɹǝʇǝp sᴉ ʇuᴉoduʍɐds sᴉɥ ɟᴉ uʍɐds ʇou ʎɐɯ ǝuᴉɹqoɹǝH .uo pǝʇnɔǝxǝ sᴉ ʇᴉ ɹǝʎɐꞁd ǝɥʇ punoɹɐ ǝɹǝɥʍǝɯos ǝuᴉɹqoɹǝH suʍɐds puɐ ɔᴉuɐɥɔǝɯ ᵷuᴉʞꞁɐʇs ǝɥʇ sǝʇɐʌᴉʇɔɐ puɐɯɯoɔ sᴉɥ⟘",
+  "chat.sighting_summons.nightmare.tutorial.description": ".pǝq ɐ uᴉ ʇ,usᴉ ɹǝʎɐꞁd ǝɥʇ ɟᴉ uʍɐds ʇou ꞁꞁᴉʍ ǝuᴉɹqoɹǝH .uo pǝʇnɔǝxǝ sᴉ ʇᴉ ɹǝʎɐꞁd ǝɥʇ ɟo pǝq ǝɥʇ ɟo ʇooɟ ǝɥʇ ʇɐ ǝuᴉɹqoɹǝH suʍɐds puɐ ɔᴉuɐɥɔǝɯ ǝɹɐɯʇɥᵷᴉu ǝɥʇ sǝʇɐʌᴉʇɔɐ puɐɯɯoɔ sᴉɥ⟘",
+  "chat.sighting_summons.lurking.tutorial.description": ".ɹǝʎɐꞁd ɐ ɟo sʞɔoꞁq 0߈ uᴉɥʇᴉʍ ǝq oʇ pǝuᴉɯɹǝʇǝp sᴉ ʇuᴉoduʍɐds sᴉɥ ɟᴉ uʍɐds ʇou ʎɐɯ ǝuᴉɹqoɹǝH .uo pǝʇnɔǝxǝ sᴉ ʇᴉ ɹǝʎɐꞁd ǝɥʇ punoɹɐ ǝɔuɐʇsᴉp ǝɥʇ uᴉ ɟɟo ǝɹǝɥʍǝɯos ǝuᴉɹqoɹǝH suʍɐds puɐ ɔᴉuɐɥɔǝɯ ᵷuᴉʞɹnꞁ ǝɥʇ sǝʇɐʌᴉʇɔɐ puɐɯɯoɔ sᴉɥ⟘"
 }

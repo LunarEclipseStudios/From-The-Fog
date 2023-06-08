@@ -6,11 +6,12 @@
 
 
 
-  "config.page1.progress": "การตั้งค่า [1/5]",
-  "config.page2.progress": "การตั้งค่า [2/5]",
-  "config.page3.progress": "การตั้งค่า [3/5]",
-  "config.page4.progress": "การตั้งค่า [4/5]",
-  "config.page5.progress": "การตั้งค่า [5/5]",
+  "config.page1.progress": "การตั้งค่า [1/6]",
+  "config.page2.progress": "การตั้งค่า [2/6]",
+  "config.page3.progress": "การตั้งค่า [3/6]",
+  "config.page4.progress": "การตั้งค่า [4/6]",
+  "config.page5.progress": "การตั้งค่า [5/6]",
+  "config.page6.progress": "การตั้งค่า [6/6]",
   "config.skin_library.progress": "การตั้งค่า [Skin Library]",
 
   "config.page1.title": "หน้า 1",
@@ -18,6 +19,7 @@
   "config.page3.title": "หน้า 3",
   "config.page4.title": "หน้า 4",
   "config.page5.title": "หน้า 5",
+  "config.page6.title": "หน้า 6",
   "config.sss.title": "การตั้งค่าลับสุดยอด",
   "config.pages.title": "หน้า",
 
@@ -31,11 +33,8 @@
 
   "config.dayDelayConfig.title": "การหน่วงเวลาการหลอกหลอน",
   "config.dayDelayConfig.description": "เปลี่ยนการหน่วงเวลาที่ใช้สำหรับให้ Herobrine เรื่มหลอกหลอน (วันในเกม)",
-  "config.dayDelayConfig.setting1": "ปิด",
-  "config.dayDelayConfig.setting2": "ไม่มีการหน่วงเวลา",
-  "config.dayDelayConfig.setting3": "1 วัน",
-  "config.dayDelayConfig.setting4": "2 วัน",
-  "config.dayDelayConfig.setting5": "3 วัน",
+  "config.dayDelayConfig.setting1": "ลดการหน่วงเวลา",
+  "config.dayDelayConfig.setting2": "เพิ่มการหน่วงเวลา",
 
   "config.ghostDoorConfig.title": "ประตูผีสิง",
   "config.ghostDoorConfig.description": "เปลี่ยนให้ Herobrine สามารถเปิดประตูได้หรือไม่",
@@ -43,7 +42,7 @@
   "config.ghostMineConfig.title": "ผีคนขุดเหมือง",
   "config.ghostMineConfig.description": "เปลี่ยนให้ Herobrine จะขุดอยู่ข้างๆคุณในการขุดแนวตรง",
   
-  "config.creepingConfig.title": "ระบบการแอบมอง",
+  "config.creepingConfig.title": "ระบบการทำให้ขนลุก",
   "config.creepingConfig.description": "เปลี่ยนให้ Herobrine จะยืนอยู่ข้างหลังคุณเพื่อรอให้คุณหันกลับมาหรือไม่",
 
   "config.stalkingConfig.title": "ระบบการสะกดรอยตาม",
@@ -137,12 +136,24 @@
   "config.rekindlingShrineConfig.description": "เปลี่ยนให้ Herobrine จะจุดไฟที่แท่นอัญเชิญ Herobrine ใหม่หากมันดับหรือไม่",
 
   "config.advancementsConfig.title": "ความก้าวหน้า",
-  "config.advancementsConfig.description": "้ปลี่ยนให้ผู้เล่นได้รับความก้าวหน้าเกี่ยวกับ From The Fog หรือไม่ (ความก้าวหน้าที่ได้ระหว่างเปิดจะหายไปเมื่อปิด!!!)",
+  "config.advancementsConfig.description": "เปลี่ยนให้ผู้เล่นได้รับความก้าวหน้าเกี่ยวกับ From The Fog หรือไม่ (ความก้าวหน้าที่ได้ระหว่างเปิดจะหายไปเมื่อปิด!!!)",
 
   "config.fearfulFootstepsConfig.title": "ฝีเท้าที่น่ากลัว",
   "config.fearfulFootstepsConfig.description": "เปลี่ยนให้ Herobrine จะวิ่งมาข้างหลังผู้เล่นทำให้เกิดเสียงฝีเท้าหรือไม่",
 
+  "config.shrineSupriseConfig.title": "เซอร์ไพรซ์บนแท่นบูชา",
+  "config.shrineSupriseConfig.description": "เปลี่ยนให้ Herobrine จะปรากฏตัวบนแท่นบูชาเมื่อจุดไฟหรือไม่",
+    
 
+
+  "config.lurkingConfig.title": "ระบบการแอบมอง",
+  "config.lurkingConfig.description": "เปลี่ยนให้ Herobrine จะแอบมองผู้เล่นจากระยะที่ไกลมากๆหรือไม่",
+
+  "config.autoConfigDisable.title": "เอาการควบคุมกลับมา",
+  "config.autoConfigEnable.title": "ให้เขาควบคุม",
+  "config.autoConfig.description": "เปลี่ยนให้ Herobrine สามารถแก้ไขการตั้งค่าได้เองหรือไม่",
+
+  
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
   "config.hittingThatGriddyConfig.description": "เปลี่ยนให้ Herobrine จะเกิดมาแล้วทำท่า griddy หรือไม่",
@@ -151,35 +162,37 @@
 
   "config.skinLibrary.randomizeSkinsConfig.title": "สุ่มสกิน",
   "config.skinLibrary.builtInSkins.title": "สกิน",
-  "config.skinLibrary.defaultSkin.title": "Default",
-  "config.skinLibrary.classicSkin.title": "Classic",
-  "config.skinLibrary.blackEyesSkin.title": "Black Eyes",
-  "config.skinLibrary.entity303Skin.title": "Entity 303",
-  "config.skinLibrary.glitchSkin.title": "Glitch",
-  "config.skinLibrary.nullSkin.title": "Null",
+  "config.skinLibrary.defaultSkin.title": "พื้นฐาน",
+  "config.skinLibrary.classicSkin.title": "ตลาสสิค",
+  "config.skinLibrary.blackEyesSkin.title": "ตาดำ",
+  "config.skinLibrary.entity303Skin.title": "เอนทิตี 303",
+  "config.skinLibrary.glitchSkin.title": "กลิตช์",
+  "config.skinLibrary.nullSkin.title": "ว่างเปล่า",
   "config.skinLibrary.lunarEclipseSkin.title": "Lunar Eclipse",
-  "config.skinLibrary.apparitionSkin.title": "Apparition",
-  "config.skinLibrary.zombieSkin.title": "Zombie",
-  "config.skinLibrary.nullifiedSkin.title": "Nullified",
-  "config.skinLibrary.facelessSkin.title": "Faceless",
-  "config.skinLibrary.distortedSkin.title": "Distorted",
-  "config.skinLibrary.alexSkin.title": "Alex",
-  "config.skinLibrary.lickSkin.title": "Lick",
+  "config.skinLibrary.apparitionSkin.title": "ผี",
+  "config.skinLibrary.zombieSkin.title": "ซอมบี้",
+  "config.skinLibrary.nullifiedSkin.title": "ถูกทำให้ว่างเปล่า",
+  "config.skinLibrary.facelessSkin.title": "ไร้หน้า",
+  "config.skinLibrary.distortedSkin.title": "บิดเบี้ยว",
+  "config.skinLibrary.alexSkin.title": "เอล็กซ์",
+  "config.skinLibrary.lickSkin.title": "เลีย",
   "config.skinLibrary.fallenKingdomSkin.title": "Fallen Kingdom",
-  "config.skinLibrary.sculkInfestedSkin.title": "Sculk Infested",
-  "config.skinLibrary.netherBrineSkin.title": "Netherbrine",
-  "config.skinLibrary.farlanderSkin.title": "Farlander",
-  "config.skinLibrary.theHeadlessSkin.title": "The Headless",
-  "config.skinLibrary.lumberingJackSkin.title": "Lumbering Jack",
-  "config.skinLibrary.smileSkin.title": "Smile",
-  "config.skinLibrary.theGrimreaperSkin.title": "The Grimreaper",
+  "config.skinLibrary.sculkInfestedSkin.title": "ติดเชื้อสกัลก์",
+  "config.skinLibrary.netherBrineSkin.title": "เนเธอร์ไบรน์",
+  "config.skinLibrary.farlanderSkin.title": "ฟาร์แลนเดอร์",
+  "config.skinLibrary.theHeadlessSkin.title": "ไร้หัว",
+  "config.skinLibrary.lumberingJackSkin.title": "คนตัดไม้",
+  "config.skinLibrary.smileSkin.title": "ยิ้ม",
+  "config.skinLibrary.theGrimreaperSkin.title": "ยมฑูต",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "ตาขาว (คลาสสิค)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "ฟักทองสีขาว",
 
   "watchingSkin.customSkinPack.name": "สกินที่กำหนดเอง",
-  "watchingSkin.customSkin1.name": "Custom Skin 1",
-  "watchingSkin.customSkin2.name": "Custom Skin 2",
-  "watchingSkin.customSkin3.name": "Custom Skin 3",
-  "watchingSkin.customSkin4.name": "Custom Skin 4",
-  "watchingSkin.customSkin5.name": "Custom Skin 5",
+  "watchingSkin.customSkin1.name": "สกินที่กำหนดเอง 1",
+  "watchingSkin.customSkin2.name": "สกินที่กำหนดเอง 2",
+  "watchingSkin.customSkin3.name": "สกินที่กำหนดเอง 3",
+  "watchingSkin.customSkin4.name": "สกินที่กำหนดเอง 4",
+  "watchingSkin.customSkin5.name": "สกินที่กำหนดเอง 5",
 
 
 
@@ -314,10 +327,28 @@
   "advancements.ftf.survive_200_days.title": "เอาฉันออกไปจากที่นี่!",
   "advancements.ftf.survive_200_days.description": "รอด 200 วัน",
 
-  "advancements.ftf.found_torch_tunnel.title": "ฉันไม่ไปลงไปทางนั้น",
-  "advancements.ftf.found_torch_tunnel.description": "ค้นพบทางเข้าอุโมงที่ถูกขุดขึ้นโดยเฮโรไบรน์",
+  "advancements.ftf.found_torch_tunnel.title": "ฉันไม่เข้าไปในนั้นหรอก",
+  "advancements.ftf.found_torch_tunnel.description": "เจออุโมงค์ที่ขุดโดย Herobrine",
 
 
 
-  "subtitle.message.warning": "ฉันกำลังมองอยู่..."
+  "subtitle.message.warning": "ฉันกำลังมองอยู่...",
+
+
+
+  "chat.cleanup.execute.statement": "กำลังลบ Herobrine ทั้งหมด",
+  "chat.cleanup.failure.statement": "ล้มเหลวในการลบ Herobrine!",
+  "chat.cleanup.failure.description": "ไม่มี Herobrine อยู่ในโลกนี้ในขณะนี้!",
+  "chat.cleanup.success.statement": "ลบ Herobrine ทั้งหมดสำเร็จ!",
+
+  "chat.debug_mode.enable.statement": "เปิดโหมด Debug สำเร็จ!",
+  "chat.debug_mode.disable.statement": "ปิดโหมด Debug สำเร็จ!",
+
+  "chat.default_config.execute.statement": "คืนค่าการตั้งค่าพื้นฐานสำเร็จ!",
+
+  "chat.sighting_summons.tutorial.statement": "สอนเกี่ยวกำคำสั่ง",
+  "chat.sighting_summons.creeping.tutorial.description": "คำสั่งนี้เปิดระบบทำให้ขนลุก และเสก Herobrine มาข้างหลังผู้เล่นที่ใช้คำสั่ง",
+  "chat.sighting_summons.stalking.tutorial.description": "คำสั่งนี้เปิดระบบสะกดรอยตาม และเสก Herobrine มาใกล้ๆตัวผู้เล่นที่ใช้คำสั่ง. Herobrine อาจไม่เกิดหากจุดเกิดของเขาถูกตำนวณว่าอยู่ในระยะสายตาของผู้เล่นคนอื่น",
+  "chat.sighting_summons.nightmare.tutorial.description": "คำสั่งนี้เปิดระบบฝันร้าย และเสก Herobrine ที่ปลายเตียงของผู้เล่นที่ใช้คำสั่ง. Herobrine จะไม่เกิดถ้าผู้เล่นไม่ได้กำลังนอนอยู่",
+  "chat.sighting_summons.lurking.tutorial.description": "คำสั่งนี้เปิดระบบการแอบมอง และเสก Herobrine ในพื้นที่ที่ห่างจากตัวผู้เล่นที่ใช้คำสั่ง. Herobrine อาจไม่เกิดหากจุดเกิดของเขาถูกตำนวณว่าอยู่ในระยะ40บล็อคจากผู้เล่น"
 }
