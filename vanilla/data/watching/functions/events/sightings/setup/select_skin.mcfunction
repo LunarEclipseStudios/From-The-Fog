@@ -265,6 +265,15 @@ execute if score herobrineSkinConfig ftf.configOptions matches -5 run item repla
 execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.offhand with disc_fragment_5{CustomModelData: 1350858}
 execute if score herobrineSkinConfig ftf.configOptions matches -5 run item replace entity @e[type=armor_stand,tag=legs,tag=emissive] weapon.mainhand with disc_fragment_5{CustomModelData: 1350859}
 
+#hoeBrineReturns
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=head] armor.head with diamond_hoe
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=eyes] armor.head with diamond_hoe
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] armor.head with diamond_hoe
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.offhand with diamond_hoe
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=body,tag=!emissive] weapon.mainhand with diamond_hoe
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.offhand with diamond_hoe
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run item replace entity @e[type=armor_stand,tag=legs,tag=!emissive] weapon.mainhand with diamond_hoe
+
 #dynamicNameTag
 execute if score nameTagConfig ftf.configOptions matches 1 at @e[type=armor_stand,tag=move] run summon armor_stand ~ ~1.8 ~ {CustomName:'{"text":""}',CustomNameVisible:1b,Invisible:1b,NoGravity:1b,Marker:1b,Tags:["herobrine","herobrineModel","nameTagEntity","smithed.entity"]}
 execute if score nameTagConfig ftf.configOptions matches 1 if score herobrineSkinConfig ftf.configOptions matches 1..3 run data merge entity @e[type=armor_stand,tag=nameTagEntity,limit=1] {CustomName:'{"text":"Herobrine"}'}

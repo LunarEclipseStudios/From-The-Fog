@@ -158,6 +158,9 @@
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
   "config.hittingThatGriddyConfig.description": "Changes whether or not Herobrine will spawn doing the griddy.",
 
+  "config.hoeBrineReturnsConfig.title": "Hoebrine Returns",
+  "config.hoeBrineReturnsConfig.description": "Changes Herobrine back to Hoebrine as a reference to the original bug that would occur when the player would see Herobrine without the resourcepack enabled.",
+
 
 
   "config.skinLibrary.randomizeSkinsConfig.title": "Randomize Skins",

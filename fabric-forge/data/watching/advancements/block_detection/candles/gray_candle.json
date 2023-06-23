@@ -4,7 +4,12 @@
         "requirement": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:gray_candle"
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:gray_candle"
+                    }
+                ]
             }
         }
     },

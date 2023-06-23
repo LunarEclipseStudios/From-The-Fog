@@ -69,7 +69,6 @@ schedule function watching:events/scheduled/burning_base_day_passed 1d
 schedule function watching:events/scheduled/herobrine_gift_day_passed 1d
 schedule function watching:events/scheduled/crimson_curse_day_passed 1d
 schedule function watching:events/scheduled/chilled_candles_day_passed 1d
-schedule function watching:events/scheduled/auto_config_day_passed 1d
 
 #configTransfer
 scoreboard players operation crashConfig ftf.configOptions = true crashConfig

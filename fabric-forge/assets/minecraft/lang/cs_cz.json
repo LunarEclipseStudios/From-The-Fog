@@ -157,6 +157,9 @@
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
   "config.hittingThatGriddyConfig.description": "Změní, jestli se může Herobrine objevit a Hittovat Griddy.",
+  
+  "config.hoeBrineReturnsConfig.title": "Hoebrine se vrací",
+  "config.hoeBrineReturnsConfig.description": "Změní Herobrina na Heobrina jako referenci na chybu, která se stala když neměl hráč zapnutý resource pack.",
 
 
 

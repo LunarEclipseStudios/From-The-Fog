@@ -157,6 +157,9 @@
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
   "config.hittingThatGriddyConfig.description": "เปลี่ยนให้ Herobrine จะเกิดมาแล้วทำท่า griddy หรือไม่",
+  
+  "config.hoeBrineReturnsConfig.title": "การกลับมาของ Hoebrine",
+  "config.hoeBrineReturnsConfig.description": "เปลี่ยนให้ Herobrine กลับไปเป็น Hoebrine เพื่อเป็นการอ้างอิงของบัคดั้งเดิมที่จะเกิดขึ้นเมื่อผู้เล่นเห็น Herobrine โดยที่ไม่ได้ใส่ resourcepack",
 
 
 

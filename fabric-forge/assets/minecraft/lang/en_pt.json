@@ -158,7 +158,10 @@
   "config.hittingThatGriddyConfig.title": "Hittin' th' ol' Griddy",
   "config.hittingThatGriddyConfig.description": "Changes whether or nay Herobrine be spawnin' hittin' th' griddy.",
 
+  "config.hoeBrineReturnsConfig.title": "Hoebrine Returns, me hearty!",
+  "config.hoeBrineReturnsConfig.description": "Changes Herobrine back to Hoebrine as a reference to the original bug that would occur when ye landlubbers would see Herobrine without the resourcepack enabled.",
 
+  
 
   "config.skinLibrary.randomizeSkinsConfig.title": "Shuffle th' clothes",
   "config.skinLibrary.builtInSkins.title": "Clothes",

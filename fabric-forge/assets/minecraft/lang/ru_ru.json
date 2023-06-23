@@ -157,6 +157,9 @@
 
   "config.hittingThatGriddyConfig.title": "Танец",
   "config.hittingThatGriddyConfig.description": "Определяет, будет ли Хиробрин при спавне танцевать.",
+  
+  "config.hoeBrineReturnsConfig.title": "Возвращение Мотыгобрина",
+  "config.hoeBrineReturnsConfig.description": "Изменяет модель Хиробрина на ту, где он сделан из алмазных мотыг в честь старой ошибки (Раньше если игрок включал датапак без ресурспака - то Хиробрин выглядел как куча мотыг).",
 
 
 
@@ -237,7 +240,7 @@
   "sign.type8.line4": "",
 
   "sign.type9.line1": "",
-  "sign.type9.line2": "Перестань.",
+  "sign.type9.line2": "Прекрати.",
   "sign.type9.line3": "",
   "sign.type9.line4": "",
 

@@ -158,6 +158,9 @@
   "config.hittingThatGriddyConfig.title": "Tanzt den Griddy",
   "config.hittingThatGriddyConfig.description": "Stellt ein ob Herobrine beim Tanzen abgeht.",
 
+  "config.hoeBrineReturnsConfig.title": "Hoebrine kehrt zurück",
+  "config.hoeBrineReturnsConfig.description": "Ändert Herobrine zurück zu Hoebrine als Referenz auf den ursprünglichen Fehler, der auftrat, wenn der Spieler Herobrine ohne aktiviertes Resourcepack sah.",
+
 
 
   "config.skinLibrary.randomizeSkinsConfig.title": "Zufällige Skins",

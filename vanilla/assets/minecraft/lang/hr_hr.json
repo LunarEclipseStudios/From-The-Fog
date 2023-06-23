@@ -136,7 +136,7 @@
   "config.rekindlingShrineConfig.description": "Promijeni da li Herobrine pali ugašena svetišta.",
 
   "config.advancementsConfig.title": "Uspjesi",
-  "config.advancementsConfig.description": "Promijeni da li Igrač dobija trofeje/uspjehe koji su povezani sa ovim modom, tj. From The Fog. (ADVANCEMENTS GRANTED WHILE ENABLED WILL BE LOST IF DISABLED!!!)",
+  "config.advancementsConfig.description": "Promijeni da li Igrač dobija trofeje/uspjehe koji su povezani sa ovim modom, tj. From The Fog. (USPJEHE KOJE STE DOBILI DOK JE OPCIJA UPALJENJA ČE NESTATI KADA SE UGASI OPCIJA!!!)",
 
   "config.fearfulFootstepsConfig.title": "Strasni Koraci",
   "config.fearfulFootstepsConfig.description": "Promijeni da li Herobrine pravi glasne korake iza igrača.",
@@ -151,12 +151,15 @@
   
   "config.autoConfigDisable.title": "Preuzmi kontrolu",
   "config.autoConfigEnable.title": "Dadni mu kontrolu",
-  "config.autoConfig.description": "Promijeni da li herobrine moze mijenjati konfiguraciju.",
+  "config.autoConfig.description": "Promijeni da li herobrine može mijenjati konfiguraciju.",
 
 
 
   "config.hittingThatGriddyConfig.title": "Herobrine Griddy ples",
   "config.hittingThatGriddyConfig.description": "Promijeni da li herobrine se stvori kako radi griddy ples.",
+  
+  "config.hoeBrineReturnsConfig.title": "Motkabrine se vratio",
+  "config.hoeBrineReturnsConfig.description": "Promijeni Herobrine-a u Motkabrine-a kao referenca na originalni glitch u igri koji se desi kada igras mod i vidiš Herobrine-a bez Resursnog packa.",
 
 
 

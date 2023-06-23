@@ -3,12 +3,17 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:flint_and_steel",
-            "minecraft:fire_charge"
-          ]
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel",
+                "minecraft:fire_charge"
+              ]
+            }
+          }
+        ]
       }
     }
   },

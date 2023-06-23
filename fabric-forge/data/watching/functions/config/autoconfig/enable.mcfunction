@@ -36,6 +36,7 @@ execute unless entity @s[tag=defautlingConfig] run playsound block.enchantment_t
 # And, of course, enable autoConfig
 scoreboard players set autoConfig ftf.configOptions 1
 scoreboard players reset autoConfigDays ftf.autoConfigDaysPassed
+schedule function watching:events/scheduled/auto_config_day_passed 1d
 
 # Open the config again
 execute unless entity @s[tag=defautlingConfig] run function fromthefog:admin/config

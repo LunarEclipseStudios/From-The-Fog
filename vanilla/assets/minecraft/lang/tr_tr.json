@@ -158,6 +158,9 @@
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
   "config.hittingThatGriddyConfig.description": "Herobrine'ın belirdiğinde griddy'i yapıp yapmayacağını belirler.",
 
+  "config.hoeBrineReturnsConfig.title": "Çapa-brine'ın dönüşü",
+  "config.hoeBrineReturnsConfig.description": "Herobrine'ı kaplama paketi olmadan görünce oluşan hataya bir referans olarak onu Çapa-brine'a dönüştürür.",
+
 
 
   "config.skinLibrary.randomizeSkinsConfig.title": "Rastgele Skinler",

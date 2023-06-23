@@ -2,7 +2,7 @@
 execute as @e[tag=herobrine] at @s run function watching:events/general/kill/kill
 
 #summon
-summon armor_stand ~ 0 ~ {Tags:["spread","model","stalking","herobrine"],Marker:0b,Invisible:1b,Invulnerable:1b,NoGravity:0b,DisabledSlots:2039583,NoBasePlate:1b}
+summon armor_stand ~ 0 ~ {Tags:["spread","model","lurking","herobrine"],Marker:0b,Invisible:1b,Invulnerable:1b,NoGravity:0b,DisabledSlots:2039583,NoBasePlate:1b}
 
 #stalkingPos
 # execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2603.45 75.00 27378.49 
@@ -15,7 +15,9 @@ summon armor_stand ~ 0 ~ {Tags:["spread","model","stalking","herobrine"],Marker:
 # execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2586.08 72.00 27354.47 -2069.60 0.72
 # execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2736.14 72.00 27514.86 183.45 2.77
 # execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2699.26 74.00 27483.14 -540.42 0.05
-execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2724.75 72.00 27493.57 1439.23 -6.81
+# execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2724.75 72.00 27493.57 1439.23 -6.81
+# execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2770.51 73.00 27498.58 -0.39 0.21
+execute as @e[tag=spread] at @s in minecraft:overworld run tp @s -2941.63 71.00 27522.48 -1888.89 0.01
 execute as @e[type=armor_stand,tag=spread] at @s align xz run tp ~0.5 ~ ~0.5
 
 #createModel

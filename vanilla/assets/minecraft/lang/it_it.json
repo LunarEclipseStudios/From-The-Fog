@@ -157,6 +157,9 @@
 
   "config.hittingThatGriddyConfig.title": "Hittare il Griddy",
   "config.hittingThatGriddyConfig.description": "Cambia se Herobrine hitterà il griddy.",
+  
+  "config.hoeBrineReturnsConfig.title": "Il ritorno di Hoebrine",
+  "config.hoeBrineReturnsConfig.description": "Cambia Herobrine in Hoebrine come riferimento al bug originale che si verificava quando il giocatore vedeva Herobrine senza il pacchetto di risorse abilitato.",
 
 
 

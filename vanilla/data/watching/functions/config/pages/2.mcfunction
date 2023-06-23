@@ -25,7 +25,7 @@ execute if score glowingEyesConfig ftf.configOptions matches 1 run tellraw @s ["
 tellraw @s ""
 
 #herobrineSkin
-tellraw @s ["",{"translate":"config.herobrineSkinConfig.title","underlined":false,"hoverEvent":{"action":"show_text","contents":{"translate":"config.herobrineSkinConfig.description"}}},{"text":" | ","color":"dark_gray"},{"text":"\uBC36","color":"white","clickEvent":{"action":"run_command","value":"/function watching:config/pages/skins/1"},"hoverEvent":{"action":"show_text","contents":{"translate":"config.herobrineSkinConfig.setting1"}},"font": "watching:watching_ui"}]
+tellraw @s ["",{"translate":"config.herobrineSkinConfig.title","underlined":false,"clickEvent":{"action":"run_command","value":"/function watching:config/pages/what"},"hoverEvent":{"action":"show_text","contents":{"translate":"config.herobrineSkinConfig.description"}}},{"text":" | ","color":"dark_gray"},{"text":"\uBC36","color":"white","clickEvent":{"action":"run_command","value":"/function watching:config/pages/skins/1"},"hoverEvent":{"action":"show_text","contents":{"translate":"config.herobrineSkinConfig.setting1"}},"font": "watching:watching_ui"}]
 tellraw @s ""
 
 #lurkingLanguage

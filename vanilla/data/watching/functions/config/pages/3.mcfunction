@@ -1,7 +1,7 @@
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1.0 2.0 1.0
 
 tellraw @s "\n\n\n\n\n\n\n\n\n\n"
-tellraw @s [{"text":"\uBB01\n","font": "watching:watching_ui","clickEvent":{"action":"run_command","value":"/function watching:config/pages/what"}}]
+tellraw @s [{"text":"\uBB01\n","font": "watching:watching_ui"}]
 tellraw @s [{"translate":"config.page3.progress","underlined": true},{"text":"\n"}]
 
 #jumpscareMechanic

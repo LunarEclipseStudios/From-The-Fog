@@ -156,6 +156,9 @@
 
   "config.hittingThatGriddyConfig.title": "Lovind acel Griddy",
   "config.hittingThatGriddyConfig.description": "Schimbă dacă Herobrine poate sau nu să apară făcând griddy-ul.",
+  
+  "config.hoeBrineReturnsConfig.title": "Hoebrine Revine",
+  "config.hoeBrineReturnsConfig.description": "Herobrine va fi schimbat înapoi în Hoebrine fiind o referință a bug-ului original ce se întâmpla atunci când jucătorul îl vedea pe Herobrine fără recource pack.",
 
 
 

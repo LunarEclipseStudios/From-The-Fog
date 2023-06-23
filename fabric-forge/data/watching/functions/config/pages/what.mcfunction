@@ -7,7 +7,12 @@ tellraw @s [{"translate":"config.sss.title","underlined": true},{"text":"\n"}]
 #hittingThatGriddy
 execute if score hittingThatGriddyConfig ftf.configOptions matches 0 run tellraw @s ["",{"translate":"config.hittingThatGriddyConfig.title","underlined":false,"hoverEvent":{"action":"show_text","contents":{"translate":"config.hittingThatGriddyConfig.description"}}},{"text":" | ","color":"dark_gray"},{"text":"\uBC27","color":"white","clickEvent":{"action":"run_command","value":"/function watching:config/griddy/true"},"font": "watching:watching_ui"}]
 execute if score hittingThatGriddyConfig ftf.configOptions matches 1 run tellraw @s ["",{"translate":"config.hittingThatGriddyConfig.title","underlined":false,"hoverEvent":{"action":"show_text","contents":{"translate":"config.hittingThatGriddyConfig.description"}}},{"text":" | ","color":"dark_gray"},{"text":"\uBC28","color":"white","clickEvent":{"action":"run_command","value":"/function watching:config/griddy/false"},"font": "watching:watching_ui"}]
-tellraw @s "\n\n\n\n\n\n\n\n\n\n"
+tellraw @s ""
+
+#hoeBrineReturns
+execute if score herobrineSkinConfig ftf.configOptions matches -6968.. run tellraw @s ["",{"translate":"config.hoeBrineReturnsConfig.title","underlined":false,"hoverEvent":{"action":"show_text","contents":{"translate":"config.hoeBrineReturnsConfig.description"}}},{"text":" | ","color":"dark_gray"},{"text":"\uBC27","color":"white","clickEvent":{"action":"run_command","value":"/function watching:config/herobrine_skin/-6969_hoebrine"},"font": "watching:watching_ui"}]
+execute if score herobrineSkinConfig ftf.configOptions matches -6969 run tellraw @s ["",{"translate":"config.hoeBrineReturnsConfig.title","underlined":false,"hoverEvent":{"action":"show_text","contents":{"translate":"config.hoeBrineReturnsConfig.description"}}},{"text":" | ","color":"dark_gray"},{"text":"\uBC28","color":"white","clickEvent":{"action":"run_command","value":"/function watching:config/herobrine_skin/-6969_hoebrine_off"},"font": "watching:watching_ui"}]
+tellraw @s "\n\n\n\n\n\n\n\n"
 
 
 #pageSelect

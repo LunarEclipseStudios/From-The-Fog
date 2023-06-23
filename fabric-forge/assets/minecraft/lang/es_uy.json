@@ -158,6 +158,8 @@
     "config.hittingThatGriddyConfig.title": "Bailando el griddy",
     "config.hittingThatGriddyConfig.description": "Cambia si Herobrine aparecerá haciendo el baile del griddy.",    
   
+    "config.hoeBrineReturnsConfig.title": "Hoebrine Regresa",
+    "config.hoeBrineReturnsConfig.description": "Cambia Herobrine de nuevo a Hoebrine como referencia al error original que ocurría cuando el jugador veía Herobrine sin el paquete de recursos activado.",
   
   
     "config.skinLibrary.randomizeSkinsConfig.title": "Aleatorizar Skins",

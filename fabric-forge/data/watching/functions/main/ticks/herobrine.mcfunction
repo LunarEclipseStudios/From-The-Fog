@@ -56,10 +56,6 @@ execute unless entity @e[type=armor_stand,tag=runAway] as @s[tag=herobrineModel]
 execute if score sightingSenseConfig ftf.configOptions matches 1 if entity @s[type=armor_stand,tag=move] as @e[type=wolf,distance=..30,nbt={AngerTime:0}] at @s if data entity @s Owner if data entity @s {Sitting:1b} run function watching:events/angry_wolf/induce_angry
 
 #slipBehindBlock
-execute if entity @s[tag=move] anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
-execute if entity @s[tag=move] anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
-execute if entity @s[tag=move] anchored eyes if block ^1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^1 #watching:glass_sight_blocks run tag @s remove ableToSlip
-execute if entity @s[tag=move] anchored eyes unless block ^1 ^ ^ #watching:glass_sight_blocks unless block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s remove ableToSlip
 execute if entity @s[tag=moveRight] run function watching:events/sightings/spotted/slip_behind_block/right
 execute if entity @s[tag=moveLeft] run function watching:events/sightings/spotted/slip_behind_block/left
 

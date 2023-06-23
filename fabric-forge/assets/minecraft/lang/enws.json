@@ -158,8 +158,11 @@
   "config.hittingThatGriddyConfig.title": "Hitting Yond Griddy",
   "config.hittingThatGriddyConfig.description": "Changes whe'r 'r not H'robrine shall spawn doing the griddy.",
 
+  "config.hoeBrineReturnsConfig.title": "Hoebrine Returns",
+  "config.hoeBrineReturnsConfig.description": "Changes H'robrine back to Hoebrine as a reference to the 'riginal bug yond wouldst occur at which hour the common-kissing hedge-pig would see H;robrine without the resourcepack enabl'd",
 
 
+  
   "config.skinLibrary.randomizeSkinsConfig.title": "Randomize Skins",
   "config.skinLibrary.builtInSkins.title": "Skins",
   "config.skinLibrary.defaultSkin.title": "Default",

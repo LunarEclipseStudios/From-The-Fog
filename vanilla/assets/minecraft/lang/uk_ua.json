@@ -1,0 +1,356 @@
+{
+  "selectWorld.backupQuestion.experimental": "Помилка: Невідома сутність",
+  "selectWorld.backupWarning.experimental": "Майнкрафт виявив невідому сутність у даному світі. Рекомендується НЕ ПРОДОВЖУВАТИ ЧИТАТИ ЦЕ ПОВІДОМЛЕННЯ. Якщо ви проігноруєте це попередження, пам'ятайте, що сутність може завдати шкоди вашому світу через свою непередбачувану поведінку. Пам'ятайте, що дивитися безпосередньо на помилки не рекомендується.",
+  "selectWorld.warning.experimental.title": "Помилка: Невідома сутність",
+  "selectWorld.warning.experimental.question": "Майнкрафт виявив невідому сутність у даному світі. Рекомендується НЕ ПРОДОВЖУВАТИ ЧИТАТИ ЦЕ ПОВІДОМЛЕННЯ. Якщо ви проігноруєте це попередження, пам'ятайте, що сутність може завдати шкоди вашому світу через свою непередбачувану поведінку. Пам'ятайте, що дивитися безпосередньо на помилки не рекомендується.",
+
+
+
+  "config.page1.progress": "Конфіг [1/6]",
+  "config.page2.progress": "Конфіг [2/6]",
+  "config.page3.progress": "Конфіг [3/6]",
+  "config.page4.progress": "Конфіг [4/6]",
+  "config.page5.progress": "Конфіг [5/6]",
+  "config.page6.progress": "Конфіг [6/6]",
+  "config.skin_library.progress": "Конфіг [Бібліотека скінів]",
+
+  "config.page1.title": "Стор. 1",
+  "config.page2.title": "Стор. 2",
+  "config.page3.title": "Стор. 3",
+  "config.page4.title": "Стор. 4",
+  "config.page5.title": "Стор. 5",
+  "config.page6.title": "Стор. 6",
+  "config.sss.title": "Супер Секретні Налаштування",
+  "config.pages.title": "Сторінки",
+
+
+
+  "config.sightingChanceConfig.title": "Шанс появи",
+  "config.sightingChanceConfig.description": "Визначає, з якою частотою з'являється Геробрін.",
+  "config.sightingChanceConfig.setting1": "Часто",
+  "config.sightingChanceConfig.setting2": "Нечасто",
+  "config.sightingChanceConfig.setting3": "Рідко",
+
+  "config.dayDelayConfig.title": "Початок переслідування",
+  "config.dayDelayConfig.description": "Змінює ліміт ігрових днів, з яких Геробрін починає переслідувати гравця.",
+  "config.dayDelayConfig.setting1": "Зменшити",
+  "config.dayDelayConfig.setting2": "Збільшити",
+
+  "config.ghostDoorConfig.title": "Примарні двері",
+  "config.ghostDoorConfig.description": "Визначає, чи може Геробрін відкривати ваші двері.",
+
+  "config.ghostMineConfig.title": "Примара Шахтаря",
+  "config.ghostMineConfig.description": "Визначає, чи може Геробрин копати тунелі біля вас.",
+  
+  "config.creepingConfig.title": "Підкрадання",
+  "config.creepingConfig.description": "Визначає, чи буде Геробрін стояти позаду вас, чекаючи, коли ви повернетесь.",
+
+  "config.stalkingConfig.title": "Спостереження",
+  "config.stalkingConfig.description": "Визначає, чи буде Геробрін стежити за вами здалеку.",
+
+
+
+  "config.poofingTorchesConfig.title": "Зникающі смолоскипи",
+  "config.poofingTorchesConfig.description": "Визначає, чи буде Геробрін намагатися ламати ваші смолоскипи, коли вас немає вдома.",
+
+  "config.burningBaseConfig.title": "Полтавський палій",
+  "config.burningBaseConfig.description": "Ну а мені подобається як воно горить.. (Геробрін підпалює вашу базу).",
+  
+  "config.spotNoiseConfig.title": "Звук виявлення",
+  "config.spotNoiseConfig.description": "Визначається, чи буде звучати звук, коли гравець зустрічає Геробріна.",
+
+  "config.glowingEyesConfig.title": "Очі в темряві",
+  "config.glowingEyesConfig.description": "Визначає, чи світяться очі в Геробріна. Це можна вимкнути для більшої ванільності або якщо використовуєте динамічне освітлення.",
+
+  "config.herobrineSkinConfig.title": "Скін Геробрина",
+  "config.herobrineSkinConfig.description": "Змінює скін/модель Геробріна.",
+  "config.herobrineSkinConfig.setting1": "Список скінів",
+
+  "config.lurkingLanguageConfig.title": "Прихована мова",
+  "config.lurkingLanguageConfig.description": "Змінює мову, на якій Геробрін спілкується з гравцем.",
+  "config.lurkingLanguageConfig.setting1": "Шведська",
+  "config.lurkingLanguageConfig.setting2": "Українська",
+
+
+
+  "config.jumpscareConfig.title": "Механіка скімеру",
+  "config.jumpscareConfig.description": "Дає Геробріну можливість лякати гравця, якщо останній підходить занадто близько.",
+
+  "config.crashConfig.title": "Краш механіка",
+  "config.crashConfig.description": "Змінює механіку скрімера на механіку 'виліту' [ПОПЕРЕДЖЕННЯ: ЕПІЛЕПСІЯ!] [НЕ ПІДХОДИТЬ ДЛЯ СЛАБКИХ КОМП'ЮТЕРІВ!] (Працює тільки при включеному скрімері).",
+
+  "config.creepingVanishingDelayConfig.title": "зникнення (слідкування)",
+  "config.creepingVanishingDelayConfig.description": "Визначає, через який час Геробрін зникне після того, як гравець виявить його спробу підкрадання.",
+  "config.creepingVanishingDelayConfig.setting1": "миттєво",
+  "config.creepingVanishingDelayConfig.setting2": "0.5 Секунди",
+  "config.creepingVanishingDelayConfig.setting3": "1 Секунда",
+  "config.creepingVanishingDelayConfig.setting4": "1.5 Секунди",
+  "config.creepingVanishingDelayConfig.setting5": "2 Секунди",
+
+  "config.stalkingVanishingDelayConfig.title": "Зникнення (стеження)",
+  "config.stalkingVanishingDelayConfig.description": "Визначає, через який час Геробрін зникне після виявлення його слідкування за гравцем.",
+  "config.stalkingVanishingDelayConfig.setting1": "Одразу",
+  "config.stalkingVanishingDelayConfig.setting2": "0.5 Секунд",
+  "config.stalkingVanishingDelayConfig.setting3": "1 Секунда",
+  "config.stalkingVanishingDelayConfig.setting4": "1.5 Секунди",
+  "config.stalkingVanishingDelayConfig.setting5": "2 Секунди",
+
+  "config.noSleepConfig.title": "Безсоння",
+  "config.noSleepConfig.description": "Визначає, чи може Геробрін заважати сну гравця, якщо він знаходиться поруч (не працює на мирній складності.)",
+
+  "config.dreadfulDonationConfig.title": "Страшні дари",
+  "config.dreadfulDonationConfig.description": "Визначає, чи може Геробрін залишати предмети у ваших сховищах (скринях) (Може статися навіть перед початком переслідування/будівництва тотема).",
+  
+
+
+  "config.crimsonCurseConfig.title": "Червоне прокляття",
+  "config.crimsonCurseConfig.description": "Геробрін може змінювати ваші смолоскипи на червоні смолоскипи і ліхтарі на ліхтарі душ.",
+
+  "config.OGshrineMechanicConfig.title": "Київська святиня",
+  "config.OGshrineMechanicConfig.description": "Дозволяє вмикати або вимикати блискавку під час активації святині Геробріна.",
+
+  "config.nightmareMechanicConfig.title": "Сонний параліч",
+  "config.nightmareMechanicConfig.description": "Визначає, чи може Геробрін з'явитися перед вами під час сну.",
+
+  "config.windowWatcherConfig.title": "Віконний сталкер",
+  "config.windowWatcherConfig.description": "Визначає, чи може Геробрін зникнути, коли гравець дивиться на нього через вікно.",
+
+  "config.chilledCandlesConfig.title": "Затухання свічок",
+  "config.chilledCandlesConfig.description": "Визначає, чи може Геробрін тушити свічки гравця.",
+
+  "config.sinisterSignsConfig.title": "Зловісні таблички",
+  "config.sinisterSignsConfig.description": "Визначає, чи може Геробрін ставити таблички під час певних подій.",
+  
+
+
+  "config.sightingSenseConfig.title": "Шосте відчуття (Інтуїція)",
+  "config.sightingSenseConfig.description": "Визначає, чи можуть ваши улюбленці реагувати на Геробріна, якщо він знаходиться поруч.",
+
+  "config.nameTagConfig.title": "Ім'я над головою (Нікнейм)",
+  "config.nameTagConfig.description": "Визначає, чи буде у Геробріна ім'я над його головою.",
+  "config.nameTagConfig.setting1": "Вимк.",
+  "config.nameTagConfig.setting2": "Динамічний нік",
+  "config.nameTagConfig.setting3": "Схований нік",
+
+  "config.rekindlingShrineConfig.title": "Тотемний вогонь",
+  "config.rekindlingShrineConfig.description": "Визначає, чи запалюватиме Геробрін вогонь на погасшому тотемі.",
+
+  "config.advancementsConfig.title": "Досягнення",
+  "config.advancementsConfig.description": "Визначає, чи отримуватимуть гравці досягнення, пов'язані з 'From the Fog'. (ВЖЕ ОТРИМАНІ ДОСЯГНЕННЯ БУДУТ ВТРАЧЕНІ, ЯКЩО ВИ ВИМКНЕТЕ ЦЮ НАЛАШТУВАННЯ!)",
+
+  "config.fearfulFootstepsConfig.title": "Кроки ззаду",
+  "config.fearfulFootstepsConfig.description": "Визначає, чи може Геробрін створювати кроки позаду гравця.",
+
+  "config.shrineSupriseConfig.title": "На верху тотема",
+  "config.shrineSupriseConfig.description": "Визначає, чи з'являтиметься Геробрін на верху тотема під час його активації.",
+  
+
+
+  "config.lurkingConfig.title": "Далеке слідкування",
+  "config.lurkingConfig.description": "Визначає, чи буде Геробрін стежити за гравцем з вкрай великої відстані.",
+  
+  "config.autoConfigDisable.title": "Повернути контроль гравцю",
+  "config.autoConfigEnable.title": "Передати йому контроль",
+  "config.autoConfig.description": "Визначає, чи Геробрін переробле все під себе чи ні",
+
+
+
+  "config.hittingThatGriddyConfig.title": "Віджарив Гопака",
+  "config.hittingThatGriddyConfig.description": "Визначає, чи буде Геробрін танцювати при з'явленні.",
+
+  "config.hoeBrineReturnsConfig.title": "Мотикобрін",
+  "config.hoeBrineReturnsConfig.description": "Змінено Геробрін на Мотикобрін як посилання на оригінальну помилку, яка виникала, коли гравець бачив Геробріна без увімкненого ресурспаку.",
+
+
+
+  "config.skinLibrary.randomizeSkinsConfig.title": "Випадкові скіни",
+  "config.skinLibrary.builtInSkins.title": "Скіни",
+  "config.skinLibrary.defaultSkin.title": "Звичайний",
+  "config.skinLibrary.classicSkin.title": "Класичний",
+  "config.skinLibrary.blackEyesSkin.title": "Чорноокий",
+  "config.skinLibrary.entity303Skin.title": "Сутність 303",
+  "config.skinLibrary.glitchSkin.title": "Глітч",
+  "config.skinLibrary.nullSkin.title": "Нул",
+  "config.skinLibrary.lunarEclipseSkin.title": "Lunar Eclipse",
+  "config.skinLibrary.apparitionSkin.title": "Примара",
+  "config.skinLibrary.zombieSkin.title": "Зомбі",
+  "config.skinLibrary.nullifiedSkin.title": "Нуліфікований",
+  "config.skinLibrary.facelessSkin.title": "Безликий",
+  "config.skinLibrary.distortedSkin.title": "Спотворений",
+  "config.skinLibrary.alexSkin.title": "Алекс",
+  "config.skinLibrary.lickSkin.title": "Лік",
+  "config.skinLibrary.fallenKingdomSkin.title": "Fallen Kingdom",
+  "config.skinLibrary.sculkInfestedSkin.title": "Інфікований скалком",
+  "config.skinLibrary.netherBrineSkin.title": "Незербрін",
+  "config.skinLibrary.farlanderSkin.title": "Мандрівник Далеких Земель",
+  "config.skinLibrary.theHeadlessSkin.title": "Безголовий",
+  "config.skinLibrary.lumberingJackSkin.title": "Дереворіз Джек",
+  "config.skinLibrary.smileSkin.title": "Усміхнений",
+  "config.skinLibrary.theGrimreaperSkin.title": "Похмурий Жнець",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Білі очі (звичайний)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "Білий гарбуз",
+
+  "watchingSkin.customSkinPack.name": "Користувацькі скіни",
+  "watchingSkin.customSkin1.name": "Користувацький скін 1",
+  "watchingSkin.customSkin2.name": "Користувацький скін 2",
+  "watchingSkin.customSkin3.name": "Користувацький скін 3",
+  "watchingSkin.customSkin4.name": "Користувацький скін 4",
+  "watchingSkin.customSkin5.name": "Користувацький скін 5",
+
+
+
+  "sign.type1.line1": "",
+  "sign.type1.line2": "Я бачу...",
+  "sign.type1.line3": "",
+  "sign.type1.line4": "",
+
+  "sign.type2.line1": "",
+  "sign.type2.line2": "Допоможи",
+  "sign.type2.line3": "",
+  "sign.type2.line4": "",
+
+  "sign.type3.line1": "",
+  "sign.type3.line2": "Я тебе бачу.",
+  "sign.type3.line3": "",
+  "sign.type3.line4": "",
+
+  "sign.type4.line1": "",
+  "sign.type4.line2": "Привіт,",
+  "sign.type4.line3": "THIS IS THE PLAYERS USERNAME, CHANGING THIS HAS NO EFFECT.",
+  "sign.type4.line4": "",
+
+  "sign.type5.line1": "",
+  "sign.type5.line2": "ПРОКИНСЯ.",
+  "sign.type5.line3": "",
+  "sign.type5.line4": "",
+
+  "sign.type6.line1": "",
+  "sign.type6.line2": "Ти не один",
+  "sign.type6.line3": "1+1",
+  "sign.type6.line4": "",
+
+  "sign.type7.line1": "",
+  "sign.type7.line2": "Слухай.",
+  "sign.type7.line3": "Уважно.",
+  "sign.type7.line4": "",
+
+  "sign.type8.line1": "",
+  "sign.type8.line2": "Цей-во, ти теж",
+  "sign.type8.line3": "Це чуєш?",
+  "sign.type8.line4": "",
+
+  "sign.type9.line1": "",
+  "sign.type9.line2": "Перестань.",
+  "sign.type9.line3": "",
+  "sign.type9.line4": "",
+
+  "sign.type10.line1": "",
+  "sign.type10.line2": "Я тебе",
+  "sign.type10.line3": "лякаю?",
+  "sign.type10.line4": "",
+
+  "sign.type11.line1": "",
+  "sign.type11.line2": "Тобі не звалити",
+  "sign.type11.line3": "з цього жаху.",
+  "sign.type11.line4": "",
+
+  "sign.type12.line1": "На що ти",
+  "sign.type12.line2": "Дивися",
+  "sign.type12.line3": "Свічкоголовий?",
+  "sign.type12.line4": "",
+
+
+
+  "advancements.ftf.root.title": "З туману",
+  "advancements.ftf.root.description": "Ти його не бачиш, але я тобі заверяю, він бачить тебе...",
+
+  "advancements.ftf.built_shrine.title": "Що ж ти зробив?...",
+  "advancements.ftf.built_shrine.description": "Збудуйте тотем Геробрина.",
+
+  "advancements.ftf.jumpscared.title": "Позаду тебе...",
+  "advancements.ftf.jumpscared.description": "Отримайте скрімер Геробрина вперше.",
+
+  "advancements.ftf.found_herobrine_structure.title": "Я точно один?",
+  "advancements.ftf.found_herobrine_structure.description": "Зустріньте будь-яку структуру, побудовану Геробріном",
+
+  "advancements.ftf.herobrine_griddy.title": "ЩО!?",
+  "advancements.ftf.herobrine_griddy.description": "Зустріньте Хиробрина, який танцює гопака",
+
+  "advancements.ftf.be_the_librarian.title": "Світло в темряві...",
+  "advancements.ftf.be_the_librarian.description": "Електрохарчування?",
+
+  "advancements.ftf.liberty_lantern.title": "Привіт, Збирачка.",
+  "advancements.ftf.liberty_lantern.description": "Дайте ліхтарик Збирику",
+
+  "advancements.ftf.dog_growl.title": "Все в порядку, Льоля?",
+  "advancements.ftf.dog_growl.description": "Почуйте, як приручений вовк ричіть на Геробріна.",
+
+  "advancements.ftf.have_a_nightmare.title": "Певно поганий сон...адже так?",
+  "advancements.ftf.have_a_nightmare.description": "Вперше відчуйте нічний кошмар.",
+
+  "advancements.ftf.found_logless_tree.title": "Не пам'ятаю, щоб я це робив.",
+  "advancements.ftf.found_logless_tree.description": "Зустріньте дерево, яке було вирубане не вами.",
+
+  "advancements.ftf.found_leafless_grove.title": "Лава тут точно не причетна...",
+  "advancements.ftf.found_leafless_grove.description": "Знайдіть безлисту рощу.",
+
+  "advancements.ftf.named_dd_item.title": "Воно спілкується...",
+  "advancements.ftf.named_dd_item.description": "Отримайте іменний жахливий подарунок.",
+
+  "advancements.ftf.spotted_herobrine.title": "Я дзвоню Валєрі!",
+  "advancements.ftf.spotted_herobrine.description": "Побачити Геробріна вперше.",
+
+  "advancements.ftf.be_comical_bonzo.title": "Буквальному сенсі крутелик.",
+  "advancements.ftf.be_comical_bonzo.description": "Будьте Comical Bonzo.",
+
+  "advancements.ftf.ghost_miner.title": "ЦЕ ЩО БУЛО?!",
+  "advancements.ftf.ghost_miner.description": "Зустріньте Геробріна, котрий біля вас копає тунелі.",
+
+  "advancements.ftf.take_gm_torch.title": "До біса тебе, це моє!",
+  "advancements.ftf.take_gm_torch.description": "Візьміть червону підсвічувану палицю від Геробріна у шахті.",
+
+  "advancements.ftf.dreadful_donation.title": "Хто поклав це сюди?",
+  "advancements.ftf.dreadful_donation.description": "Отримайте жахливий подарунок від Геробріна.",
+
+  "advancements.ftf.didnt_notice_herobrine.title": "Він спостерігає...",
+  "advancements.ftf.didnt_notice_herobrine.description": "Не помічайте, як Геробрін стежить за вами.",
+
+  "advancements.ftf.survive_3_days.title": "Хтось стежить за мною?",
+  "advancements.ftf.survive_3_days.description": "Виживіть 3 дні.",
+
+  "advancements.ftf.survive_10_days.title": "Хтось точно стежить за мною...",
+  "advancements.ftf.survive_10_days.description": "Виживіть 10 днів.",
+
+  "advancements.ftf.survive_50_days.title": "Залиште мене в спокої.",
+  "advancements.ftf.survive_50_days.description": "Виживіть 50 днів.",
+
+  "advancements.ftf.survive_100_days.title": "Я повинен сховатися.",
+  "advancements.ftf.survive_100_days.description": "Виживіть 100 днів.",
+
+  "advancements.ftf.survive_200_days.title": "Витягніть мене звідси!",
+  "advancements.ftf.survive_200_days.description": "Виживіть 200 днів.",
+
+  "advancements.ftf.found_torch_tunnel.title": "Я абсолютно не піду туди.",
+  "advancements.ftf.found_torch_tunnel.description": "Знайдіть тунель, який розкопав Геробрін.",
+
+
+  "subtitle.message.warning": "Я спостерігаю...",
+
+
+
+  "chat.cleanup.execute.statement": "Видаляємо Геробрінів.",
+  "chat.cleanup.failure.statement": "Не вдалося видалити Геробріна!",
+  "chat.cleanup.failure.description": "На данный момент в мире нету Геробріна!",
+  "chat.cleanup.success.statement": "Геробріна було видалено!",
+
+  "chat.debug_mode.enable.statement": "Режим відладки активований!",
+  "chat.debug_mode.disable.statement": "Режим відладки вимкнений!",
+
+  "chat.default_config.execute.statement": "Налаштування були успішно скинуті!",
+
+  "chat.sighting_summons.tutorial.statement": "Допомога з командами.",
+  "chat.sighting_summons.creeping.tutorial.description": "Ця команда активує механіку підкрадання і спавнить Геробріна ззаду гравця.",
+  "chat.sighting_summons.stalking.tutorial.description": "Ця команда активує механіку слідкування і спавнить Геробріна неподалік від гравця. Геробрін може не з'явитися, якщо на його потенційну точку спавну дивиться інший гравець.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Ця команда активує механіку нічного кошмару, спавнюючи Геробріна перед гравцем, коли останній перебуває в ліжку. Геробрін не з'явиться, якщо гравець не перебуває в ліжку в момент активації команди.",
+  "chat.sighting_summons.lurking.tutorial.description": "Ця команда активує механіку дальнього слідкування, спавнюючи Геробріна на великій відстані від гравця. Геробрін може не з'явитися, якщо відстань від гравця менша за 40 блоків."
+}

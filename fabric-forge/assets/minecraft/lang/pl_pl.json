@@ -157,6 +157,9 @@
 
   "config.hittingThatGriddyConfig.title": "Robienie Griddy",
   "config.hittingThatGriddyConfig.description": "Zmienia czy Herobrine będzie pojawiał się robiąc griddy.",
+  
+  "config.hoeBrineReturnsConfig.title": "Motykobrine powraca",
+  "config.hoeBrineReturnsConfig.description": "Zmienia Herobrine'a na Motykobrine'a jako referencja do oryginalnego błędu ktory zdarzał się gdy gracz widział Herobrine'a bez włączonej paczki zasobów.",
 
 
 

@@ -156,6 +156,9 @@
 
   "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
   "config.hittingThatGriddyConfig.description": "Cette option change si Herobrine apparait et le fait le 'Griddy'",
+  
+  "config.hoeBrineReturnsConfig.title": "Le retour de Hoebrine",
+  "config.hoeBrineReturnsConfig.description": "Change Herobrine en Hoebrine en référence au bogue original qui se produirait lorsque le joueur verrait Herobrine sans le pack de ressources activé.",
 
 
 

@@ -1,10 +1,24 @@
 #slipBehindBlock
-execute anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add moveRight
-execute unless entity @s[tag=moveRight] anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add moveLeft
-execute anchored eyes unless block ^-1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
-execute anchored eyes unless block ^1 ^ ^1 #watching:glass_sight_blocks if block ^1 ^ ^ #watching:glass_sight_blocks run tag @s add ableToSlip
-execute anchored eyes if block ^1 ^ ^1 #watching:glass_sight_blocks if block ^-1 ^ ^1 #watching:glass_sight_blocks run tag @s remove ableToSlip
-execute anchored eyes unless block ^1 ^ ^ #watching:glass_sight_blocks unless block ^-1 ^ ^ #watching:glass_sight_blocks run tag @s remove ableToSlip
+#south
+execute if score @s ftf.facingDirection matches 1 unless block ~-1 ~ ~1 #watching:glass_sight_blocks unless block ~-1 ~1 ~1 #watching:glass_sight_blocks if block ~-1 ~ ~ #watching:glass_sight_blocks if block ~-1 ~1 ~ #watching:glass_sight_blocks run tag @s add moveRight
+execute unless entity @s[tag=moveRight] if score @s ftf.facingDirection matches 1 unless block ~1 ~ ~1 #watching:glass_sight_blocks unless block ~1 ~1 ~1 #watching:glass_sight_blocks if block ~1 ~ ~ #watching:glass_sight_blocks if block ~1 ~1 ~ #watching:glass_sight_blocks run tag @s add moveLeft
+
+#west
+execute if score @s ftf.facingDirection matches 2 unless block ~-1 ~ ~-1 #watching:glass_sight_blocks unless block ~-1 ~1 ~-1 #watching:glass_sight_blocks if block ~ ~ ~-1 #watching:glass_sight_blocks if block ~ ~1 ~-1 #watching:glass_sight_blocks run tag @s add moveRight
+execute unless entity @s[tag=moveRight] if score @s ftf.facingDirection matches 2 unless block ~-1 ~ ~1 #watching:glass_sight_blocks unless block ~-1 ~1 ~1 #watching:glass_sight_blocks if block ~ ~ ~1 #watching:glass_sight_blocks if block ~ ~1 ~1 #watching:glass_sight_blocks run tag @s add moveLeft
+
+#north
+execute if score @s ftf.facingDirection matches 3 unless block ~1 ~ ~-1 #watching:glass_sight_blocks unless block ~1 ~1 ~-1 #watching:glass_sight_blocks if block ~1 ~ ~ #watching:glass_sight_blocks if block ~1 ~1 ~ #watching:glass_sight_blocks run tag @s add moveRight
+execute unless entity @s[tag=moveRight] if score @s ftf.facingDirection matches 3 unless block ~-1 ~ ~-1 #watching:glass_sight_blocks unless block ~-1 ~1 ~-1 #watching:glass_sight_blocks if block ~-1 ~ ~ #watching:glass_sight_blocks if block ~-1 ~1 ~ #watching:glass_sight_blocks run tag @s add moveLeft
+
+#east
+execute if score @s ftf.facingDirection matches 4 unless block ~1 ~ ~1 #watching:glass_sight_blocks unless block ~1 ~1 ~1 #watching:glass_sight_blocks if block ~ ~ ~1 #watching:glass_sight_blocks if block ~ ~1 ~1 #watching:glass_sight_blocks run tag @s add moveRight
+execute unless entity @s[tag=moveRight] if score @s ftf.facingDirection matches 4 unless block ~1 ~ ~-1 #watching:glass_sight_blocks unless block ~1 ~1 ~-1 #watching:glass_sight_blocks if block ~ ~ ~-1 #watching:glass_sight_blocks if block ~ ~1 ~-1 #watching:glass_sight_blocks run tag @s add moveLeft
+
+#whitelistSlip
+execute if entity @s[tag=moveRight] run tag @s add ableToSlip
+execute if entity @s[tag=moveLeft] run tag @s add ableToSlip
+
 execute if entity @s[tag=ableToSlip] run tag @e[type=armor_stand,tag=secondaryRotate] add pauseRot
 execute if entity @s[tag=moveRight] as @e[type=armor_stand,tag=secondaryRotate] at @s run tp @s ~ ~ ~ ~45 ~
 execute if entity @s[tag=moveLeft] as @e[type=armor_stand,tag=secondaryRotate] at @s run tp @s ~ ~ ~ ~-45 ~

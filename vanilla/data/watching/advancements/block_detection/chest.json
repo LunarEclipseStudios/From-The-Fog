@@ -3,7 +3,12 @@
         "requirement": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:chest"
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:chest"
+                    }
+                ]
             }
         }
     },

@@ -157,6 +157,9 @@
 
   "config.hittingThatGriddyConfig.title": "Taper ce Griddy",
   "config.hittingThatGriddyConfig.description": "Permet à Herobrine d'apparaitre en faisant le griddy.",
+  
+  "config.hoeBrineReturnsConfig.title": "Le Retour d'Herobrine",
+  "config.hoeBrineReturnsConfig.description": "Remplace Herobrine par Houebrine en référence au bug d'origine qui se produirait lorsque le joueur verrait Herobrine sans le pack de ressources activé.",
 
 
 
