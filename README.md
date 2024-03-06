@@ -31,7 +31,7 @@ Releases are considered to be **suitable for general use**, but they are not gua
 ## **Community**
 [![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/RmMtqxJJgH)
 
-We have an [official Discord community.](https://discord.gg/RmMtqxJJgH) By joining, you can:
+We have an [official Discord community.](https://discord.lunareclipse.studio) By joining, you can:
 - Get installation help and technical support
 - Be notified of the latest developments as they happen
 - just hang out with the rest of our community.
