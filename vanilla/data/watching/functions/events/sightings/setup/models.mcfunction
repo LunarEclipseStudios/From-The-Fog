@@ -26,7 +26,7 @@ execute if score glowingEyesConfig ftf.configOptions matches 0 at @e[tag=spread]
 execute as @e[tag=legs] at @s run tp @s ~ ~ ~ facing entity @p
 
 #noSleepMob
-execute if score noSleepConfig ftf.configOptions matches 1 at @e[tag=spread] run summon husk ~ -1 ~ {Tags:["noSleepMob","herobrine","smithed.entity"],Silent:1b,NoGravity:1b,Invulnerable:1b,DeathLootTable:"/",Team:"nocol",NoAI:1b,IsBaby:1b,DrownedConversionTime:-99999,ActiveEffects:[{Id:12,Amplifier:1b,Duration:199999980,ShowParticles:0b},{Id:14,Amplifier:1b,Duration:199999980,ShowParticles:0b}]}
+execute if score noSleepConfig ftf.configOptions matches 1 at @e[tag=spread] run summon minecraft:husk ~ ~-1 ~ {Tags:["noSleepMob","herobrine","smithed.entity"],Silent:true,NoGravity:true,Invulnerable:true,DeathLootTable:"/",Team:"nocol",NoAI:true,IsBaby:true,DrownedConversionTime:-99999,active_effects:[{id:"minecraft:invisibility",show_particles:false,duration:999999},{id:"minecraft:fire_resistance",show_particles:false,duration:999999}]}
 execute if score noSleepConfig ftf.configOptions matches 1 at @e[tag=spread] run tp @e[type=husk,tag=herobrine] ~ ~ ~
 
 #randomizeSkins
