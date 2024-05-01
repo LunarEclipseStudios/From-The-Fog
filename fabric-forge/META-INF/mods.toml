@@ -5,7 +5,7 @@ logoFile="banner.png"
 
 [[mods]]
 modId="watching"
-version="1.9.2"
+version="1.9.3"
 displayName="From The Fog"
 credits="§8Created by §5☆Lunar Eclipse Studios☆"
 displayURL="https://lunareclipse.studio/creations/from-the-fog"
@@ -16,6 +16,6 @@ description='''Enter a world of fear and mystery with From The Fog, a Minecraft 
 [[dependencies.watching]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20, 1.21]"
+    versionRange="[1.20.5, 1.20.6]"
     ordering="NONE"
     side="BOTH"

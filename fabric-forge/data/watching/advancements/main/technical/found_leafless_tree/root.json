@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_torch"
+            "id": "minecraft:redstone_torch"
         },
         "title": "",
         "description": "",

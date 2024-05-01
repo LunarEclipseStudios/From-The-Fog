@@ -2,7 +2,7 @@
     "parent": "watching:main/survive/50_days",
     "display": {
         "icon": {
-            "item": "gold_block"
+            "id": "gold_block"
         },
         "title": {
             "translate": "advancements.ftf.survive_100_days.title"

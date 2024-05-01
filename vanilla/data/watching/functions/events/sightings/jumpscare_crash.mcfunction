@@ -10,7 +10,7 @@ execute if score @s ftf.crash matches 2 run function watching:events/sounds/spot
 execute if score jumpscareConfig ftf.configOptions matches 1 if score crashConfig ftf.configOptions matches 1 run title @s times 1 40 1
 execute if score jumpscareConfig ftf.configOptions matches 1 if score crashConfig ftf.configOptions matches 1 if score @s ftf.crash matches 6 run playsound watching:event.crash master @s ~ ~ ~ 1.0 1.0 1.0
 execute if score jumpscareConfig ftf.configOptions matches 1 if score crashConfig ftf.configOptions matches 1 if score @s ftf.crash matches 5 run title @s title {"text":"\uBC04","font":"watching:watching_ui"}
-execute if score jumpscareConfig ftf.configOptions matches 1 if score crashConfig ftf.configOptions matches 1 if score @s ftf.crash matches 6 run particle ambient_entity_effect ~ ~ ~ 0 0 0 1 666666666 force @s
+execute if score jumpscareConfig ftf.configOptions matches 1 if score crashConfig ftf.configOptions matches 1 if score @s ftf.crash matches 6 run particle entity_effect{color:[1.000,0.000,0.000,0.00]} ~ ~ ~ 0 0 0 1 666666666 force @s
 
 execute if score @s ftf.crash matches 8.. run scoreboard players reset @s ftf.crash
 

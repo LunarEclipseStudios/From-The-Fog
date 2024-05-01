@@ -3,13 +3,13 @@
     "environment": "*",
     "depends": {
       "fabricloader": ">=0.12.12",
-      "minecraft": "1.20.x",
+      "minecraft": ">=1.20.5",
       "java": ">=16",
       "fabric-api": "*"
     },
     "name": "From The Fog",
     "id": "watching",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "description": "Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.",
     "icon": "pack.png",
     "authors": [

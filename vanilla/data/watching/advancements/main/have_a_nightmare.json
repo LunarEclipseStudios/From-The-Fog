@@ -2,8 +2,10 @@
     "parent": "watching:main/built_shrine",
     "display": {
         "icon": {
-            "item": "minecraft:disc_fragment_5",
-            "nbt": "{CustomModelData:1359007}"
+            "id": "minecraft:disc_fragment_5",
+            "components": {
+                "minecraft:custom_model_data": 1359007
+            }
         },
         "title": {
             "translate": "advancements.ftf.have_a_nightmare.title"

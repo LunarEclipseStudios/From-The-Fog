@@ -9,8 +9,18 @@
                     "name": "minecraft:redstone_torch",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Help.\"}'},dreadfulDonation:1b,namedItem:1b}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"Help.\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{namedItem:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
                         }
                     ]
                 },
@@ -20,8 +30,18 @@
                     "name": "minecraft:redstone_torch",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"I see you.\"}'},dreadfulDonation:1b,namedItem:1b}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"I see you.\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{namedItem:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
                         }
                     ]
                 },
@@ -31,8 +51,18 @@
                     "name": "minecraft:music_disc_11",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"You are not alone.\"}'},dreadfulDonation:1b,namedItem:1b}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"You are not alone.\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{namedItem:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
                         }
                     ]
                 },
@@ -42,7 +72,7 @@
                     "name": "minecraft:mossy_cobblestone",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{dreadfulDonation:1b}"
                         }
                     ]
@@ -53,7 +83,7 @@
                     "name": "minecraft:rotten_flesh",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{dreadfulDonation:1b}"
                         }
                     ]

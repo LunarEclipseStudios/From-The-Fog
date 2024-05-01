@@ -2,7 +2,7 @@
     "parent": "watching:main/technical/found_any_structure/root",
     "display": {
         "icon": {
-            "item": "minecraft:stone"
+            "id": "minecraft:stone"
         },
         "title": "",
         "description": "",

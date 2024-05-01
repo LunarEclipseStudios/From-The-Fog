@@ -2,8 +2,10 @@
     "parent": "watching:main/ghost_miner",
     "display": {
         "icon": {
-            "item": "minecraft:disc_fragment_5",
-            "nbt": "{CustomModelData:1359017}"
+            "id": "minecraft:disc_fragment_5",
+            "components": {
+                "minecraft:custom_model_data": 1359017
+            }
         },
         "title": {
             "translate": "advancements.ftf.take_gm_torch.title"
