@@ -2,10 +2,8 @@
     "parent": "watching:main/found_herobrine_structure",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359018
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359018}"
         },
         "title": {
             "translate": "advancements.ftf.found_torch_tunnel.title"

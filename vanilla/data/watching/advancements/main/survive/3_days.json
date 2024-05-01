@@ -2,7 +2,7 @@
     "parent": "watching:main/root",
     "display": {
         "icon": {
-            "id": "dirt"
+            "item": "dirt"
         },
         "title": {
             "translate": "advancements.ftf.survive_3_days.title"

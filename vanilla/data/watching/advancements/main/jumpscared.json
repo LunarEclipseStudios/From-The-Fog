@@ -2,10 +2,8 @@
     "parent": "watching:main/spotted_herobrine",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359002
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359002}"
         },
         "title": {
             "translate": "advancements.ftf.jumpscared.title"

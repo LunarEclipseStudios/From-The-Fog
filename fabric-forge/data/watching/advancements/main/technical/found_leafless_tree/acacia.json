@@ -2,7 +2,7 @@
     "parent": "watching:main/technical/found_leafless_tree/root",
     "display": {
         "icon": {
-            "id": "minecraft:stone"
+            "item": "minecraft:stone"
         },
         "title": "",
         "description": "",
@@ -20,13 +20,13 @@
                         "entity": "this",
                         "predicate": {
                             "type_specific": {
-                                "type": "minecraft:player",
+                                "type": "player",
                                 "advancements": {
                                     "watching:main/root": true
                                 }
                             },
                             "location": {
-                                "structures": "watching:logless_tree/acacia"
+                                "structure": "watching:logless_tree/acacia"
                             }
                         }
                     }

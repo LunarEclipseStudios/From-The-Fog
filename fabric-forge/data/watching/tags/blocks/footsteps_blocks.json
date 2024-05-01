@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-     "minecraft:grass_block",
+     "minecraft:short_grass_block",
      "#minecraft:base_stone_overworld",
      "#planks"
     ]

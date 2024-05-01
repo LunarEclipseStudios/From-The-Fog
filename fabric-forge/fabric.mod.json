@@ -3,7 +3,7 @@
     "environment": "*",
     "depends": {
       "fabricloader": ">=0.12.12",
-      "minecraft": ">=1.20.5",
+      "minecraft": ">=1.20.3 <=1.20.4",
       "java": ">=16",
       "fabric-api": "*"
     },

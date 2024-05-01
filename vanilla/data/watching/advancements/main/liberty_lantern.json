@@ -2,10 +2,8 @@
     "parent": "watching:main/be_the_librarian",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359009
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359009}"
         },
         "title": {
             "translate": "advancements.ftf.liberty_lantern.title"
@@ -30,7 +28,7 @@
                         }
                     }
                 },
-                "id": {
+                "item": {
                     "items": [
                         "minecraft:lantern"
                     ]

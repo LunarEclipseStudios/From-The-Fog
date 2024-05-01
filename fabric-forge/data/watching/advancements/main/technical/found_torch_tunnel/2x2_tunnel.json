@@ -2,7 +2,7 @@
     "parent": "watching:main/technical/found_torch_tunnel/root",
     "display": {
         "icon": {
-            "id": "minecraft:stone"
+            "item": "minecraft:stone"
         },
         "title": "",
         "description": "",
@@ -11,7 +11,7 @@
         "hidden": true
     },
     "criteria": {
-        "found_tunnel": {
+        "found_tree": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -20,13 +20,13 @@
                         "entity": "this",
                         "predicate": {
                             "type_specific": {
-                                "type": "minecraft:player",
+                                "type": "player",
                                 "advancements": {
                                     "watching:main/root": true
                                 }
                             },
                             "location": {
-                                "structures": "watching:torch_tunnel/2x2_tunnel"
+                                "structure": "watching:torch_tunnel/2x2_tunnel"
                             }
                         }
                     }
@@ -36,7 +36,7 @@
     },
     "requirements": [
         [
-            "found_tunnel"
+            "found_tree"
         ]
     ],
     "rewards": {

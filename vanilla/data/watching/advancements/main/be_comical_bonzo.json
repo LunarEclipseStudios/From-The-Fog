@@ -2,10 +2,8 @@
     "parent": "watching:main/root",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359015
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359015}"
         },
         "title": {
             "translate": "advancements.ftf.be_comical_bonzo.title"

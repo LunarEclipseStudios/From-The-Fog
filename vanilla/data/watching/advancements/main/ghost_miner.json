@@ -2,10 +2,8 @@
     "parent": "watching:main/built_shrine",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359016
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359016}"
         },
         "title": {
             "translate": "advancements.ftf.ghost_miner.title"

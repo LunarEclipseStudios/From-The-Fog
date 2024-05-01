@@ -2,7 +2,7 @@
     "parent": "watching:main/built_shrine",
     "display": {
         "icon": {
-            "id": "minecraft:player_head",
+            "item": "minecraft:player_head",
             "nbt": "{SkullOwner:{Id:[I;-465008279,1042632222,-1922979353,-419106848],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NjQyNzMzNjM0NywKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NjZjY2QwMTM5ZTFmOWVkMjc1NTRhMGMzOWE0ZWZmYzczNjEwYjg2YWEwNTc5ZTQwNWY2NDFjZDFkNjc4YzQ1IgogICAgfQogIH0KfQ==\"}]}}}"
         },
         "title": {

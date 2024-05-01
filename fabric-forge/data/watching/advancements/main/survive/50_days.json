@@ -2,7 +2,7 @@
     "parent": "watching:main/survive/10_days",
     "display": {
         "icon": {
-            "id": "iron_block"
+            "item": "iron_block"
         },
         "title": {
             "translate": "advancements.ftf.survive_50_days.title"

@@ -2,10 +2,8 @@
     "parent": "watching:main/root",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359006
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359006}"
         },
         "title": {
             "translate": "advancements.ftf.found_herobrine_structure.title"

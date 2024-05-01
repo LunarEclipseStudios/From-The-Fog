@@ -2,7 +2,7 @@
     "parent": "watching:main/survive/100_days",
     "display": {
         "icon": {
-            "id": "diamond_block"
+            "item": "diamond_block"
         },
         "title": {
             "translate": "advancements.ftf.survive_200_days.title"

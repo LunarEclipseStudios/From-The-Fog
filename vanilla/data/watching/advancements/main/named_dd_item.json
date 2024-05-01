@@ -2,10 +2,8 @@
     "parent": "watching:main/dreadful_donation",
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359014
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359014}"
         },
         "title": {
             "translate": "advancements.ftf.named_dd_item.title"
@@ -30,12 +28,7 @@
                 },
                 "items": [
                     {
-                        "components": {
-                            "minecraft:custom_data": {
-                                "dreadfulDonation": 1,
-                                "namedItem": 1
-                            }
-                        }
+                        "nbt": "{dreadfulDonation:1b,namedItem:1b}"
                     }
                 ]
             }

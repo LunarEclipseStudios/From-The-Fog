@@ -2,7 +2,7 @@
     "parent": "watching:main/survive/3_days",
     "display": {
         "icon": {
-            "id": "stone"
+            "item": "stone"
         },
         "title": {
             "translate": "advancements.ftf.survive_10_days.title"

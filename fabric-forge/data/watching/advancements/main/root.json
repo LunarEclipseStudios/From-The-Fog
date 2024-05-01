@@ -1,10 +1,8 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:disc_fragment_5",
-            "components": {
-                "minecraft:custom_model_data": 1359013
-            }
+            "item": "minecraft:disc_fragment_5",
+            "nbt": "{CustomModelData:1359013}"
         },
         "title": {
             "translate": "advancements.ftf.root.title"
