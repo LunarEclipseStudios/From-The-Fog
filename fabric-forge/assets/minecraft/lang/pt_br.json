@@ -1,0 +1,332 @@
+{
+  "selectWorld.backupQuestion.experimental": "Erro de entidade eesconhecida",
+  "selectWorld.backupWarning.experimental": "Minecraft detectou uma presença desconhecida neste mundo. É aconselhável que você NÃO PASSE DESTA TELA. Ignorar este aviso pode resultar em ocorrências estranhas e/ou encontros. Lembre-se, não olhe diretamente para os bugs.",
+  "selectWorld.warning.experimental.title": "Erro de entidade eesconhecida",
+  "selectWorld.warning.experimental.question": "Minecraft detectou uma presença desconhecida neste mundo. É aconselhável que você NÃO PASSE DESTA TELA. Ignorar este aviso pode resultar em ocorrências estranhas e/ou encontros. Lembre-se, não olhe diretamente para os bugs.",
+
+  "config.page0.progress": "Config. [0/0]",
+  "config.page1.progress": "Config. [1/6]",
+  "config.page2.progress": "Config. [2/6]",
+  "config.page3.progress": "Config. [3/6]",
+  "config.page4.progress": "Config. [4/6]",
+  "config.page5.progress": "Config. [5/6]",
+  "config.page6.progress": "Config. [6/6]",
+  "config.skin_library.progress": "Config. [Biblioteca de skins]",
+
+  "config.page1.title": "Página 1",
+  "config.page2.title": "Página 2",
+  "config.page3.title": "Página 3",
+  "config.page4.title": "Página 4",
+  "config.page5.title": "Página 5",
+  "config.page6.title": "Página 6",
+  "config.sss.title": "Super Secret Settings",
+  "config.pages.title": "Páginas",
+
+  "config.sightingChanceConfig.title": "Chance de aparição",
+  "config.sightingChanceConfig.description": "Ajusta a chance do o Herobrine aparecer.",
+  "config.sightingChanceConfig.setting1": "Comum",
+  "config.sightingChanceConfig.setting2": "Incomum",
+  "config.sightingChanceConfig.setting3": "Raro",
+
+  "config.dayDelayConfig.title": "Atraso da assombração",
+  "config.dayDelayConfig.description": "Altera o atraso que leva para o o Herobrine começar a assombrar significativamente (em dias no jogo).",
+  "config.dayDelayConfig.setting1": "Reduzir atraso",
+  "config.dayDelayConfig.setting2": "Aumentar atraso",
+
+  "config.ghostDoorConfig.title": "Portas fantasmas",
+  "config.ghostDoorConfig.description": "Altera se o o Herobrine pode ou não abrir portas.",
+
+  "config.ghostMineConfig.title": "Mineiro fantasma",
+  "config.ghostMineConfig.description": "Altera se o o Herobrine irá minerar ao seu lado em corredores.",
+
+  "config.creepingConfig.title": "Mecânica de susto",
+  "config.creepingConfig.description": "Altera se o o Herobrine ficará atrás de você esperando que você se vire.",
+
+  "config.stalkingConfig.title": "Mecânica de perseguição",
+  "config.stalkingConfig.description": "Altera se o o Herobrine irá persegui-lo à distância.",
+
+  "config.poofingTorchesConfig.title": "Tochas desaparecendo",
+  "config.poofingTorchesConfig.description": "Altera se o o Herobrine tentará quebrar suas tochas quando você sair da área (uma verificação por dia no jogo).",
+
+  "config.burningBaseConfig.title": "Base em chamas",
+  "config.burningBaseConfig.description": "Altera se o Herobrine tentará incendiar sua casa quando você sair da área (uma verificação por dia no jogo).",
+
+  "config.spotNoiseConfig.title": "Som de aparição",
+  "config.spotNoiseConfig.description": "Altera se um som é reproduzido quando o jogador avista o Herobrine.",
+
+  "config.glowingEyesConfig.title": "Camadas emissivas",
+  "config.glowingEyesConfig.description": "Altera se o Herobrine terá camadas emissivas. Útil para jogadores que querem torná-lo mais próximo ao vanilla ou que usam iluminação dinâmica.",
+
+  "config.o HerobrineSkinConfig.title": "Skin do Herobrine",
+  "config.o HerobrineSkinConfig.description": "Altera a textura/modelo da skin do Herobrine.",
+  "config.o HerobrineSkinConfig.setting1": "Biblioteca de skins",
+
+  "config.lurkingLanguageConfig.title": "Linguagem ao comunicar-se",
+  "config.lurkingLanguageConfig.description": "Altera a linguagem que o Herobrine usará para se comunicar com o jogador.",
+  "config.lurkingLanguageConfig.setting1": "Sueco",
+  "config.lurkingLanguageConfig.setting2": "Inglês",
+
+  "config.jumpscareConfig.title": "Mecânica de jumpscare",
+  "config.jumpscareConfig.description": "Habilita a capacidade de o Herobrine assustar o jogador quando ele se aproxima demais.",
+
+  "config.crashConfig.title": "Mecânica de crash",
+  "config.crashConfig.description": "Substitui a mecânica de jumpscare pela mecânica original de crash. [AVISO DE EPILEPSIA!] [NÃO ADEQUADO PARA MÁQUINAS MAIS FRACAS!] (Funciona apenas quando a mecânica de susto está habilitada.)",
+
+  "config.creepingVanishingDelayConfig.title": "Atraso para desaparecer ao assustar",
+  "config.creepingVanishingDelayConfig.description": "Altera o tempo que leva para o Herobrine desaparecer após ser pego assustando o jogador.",
+  "config.creepingVanishingDelayConfig.setting1": "Nenhum",
+  "config.creepingVanishingDelayConfig.setting2": "0.5 segundos",
+  "config.creepingVanishingDelayConfig.setting3": "1 segundo",
+  "config.creepingVanishingDelayConfig.setting4": "1.5 segundos",
+  "config.creepingVanishingDelayConfig.setting5": "2 segundos",
+
+  "config.stalkingVanishingDelayConfig.title": "Atraso para desaparecer ao persegui-lo",
+  "config.stalkingVanishingDelayConfig.description": "Altera o tempo que leva para o Herobrine desaparecer após ser pego perseguindo o jogador.",
+  "config.stalkingVanishingDelayConfig.setting1": "Nenhum",
+  "config.stalkingVanishingDelayConfig.setting2": "0.5 Segundos",
+  "config.stalkingVanishingDelayConfig.setting3": "1 Segundo",
+  "config.stalkingVanishingDelayConfig.setting4": "1.5 Segundos",
+  "config.stalkingVanishingDelayConfig.setting5": "2 Segundos",
+
+  "config.noSleepConfig.title": "Sem sono",
+  "config.noSleepConfig.description": "Alterna se o Herobrine impedirá você de dormir quando ele estiver por perto. (Não funciona no pacífico.)",
+
+  "config.dreadfulDonationConfig.title": "Doação medonha",
+  "config.dreadfulDonationConfig.description": "Alterna se o Herobrine deixará presentes em seus baús. (Pode acontecer antes de passar os 3 dias ou um totem ser construído. Uma verificação por dia no jogo.)",
+
+  "config.crimsonCurseConfig.title": "Maldição carmesim",
+  "config.crimsonCurseConfig.description": "Alterna se o Herobrine trocará suas tochas por tochas de redstone e seus lampiões por lampiões das almas. (uma verificação por dia no jogo)",
+
+  "config.OGshrineMechanicConfig.title": "Mecânica original do totem",
+  "config.OGshrineMechanicConfig.description": "Alterna se raios caem ao ativar um totem do Herobrine.",
+
+  "config.nightmareMechanicConfig.title": "Mecânica de pesadelo",
+  "config.nightmareMechanicConfig.description": "Alterna se o Herobrine aparecerá no pé da cama quando você dormir.",
+
+  "config.windowWatcherConfig.title": "Observando na janela",
+  "config.windowWatcherConfig.description": "Alterna se o Herobrine desaparecerá quando visto através de uma janela.",
+
+  "config.chilledCandlesConfig.title": "Velas apagadas",
+  "config.chilledCandlesConfig.description": "Alterna se o Herobrine tem a capacidade de apagar as velas dos jogadores.",
+
+  "config.sinisterSignsConfig.title": "Sinais sinistros",
+  "config.sinisterSignsConfig.description": "Alterna se o Herobrine deixará sinais para o jogador durante certos eventos.",
+
+  "config.sightingSenseConfig.title": "Sentindo uma aparição",
+  "config.sightingSenseConfig.description": "Altera se seus animais de estimação reagirão quando o Herobrine estiver por perto.",
+
+  "config.nameTagConfig.title": "Etiqueta",
+  "config.nameTagConfig.description": "Altera se o Herobrine tem uma etiqueta e como ela aparece.",
+  "config.nameTagConfig.setting1": "Desligado",
+  "config.nameTagConfig.setting2": "Dinâmico",
+  "config.nameTagConfig.setting3": "Obfuscado",
+
+  "config.rekindlingShrineConfig.title": "Reacender totem",
+  "config.rekindlingShrineConfig.description": "Altera se o Herobrine reacenderá ou não totens apagados.",
+
+  "config.advancementsConfig.title": "Progressos",
+  "config.advancementsConfig.description": "Altera se os jogadores receberão progressos relacionadas ao From The Fog. (CONQUISTAS CONCEDIDAS ENQUANTO HABILITADAS SERÃO PERDIDAS SE DESABILITADAS!!!)",
+
+  "config.fearfulFootstepsConfig.title": "Passos medonhos",
+  "config.fearfulFootstepsConfig.description": "Altera se o Herobrine correrá atrás dos jogadores, criando sons de passos.",
+
+  "config.shrineSupriseConfig.title": "Surpresa no totem",
+  "config.shrineSupriseConfig.description": "Altera se o Herobrine aparecerá em cima do totem quando aceso.",
+
+  "config.lurkingConfig.title": "Mecânica de espreita",
+  "config.lurkingConfig.description": "Altera se o Herobrine espreitará o jogador observando de uma distância muito grande.",
+
+  "config.autoConfigDisable.title": "Retomar controle",
+  "config.autoConfigEnable.title": "Ceder controle",
+  "config.autoConfig.description": "Altera se o Herobrine pode modificar a configuração.",
+
+  "config.hittingThatGriddyConfig.title": "Hitting That Griddy",
+  "config.hittingThatGriddyConfig.description": "Altera se o Herobrine aparecerá fazendo o griddy.",
+
+  "config.hoeBrineReturnsConfig.title": "Enxabrine retorna",
+  "config.hoeBrineReturnsConfig.description": "Altera o Herobrine para Enxabrine como uma referência ao bug original que ocorria quando o jogador via o Herobrine sem o pacote de recursos habilitado.",
+
+  "config.skinLibrary.randomizeSkinsConfig.title": "Aleatorizar skins",
+  "config.skinLibrary.builtInSkins.title": "Skins",
+  "config.skinLibrary.defaultSkin.title": "Padrão",
+  "config.skinLibrary.classicSkin.title": "Clássico",
+  "config.skinLibrary.blackEyesSkin.title": "Olhos negros",
+  "config.skinLibrary.entity303Skin.title": "Entity 303",
+  "config.skinLibrary.glitchSkin.title": "Glitch",
+  "config.skinLibrary.nullSkin.title": "Null",
+  "config.skinLibrary.lunarEclipseSkin.title": "Lunar Eclipse",
+  "config.skinLibrary.apparitionSkin.title": "Apparition",
+  "config.skinLibrary.zombieSkin.title": "Zumbi",
+  "config.skinLibrary.nullifiedSkin.title": "Nullado",
+  "config.skinLibrary.facelessSkin.title": "Sem rosto",
+  "config.skinLibrary.distortedSkin.title": "Distorcido",
+  "config.skinLibrary.alexSkin.title": "Alex",
+  "config.skinLibrary.lickSkin.title": "Lick",
+  "config.skinLibrary.fallenKingdomSkin.title": "Rei caído",
+  "config.skinLibrary.sculkInfestedSkin.title": "Infestado de sculk",
+  "config.skinLibrary.netherBrineSkin.title": "Netherbrine",
+  "config.skinLibrary.farlanderSkin.title": "Farlander",
+  "config.skinLibrary.theHeadlessSkin.title": "The Headless",
+  "config.skinLibrary.lumberingJackSkin.title": "Lumbering Jack",
+  "config.skinLibrary.smileSkin.title": "Sorriso",
+  "config.skinLibrary.theGrimreaperSkin.title": "O ceifador",
+  "config.skinLibrary.whiteEyesClassicSkin.title": "Olhos brancos (clássico)",
+  "config.skinLibrary.theWhitePumpkinSkin.title": "A abóbora branca",
+
+  "watchingSkin.customSkinPack.name": "Skins personalizadas",
+  "watchingSkin.customSkin1.name": "Skin personalizada 1",
+  "watchingSkin.customSkin2.name": "Skin personalizada 2",
+  "watchingSkin.customSkin3.name": "Skin personalizada 3",
+  "watchingSkin.customSkin4.name": "Skin personalizada 4",
+  "watchingSkin.customSkin5.name": "Skin personalizada 5",
+
+  "sign.type1.line1": "",
+  "sign.type1.line2": "Estou observando...",
+  "sign.type1.line3": "",
+  "sign.type1.line4": "",
+
+  "sign.type2.line1": "",
+  "sign.type2.line2": "Ajuda",
+  "sign.type2.line3": "",
+  "sign.type2.line4": "",
+
+  "sign.type3.line1": "",
+  "sign.type3.line2": "Eu vejo você.",
+  "sign.type3.line3": "",
+  "sign.type3.line4": "",
+
+  "sign.type4.line1": "",
+  "sign.type4.line2": "Olá,",
+  "sign.type4.line3": "THIS IS THE PLAYERS USERNAME, CHANGING THIS HAS NO EFFECT.",
+  "sign.type4.line4": "",
+
+  "sign.type5.line1": "",
+  "sign.type5.line2": "ACORDE.",
+  "sign.type5.line3": "",
+  "sign.type5.line4": "",
+
+  "sign.type6.line1": "",
+  "sign.type6.line2": "Você não está",
+  "sign.type6.line3": "sozinho.",
+  "sign.type6.line4": "",
+
+  "sign.type7.line1": "",
+  "sign.type7.line2": "Ouça atentamente.",
+  "sign.type7.line3": "",
+  "sign.type7.line4": "",
+
+  "sign.type8.line1": "",
+  "sign.type8.line2": "Você também",
+  "sign.type8.line3": "ouve isso?",
+  "sign.type8.line4": "",
+
+  "sign.type9.line1": "",
+  "sign.type9.line2": "Pare.",
+  "sign.type9.line3": "",
+  "sign.type9.line4": "",
+
+  "sign.type10.line1": "",
+  "sign.type10.line2": "Eu te assusto?",
+  "sign.type10.line3": "",
+  "sign.type10.line4": "",
+
+  "sign.type11.line1": "",
+  "sign.type11.line2": "Você não pode escapar",
+  "sign.type11.line3": "deste pesadelo.",
+  "sign.type11.line4": "",
+
+  "sign.type12.line1": "O que você está",
+  "sign.type12.line2": "olhando",
+  "sign.type12.line3": "cabeça de vela?",
+  "sign.type12.line4": "",
+
+  "advancements.ftf.root.title": "From The Fog",
+  "advancements.ftf.root.description": "Você não pode vê-lo, mas eu prometo que ele pode ver você...",
+
+  "advancements.ftf.built_shrine.title": "Você não sabe o que fez...",
+  "advancements.ftf.built_shrine.description": "Construa um totem do Herobrine.",
+
+  "advancements.ftf.jumpscared.title": "Atrás de você...",
+  "advancements.ftf.jumpscared.description": "Leve um susto do Herobrine pela primeira vez.",
+
+  "advancements.ftf.found_o Herobrine_structure.title": "Estou jogando sozinho, Certo?",
+  "advancements.ftf.found_o Herobrine_structure.description": "Descubra qualquer estrutura colocada por Herobrine.",
+
+  "advancements.ftf.o Herobrine_griddy.title": "O QUE?!",
+  "advancements.ftf.o Herobrine_griddy.description": "Encontre o Herobrine fazendo o griddy.",
+
+  "advancements.ftf.be_the_librarian.title": "Uma luz na escuridão...",
+  "advancements.ftf.be_the_librarian.description": "Seja o bibliotecário.",
+
+  "advancements.ftf.liberty_lantern.title": "Olá Liberty.",
+  "advancements.ftf.liberty_lantern.description": "Dê um lampião a um allay.",
+
+  "advancements.ftf.dog_growl.title": "Você está bem, garoto?",
+  "advancements.ftf.dog_growl.description": "Veja um lobo domesticado rosnar para o Herobrine.",
+
+  "advancements.ftf.have_a_nightmare.title": "Apenas um pesadelo... certo?",
+  "advancements.ftf.have_a_nightmare.description": "Tenha um pesadelo pela primeira vez.",
+
+  "advancements.ftf.found_logless_tree.title": "Eu não me lembro de ter feito isso.",
+  "advancements.ftf.found_logless_tree.description": "Ache uma árvore que você não derrubou.",
+
+  "advancements.ftf.found_leafless_grove.title": "A lava não poderia causar isso...",
+  "advancements.ftf.found_leafless_grove.description": "Descubra uma floresta sem folhas.",
+
+  "advancements.ftf.named_dd_item.title": "Está se comunicando...",
+  "advancements.ftf.named_dd_item.description": "Encontre uma doação medonha nomeada.",
+
+  "advancements.ftf.spotted_o Herobrine.title": "Ou devo chamar, Kevin?",
+  "advancements.ftf.spotted_o Herobrine.description": "Veja o Herobrine pela primeira vez.",
+  
+  "advancements.ftf.be_comical_bonzo.title": "Literalmente incrível.",
+  "advancements.ftf.be_comical_bonzo.description": "Seja o Bonzo Cômico.",
+  
+  "advancements.ftf.ghost_miner.title": "O QUE FOI ISSO?",
+  "advancements.ftf.ghost_miner.description": "Encontre o Herobrine minerando do seu lado enquanto você está minerando.",
+  
+  "advancements.ftf.take_gm_torch.title": "Vou pegá-la, nada pra você!",
+  "advancements.ftf.take_gm_torch.description": "Pegue a tocha do minerador fantasma.",
+  
+  "advancements.ftf.dreadful_donation.title": "Quem colocou isso aqui?",
+  "advancements.ftf.dreadful_donation.description": "Encontre uma doação medonha do Herobrine.",
+  
+  "advancements.ftf.didnt_notice_o Herobrine.title": "Ele está observando...",
+  "advancements.ftf.didnt_notice_o Herobrine.description": "Seja perseguido pelo Herobrine sem perceber.",
+  
+  "advancements.ftf.survive_3_days.title": "Alguém está me seguindo?",
+  "advancements.ftf.survive_3_days.description": "Sobreviva por 3 dias.",
+  
+  "advancements.ftf.survive_10_days.title": "Alguém está me seguindo...",
+  "advancements.ftf.survive_10_days.description": "Sobreviva por 10 dias.",
+  
+  "advancements.ftf.survive_50_days.title": "Me deixe em paz.",
+  "advancements.ftf.survive_50_days.description": "Sobreviva por 50 dias.",
+  
+  "advancements.ftf.survive_100_days.title": "Eu preciso me esconder.",
+  "advancements.ftf.survive_100_days.description": "Sobreviva por 100 dias.",
+  
+  "advancements.ftf.survive_200_days.title": "Me tire daqui!",
+  "advancements.ftf.survive_200_days.description": "Sobreviva por 200 dias.",
+  
+  "advancements.ftf.found_torch_tunnel.title": "Eu não vou descer aí.",
+  "advancements.ftf.found_torch_tunnel.description": "Descubra um túnel minerado pelo Herobrine.",
+  
+  "subtitle.message.warning": "Estou observando...",
+  
+  "chat.cleanup.execute.statement": "Removendo todos os Herobrines.",
+  "chat.cleanup.failure.statement": "Falha ao remover o Herobrine!",
+  "chat.cleanup.failure.description": "Atualmente não há Herobrines carregados neste mundo!",
+  "chat.cleanup.success.statement": "Todos os Herobrines removidos com sucesso!",
+  
+  "chat.debug_mode.enable.statement": "Modo depuração ativado com sucesso!",
+  "chat.debug_mode.disable.statement": "Modo depuração desativado com sucesso!",
+  
+  "chat.default_config.execute.statement": "Configurações restauradas com sucesso!",
+  
+  "chat.sighting_summons.tutorial.statement": "Tutorial de comando",
+  "chat.sighting_summons.creeping.tutorial.description": "Este comando ativa a mecânica de susto e invoca o Herobrine atrás do jogador em que é executado.",
+  "chat.sighting_summons.stalking.tutorial.description": "Este comando ativa a mecânica de perseguição e invoca o Herobrine em algum lugar ao redor do jogador em que é executado. o Herobrine pode não aparecer se seu ponto de renascimento estar no campo de visão de outro jogador.",
+  "chat.sighting_summons.nightmare.tutorial.description": "Este comando ativa a mecânica de pesadelo e invoca o Herobrine no pé da cama do jogador em que é executado. o Herobrine não aparecerá se o jogador não estiver em uma cama.",
+  "chat.sighting_summons.lurking.tutorial.description": "Este comando ativa a mecânica de espreita e invoca o Herobrine em algum lugar distante ao redor do jogador em que é executado. o Herobrine pode não aparecer se seu ponto de renascimento estar dentro de 40 blocos de um jogador."
+}
