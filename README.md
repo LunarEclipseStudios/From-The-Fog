@@ -16,6 +16,11 @@ Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings
 ![ocean-sand-pyramid](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/ocean-sand-pyramid.webp)
 ![2x2-tunnel](https://cdn.lunareclipse.studio/img/projects/from-the-fog/gallery/2x2-tunnel.webp)
 
+---
+
+<img src="https://cdn.lunareclipse.studio/img/partners/lilypad_transparent.webp?v=6" style="border-radius: 5px; margin-left: auto !important; margin-right: auto !important;">
+
+---
 
 ## **Installation**
 
