@@ -28,7 +28,7 @@ Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings
 
 #### Stable releases
 
-![GitHub release](https://img.shields.io/github/v/release/LunarEclipseStudios/From-The-Fog)
+[![GitHub release](https://img.shields.io/github/v/release/LunarEclipseStudios/From-The-Fog)](https://github.com/LunarEclipseStudios/From-The-Fog/releases) [![Ko-Fi](https://img.shields.io/badge/donate%20to-kofi-7e18c7?logo=kofi&logoColor=white)](https://lunareclipse.studio/ko-fi)
 
 The latest releases of From The Fog is published to our [GitHub release](https://github.com/LunarEclipseStudios/From-The-Fog/releases) pages. 
 Releases are considered to be **suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
