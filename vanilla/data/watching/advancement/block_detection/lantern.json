@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:lantern"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "watching:events/block_detection/placed_lantern"
+    }
+}

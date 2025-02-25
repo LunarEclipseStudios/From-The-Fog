@@ -1,4 +1,8 @@
 ![logo](https://cdn.lunareclipse.studio/img/projects/from-the-fog/banner-text.webp)
+## **Disclaimer!**
+
+As LunarEclipse devs says at them Discord server, the many components and datapacks/mod code will be rewrited, so my solution will be useless and I will not support its development.
+This repo will be archived with new LuncarEclipse update.
 
 ## **Mod/Datapack for Minecraft: Java Edition**
 

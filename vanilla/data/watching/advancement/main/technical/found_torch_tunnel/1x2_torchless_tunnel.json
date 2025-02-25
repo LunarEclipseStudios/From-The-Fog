@@ -1,0 +1,45 @@
+{
+    "parent": "watching:main/technical/found_torch_tunnel/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:stone"
+        },
+        "title": "",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found_tunnel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "advancements": {
+                                    "watching:main/root": true
+                                }
+                            },
+                            "location": {
+                                "structures": "watching:torch_tunnel/1x2/torchless_tunnel"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "found_tunnel"
+        ]
+    ],
+    "rewards": {
+        "function": "watching:events/advancements/grant_found_torch_tunnel"
+    }
+}

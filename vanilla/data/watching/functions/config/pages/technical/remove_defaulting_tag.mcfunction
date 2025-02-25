@@ -1,1 +1,0 @@
-execute as @a[tag=defautlingConfig] run tag @s remove defautlingConfig

@@ -1,0 +1,1 @@
+scoreboard players set true ftf.startedEvents 1

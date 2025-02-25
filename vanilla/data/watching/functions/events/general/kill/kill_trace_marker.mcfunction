@@ -1,2 +1,0 @@
-forceload remove ~ ~
-kill @s

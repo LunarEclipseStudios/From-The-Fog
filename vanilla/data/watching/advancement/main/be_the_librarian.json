@@ -1,0 +1,26 @@
+{
+    "parent": "watching:main/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:disc_fragment_5",
+            "components": {
+                "minecraft:custom_model_data": 1359010
+            }
+        },
+        "title": {
+            "translate": "advancements.ftf.be_the_librarian.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.be_the_librarian.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "watching:main/spotted_herobrine",
+    "display": {
+        "icon": {
+            "id": "minecraft:disc_fragment_5",
+            "components": {
+                "minecraft:custom_model_data": 1359008
+            }
+        },
+        "title": {
+            "translate": "advancements.ftf.herobrine_griddy.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.herobrine_griddy.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

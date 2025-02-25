@@ -1,0 +1,94 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 90,
+                    "name": "minecraft:redstone_torch",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"Help.\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{namedItem:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 90,
+                    "name": "minecraft:redstone_torch",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"I see you.\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{namedItem:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:music_disc_11",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"You are not alone.\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{namedItem:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 80,
+                    "name": "minecraft:mossy_cobblestone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 90,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dreadfulDonation:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

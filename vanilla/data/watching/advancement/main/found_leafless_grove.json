@@ -1,0 +1,48 @@
+{
+    "parent": "watching:main/found_herobrine_structure",
+    "display": {
+        "icon": {
+            "id": "minecraft:disc_fragment_5",
+            "components": {
+                "minecraft:custom_model_data": 1359004
+            }
+        },
+        "title": {
+            "translate": "advancements.ftf.found_leafless_grove.title"
+        },
+        "description": {
+            "translate": "advancements.ftf.found_leafless_grove.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "found_grove": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                      "watching:main/root": true
+                    }
+                  },
+                  "location": {
+                    "structures": "watching:leafless_grove"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+    "requirements": [
+        [
+            "found_grove"
+        ]
+    ]
+}
