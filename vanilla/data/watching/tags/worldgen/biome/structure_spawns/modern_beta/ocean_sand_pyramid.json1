@@ -1,9 +1,0 @@
-{
-    "values": [
-        "modern_beta:beta_cold_ocean",
-        "modern_beta:beta_frozen_ocean",
-        "modern_beta:beta_lukewarm_ocean",
-        "modern_beta:beta_ocean",
-        "modern_beta:beta_warm_ocean"
-    ]
-}

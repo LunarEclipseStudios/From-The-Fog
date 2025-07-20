@@ -1,2 +1,0 @@
-execute if entity @s[tag=ableToSlip] unless entity @e[type=armor_stand,tag=moveLeft,distance=..3] unless entity @e[type=armor_stand,tag=moveRight,distance=..3] run function watching:events/sightings/spotted
-execute if entity @s[tag=!ableToSlip] unless entity @s[tag=runAway] unless entity @a[tag=spottedThroughGlass] run function watching:events/sightings/spotted/glass_spotted/through_glass
