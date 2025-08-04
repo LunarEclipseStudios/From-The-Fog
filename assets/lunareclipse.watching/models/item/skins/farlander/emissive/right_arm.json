@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/farlander/right_arm",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/farlander/skin_emissive"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mossy_pyramid",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "lunareclipse.watching:mossy_pyramid/base",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/skins/white_eyes_classic/emissive/left_arm"
+    },
+    "hand_animation_on_swap": true
+}

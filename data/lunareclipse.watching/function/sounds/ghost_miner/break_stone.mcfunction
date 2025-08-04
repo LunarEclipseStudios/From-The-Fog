@@ -1,0 +1,1 @@
+execute as @e[type=#lunareclipse.watching:herobrine,tag=watching.herobrine] at @s run playsound minecraft:block.stone.break block @a ~ ~ ~ 0.1 1 0

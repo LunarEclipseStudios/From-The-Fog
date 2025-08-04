@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "entity/cow/temperate_cow",
+		"particle": "entity/cow/temperate_cow"
+	},
+	"elements": [
+		{
+			"name": "leg4",
+			"from": [7, -3, 6],
+			"to": [11, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, -3, 13]},
+			"faces": {
+				"north": {"uv": [1, 5, 2, 8], "texture": "#skin"},
+				"east": {"uv": [0, 5, 1, 8], "texture": "#skin"},
+				"south": {"uv": [3, 5, 4, 8], "texture": "#skin"},
+				"west": {"uv": [2, 5, 3, 8], "texture": "#skin"},
+				"up": {"uv": [2, 5, 1, 4], "texture": "#skin"},
+				"down": {"uv": [3, 4, 2, 5], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "leg4",
+			"origin": [4, 12, 2],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "values": [
+        "minecraft:text_display",
+        "minecraft:item_display",
+        "minecraft:interaction",
+        "minecraft:marker"
+    ]
+}

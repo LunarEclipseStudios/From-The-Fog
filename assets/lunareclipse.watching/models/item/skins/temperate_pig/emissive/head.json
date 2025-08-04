@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "entity/pig/pig_ftf",
+		"particle": "entity/pig/pig_ftf"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 4, 2.95],
+			"to": [12, 12, 10.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -4, 16.9]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#1"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#1"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#1"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#1"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#1"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [6, 5, 2],
+			"to": [10, 8, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -4, 17]},
+			"faces": {
+				"north": {"uv": [4.25, 4.25, 5.25, 5], "texture": "#1"},
+				"east": {"uv": [4, 4.25, 4.25, 5], "texture": "#1"},
+				"south": {"uv": [5.5, 4.25, 6.5, 5], "texture": "#1"},
+				"west": {"uv": [5.25, 4.25, 5.5, 5], "texture": "#1"},
+				"up": {"uv": [5.25, 4.25, 4.25, 4], "texture": "#1"},
+				"down": {"uv": [6.25, 4, 5.25, 4.25], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 12, 2],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

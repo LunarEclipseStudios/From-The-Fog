@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/herobrine_lullaby"
+    },
+    "hand_animation_on_swap": true
+}

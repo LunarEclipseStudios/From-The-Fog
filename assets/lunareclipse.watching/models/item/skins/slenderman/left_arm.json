@@ -1,0 +1,60 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/slenderman/skin",
+		"particle": "lunareclipse.watching:item/skins/slenderman/skin"
+	},
+	"elements": [
+		{
+			"name": "left_arm_top",
+			"from": [7.5, 3, 7.5],
+			"to": [8.5, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 14.95, 8.5]},
+			"faces": {
+				"north": {"uv": [9.5, 9, 9, 12], "texture": "#skin"},
+				"east": {"uv": [10, 9, 9.5, 12], "texture": "#skin"},
+				"south": {"uv": [10, 6, 9.5, 9], "texture": "#skin"},
+				"west": {"uv": [10, 3, 9.5, 6], "texture": "#skin"},
+				"up": {"uv": [4.25, 11.5, 4.75, 11], "texture": "#skin"},
+				"down": {"uv": [4.75, 11, 5.25, 11.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "left_arm_bottom",
+			"from": [7.5, -3, 7.5],
+			"to": [8.5, 3, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 2.95, 9.5]},
+			"faces": {
+				"north": {"uv": [10.25, 0, 9.75, 3], "texture": "#skin"},
+				"east": {"uv": [10.5, 6, 10, 9], "texture": "#skin"},
+				"south": {"uv": [6.5, 10, 6, 13], "texture": "#skin"},
+				"west": {"uv": [10.5, 3, 10, 6], "texture": "#skin"},
+				"up": {"uv": [5.25, 11.5, 5.75, 11], "texture": "#skin"},
+				"down": {"uv": [11.25, 1.5, 11.75, 2], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "left_hand",
+			"from": [7.5, -5.5, 7],
+			"to": [8, -3, 8.5],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.5, -8.55, 8.5]},
+			"faces": {
+				"north": {"uv": [7, 10, 6.75, 11.25], "texture": "#skin"},
+				"east": {"uv": [11.25, 5.25, 10.5, 6.5], "texture": "#skin"},
+				"south": {"uv": [11.25, 1.5, 11, 2.75], "texture": "#skin"},
+				"west": {"uv": [11.25, 4, 10.5, 5.25], "texture": "#skin"},
+				"up": {"uv": [5.75, 11.75, 6, 11], "texture": "#skin"},
+				"down": {"uv": [11.25, 2, 11.5, 2.75], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "right_arm",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

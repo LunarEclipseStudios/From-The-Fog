@@ -1,0 +1,35 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/icons/ghost_doors/backdrop_old",
+		"3": "lunareclipse.watching:item/ui/config/icons/ghost_doors/backdrop_overlay",
+		"4": "lunareclipse.watching:item/ui/config/icons/ghost_doors/backdrop_overlay2",
+		"particle": "lunareclipse.watching:item/ui/config/icons/ghost_doors/backdrop_old"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [12, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 7.9],
+			"to": [12, 8, 7.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 7.9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [4, 0, 7.7],
+			"to": [12, 8, 7.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 7.7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/skins/temperate_pig/emissive/head"
+    },
+    "hand_animation_on_swap": true
+}

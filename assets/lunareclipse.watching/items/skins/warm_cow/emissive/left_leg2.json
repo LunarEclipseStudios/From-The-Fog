@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/skins/warm_cow/emissive/left_leg2"
+    },
+    "hand_animation_on_swap": true
+}

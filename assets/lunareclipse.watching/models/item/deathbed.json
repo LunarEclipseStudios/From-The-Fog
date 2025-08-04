@@ -1,0 +1,7 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"parent": "minecraft:item/template_music_disc",
+	"textures": {
+		"layer0": "lunareclipse.watching:item/deathbed"
+	}
+}

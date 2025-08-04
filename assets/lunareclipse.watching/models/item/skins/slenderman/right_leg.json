@@ -1,0 +1,46 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/slenderman/skin",
+		"particle": "lunareclipse.watching:item/skins/slenderman/skin"
+	},
+	"elements": [
+		{
+			"name": "right_leg_top",
+			"from": [6.5, -3, 6.5],
+			"to": [9.5, 9, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.95, 9, 8]},
+			"faces": {
+				"north": {"uv": [7, 4, 6.25, 7], "texture": "#skin"},
+				"east": {"uv": [7.75, 6, 7, 9], "texture": "#skin"},
+				"south": {"uv": [7.75, 3, 7, 6], "texture": "#skin"},
+				"west": {"uv": [7.5, 0, 6.75, 3], "texture": "#skin"},
+				"up": {"uv": [10.5, 7.25, 11.25, 6.5], "texture": "#skin"},
+				"down": {"uv": [10.5, 7.25, 11.25, 8], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "right_leg_bottom",
+			"from": [6.5, -15, 6.5],
+			"to": [9.5, -3, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.95, -3, 7]},
+			"faces": {
+				"north": {"uv": [7, 7, 6.25, 10], "texture": "#skin"},
+				"east": {"uv": [8.5, 6, 7.75, 9], "texture": "#skin"},
+				"south": {"uv": [8.5, 3, 7.75, 6], "texture": "#skin"},
+				"west": {"uv": [8.25, 0, 7.5, 3], "texture": "#skin"},
+				"up": {"uv": [10.5, 8.75, 11.25, 8], "texture": "#skin"},
+				"down": {"uv": [10, 10.5, 10.75, 11.25], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "left_leg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

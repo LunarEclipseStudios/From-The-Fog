@@ -1,0 +1,12 @@
+# List of variables used:
+# "skin" - The skin being applied.
+# "namespace" - The namespace the skin is from.
+
+# Create the switch's hitbox.
+execute positioned ~ ~0.1 ~ run summon interaction ^ ^0.1 ^-0.25 {response:1b,width:0.75f,height:0.75f,Tags:["watching.config","watching.settings","watching.button", "watching.tip_activated"]}
+# Create the switch.
+$execute if data storage lunareclipse.watching:config_options {options:{herobrine_skin:{list:["$(skin)"]}}} run summon item_display ^ ^0.1 ^ {Tags:["watching.config","watching.settings","watching.button","watching.tip_activated","watching.herobrine_skin"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.45f,0f],scale:[0.75f,0.75f,0.75f]},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:custom_data":{skin:"$(skin)",operation:"remove",option:"herobrine_skin",function:"lunareclipse.watching:config/option_page/clicked/skin"},"minecraft:item_model":"lunareclipse.watching:ui/config/settings/skin_on"}}}
+$execute unless data storage lunareclipse.watching:config_options {options:{herobrine_skin:{list:["$(skin)"]}}} run summon item_display ^ ^0.1 ^ {Tags:["watching.config","watching.settings","watching.button","watching.tip_activated","watching.herobrine_skin"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.45f,0f],scale:[0.75f,0.75f,0.75f]},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:custom_data":{skin:"$(skin)",operation:"add",option:"herobrine_skin",function:"lunareclipse.watching:config/option_page/clicked/skin"},"minecraft:item_model":"lunareclipse.watching:ui/config/settings/skin_off"}}}
+# Create the skin display.
+$summon item_display ^ ^0.1 ^ {Tags:["watching.config","watching.settings","watching.display"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.25f,0.27f],scale:[0.75f,0.75f,0.75f]},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:item_model":"$(namespace):skins/$(skin)/emissive/head"}}}
+$summon item_display ^ ^0.1 ^ {Tags:["watching.config","watching.settings","watching.display"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.25f,0.27f],scale:[0.75f,0.75f,0.75f]},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:item_model":"$(namespace):skins/$(skin)/head"}}}

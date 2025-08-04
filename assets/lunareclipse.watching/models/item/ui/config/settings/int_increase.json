@@ -1,0 +1,17 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/settings/int_decrease",
+		"particle": "lunareclipse.watching:item/ui/config/settings/int_decrease"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [13, 9, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 0, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	]
+}

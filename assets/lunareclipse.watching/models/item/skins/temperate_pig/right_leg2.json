@@ -1,0 +1,106 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"skin": "entity/pig/temperate_pig",
+		"particle": "entity/pig/temperate_pig"
+	},
+	"elements": [
+		{
+			"name": "leg3",
+			"from": [
+				5,
+				3,
+				6
+			],
+			"to": [
+				9,
+				9,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					4,
+					3,
+					13
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						5,
+						2,
+						6.5
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						5,
+						1,
+						6.5
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						5,
+						4,
+						6.5
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						5,
+						3,
+						6.5
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						5,
+						1,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						4,
+						2,
+						5
+					],
+					"texture": "#skin"
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "leg3",
+			"origin": [
+				11,
+				6,
+				3
+			],
+			"color": 0,
+			"children": [
+				0
+			]
+		}
+	]
+}

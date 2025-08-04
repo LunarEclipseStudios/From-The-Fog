@@ -1,0 +1,92 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"block": "lunareclipse.watching:item/ui/advancements/time_played/50_days",
+		"particle": "lunareclipse.watching:item/ui/advancements/time_played/50_days"
+	},
+	"elements": [
+		{
+			"from": [
+				0,
+				0,
+				0
+			],
+			"to": [
+				16,
+				16,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#block"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#block"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#block"
+				},
+				"west": {
+					"uv": [
+						16,
+						0,
+						0,
+						16
+					],
+					"texture": "#block"
+				},
+				"up": {
+					"uv": [
+						16,
+						0,
+						0,
+						16
+					],
+					"texture": "#block"
+				},
+				"down": {
+					"uv": [
+						16,
+						16,
+						0,
+						0
+					],
+					"texture": "#block"
+				}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [
+				30,
+				225,
+				0
+			],
+			"scale": [
+				0.75,
+				0.75,
+				0.75
+			]
+		}
+	}
+}

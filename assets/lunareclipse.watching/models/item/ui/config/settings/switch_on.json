@@ -1,0 +1,17 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/settings/switch_on",
+		"particle": "lunareclipse.watching:item/ui/config/settings/switch_on"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

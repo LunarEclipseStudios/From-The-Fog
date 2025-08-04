@@ -1,0 +1,32 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/lonely/skin",
+		"particle": "lunareclipse.watching:item/skins/lonely/skin"
+	},
+	"elements": [
+		{
+			"name": "Right Arm",
+			"from": [6, -9, 4.5],
+			"to": [10, 10, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -15, 0]},
+			"faces": {
+				"north": {"uv": [3.5, 2.75, 4, 5.125], "texture": "#skin"},
+				"east": {"uv": [2.625, 2.75, 3.5, 5.125], "texture": "#skin"},
+				"south": {"uv": [4.875, 2.75, 5.375, 5.125], "texture": "#skin"},
+				"west": {"uv": [4, 2.75, 4.875, 5.125], "texture": "#skin"},
+				"up": {"uv": [4, 2.75, 3.5, 1.875], "texture": "#skin"},
+				"down": {"uv": [4.5, 1.875, 4, 2.75], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "RightArm",
+			"origin": [5, 21, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

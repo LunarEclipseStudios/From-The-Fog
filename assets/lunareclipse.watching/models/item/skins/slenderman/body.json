@@ -1,0 +1,61 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "lunareclipse.watching:item/skins/slenderman/tentacles",
+		"skin": "lunareclipse.watching:item/skins/slenderman/skin",
+		"particle": "lunareclipse.watching:item/skins/slenderman/tentacles"
+	},
+	"elements": [
+		{
+			"name": "torso",
+			"from": [4.5, 8, 6.5],
+			"to": [11.5, 24, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, 8, 6.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.75, 4], "texture": "#skin"},
+				"east": {"uv": [1.75, 4, 2.5, 8], "texture": "#skin"},
+				"south": {"uv": [1.75, 0, 3.5, 4], "texture": "#skin"},
+				"west": {"uv": [2.5, 4, 3.25, 8], "texture": "#skin"},
+				"up": {"uv": [11.75, 9.75, 10, 9], "texture": "#skin"},
+				"down": {"uv": [11.75, 9.75, 10, 10.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "torso_overlay",
+			"from": [4.25, 7.75, 6.25],
+			"to": [11.75, 24.25, 9.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, 8, 6.5]},
+			"faces": {
+				"north": {"uv": [3.5, 0, 5.25, 4], "texture": "#skin"},
+				"east": {"uv": [3.25, 4, 4, 8], "texture": "#skin"},
+				"south": {"uv": [0, 4, 1.75, 8], "texture": "#skin"},
+				"west": {"uv": [4, 4, 4.75, 8], "texture": "#skin"},
+				"up": {"uv": [12, 0.75, 10.25, 0], "texture": "#skin"},
+				"down": {"uv": [12, 0.75, 10.25, 1.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "tentacles",
+			"from": [-16, -16, 11],
+			"to": [32, 32, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-16, -16, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 12], "texture": "#skin"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 12], "texture": "#skin"},
+				"up": {"uv": [0, 0, 12, 0], "texture": "#skin"},
+				"down": {"uv": [0, 0, 12, 0], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "torso",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

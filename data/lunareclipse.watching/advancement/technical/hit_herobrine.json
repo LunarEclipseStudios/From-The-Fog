@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"watching.hitbox\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "lunareclipse.watching:sightings/hit_herobrine"
+  },
+  "sends_telemetry_event": false
+}

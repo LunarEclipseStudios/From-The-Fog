@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "entity/cow/cold_cow",
+		"particle": "entity/cow/cold_cow"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [2, 6, 4],
+			"to": [14, 16, 22],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.25, 16]},
+			"faces": {
+				"north": {"uv": [10, 3.5, 7, 1], "rotation": 180, "texture": "#skin"},
+				"east": {"uv": [4.5, 3.5, 7, 8], "rotation": 90, "texture": "#skin"},
+				"south": {"uv": [13, 1, 10, 3.5], "texture": "#skin"},
+				"west": {"uv": [10, 3.5, 12.5, 8], "rotation": 270, "texture": "#skin"},
+				"up": {"uv": [12.5, 3.5, 15.5, 8], "texture": "#skin"},
+				"down": {"uv": [7, 3.5, 10, 8], "rotation": 180, "texture": "#skin"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [6, 5, 16],
+			"to": [10, 6, 22],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.25, 16]},
+			"faces": {
+				"north": {"uv": [14.25, 0.25, 13.25, 0], "rotation": 180, "texture": "#skin"},
+				"east": {"uv": [13, 0.25, 13.25, 1.75], "rotation": 90, "texture": "#skin"},
+				"south": {"uv": [15.25, 0, 14.25, 0.25], "texture": "#skin"},
+				"west": {"uv": [14.25, 0.25, 14.5, 1.75], "rotation": 270, "texture": "#skin"},
+				"up": {"uv": [14.5, 0.25, 15.5, 1.75], "texture": "#skin"},
+				"down": {"uv": [13.25, 0.25, 14.25, 1.75], "rotation": 180, "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "body",
+			"origin": [8, 19, 10],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

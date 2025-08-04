@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/slenderman/right_arm",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/slenderman/skin_emissive"
+	}
+}

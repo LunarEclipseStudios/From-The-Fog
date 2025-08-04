@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/hat_man/head",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/hat_man/skin_emissive"
+	}
+}

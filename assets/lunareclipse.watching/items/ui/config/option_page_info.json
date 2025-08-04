@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/ui/config/option_page_info"
+    },
+    "hand_animation_on_swap": true
+}

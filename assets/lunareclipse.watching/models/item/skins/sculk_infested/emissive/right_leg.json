@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/template/right_leg",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/sculk_infested/skin_emissive"
+	}
+}

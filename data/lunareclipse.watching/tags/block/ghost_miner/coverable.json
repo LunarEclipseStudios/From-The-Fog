@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#minecraft:air",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:glow_lichen"
+    ]
+}

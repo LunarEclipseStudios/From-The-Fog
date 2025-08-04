@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/ui/advancements/time_played/template",
+	"textures": {
+		"block": "lunareclipse.watching:item/ui/advancements/time_played/50_days"
+	}
+}

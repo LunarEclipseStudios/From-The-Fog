@@ -1,0 +1,32 @@
+{
+    "parent": "from_the_fog:haunting/build_shrine",
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/haunting/encounter_ghost_miner"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.haunting.encounter_ghost_miner.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.haunting.encounter_ghost_miner.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ]
+}

@@ -1,0 +1,185 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"skin": "entity/pig/temperate_pig",
+		"particle": "entity/pig/temperate_pig"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [
+				4,
+				4,
+				3
+			],
+			"to": [
+				12,
+				12,
+				11
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-4,
+					17
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						2,
+						2,
+						4,
+						4
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						2,
+						2,
+						4
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						6,
+						2,
+						8,
+						4
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						4,
+						2,
+						6,
+						4
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						4,
+						2,
+						2,
+						0
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						6,
+						0,
+						4,
+						2
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "head",
+			"from": [
+				6,
+				5,
+				2
+			],
+			"to": [
+				10,
+				8,
+				3
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-4,
+					17
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						4.25,
+						4.25,
+						5.25,
+						5
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						4.25,
+						4.25,
+						5
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						5.5,
+						4.25,
+						6.5,
+						5
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						5.25,
+						4.25,
+						5.5,
+						5
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						5.25,
+						4.25,
+						4.25,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						6.25,
+						4,
+						5.25,
+						4.25
+					],
+					"texture": "#skin"
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "head",
+			"origin": [
+				8,
+				12,
+				2
+			],
+			"color": 0,
+			"children": [
+				0,
+				1
+			]
+		}
+	]
+}

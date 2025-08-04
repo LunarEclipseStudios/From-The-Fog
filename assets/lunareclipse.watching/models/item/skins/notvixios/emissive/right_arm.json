@@ -1,0 +1,7 @@
+{
+	"parent": "lunareclipse.watching:item/skins/template/right_arm_slim",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/notvixios/skin_emissive"
+	}
+}
+

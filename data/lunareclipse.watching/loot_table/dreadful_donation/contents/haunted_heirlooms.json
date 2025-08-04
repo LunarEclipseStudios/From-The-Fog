@@ -1,0 +1,124 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dreadful_donation": true,
+                  "haunted_heirloom": true
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:painting",
+                  "variant": "lunareclipse.watching:a_distant_memory"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dreadful_donation": true,
+                  "haunted_heirloom": true
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:painting",
+                  "variant": "lunareclipse.watching:redstone_halls"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dreadful_donation": true,
+                  "haunted_heirloom": true
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:painting",
+                  "variant": "lunareclipse.watching:watching"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dreadful_donation": true,
+                  "haunted_heirloom": true
+                },
+                "jukebox_playable": "lunareclipse.watching:herobrine_lullaby",
+                "item_model": "lunareclipse.watching:herobrine_lullaby"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dreadful_donation": true,
+                  "haunted_heirloom": true
+                },
+                "jukebox_playable": "lunareclipse.watching:deathbed",
+                "item_model": "lunareclipse.watching:deathbed"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dreadful_donation": true,
+                  "haunted_heirloom": true
+                },
+                "jukebox_playable": "lunareclipse.watching:hes_from_the_fog",
+                "item_model": "lunareclipse.watching:hes_from_the_fog"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone_torch",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_name": "{\"text\":\"Hjälp.\"}",
+                  "minecraft:custom_data": {
+                    "dreadful_donation": true,
+                    "named_donation": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone_torch",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_name": "{\"text\":\"Jag ser dig.\"}",
+                  "minecraft:custom_data": {
+                    "dreadful_donation": true,
+                    "named_donation": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone_torch",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_name": "{\"text\":\"Du är inte ensam.\"}",
+                  "minecraft:custom_data": {
+                    "dreadful_donation": true,
+                    "named_donation": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

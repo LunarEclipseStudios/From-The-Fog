@@ -1,0 +1,43 @@
+{
+    "parent": "from_the_fog:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/found_footage/comicalbonzo"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.found_footage.comicalbonzo.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.found_footage.comicalbonzo.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "from_the_fog:root": true
+                        }
+                    },
+                    "nbt": "{UUID:[I; -188472109, 651906997, -1964546344, 12402270]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ]
+}

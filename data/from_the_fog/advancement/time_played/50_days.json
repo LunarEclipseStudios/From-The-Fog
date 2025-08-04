@@ -1,0 +1,32 @@
+{
+    "parent": "from_the_fog:time_played/10_days",
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/time_played/50_days"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.time_played.50_days.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.time_played.50_days.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ]
+}

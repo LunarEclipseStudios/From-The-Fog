@@ -1,0 +1,31 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/advancements/found_footage/archi",
+		"particle": "lunareclipse.watching:item/ui/advancements/found_footage/archi"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 10, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 0, 6.5]},
+			"faces": {
+				"north": {"uv": [9.75, 0, 10.5, 2.5], "texture": "#0"},
+				"east": {"uv": [10.5, 0, 11.25, 2.5], "texture": "#0"},
+				"south": {"uv": [9.75, 0, 10.5, 2.5], "texture": "#0"},
+				"west": {"uv": [10.5, 0, 11.25, 2.5], "texture": "#0"},
+				"up": {"uv": [11.25, 0, 12, 0.75], "texture": "#0"},
+				"down": {"uv": [11.25, 0.75, 12, 1.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [22, -31, 0],
+			"translation": [0, 4.75, 0],
+			"scale": [1.75, 1.75, 1.75]
+		}
+	}
+}

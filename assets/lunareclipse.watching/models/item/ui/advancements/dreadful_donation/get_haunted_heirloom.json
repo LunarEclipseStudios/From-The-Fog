@@ -1,0 +1,94 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"1": "lunareclipse.watching:item/ui/advancements/dreadful_donation/get_haunted_heirloom",
+		"particle": "lunareclipse.watching:item/ui/advancements/dreadful_donation/get_named_donation"
+	},
+	"elements": [
+		{
+			"name": "get_haunted_heirloom_0",
+			"from": [4, 2, 7],
+			"to": [12, 14, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [12, 2, 4, 14], "texture": "#1"},
+				"east": {"uv": [10, 2, 12, 14], "texture": "#1"},
+				"south": {"uv": [4, 2, 12, 14], "texture": "#1"},
+				"west": {"uv": [4, 2, 6, 14], "texture": "#1"},
+				"up": {"uv": [4, 2, 12, 4], "texture": "#1"},
+				"down": {"uv": [4, 12, 12, 14], "texture": "#1"}
+			}
+		},
+		{
+			"name": "get_haunted_heirloom_1",
+			"from": [2, 4, 7],
+			"to": [4, 12, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 2, 12], "texture": "#1"},
+				"east": {"uv": [2, 4, 4, 12], "texture": "#1"},
+				"south": {"uv": [2, 4, 4, 12], "texture": "#1"},
+				"west": {"uv": [2, 4, 4, 12], "texture": "#1"},
+				"up": {"uv": [2, 4, 4, 6], "texture": "#1"},
+				"down": {"uv": [2, 10, 4, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "get_haunted_heirloom_2",
+			"from": [12, 4, 7],
+			"to": [14, 12, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 4, 12, 12], "texture": "#1"},
+				"east": {"uv": [12, 4, 14, 12], "texture": "#1"},
+				"south": {"uv": [12, 4, 14, 12], "texture": "#1"},
+				"west": {"uv": [12, 4, 14, 12], "texture": "#1"},
+				"up": {"uv": [12, 4, 14, 6], "texture": "#1"},
+				"down": {"uv": [12, 10, 14, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "get_haunted_heirloom_3",
+			"from": [0, 6, 7],
+			"to": [2, 10, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 6, 0, 10], "texture": "#1"},
+				"east": {"uv": [0, 6, 2, 10], "texture": "#1"},
+				"south": {"uv": [0, 6, 2, 10], "texture": "#1"},
+				"west": {"uv": [0, 6, 2, 10], "texture": "#1"},
+				"up": {"uv": [0, 6, 2, 8], "texture": "#1"},
+				"down": {"uv": [0, 8, 2, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "get_haunted_heirloom_4",
+			"from": [14, 6, 7],
+			"to": [16, 10, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [16, 6, 14, 10], "texture": "#1"},
+				"east": {"uv": [14, 6, 16, 10], "texture": "#1"},
+				"south": {"uv": [14, 6, 16, 10], "texture": "#1"},
+				"west": {"uv": [14, 6, 16, 10], "texture": "#1"},
+				"up": {"uv": [14, 6, 16, 8], "texture": "#1"},
+				"down": {"uv": [14, 8, 16, 10], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [15.75, 0, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "get_haunted_heirloom",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	],
+	"__credit": "Generated using Animated Java (https://animated-java.dev/)"
+}

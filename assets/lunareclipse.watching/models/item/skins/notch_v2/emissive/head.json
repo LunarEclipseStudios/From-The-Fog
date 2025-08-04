@@ -1,0 +1,7 @@
+{
+	"parent": "lunareclipse.watching:item/skins/template/head",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/notch_v2/skin_emissive"
+	}
+}
+

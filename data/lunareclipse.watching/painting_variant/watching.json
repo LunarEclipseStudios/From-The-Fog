@@ -1,0 +1,9 @@
+{
+    "width": 2,
+    "height": 2,
+    "asset_id": "lunareclipse.watching:watching",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.watching.title"
+    }
+}

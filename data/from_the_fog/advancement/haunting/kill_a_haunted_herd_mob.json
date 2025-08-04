@@ -1,0 +1,45 @@
+{
+    "parent": "from_the_fog:haunting/first_encounter",
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/haunting/kill_a_haunted_herd_mob"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.haunting.kill_a_haunted_herd_mob.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.haunting.kill_a_haunted_herd_mob.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "from_the_fog:root": true
+                        }
+                    }
+                },
+                "entity": {
+                    "nbt": "{Tags:[\"watching.previously_haunted_herd\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "lunareclipse.watching:mossy_pyramid/base",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2025997793,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.6,
+    "spacing": 5,
+    "separation": 3
+  }
+}

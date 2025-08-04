@@ -1,0 +1,944 @@
+{
+  "event.caution_caption.local.message.1": {
+    "subtitle": "caution_caption.local.message.1",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.local.message.2": {
+    "subtitle": "caution_caption.local.message.2",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.local.message.3": {
+    "subtitle": "caution_caption.local.message.3",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.local.message.4": {
+    "subtitle": "caution_caption.local.message.4",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.swedish.message.1": {
+    "subtitle": "caution_caption.swedish.message.1",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.swedish.message.2": {
+    "subtitle": "caution_caption.swedish.message.2",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.swedish.message.3": {
+    "subtitle": "caution_caption.swedish.message.3",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "event.caution_caption.swedish.message.4": {
+    "subtitle": "caution_caption.swedish.message.4",
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/caution_caption",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "events.sudden_scare.jumpscare": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/sudden_scare/jumpscare1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "lunareclipse.watching:events/sudden_scare/jumpscare2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "lunareclipse.watching:events/sudden_scare/jumpscare3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "lunareclipse.watching:events/sudden_scare/jumpscare4",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "lunareclipse.watching:events/sudden_scare/jumpscare5",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "events.suspenseful_sighting": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/suspenseful_sighting",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "events.sudden_scare.crash": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/sudden_scare/crash",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.creeping_sighting.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 0.1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.creeping_sighting.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.dwelling_sighting.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 0.1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.dwelling_sighting.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.stalking_sighting.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 0.1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.stalking_sighting.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.lurking_sighting.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 0.1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.lurking_sighting.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.nightmare_sighting.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 0.1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.nightmare_sighting.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sightings_selected",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.burning_base.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/burning_base_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.burning_base.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/burning_base_false",
+        "volume": 1,
+        "pitch": 1.5,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.disappearing_torches.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/disappearing_torches_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.disappearing_torches.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/disappearing_torches_false",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.malicious_malfunction.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/malicious_malfunction_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.malicious_malfunction.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sudden_scare.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sudden_scare_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sudden_scare.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/sudden_scare_false",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.rekindling_shrine.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.rekindling_shrine.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.shrine_surprise.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.shrine_surprise.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.shrine_strike.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/shrine_strike_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.shrine_strike.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.dreadful_donation.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/dreadful_donation_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.dreadful_donation.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/dreadful_donation_false",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.haunted_heirlooms.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.haunted_heirlooms.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sighting_noise.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sighting_noise.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.no_sleep.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.no_sleep.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.suspenseful_sighting.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/suspenseful_sighting",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.suspenseful_sighting.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.hoebrine_returns.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/hoebrine_returns_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.hoebrine_returns.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.give_him_control.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.ghost_doors.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/ghost_doors_true",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.ghost_doors.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.dwelling_shadow.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.dwelling_shadow.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.window_watcher.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.window_watcher.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sneaky_strike.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sneaky_strike.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.emissive_layers.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.emissive_layers.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sighting_sense.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sighting_sense.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.eerie_entrance.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.eerie_entrance.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.caution_caption.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.caution_caption.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.leafless_grove.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.leafless_grove.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.chilled_candles.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.chilled_candles.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.crimson_curse.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.crimson_curse.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.soul_shift.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.soul_shift.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sinister_signs.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.sinister_signs.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.biome_boards.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.biome_boards.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.ghost_miner.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.ghost_miner.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.advancements.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.advancements.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.fearful_footsteps.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.fearful_footsteps.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.haunted_herd.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.haunted_herd.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.twisted_tapestries.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.twisted_tapestries.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+    "config.setting.flickering_flashlight.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.flickering_flashlight.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "music_disc.herobrine_lullaby": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:music_disc/herobrine_lullaby",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "music_disc.deathbed": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:music_disc/deathbed",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+    "music_disc.hes_from_the_fog": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:music_disc/hes_from_the_fog",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  }
+}

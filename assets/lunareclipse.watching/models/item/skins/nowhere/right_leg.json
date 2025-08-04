@@ -1,0 +1,32 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/nowhere/skin",
+		"particle": "lunareclipse.watching:item/skins/nowhere/skin"
+	},
+	"elements": [
+		{
+			"name": "Right leg",
+			"from": [6.5, -3, 6.5],
+			"to": [9.5, 15, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2.5, 13, -0.5]},
+			"faces": {
+				"north": {"uv": [4.75, 10, 5.5, 14.5], "texture": "#skin"},
+				"east": {"uv": [5.5, 10, 6.25, 14.5], "texture": "#skin"},
+				"south": {"uv": [6.25, 10, 7, 14.5], "texture": "#skin"},
+				"west": {"uv": [11, 2, 11.75, 6.5], "texture": "#skin"},
+				"up": {"uv": [10.25, 12.25, 9.5, 11.5], "texture": "#skin"},
+				"down": {"uv": [12.25, 10, 11.5, 10.75], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "RightLeg",
+			"origin": [10, 19, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

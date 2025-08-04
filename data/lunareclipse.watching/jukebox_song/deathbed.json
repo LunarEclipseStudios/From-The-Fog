@@ -1,0 +1,10 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "jukebox_song.deathbed"
+  },
+  "length_in_seconds": 157.0,
+  "sound_event": {
+    "sound_id": "lunareclipse.watching:music_disc.deathbed"
+  }
+}

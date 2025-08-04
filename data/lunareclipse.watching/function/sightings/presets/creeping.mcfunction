@@ -1,0 +1,2 @@
+# Run the sighting function with the creeping parameters.
+function lunareclipse.watching:sightings/sighting {type:"creeping", position: "creeping", max_distance:16, spot_fov: 85, jumpscare: "true", light_reactant: "false", despawn_timer:30, sneaky_strike: "true", custom: "false"}

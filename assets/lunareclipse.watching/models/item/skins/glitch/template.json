@@ -1,0 +1,1580 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/default/skin",
+		"particle": "lunareclipse.watching:item/skins/default/skin"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [
+				4,
+				10,
+				4
+			],
+			"to": [
+				12,
+				18,
+				12
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						2,
+						2,
+						4,
+						4
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						2,
+						2,
+						4
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						6,
+						2,
+						8,
+						4
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						4,
+						2,
+						6,
+						4
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						4,
+						2,
+						2,
+						0
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						6,
+						0,
+						4,
+						2
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "headwear",
+			"from": [
+				3.5,
+				9.5,
+				3.5
+			],
+			"to": [
+				12.5,
+				18.5,
+				12.5
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						10,
+						2,
+						12,
+						4
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						8,
+						2,
+						10,
+						4
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						14,
+						2,
+						16,
+						4
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						12,
+						2,
+						14,
+						4
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						12,
+						2,
+						10,
+						0
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						14,
+						0,
+						12,
+						2
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "headwear inverted",
+			"from": [
+				12.5,
+				18.5,
+				12.5
+			],
+			"to": [
+				3.5,
+				9.5,
+				3.5
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						14,
+						4,
+						16,
+						2
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						12,
+						4,
+						14,
+						2
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						10,
+						4,
+						12,
+						2
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						8,
+						4,
+						10,
+						2
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						12,
+						0,
+						14,
+						2
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						10,
+						2,
+						12,
+						0
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "body",
+			"from": [
+				4,
+				-2,
+				6
+			],
+			"to": [
+				12,
+				10,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						5,
+						7,
+						8
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						5,
+						5,
+						8
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						8,
+						5,
+						10,
+						8
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						7,
+						5,
+						8,
+						8
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						7,
+						5,
+						5,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						9,
+						4,
+						7,
+						5
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "jacket",
+			"from": [
+				3.75,
+				-2.25,
+				5.75
+			],
+			"to": [
+				12.25,
+				10.25,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						9,
+						7,
+						12
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						9,
+						5,
+						12
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						8,
+						9,
+						10,
+						12
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						7,
+						9,
+						8,
+						12
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						7,
+						9,
+						5,
+						8
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						9,
+						8,
+						7,
+						9
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "jacket inverted",
+			"from": [
+				12.25,
+				10.25,
+				10.25
+			],
+			"to": [
+				3.75,
+				-2.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						12,
+						10,
+						9
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						7,
+						12,
+						8,
+						9
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						5,
+						12,
+						7,
+						9
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						4,
+						12,
+						5,
+						9
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						7,
+						8,
+						9,
+						9
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						5,
+						9,
+						7,
+						8
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_arm",
+			"from": [
+				0,
+				-2,
+				6
+			],
+			"to": [
+				4,
+				10,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						9,
+						13,
+						10,
+						16
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						8,
+						13,
+						9,
+						16
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						11,
+						13,
+						12,
+						16
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						10,
+						13,
+						11,
+						16
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						10,
+						13,
+						9,
+						12
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						11,
+						12,
+						10,
+						13
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_sleeve",
+			"from": [
+				-0.25,
+				-2.25,
+				5.75
+			],
+			"to": [
+				4.25,
+				10.25,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						13,
+						13,
+						14,
+						16
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						12,
+						13,
+						13,
+						16
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						15,
+						13,
+						16,
+						16
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						14,
+						13,
+						15,
+						16
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						14,
+						13,
+						13,
+						12
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						15,
+						12,
+						14,
+						13
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_sleeve inverted",
+			"from": [
+				4.25,
+				10.25,
+				10.25
+			],
+			"to": [
+				-0.25,
+				-2.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						15,
+						16,
+						16,
+						13
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						14,
+						16,
+						15,
+						13
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						13,
+						16,
+						14,
+						13
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						12,
+						16,
+						13,
+						13
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						14,
+						12,
+						15,
+						13
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						13,
+						13,
+						14,
+						12
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_arm",
+			"from": [
+				12,
+				-2,
+				6
+			],
+			"to": [
+				16,
+				10,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						11,
+						5,
+						12,
+						8
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						10,
+						5,
+						11,
+						8
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						13,
+						5,
+						14,
+						8
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						12,
+						5,
+						13,
+						8
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						12,
+						5,
+						11,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						13,
+						4,
+						12,
+						5
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_sleeve",
+			"from": [
+				11.75,
+				-2.25,
+				5.75
+			],
+			"to": [
+				16.25,
+				10.25,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						11,
+						9,
+						12,
+						12
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						10,
+						9,
+						11,
+						12
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						13,
+						9,
+						14,
+						12
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						12,
+						9,
+						13,
+						12
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						12,
+						9,
+						11,
+						8
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						13,
+						8,
+						12,
+						9
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_sleeve inverted",
+			"from": [
+				16.25,
+				10.25,
+				10.25
+			],
+			"to": [
+				11.75,
+				-2.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						13,
+						12,
+						14,
+						9
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						12,
+						12,
+						13,
+						9
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						11,
+						12,
+						12,
+						9
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						10,
+						12,
+						11,
+						9
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						12,
+						8,
+						13,
+						9
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						11,
+						9,
+						12,
+						8
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_leg",
+			"from": [
+				4,
+				-14,
+				6
+			],
+			"to": [
+				8,
+				-2,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						13,
+						6,
+						16
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						13,
+						5,
+						16
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						7,
+						13,
+						8,
+						16
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						6,
+						13,
+						7,
+						16
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						6,
+						13,
+						5,
+						12
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						7,
+						12,
+						6,
+						13
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_pants",
+			"from": [
+				3.75,
+				-14.25,
+				5.75
+			],
+			"to": [
+				8.25,
+				-1.75,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						13,
+						2,
+						16
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						13,
+						1,
+						16
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						13,
+						4,
+						16
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						13,
+						3,
+						16
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						13,
+						1,
+						12
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						12,
+						2,
+						13
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_pants inverted",
+			"from": [
+				8.25,
+				-1.75,
+				10.25
+			],
+			"to": [
+				3.75,
+				-14.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						16,
+						4,
+						13
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						2,
+						16,
+						3,
+						13
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						1,
+						16,
+						2,
+						13
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						0,
+						16,
+						1,
+						13
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						12,
+						3,
+						13
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						1,
+						13,
+						2,
+						12
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_leg",
+			"from": [
+				8,
+				-14,
+				6
+			],
+			"to": [
+				12,
+				-2,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						5,
+						2,
+						8
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						5,
+						1,
+						8
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						5,
+						4,
+						8
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						5,
+						3,
+						8
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						5,
+						1,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						4,
+						2,
+						5
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_pants",
+			"from": [
+				7.75,
+				-14.25,
+				5.75
+			],
+			"to": [
+				12.25,
+				-1.75,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						9,
+						2,
+						12
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						9,
+						1,
+						12
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						9,
+						4,
+						12
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						9,
+						3,
+						12
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						9,
+						1,
+						8
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						8,
+						2,
+						9
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_pants inverted",
+			"from": [
+				12.25,
+				-1.75,
+				10.25
+			],
+			"to": [
+				7.75,
+				-14.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					-14,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						12,
+						4,
+						9
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						2,
+						12,
+						3,
+						9
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						1,
+						12,
+						2,
+						9
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						0,
+						12,
+						1,
+						9
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						8,
+						3,
+						9
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						1,
+						9,
+						2,
+						8
+					],
+					"texture": "#skin"
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "player",
+			"origin": [
+				8,
+				-14,
+				8
+			],
+			"color": 0,
+			"children": [
+				{
+					"name": "head",
+					"origin": [
+						8,
+						10,
+						8
+					],
+					"color": 0,
+					"children": [
+						0,
+						{
+							"name": "headwear",
+							"origin": [
+								8,
+								10,
+								8
+							],
+							"color": 0,
+							"children": [
+								1,
+								2
+							]
+						}
+					]
+				},
+				{
+					"name": "body",
+					"origin": [
+						8,
+						10,
+						8
+					],
+					"color": 0,
+					"children": [
+						3,
+						{
+							"name": "jacket",
+							"origin": [
+								8,
+								10,
+								8
+							],
+							"color": 0,
+							"children": [
+								4,
+								5
+							]
+						}
+					]
+				},
+				{
+					"name": "left_arm",
+					"origin": [
+						3,
+						8,
+						8
+					],
+					"color": 0,
+					"children": [
+						6,
+						{
+							"name": "left_sleeve",
+							"origin": [
+								3,
+								8,
+								8
+							],
+							"color": 0,
+							"children": [
+								7,
+								8
+							]
+						}
+					]
+				},
+				{
+					"name": "right_arm",
+					"origin": [
+						13,
+						8,
+						8
+					],
+					"color": 0,
+					"children": [
+						9,
+						{
+							"name": "right_sleeve",
+							"origin": [
+								13,
+								8,
+								8
+							],
+							"color": 0,
+							"children": [
+								10,
+								11
+							]
+						}
+					]
+				},
+				{
+					"name": "left_leg",
+					"origin": [
+						6,
+						-2,
+						8
+					],
+					"color": 0,
+					"children": [
+						12,
+						{
+							"name": "left_pants",
+							"origin": [
+								6,
+								-2,
+								8
+							],
+							"color": 0,
+							"children": [
+								13,
+								14
+							]
+						}
+					]
+				},
+				{
+					"name": "right_leg",
+					"origin": [
+						10,
+						-2,
+						8
+					],
+					"color": 0,
+					"children": [
+						15,
+						{
+							"name": "right_pants",
+							"origin": [
+								10,
+								-2,
+								8
+							],
+							"color": 0,
+							"children": [
+								16,
+								17
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

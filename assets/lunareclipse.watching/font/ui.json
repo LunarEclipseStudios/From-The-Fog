@@ -1,0 +1,53 @@
+    {
+        "providers": [
+            {
+                "type": "space",
+                "advances": {
+                    " ": 2,
+                    "‌": 0
+                }
+            },
+            {
+                "type": "bitmap",
+                "file": "minecraft:font/ascii.png",
+                "ascent": 7,
+                "height": 8,
+                "chars": [
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    " !\"#$%&'()*+,-./",
+                    "0123456789:;<=>?",
+                    "@ABCDEFGHIJKLMNO",
+                    "PQRSTUVWXYZ[\\]^_",
+                    "`abcdefghijklmno",
+                    "pqrstuvwxyz{|}~\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000£\u0000\u0000ƒ",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000ªº\u0000\u0000¬\u0000\u0000\u0000«»",
+                    "░▒▓│┤╡╢╖╕╣║╗╝╜╛┐",
+                    "└┴┬├─┼╞╟╚╔╩╦╠═╬╧",
+                    "╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000∅∈\u0000",
+                    "≡±≥≤⌠⌡÷≈°∙\u0000√ⁿ²■\u0000"
+                ]
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uAA00"
+                ],
+                "file": "lunareclipse.watching:font/ui/failed.png",
+                "height": 7,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 7,
+                "chars": [
+                    "\uAA01"
+                ],
+                "file": "lunareclipse.watching:font/ui/passed.png",
+                "height": 7,
+                "type": "bitmap"
+            }
+        ]
+    }

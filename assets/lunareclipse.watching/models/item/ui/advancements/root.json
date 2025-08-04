@@ -1,0 +1,45 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "lunareclipse.watching:item/ui/advancements/root",
+		"torch": "lunareclipse.watching:item/ui/advancements/root"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 10, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#torch"},
+				"down": {"uv": [7, 13, 9, 15], "texture": "#torch", "cullface": "down"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [9.5, 10.5, 9.5],
+			"to": [6.5, 7.5, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [7, 6, 8, 5], "texture": "#torch"},
+				"east": {"uv": [7, 6, 8, 5], "texture": "#torch"},
+				"south": {"uv": [7, 6, 8, 5], "texture": "#torch"},
+				"west": {"uv": [7, 6, 8, 5], "texture": "#torch"},
+				"up": {"uv": [7, 6, 8, 5], "texture": "#torch"},
+				"down": {"uv": [7, 6, 8, 5], "texture": "#torch"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [1.75, 1.75, 1.75]
+		}
+	},
+	"__credit": "Generated using Animated Java (https://animated-java.dev/)"
+}

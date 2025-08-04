@@ -1,0 +1,54 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin",
+		"particle": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin"
+	},
+	"elements": [
+		{
+			"name": "right_leg",
+			"from": [6.5, -1.075, 6.05],
+			"to": [9.5, 8.925, 10.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.1, -12, 7.2]},
+			"faces": {
+				"north": {"uv": [11.5, 11.75, 12.25, 14.25], "texture": "#skin"},
+				"east": {"uv": [1, 11.5, 2, 14], "texture": "#skin"},
+				"south": {"uv": [12.25, 11.75, 13, 14.25], "texture": "#skin"},
+				"west": {"uv": [11.5, 9.25, 12.5, 11.75], "texture": "#skin"},
+				"up": {"uv": [13.75, 12, 13, 11], "texture": "#skin"},
+				"down": {"uv": [13.75, 12, 13, 13], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "bone8",
+			"from": [6.5, -12, 6.05],
+			"to": [9.5, -1, 10.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.1, -13, 7.2]},
+			"faces": {
+				"north": {"uv": [4.25, 11.75, 5, 14.5], "texture": "#skin"},
+				"east": {"uv": [0, 11.5, 1, 14.25], "texture": "#skin"},
+				"south": {"uv": [11.75, 4.75, 12.5, 7.5], "texture": "#skin"},
+				"west": {"uv": [11.5, 0, 12.5, 2.75], "texture": "#skin"},
+				"up": {"uv": [13.75, 14, 13, 13], "texture": "#skin"},
+				"down": {"uv": [14, 4.5, 13.25, 5.5], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "right_leg",
+			"origin": [2.3, 2.55, 0],
+			"color": 8,
+			"children": [
+				0,
+				{
+					"name": "bone8",
+					"origin": [2.3, -6.075, 0],
+					"color": 9,
+					"children": [1]
+				}
+			]
+		}
+	]
+}

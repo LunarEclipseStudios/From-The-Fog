@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/ui/config/settings/give_him_control_switch"
+    },
+    "hand_animation_on_swap": true
+}

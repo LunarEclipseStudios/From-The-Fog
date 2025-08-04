@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lunareclipse.watching:dreadful_donation/contents/redstone_torch/swedish",
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lunareclipse.watching:dreadful_donation/contents/disc_11/swedish",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lunareclipse.watching:dreadful_donation/contents/random",
+                    "weight": 90
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lunareclipse.watching:dreadful_donation/contents/haunted_heirlooms",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

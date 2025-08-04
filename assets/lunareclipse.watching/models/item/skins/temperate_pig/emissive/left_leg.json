@@ -1,0 +1,11 @@
+{
+	"parent": "lunareclipse.watching:item/skins/temperate_pig/left_leg",
+	"textures": {
+		"skin": "entity/pig/pig_ftf"
+	}
+}
+
+
+
+
+

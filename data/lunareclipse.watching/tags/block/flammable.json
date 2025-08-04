@@ -1,0 +1,681 @@
+{
+	"description": "Blocks that can catch fire and go up in flames",
+	"values": [
+		{
+			"id": "minecraft:acacia_planks",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_planks",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_planks",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_planks",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_planks",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_planks",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_slab",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_slab",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_slab",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_slab",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_slab",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_slab",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_fence_gate",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_fence_gate",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_fence_gate",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_fence_gate",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_fence_gate",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_fence_gate",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_fence",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_fence",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_fence",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_fence",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_fence",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_fence",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_wall_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_wall_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_wall_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_wall_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_wall_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_wall_sign",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_stairs",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_stairs",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_stairs",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_stairs",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_stairs",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_stairs",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_oak_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_oak_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_birch_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_birch_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_acacia_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_acacia_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_spruce_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_spruce_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_jungle_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_jungle_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_dark_oak_log",
+			"required": false
+		},
+		{
+			"id": "minecraft:stripped_dark_oak_wood",
+			"required": false
+		},
+		{
+			"id": "minecraft:warped_fungus",
+			"required": false
+		},
+		{
+			"id": "minecraft:crimson_fungus",
+			"required": false
+		},
+		{
+			"id": "minecraft:crimson_roots",
+			"required": false
+		},
+		{
+			"id": "minecraft:warped_roots",
+			"required": false
+		},
+		{
+			"id": "minecraft:twisting_vines",
+			"required": false
+		},
+		{
+			"id": "minecraft:weeping_vines",
+			"required": false
+		},
+		{
+			"id": "minecraft:nether_sprouts",
+			"required": false
+		},
+		{
+			"id": "minecraft:tube_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:brain_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:bubble_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:fire_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:horn_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:tube_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:brain_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:bubble_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:fire_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:horn_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_tube_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_brain_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_bubble_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_fire_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_horn_coral_fan",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_tube_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_brain_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_bubble_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_fire_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_horn_coral",
+			"required": false
+		},
+		{
+			"id": "minecraft:dandelion",
+			"required": false
+		},
+		{
+			"id": "minecraft:poppy",
+			"required": false
+		},
+		{
+			"id": "minecraft:blue_orchid",
+			"required": false
+		},
+		{
+			"id": "minecraft:allium",
+			"required": false
+		},
+		{
+			"id": "minecraft:azure_bluet",
+			"required": false
+		},
+		{
+			"id": "minecraft:red_tulip",
+			"required": false
+		},
+		{
+			"id": "minecraft:orange_tulip",
+			"required": false
+		},
+		{
+			"id": "minecraft:white_tulip",
+			"required": false
+		},
+		{
+			"id": "minecraft:pink_tulip",
+			"required": false
+		},
+		{
+			"id": "minecraft:oxeye_daisy",
+			"required": false
+		},
+		{
+			"id": "minecraft:cornflower",
+			"required": false
+		},
+		{
+			"id": "minecraft:lily_of_the_valley",
+			"required": false
+		},
+		{
+			"id": "minecraft:wither_rose",
+			"required": false
+		},
+		{
+			"id": "minecraft:sunflower",
+			"required": false
+		},
+		{
+			"id": "minecraft:lilac",
+			"required": false
+		},
+		{
+			"id": "minecraft:peony",
+			"required": false
+		},
+		{
+			"id": "minecraft:rose_bush",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_sapling",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_sapling",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_sapling",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_sapling",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_sapling",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_sapling",
+			"required": false
+		},
+		{
+			"id": "minecraft:grass",
+			"required": false
+		},
+		{
+			"id": "minecraft:fern",
+			"required": false
+		},
+		{
+			"id": "minecraft:dead_bush",
+			"required": false
+		},
+		{
+			"id": "minecraft:seagrass",
+			"required": false
+		},
+		{
+			"id": "minecraft:sea_pickle",
+			"required": false
+		},
+		{
+			"id": "minecraft:tall_grass",
+			"required": false
+		},
+		{
+			"id": "minecraft:large_fern",
+			"required": false
+		},
+		{
+			"id": "minecraft:tall_seagrass",
+			"required": false
+		},
+		{
+			"id": "minecraft:kelp_plant",
+			"required": false
+		},
+		{
+			"id": "minecraft:white_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:orange_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:magenta_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:light_blue_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:yellow_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:lime_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:pink_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:gray_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:light_gray_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:cyan_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:purple_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:blue_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:brown_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:green_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:red_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:black_carpet",
+			"required": false
+		},
+		{
+			"id": "minecraft:oak_leaves",
+			"required": false
+		},
+		{
+			"id": "minecraft:birch_leaves",
+			"required": false
+		},
+		{
+			"id": "minecraft:acacia_leaves",
+			"required": false
+		},
+		{
+			"id": "minecraft:jungle_leaves",
+			"required": false
+		},
+		{
+			"id": "minecraft:spruce_leaves",
+			"required": false
+		},
+		{
+			"id": "minecraft:dark_oak_leaves",
+			"required": false
+		},
+		{
+			"id": "minecraft:white_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:orange_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:magenta_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:light_blue_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:yellow_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:lime_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:pink_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:gray_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:light_gray_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:cyan_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:purple_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:blue_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:brown_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:green_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:red_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:black_wool",
+			"required": false
+		},
+		{
+			"id": "minecraft:coal_block",
+			"required": false
+		},
+		{
+			"id": "minecraft:bookshelf",
+			"required": false
+		},
+		{
+			"id": "minecraft:target",
+			"required": false
+		},
+		{
+			"id": "minecraft:tnt",
+			"required": false
+		},
+		{
+			"id": "minecraft:vine",
+			"required": false
+		},
+		{
+			"id": "minecraft:hay_block",
+			"required": false
+		}
+	]
+}

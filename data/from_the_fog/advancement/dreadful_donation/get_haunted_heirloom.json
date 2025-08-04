@@ -1,0 +1,55 @@
+{
+    "parent": "from_the_fog:dreadful_donation/get_donation",
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/dreadful_donation/get_haunted_heirloom"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.dreadful_donation.get_haunted_heirloom.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.dreadful_donation.get_haunted_heirloom.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "from_the_fog:root": true
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "dreadful_donation": true,
+                                "haunted_heirloom": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lunareclipse.watching:advancements/grant_dreadful_donation"
+    }
+}

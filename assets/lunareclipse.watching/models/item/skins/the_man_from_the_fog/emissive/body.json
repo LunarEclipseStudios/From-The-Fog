@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/the_man_from_the_fog/body",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin_emissive"
+	}
+}

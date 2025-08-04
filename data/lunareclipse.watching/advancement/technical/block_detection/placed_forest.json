@@ -1,0 +1,18 @@
+{
+    "parent": "lunareclipse.watching:technical/block_detection/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "#minecraft:is_forest"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lunareclipse.watching:block_events/detection/placed/forest"
+    }
+}

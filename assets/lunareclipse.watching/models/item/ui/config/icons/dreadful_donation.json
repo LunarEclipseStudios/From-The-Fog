@@ -1,0 +1,73 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/icons/dreadful_donation/mail_back",
+		"2": "lunareclipse.watching:item/ui/config/icons/dreadful_donation/redstone_torch",
+		"3": "lunareclipse.watching:item/ui/config/icons/dreadful_donation/mail_front",
+		"particle": "lunareclipse.watching:item/ui/config/icons/dreadful_donation/mail_back"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [12, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 0.5, 7.7],
+			"to": [11.5, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 0.5, 7.7]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 15], "texture": "#3"},
+				"east": {"uv": [1, 0, 2, 15], "texture": "#3"},
+				"west": {"uv": [14, 0, 15, 15], "texture": "#3"},
+				"down": {"uv": [1, 14, 15, 15], "texture": "#3"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [11.5, 8, 8],
+			"to": [4.5, 0.5, 7.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 0.5, 7.7]},
+			"faces": {
+				"east": {"uv": [14, 15, 15, 0], "texture": "#3"},
+				"south": {"uv": [1, 15, 15, 0], "texture": "#3"},
+				"west": {"uv": [1, 15, 2, 0], "texture": "#3"},
+				"up": {"uv": [15, 14, 1, 15], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.6, 1.75, 7.8],
+			"to": [8.35, 5.15, 8.55],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.95583, 3.3, 8.74768]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#2"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#2"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#2"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#2"},
+				"up": {"uv": [7, 5, 9, 6], "texture": "#2"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.6, 1.8, 7.05],
+			"to": [8.35, 5.8, 9.3],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.95583, 3.3, 8.74768]},
+			"faces": {
+				"east": {"uv": [5, 4, 11, 16], "texture": "#2"},
+				"west": {"uv": [5, 4, 11, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [6.85, 1.8, 7.8],
+			"to": [9.1, 5.8, 8.55],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.95583, 3.3, 8.74768]},
+			"faces": {
+				"north": {"uv": [5, 4, 11, 16], "texture": "#2"},
+				"south": {"uv": [5, 4, 11, 16], "texture": "#2"}
+			}
+		}
+	]
+}

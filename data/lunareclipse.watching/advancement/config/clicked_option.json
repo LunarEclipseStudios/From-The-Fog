@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"watching.opened_config\"]}"
+                  },
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"watching.icon\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lunareclipse.watching:config/main_menu/clicked_option"
+    },
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/root"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.root.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.root.description"
+        },
+        "background": "lunareclipse.watching:ui/advancement_background",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

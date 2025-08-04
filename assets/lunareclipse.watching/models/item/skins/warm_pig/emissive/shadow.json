@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "lunareclipse.watching:item/skins/shadow"
+	}
+}
+

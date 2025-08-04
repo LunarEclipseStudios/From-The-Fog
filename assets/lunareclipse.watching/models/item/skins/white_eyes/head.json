@@ -1,0 +1,46 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/white_eyes/skin",
+		"particle": "lunareclipse.watching:item/skins/white_eyes/skin"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 8, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3, 15]},
+			"faces": {
+				"north": {"uv": [10, 3, 12, 5], "texture": "#skin"},
+				"east": {"uv": [8, 3, 10, 5], "texture": "#skin"},
+				"south": {"uv": [14, 3, 16, 5], "texture": "#skin"},
+				"west": {"uv": [12, 3, 14, 5], "texture": "#skin"},
+				"up": {"uv": [12, 3, 10, 1], "texture": "#skin"},
+				"down": {"uv": [14, 1, 12, 3], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "eyes",
+			"from": [4, 8, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3, 15]},
+			"faces": {
+				"north": {"uv": [2, 10, 4, 12], "texture": "#skin"},
+				"east": {"uv": [0, 10, 2, 12], "texture": "#skin"},
+				"south": {"uv": [6, 10, 8, 12], "texture": "#skin"},
+				"west": {"uv": [4, 10, 6, 12], "texture": "#skin"},
+				"up": {"uv": [4, 10, 2, 8], "texture": "#skin"},
+				"down": {"uv": [6, 8, 4, 10], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 22, 5],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

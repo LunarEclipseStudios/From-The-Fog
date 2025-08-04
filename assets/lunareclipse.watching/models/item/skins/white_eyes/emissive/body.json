@@ -1,0 +1,13 @@
+{
+	"parent": "lunareclipse.watching:item/skins/white_eyes/body",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/white_eyes/skin_emissive"
+	}
+}
+
+
+
+
+
+
+

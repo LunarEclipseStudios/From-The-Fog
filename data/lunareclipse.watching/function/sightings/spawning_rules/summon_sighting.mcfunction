@@ -1,0 +1,2 @@
+# If the started events scoreboard is set to 1 then run the function to summon the queued sighting.
+execute if score started_events watching.global_values matches 1 run function lunareclipse.watching:sightings/spawning_rules/select_sighting with storage lunareclipse.watching:global_values sightings.queued_sighting

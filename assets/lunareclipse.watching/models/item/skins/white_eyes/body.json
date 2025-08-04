@@ -1,0 +1,81 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/white_eyes/skin",
+		"particle": "lunareclipse.watching:item/skins/white_eyes/skin"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [4, 8, 6],
+			"to": [12, 20, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [11, 9, 13, 12], "texture": "#skin"},
+				"east": {"uv": [10, 9, 11, 12], "texture": "#skin"},
+				"south": {"uv": [14, 9, 16, 12], "texture": "#skin"},
+				"west": {"uv": [13, 9, 14, 12], "texture": "#skin"},
+				"up": {"uv": [13, 9, 11, 8], "texture": "#skin"},
+				"down": {"uv": [15, 8, 13, 9], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "body inverted",
+			"from": [12, 20, 10],
+			"to": [4, 8, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [14, 12, 16, 9], "texture": "#skin"},
+				"east": {"uv": [13, 12, 14, 9], "texture": "#skin"},
+				"south": {"uv": [11, 12, 13, 9], "texture": "#skin"},
+				"west": {"uv": [10, 12, 11, 9], "texture": "#skin"},
+				"up": {"uv": [13, 8, 15, 9], "texture": "#skin"},
+				"down": {"uv": [11, 9, 13, 8], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "neck",
+			"from": [5, 8, 10],
+			"to": [11, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 13]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 3, 3], "texture": "#skin"},
+				"east": {"uv": [0, 1.5, 1.5, 3], "texture": "#skin"},
+				"south": {"uv": [4.5, 1.5, 6, 3], "texture": "#skin"},
+				"west": {"uv": [3, 1.5, 4.5, 3], "texture": "#skin"},
+				"up": {"uv": [3, 1.5, 1.5, 0], "texture": "#skin"},
+				"down": {"uv": [4.5, 0, 3, 1.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [3, 7, 16],
+			"to": [13, 15, 28],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 22]},
+			"faces": {
+				"north": {"uv": [3, 6, 5.5, 8], "texture": "#skin"},
+				"east": {"uv": [0, 6, 3, 8], "texture": "#skin"},
+				"south": {"uv": [8.5, 6, 11, 8], "texture": "#skin"},
+				"west": {"uv": [5.5, 6, 8.5, 8], "texture": "#skin"},
+				"up": {"uv": [5.5, 6, 3, 3], "texture": "#skin"},
+				"down": {"uv": [8, 3, 5.5, 6], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "body2",
+			"origin": [8, 18, 3],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "neck",
+			"origin": [8, 9, 8],
+			"color": 0,
+			"children": [2]
+		},
+		3
+	]
+}

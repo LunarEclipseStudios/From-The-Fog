@@ -1,0 +1,110 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin",
+		"particle": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin"
+	},
+	"elements": [
+		{
+			"name": "left_arm2",
+			"from": [6.925, 3, 6.85],
+			"to": [8.425, 9, 8.85],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.9, -20, 8]},
+			"faces": {
+				"north": {"uv": [2, 11.75, 2.75, 14.75], "texture": "#skin"},
+				"east": {"uv": [6.5, 11, 7.5, 14], "texture": "#skin"},
+				"south": {"uv": [2.75, 11.75, 3.5, 14.75], "texture": "#skin"},
+				"west": {"uv": [7.5, 11, 8.5, 14], "texture": "#skin"},
+				"up": {"uv": [10.25, 4.5, 9.5, 3.5], "texture": "#skin"},
+				"down": {"uv": [13.25, 4.75, 12.5, 5.75], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "bone9",
+			"from": [6.925, -5.6, 6.85],
+			"to": [8.425, 3.4, 8.85],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.675, 3.15, 7.85]},
+			"faces": {
+				"north": {"uv": [10.25, 4.75, 11, 9.25], "texture": "#skin"},
+				"east": {"uv": [2.5, 7.25, 3.5, 11.75], "texture": "#skin"},
+				"south": {"uv": [8.5, 10.75, 9.25, 15.25], "texture": "#skin"},
+				"west": {"uv": [3.5, 7.25, 4.5, 11.75], "texture": "#skin"},
+				"up": {"uv": [13.25, 6.75, 12.5, 5.75], "texture": "#skin"},
+				"down": {"uv": [13.25, 9, 12.5, 10], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "bone10",
+			"from": [6.925, -7.1, 6.85],
+			"to": [8.425, 1.9, 8.85],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.675, 3.15, 7.85]},
+			"faces": {
+				"north": {"uv": [9.25, 10.75, 10, 15.25], "texture": "#skin"},
+				"east": {"uv": [4.5, 7.25, 5.5, 11.75], "texture": "#skin"},
+				"south": {"uv": [10, 10.75, 10.75, 15.25], "texture": "#skin"},
+				"west": {"uv": [5.5, 7.25, 6.5, 11.75], "texture": "#skin"},
+				"up": {"uv": [13.25, 11, 12.5, 10], "texture": "#skin"},
+				"down": {"uv": [13.5, 6.75, 12.75, 7.75], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "bone11 inverted",
+			"from": [8.425, 1.9, 8.85],
+			"to": [6.925, -7.1, 6.85],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.675, 3.15, 7.85]},
+			"faces": {
+				"north": {"uv": [10, 15.25, 10.75, 10.75], "texture": "#skin"},
+				"east": {"uv": [5.5, 11.75, 6.5, 7.25], "texture": "#skin"},
+				"south": {"uv": [9.25, 15.25, 10, 10.75], "texture": "#skin"},
+				"west": {"uv": [4.5, 11.75, 5.5, 7.25], "texture": "#skin"},
+				"up": {"uv": [12.75, 6.75, 13.5, 7.75], "texture": "#skin"},
+				"down": {"uv": [12.5, 11, 13.25, 10], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "left_arm2",
+			"origin": [13.525, 17.925, 8],
+			"color": 2,
+			"children": [
+				0,
+				{
+					"name": "bone9",
+					"origin": [14.675, 7, 8],
+					"color": 3,
+					"children": [
+						1,
+						2,
+						{
+							"name": "bone13",
+							"origin": [13.525, -10.825, 7.425],
+							"color": 4,
+							"children": []
+						},
+						{
+							"name": "bone10",
+							"origin": [15.825, -10.825, 9.725],
+							"color": 5,
+							"children": []
+						},
+						{
+							"name": "bone11",
+							"origin": [15.825, -10.825, 8.575],
+							"color": 6,
+							"children": []
+						},
+						{
+							"name": "bone12",
+							"origin": [15.825, -10.825, 7.425],
+							"color": 7,
+							"children": []
+						},
+						3
+					]
+				}
+			]
+		}
+	]
+}

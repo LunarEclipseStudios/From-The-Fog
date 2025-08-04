@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:mossy_cobblestone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "dreadful_donation": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "dreadful_donation": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sandstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "dreadful_donation": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

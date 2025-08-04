@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/skins/nowhere/head_in_case_i_fuc_this_up"
+    },
+    "hand_animation_on_swap": true
+}

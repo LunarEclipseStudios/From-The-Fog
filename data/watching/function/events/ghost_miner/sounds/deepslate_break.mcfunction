@@ -1,1 +1,0 @@
-execute as @e[type=marker,tag=ghostMiner] at @s run playsound minecraft:block.deepslate.break block @a ~ ~ ~

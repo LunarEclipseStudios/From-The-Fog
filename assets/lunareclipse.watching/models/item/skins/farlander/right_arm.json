@@ -1,0 +1,52 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/farlander/skin",
+		"particle": "lunareclipse.watching:item/skins/farlander/skin"
+	},
+	"elements": [
+		{
+			"name": "Box6",
+			"from": [5.75, -2.25, 5.75],
+			"to": [9.25, 10.25, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [11, 9, 11.75, 12], "texture": "#skin"},
+				"east": {"uv": [10, 9, 11, 12], "texture": "#skin"},
+				"south": {"uv": [12.75, 9, 13.5, 12], "texture": "#skin"},
+				"west": {"uv": [11.75, 9, 12.75, 12], "texture": "#skin"},
+				"up": {"uv": [11.75, 9, 11, 8], "texture": "#skin"},
+				"down": {"uv": [12.5, 8, 11.75, 9], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [6, -2, 6],
+			"to": [9, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [11, 5, 11.75, 8], "texture": "#skin"},
+				"east": {"uv": [10, 5, 11, 8], "texture": "#skin"},
+				"south": {"uv": [12.75, 5, 13.5, 8], "texture": "#skin"},
+				"west": {"uv": [11.75, 5, 12.75, 8], "texture": "#skin"},
+				"up": {"uv": [11.75, 5, 11, 4], "texture": "#skin"},
+				"down": {"uv": [12.5, 4, 11.75, 5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [9.25, 10.25, 10.25],
+			"to": [5.75, -2.25, 5.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -20, 8]},
+			"faces": {
+				"north": {"uv": [12.75, 12, 13.5, 9], "texture": "#skin"},
+				"east": {"uv": [11.75, 12, 12.75, 9], "texture": "#skin"},
+				"south": {"uv": [11, 12, 11.75, 9], "texture": "#skin"},
+				"west": {"uv": [10, 12, 11, 9], "texture": "#skin"},
+				"up": {"uv": [11.75, 8, 12.5, 9], "texture": "#skin"},
+				"down": {"uv": [11, 9, 11.75, 8], "texture": "#skin"}
+			}
+		}
+	]
+}

@@ -1,0 +1,860 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/grimreaper/skin",
+		"particle": "lunareclipse.watching:item/skins/grimreaper/skin"
+	},
+	"elements": [
+		{
+			"name": "left_leg",
+			"from": [
+				4,
+				-4,
+				6
+			],
+			"to": [
+				8,
+				8,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					6,
+					2,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						13,
+						6,
+						16
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						13,
+						5,
+						16
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						7,
+						13,
+						8,
+						16
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						6,
+						13,
+						7,
+						16
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						6,
+						13,
+						5,
+						12
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						7,
+						12,
+						6,
+						13
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_pants",
+			"from": [
+				3.75,
+				-4.25,
+				5.75
+			],
+			"to": [
+				8.25,
+				8.25,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					6,
+					2,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						13,
+						2,
+						16
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						13,
+						1,
+						16
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						13,
+						4,
+						16
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						13,
+						3,
+						16
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						13,
+						1,
+						12
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						12,
+						2,
+						13
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_pants inverted",
+			"from": [
+				8.25,
+				8.25,
+				10.25
+			],
+			"to": [
+				3.75,
+				-4.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					6,
+					2,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						16,
+						4,
+						13
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						2,
+						16,
+						3,
+						13
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						1,
+						16,
+						2,
+						13
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						0,
+						16,
+						1,
+						13
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						12,
+						3,
+						13
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						1,
+						13,
+						2,
+						12
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_leg",
+			"from": [
+				8,
+				-4,
+				6
+			],
+			"to": [
+				12,
+				8,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					10,
+					2,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						5,
+						2,
+						8
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						5,
+						1,
+						8
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						5,
+						4,
+						8
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						5,
+						3,
+						8
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						5,
+						1,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						4,
+						2,
+						5
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "right_pants",
+			"from": [
+				7.75,
+				-4.25,
+				5.75
+			],
+			"to": [
+				12.25,
+				8.25,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					10,
+					2,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						9,
+						2,
+						12
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						0,
+						9,
+						1,
+						12
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						3,
+						9,
+						4,
+						12
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						2,
+						9,
+						3,
+						12
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						9,
+						1,
+						8
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						3,
+						8,
+						2,
+						9
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "left_pants inverted",
+			"from": [
+				12.25,
+				8.25,
+				10.25
+			],
+			"to": [
+				7.75,
+				-4.25,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					10,
+					2,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						12,
+						4,
+						9
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						2,
+						12,
+						3,
+						9
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						1,
+						12,
+						2,
+						9
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						0,
+						12,
+						1,
+						9
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						2,
+						8,
+						3,
+						9
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						1,
+						9,
+						2,
+						8
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [
+				4,
+				8,
+				6
+			],
+			"to": [
+				12,
+				20,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					0,
+					-4,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						5,
+						7,
+						8
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						5,
+						5,
+						8
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						8,
+						5,
+						10,
+						8
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						7,
+						5,
+						8,
+						8
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						7,
+						5,
+						5,
+						4
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						7,
+						4,
+						9,
+						5
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [
+				12,
+				20,
+				10
+			],
+			"to": [
+				4,
+				8,
+				6
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					16,
+					12,
+					16
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						8,
+						10,
+						5
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						7,
+						8,
+						8,
+						5
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						5,
+						8,
+						7,
+						5
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						4,
+						8,
+						5,
+						5
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						9,
+						4,
+						7,
+						5
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						5,
+						5,
+						7,
+						4
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "Box5",
+			"from": [
+				3.75,
+				7.75,
+				5.75
+			],
+			"to": [
+				12.25,
+				20.25,
+				10.25
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					0,
+					-4,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						9,
+						7,
+						12
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						4,
+						9,
+						5,
+						12
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						8,
+						9,
+						10,
+						12
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						7,
+						9,
+						8,
+						12
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						5,
+						8,
+						7,
+						9
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						7,
+						8,
+						9,
+						9
+					],
+					"texture": "#skin"
+				}
+			}
+		},
+		{
+			"name": "Box6",
+			"from": [
+				12.25,
+				20.25,
+				10.25
+			],
+			"to": [
+				3.75,
+				7.75,
+				5.75
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					16,
+					12,
+					16
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						12,
+						10,
+						9
+					],
+					"texture": "#skin"
+				},
+				"east": {
+					"uv": [
+						7,
+						12,
+						8,
+						9
+					],
+					"texture": "#skin"
+				},
+				"south": {
+					"uv": [
+						5,
+						12,
+						7,
+						9
+					],
+					"texture": "#skin"
+				},
+				"west": {
+					"uv": [
+						4,
+						12,
+						5,
+						9
+					],
+					"texture": "#skin"
+				},
+				"up": {
+					"uv": [
+						9,
+						8,
+						7,
+						9
+					],
+					"texture": "#skin"
+				},
+				"down": {
+					"uv": [
+						7,
+						8,
+						5,
+						9
+					],
+					"texture": "#skin"
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "left_leg",
+			"origin": [
+				6,
+				-2,
+				8
+			],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "left_pants",
+					"origin": [
+						6,
+						-2,
+						8
+					],
+					"color": 0,
+					"children": [
+						1,
+						2
+					]
+				}
+			]
+		},
+		{
+			"name": "right_leg",
+			"origin": [
+				10,
+				-2,
+				8
+			],
+			"color": 0,
+			"children": [
+				3,
+				{
+					"name": "right_pants",
+					"origin": [
+						10,
+						-2,
+						8
+					],
+					"color": 0,
+					"children": [
+						4,
+						5
+					]
+				}
+			]
+		},
+		{
+			"name": "group",
+			"origin": [
+				8,
+				8,
+				8
+			],
+			"color": 0,
+			"children": [
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	]
+}

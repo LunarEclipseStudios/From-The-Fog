@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/the_headless/left_arm",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/the_headless/skin_emissive"
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "lunareclipse.watching:item/skins/werewolf/claws",
+		"skin": "lunareclipse.watching:item/skins/werewolf/skin",
+		"particle": "lunareclipse.watching:item/skins/werewolf/claws"
+	},
+	"elements": [
+		{
+			"from": [8.56713, 0.4, 5.99423],
+			"to": [12.56713, 10.4, 9.99423],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [10.56713, 2.74158, 7.94436]},
+			"faces": {
+				"north": {"uv": [7.75, 8.625, 7.25, 9.875], "texture": "#skin"},
+				"east": {"uv": [8.25, 8.625, 7.75, 9.875], "texture": "#skin"},
+				"south": {"uv": [8.75, 8.625, 8.25, 9.875], "texture": "#skin"},
+				"west": {"uv": [7.25, 8.625, 6.75, 9.875], "texture": "#skin"},
+				"up": {"uv": [7.25, 8.625, 7.75, 8.125], "texture": "#skin"},
+				"down": {"uv": [7.75, 8.125, 8.25, 8.625], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "tuft",
+			"from": [9.06713, -1.91684, 6.39448],
+			"to": [12.06713, 2.08316, 9.39448],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [10.56713, 2.74158, 7.94436]},
+			"faces": {
+				"north": {"uv": [10, 6.625, 9.625, 7.125], "texture": "#skin"},
+				"east": {"uv": [10.375, 6.625, 10, 7.125], "texture": "#skin"},
+				"south": {"uv": [10.75, 6.625, 10.375, 7.125], "texture": "#skin"},
+				"west": {"uv": [9.625, 6.625, 9.25, 7.125], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [9.8, -3.04133, -1.86572],
+			"to": [12.8, 0.95867, 8.13428],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [10.59669, 1.05, 3.73864]},
+			"faces": {
+				"north": {"uv": [5.875, 6.375, 5.5, 6.875], "texture": "#skin"},
+				"east": {"uv": [7.125, 6.375, 5.875, 6.875], "texture": "#skin"},
+				"south": {"uv": [7.5, 6.375, 7.125, 6.875], "texture": "#skin"},
+				"west": {"uv": [5.5, 6.375, 4.25, 6.875], "texture": "#skin"},
+				"up": {"uv": [5.5, 6.375, 5.875, 5.125], "texture": "#skin"},
+				"down": {"uv": [5.875, 5.125, 6.25, 6.375], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [9.55, -3.29133, -2.11572],
+			"to": [13.05, 1.20867, 8.38428],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [10.59669, 1.05, 3.73864]},
+			"faces": {
+				"north": {"uv": [3, 4, 4.5, 6], "texture": "#1"},
+				"east": {"uv": [0, 0, 5, 2], "texture": "#1"},
+				"south": {"uv": [7.5, 6.375, 7.125, 6.875], "texture": "#1"},
+				"west": {"uv": [5.5, 6.375, 4.25, 6.875], "texture": "#1"},
+				"up": {"uv": [1.5, 9, 0, 4], "texture": "#1"},
+				"down": {"uv": [5.875, 5.125, 6.25, 6.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [13.05, 1.20867, 8.38428],
+			"to": [9.55, -3.29133, -2.11572],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [10.59669, 1.05, 3.73864]},
+			"faces": {
+				"north": {"uv": [7.5, 6.875, 7.125, 6.375], "texture": "#1"},
+				"east": {"uv": [5.5, 6.875, 4.25, 6.375], "texture": "#1"},
+				"south": {"uv": [3, 6, 4.5, 4], "texture": "#1"},
+				"west": {"uv": [0, 2, 5, 0], "texture": "#1"},
+				"up": {"uv": [6.25, 5.125, 5.875, 6.375], "texture": "#1"},
+				"down": {"uv": [0, 9, 1.5, 4], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "arm0allrot2",
+			"origin": [3, 15, 6],
+			"color": 0,
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"children": [
+				0,
+				1,
+				{
+					"name": "bone4",
+					"origin": [1.5, 7, 6],
+					"color": 0,
+					"configs": {
+						"default": {},
+						"variants": {}
+					},
+					"children": [2, 3, 4]
+				}
+			]
+		}
+	]
+}

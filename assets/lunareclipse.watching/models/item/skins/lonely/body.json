@@ -1,0 +1,46 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/lonely/skin",
+		"particle": "lunareclipse.watching:item/skins/lonely/skin"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [4, 4, 5],
+			"to": [12, 20, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -5, 0]},
+			"faces": {
+				"north": {"uv": [0.75, 0.75, 1.75, 2.75], "texture": "#skin"},
+				"east": {"uv": [0, 0.75, 0.75, 2.75], "texture": "#skin"},
+				"south": {"uv": [2.5, 0.75, 3.5, 2.75], "texture": "#skin"},
+				"west": {"uv": [1.75, 0.75, 2.5, 2.75], "texture": "#skin"},
+				"up": {"uv": [1.75, 0.75, 0.75, 0], "texture": "#skin"},
+				"down": {"uv": [2.75, 0, 1.75, 0.75], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Body Layer",
+			"from": [3.75, 6.75, 5.75],
+			"to": [12.25, 19.25, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -5, 0]},
+			"faces": {
+				"north": {"uv": [2.5, 4.5, 3.5, 6], "texture": "#skin"},
+				"east": {"uv": [2, 4.5, 2.5, 6], "texture": "#skin"},
+				"south": {"uv": [4, 4.5, 5, 6], "texture": "#skin"},
+				"west": {"uv": [3.5, 4.5, 4, 6], "texture": "#skin"},
+				"up": {"uv": [3.5, 4.5, 2.5, 4], "texture": "#skin"},
+				"down": {"uv": [4.5, 4, 3.5, 4.5], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Body",
+			"origin": [0, 23, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

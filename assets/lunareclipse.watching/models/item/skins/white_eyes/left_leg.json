@@ -1,0 +1,32 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/white_eyes/skin",
+		"particle": "lunareclipse.watching:item/skins/white_eyes/skin"
+	},
+	"elements": [
+		{
+			"name": "leg4",
+			"from": [7, -7, 7],
+			"to": [9, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [5, 1, 9, 0.5], "rotation": 270, "texture": "#skin"},
+				"east": {"uv": [13, 0.5, 9, 0], "rotation": 90, "texture": "#skin"},
+				"south": {"uv": [9.5, 1, 13.5, 0.5], "rotation": 90, "texture": "#skin"},
+				"west": {"uv": [9, 0, 5, 0.5], "rotation": 90, "texture": "#skin"},
+				"up": {"uv": [9, 1, 9.5, 0.5], "rotation": 90, "texture": "#skin"},
+				"down": {"uv": [4.5, 1, 5, 0.5], "rotation": 90, "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "leg4",
+			"origin": [4, 9, 9],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

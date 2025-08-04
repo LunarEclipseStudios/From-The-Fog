@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/nowhere/body",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/nowhere/skin_emissive"
+	}
+}

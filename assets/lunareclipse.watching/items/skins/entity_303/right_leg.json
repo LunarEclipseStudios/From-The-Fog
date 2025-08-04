@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/skins/entity_303/right_leg"
+    },
+    "hand_animation_on_swap": true
+}

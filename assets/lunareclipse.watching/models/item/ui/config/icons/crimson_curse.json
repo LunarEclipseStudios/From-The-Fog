@@ -1,0 +1,63 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/icons/crimson_curse/backdrop_old",
+		"2": "lunareclipse.watching:item/ui/config/icons/crimson_curse/soul_lantern",
+		"3": "lunareclipse.watching:item/ui/config/icons/crimson_curse/backdrop_overlay",
+		"particle": "lunareclipse.watching:item/ui/config/icons/crimson_curse/backdrop_old"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [12, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 7.9],
+			"to": [12, 8, 7.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 7.9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [6.5, 1.8, 6.8],
+			"to": [9.5, 5.3, 9.8],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.675, 8.3]},
+			"faces": {
+				"north": {"uv": [0, 2, 6, 9], "texture": "#2"},
+				"east": {"uv": [0, 2, 6, 9], "texture": "#2"},
+				"south": {"uv": [0, 2, 6, 9], "texture": "#2"},
+				"west": {"uv": [0, 2, 6, 9], "texture": "#2"},
+				"up": {"uv": [0, 9, 6, 15], "texture": "#2"},
+				"down": {"uv": [0, 9, 6, 15], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7, 5.3, 7.3],
+			"to": [9, 6.3, 9.3],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.675, 8.3]},
+			"faces": {
+				"north": {"uv": [1, 0, 5, 2], "texture": "#2"},
+				"east": {"uv": [1, 0, 5, 2], "texture": "#2"},
+				"south": {"uv": [1, 0, 5, 2], "texture": "#2"},
+				"west": {"uv": [1, 0, 5, 2], "texture": "#2"},
+				"up": {"uv": [1, 10, 5, 14], "texture": "#2"},
+				"down": {"uv": [1, 10, 5, 14], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "group",
+			"origin": [6.5, 0, 7],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

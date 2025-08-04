@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "entity/pig/warm_pig",
+		"particle": "lunareclipse.watching:item/skins/shadow"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [3, 8, 2],
+			"to": [13, 16, 18],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 12, 10]},
+			"faces": {
+				"north": {"uv": [11.5, 4, 9, 2], "rotation": 180, "texture": "#skin"},
+				"east": {"uv": [7, 4, 9, 8], "rotation": 90, "texture": "#skin"},
+				"south": {"uv": [14, 2, 11.5, 4], "texture": "#skin"},
+				"west": {"uv": [11.5, 4, 13.5, 8], "rotation": 270, "texture": "#skin"},
+				"up": {"uv": [13.5, 4, 16, 8], "texture": "#skin"},
+				"down": {"uv": [9, 4, 11.5, 8], "rotation": 180, "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "body",
+			"origin": [8, 13, 10],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

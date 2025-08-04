@@ -1,1 +1,0 @@
-execute as @e[type=marker,tag=ghostMiner] at @s run playsound minecraft:block.wood.place block @a ~ ~ ~ 1 1

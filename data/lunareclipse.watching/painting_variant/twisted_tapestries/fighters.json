@@ -1,0 +1,9 @@
+{
+    "width": 4,
+    "height": 2,
+    "asset_id": "lunareclipse.watching:twisted_tapestries/fighters",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.minecraft.fighters.title"
+    }
+}

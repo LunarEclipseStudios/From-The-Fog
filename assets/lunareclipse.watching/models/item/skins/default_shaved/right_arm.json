@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/template/right_arm",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/default_shaved/skin"
+	}
+}

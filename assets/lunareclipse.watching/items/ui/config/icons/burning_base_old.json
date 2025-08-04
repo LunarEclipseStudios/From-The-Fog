@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/ui/config/icons/burning_base_old"
+    },
+    "hand_animation_on_swap": true
+}

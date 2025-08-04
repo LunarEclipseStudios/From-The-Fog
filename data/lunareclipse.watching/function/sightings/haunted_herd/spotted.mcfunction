@@ -1,0 +1,2 @@
+# Rotate the mob 180 degrees.
+function lunareclipse.watching:sightings/animations/rotate/start {rotation:180,increment:5,command:"data modify storage lunareclipse.watching:global_values sightings.clamp_rotation set value 'false'"}

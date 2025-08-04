@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "lunareclipse.watching:letter/base",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10083237,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.3,
+    "spacing": 10,
+    "separation": 5
+  }
+}

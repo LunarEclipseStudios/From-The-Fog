@@ -1,0 +1,61 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/icons/haunted_herd/backdrop_old",
+		"3": "lunareclipse.watching:item/ui/config/icons/haunted_herd/backdrop_overlay",
+		"4": "lunareclipse.watching:item/ui/config/icons/haunted_herd/pig",
+		"particle": "lunareclipse.watching:item/ui/config/icons/haunted_herd/backdrop_old"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [12, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 7.9],
+			"to": [12, 8, 7.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 7.9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7, 2.5, 6.5],
+			"to": [9, 4, 7],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 3.625, 7.125]},
+			"faces": {
+				"north": {"uv": [4.25, 4.25, 5.25, 5], "texture": "#4"},
+				"east": {"uv": [4, 4.25, 4.25, 5], "texture": "#4"},
+				"west": {"uv": [5.25, 4.25, 5.5, 5], "texture": "#4"},
+				"up": {"uv": [4.25, 4, 5.25, 4.25], "texture": "#4"},
+				"down": {"uv": [5.25, 4, 6.25, 4.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [6, 2, 7],
+			"to": [10, 6, 8],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 3.625, 7.125]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#4"},
+				"east": {"uv": [1.5, 2, 2, 4], "texture": "#4"},
+				"west": {"uv": [4, 2, 4.5, 4], "texture": "#4"},
+				"up": {"uv": [4, 2.25, 2, 1.5], "texture": "#4"},
+				"down": {"uv": [4, 1.5, 6, 2], "texture": "#4"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "group",
+			"origin": [6, 1.4, 7],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

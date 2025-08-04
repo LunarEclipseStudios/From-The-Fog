@@ -1,0 +1,10 @@
+{
+	"parent": "lunareclipse.watching:item/skins/jack_black/left_arm",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/jack_black/skin_emissive"
+	}
+}
+
+
+
+

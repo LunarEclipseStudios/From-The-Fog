@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/skins/notch_v2_classic/body"
+    },
+    "hand_animation_on_swap": true
+}

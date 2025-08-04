@@ -1,0 +1,2 @@
+# Summon the sighting.
+function lunareclipse.watching:sightings/custom/summon {position:"still", max_distance:9999999, vanishing_delay:0.5, spot_fov:0, jumpscare:"false", despawn_timer:99999999, face_player:"false", light_reactant: "false", sneaky_strike: "false"}

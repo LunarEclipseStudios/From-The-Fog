@@ -1,14 +1,14 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#watching:structure_spawns/redstone_torch_trail",
-  "step": "surface_structures",
+  "biomes": [],
+  "max_distance_from_center": 80,
+  "size": 7,
   "spawn_overrides": {},
-  "start_pool": "watching:redstone_torch_trail",
-  "size": 1,
   "start_height": {
     "absolute": 0
   },
-  "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "max_distance_from_center": 80,
+  "start_pool": "watching:draft",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
   "use_expansion_hack": false
 }

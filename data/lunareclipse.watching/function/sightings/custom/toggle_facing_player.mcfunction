@@ -1,0 +1,3 @@
+# Toggle the setting.
+execute if data storage lunareclipse.watching:global_values {sightings:{face_player:"false"}} run return run data modify storage lunareclipse.watching:global_values sightings.face_player set value "true"
+execute if data storage lunareclipse.watching:global_values {sightings:{face_player:"true"}} run return run data modify storage lunareclipse.watching:global_values sightings.face_player set value "false"

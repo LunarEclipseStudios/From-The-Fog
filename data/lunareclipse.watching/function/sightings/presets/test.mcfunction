@@ -1,0 +1,1 @@
+execute positioned 595.48 93.00 547.55 run function lunareclipse.watching:sightings/custom/summon {position:'still', max_distance:9999, vanishing_delay:0.5, spot_fov:80, jumpscare:'true', despawn_timer:15, face_player:'true', light_reactant: 'false', sneaky_strike: 'false'}

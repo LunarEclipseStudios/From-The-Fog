@@ -1,0 +1,34 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"1": "lunareclipse.watching:item/ui/config/corner",
+		"2": "lunareclipse.watching:item/ui/config/panel_front_glitched",
+		"particle": "lunareclipse.watching:item/ui/config/panel_front_glitched"
+	},
+	"elements": [
+		{
+			"from": [-8, -2, 8.1],
+			"to": [24, 32, 11.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 0, 8.1]},
+			"faces": {
+				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-10, -4, 8.1],
+			"to": [26, 32, 8.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-10, -4, 8.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#2"}
+			}
+		}
+	]
+}

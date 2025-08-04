@@ -1,0 +1,9 @@
+{
+    "width": 3,
+    "height": 2,
+    "asset_id": "lunareclipse.watching:redstone_halls",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.redstone_halls.title"
+    }
+}

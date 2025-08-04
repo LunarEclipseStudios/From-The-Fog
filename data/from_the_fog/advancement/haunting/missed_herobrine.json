@@ -1,0 +1,32 @@
+{
+    "parent": "from_the_fog:haunting/first_encounter",
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "lunareclipse.watching:ui/advancements/haunting/missed_herobrine"
+            },
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.from_the_fog.haunting.missed_herobrine.title"
+        },
+        "description": {
+            "translate": "advancements.from_the_fog.haunting.missed_herobrine.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ]
+}

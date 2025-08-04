@@ -1,0 +1,9 @@
+{
+    "width": 2,
+    "height": 1,
+    "asset_id": "lunareclipse.watching:twisted_tapestries/creebet",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.minecraft.creebet.title"
+    }
+}

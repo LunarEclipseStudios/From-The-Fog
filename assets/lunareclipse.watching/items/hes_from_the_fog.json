@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/hes_from_the_fog"
+    },
+    "hand_animation_on_swap": true
+}

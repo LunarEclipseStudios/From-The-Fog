@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "entity/pig/",
+      "source": "entity/pig"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "entity/cow/",
+      "source": "entity/cow"
+    }
+  ]
+}

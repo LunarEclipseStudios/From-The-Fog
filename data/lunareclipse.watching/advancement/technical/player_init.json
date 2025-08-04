@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "requirement"
+        ]
+    ],
+    "rewards": {
+        "function": "lunareclipse.watching:player_init"
+    }
+}

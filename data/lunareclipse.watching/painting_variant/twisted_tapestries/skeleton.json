@@ -1,0 +1,9 @@
+{
+    "width": 4,
+    "height": 3,
+    "asset_id": "lunareclipse.watching:twisted_tapestries/skeleton",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.minecraft.skeleton.title"
+    }
+}

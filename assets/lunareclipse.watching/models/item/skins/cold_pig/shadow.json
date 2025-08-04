@@ -1,0 +1,24 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "lunareclipse.watching:item/skins/shadow",
+		"particle": "lunareclipse.watching:item/skins/shadow"
+	},
+	"elements": [
+		{
+			"from": [-3, 2.05, -1],
+			"to": [19, 2.05, 21],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.5, 4, 0.5]},
+			"faces": {
+
+				"up": {"uv": [0, 0, 16, 15.75], "texture": "#1"}
+			}
+		}
+	]
+}
+
+
+
+
+

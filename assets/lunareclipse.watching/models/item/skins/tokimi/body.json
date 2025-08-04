@@ -1,0 +1,8 @@
+{
+	"parent": "lunareclipse.watching:item/skins/template/body",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/tokimi/skin"
+	}
+}
+
+

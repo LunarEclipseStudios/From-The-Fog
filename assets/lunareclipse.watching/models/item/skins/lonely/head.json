@@ -1,0 +1,32 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/lonely/skin",
+		"particle": "lunareclipse.watching:item/skins/lonely/skin"
+	},
+	"elements": [
+		{
+			"name": "Box4",
+			"from": [4, 8, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -15, 0]},
+			"faces": {
+				"north": {"uv": [5.375, 5.125, 6.375, 6.125], "texture": "#skin"},
+				"east": {"uv": [4.375, 5.125, 5.375, 6.125], "texture": "#skin"},
+				"south": {"uv": [7.375, 5.125, 8.375, 6.125], "texture": "#skin"},
+				"west": {"uv": [6.375, 5.125, 7.375, 6.125], "texture": "#skin"},
+				"up": {"uv": [6.375, 5.125, 5.375, 4.125], "texture": "#skin"},
+				"down": {"uv": [7.375, 4.125, 6.375, 5.125], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 10, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin",
+		"particle": "lunareclipse.watching:item/skins/the_man_from_the_fog/skin"
+	},
+	"elements": [
+		{
+			"from": [4, 10.5, 3.7],
+			"to": [12, 19.5, 11.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 10.5, 4.7]},
+			"faces": {
+				"north": {"uv": [5.5, 0, 7.5, 2.25], "texture": "#skin"},
+				"east": {"uv": [5.5, 2.25, 7.5, 4.5], "texture": "#skin"},
+				"south": {"uv": [6.5, 4.5, 8.5, 6.75], "texture": "#skin"},
+				"west": {"uv": [6.5, 6.75, 8.5, 9], "texture": "#skin"},
+				"up": {"uv": [8.5, 11, 6.5, 9], "texture": "#skin"},
+				"down": {"uv": [2, 9.5, 0, 11.5], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [4, 0.5, 4.7],
+			"to": [12, 10.5, 11.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1.5, 4.7]},
+			"faces": {
+				"north": {"uv": [2.5, 4.75, 4.5, 7.25], "texture": "#skin"},
+				"east": {"uv": [8.5, 4.5, 10.25, 7], "texture": "#skin"},
+				"south": {"uv": [4.5, 4.75, 6.5, 7.25], "texture": "#skin"},
+				"west": {"uv": [8.5, 7, 10.25, 9.5], "texture": "#skin"},
+				"up": {"uv": [11.5, 1.75, 9.5, 0], "texture": "#skin"},
+				"down": {"uv": [2, 9.5, 0, 11.25], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "neck",
+			"from": [5.5, 8, 11.5],
+			"to": [10.5, 14.1, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -28.5, 12.8]},
+			"faces": {
+				"north": {"uv": [5, 11.75, 6.25, 13.25], "texture": "#skin"},
+				"east": {"uv": [11.75, 7.5, 12.75, 9], "texture": "#skin"},
+				"south": {"uv": [5, 11.75, 6.25, 13.25], "texture": "#skin"},
+				"west": {"uv": [12.5, 0, 13.5, 1.5], "texture": "#skin"},
+				"up": {"uv": [13.75, 2.5, 12.5, 1.5], "texture": "#skin"},
+				"down": {"uv": [13.75, 2.5, 12.5, 3.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [12, 10.5, 11.7],
+			"to": [4, 0.5, 4.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1.5, 4.7]},
+			"faces": {
+				"north": {"uv": [4.5, 7.25, 6.5, 4.75], "texture": "#skin"},
+				"east": {"uv": [8.5, 9.5, 10.25, 7], "texture": "#skin"},
+				"south": {"uv": [2.5, 7.25, 4.5, 4.75], "texture": "#skin"},
+				"west": {"uv": [8.5, 7, 10.25, 4.5], "texture": "#skin"},
+				"up": {"uv": [0, 9.5, 2, 11.25], "texture": "#skin"},
+				"down": {"uv": [9.5, 1.75, 11.5, 0], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Head",
+			"origin": [8, -9, 2.9],
+			"color": 0,
+			"children": [
+				0,
+				1,
+				{
+					"name": "neck",
+					"origin": [8, 20.8, 8],
+					"color": 3,
+					"children": [2]
+				},
+				3
+			]
+		}
+	]
+}
