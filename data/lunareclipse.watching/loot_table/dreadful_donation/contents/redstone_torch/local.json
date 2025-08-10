@@ -12,7 +12,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"translate\":\"dreadful_donation.message.1\"}",
+                "minecraft:custom_name": {"translate":"dreadful_donation.message.1"},
                 "minecraft:custom_data": {
                   "dreadful_donation": true,
                   "named_donation": true
@@ -29,7 +29,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"translate\":\"dreadful_donation.message.2\"}",
+                "minecraft:custom_name": {"translate":"dreadful_donation.message.2"},
                 "minecraft:custom_data": {
                   "dreadful_donation": true,
                   "named_donation": true
@@ -46,7 +46,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"translate\":\"dreadful_donation.message.3\"}",
+                "minecraft:custom_name": {"translate":"dreadful_donation.message.3"},
                 "minecraft:custom_data": {
                   "dreadful_donation": true,
                   "named_donation": true

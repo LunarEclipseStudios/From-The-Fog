@@ -12,6 +12,9 @@
 # Before spawning a new Herobrine entity remove all other existing Herobrines.
 function lunareclipse.watching:sightings/models/remove
 
+# If the retry limit has been reached then stop the code execution.
+execute if score sighting_retry_limit watching.global_values matches 5.. run return run scoreboard players reset sighting_retry_limit watching.global_values
+
 # Define the information about the sighting.
 $data modify storage lunareclipse.watching:global_values sightings.type set value "$(type)"
 $data modify storage lunareclipse.watching:global_values sightings.previous_sighting set value "$(type)"
@@ -38,7 +41,9 @@ $execute unless data storage lunareclipse.watching:global_values {sightings:{typ
 $data modify storage lunareclipse.watching:global_values sightings.max_distance set value $(max_distance)
 
 # If Herobrine doesn't exist it means he spawned outside of the max radius or his ground correction killed him somehow, retry. (If they are in water don't retry.)
-execute unless entity @e[type=minecraft:interaction,tag=watching.spread_entity] unless block ~ ~-1 ~ water run function lunareclipse.watching:sightings/retry_sighting with storage lunareclipse.watching:global_values sightings
+execute unless entity @e[type=minecraft:interaction,tag=watching.spread_entity] unless block ~ ~-1 ~ water run return run function lunareclipse.watching:sightings/retry_sighting with storage lunareclipse.watching:global_values sightings
+# If the code makes it to this point reset the retry limit scoreboard.
+scoreboard players reset sighting_retry_limit watching.global_values
 
 # Schedule the despawn timer for $(despawn_timer) seconds.
 $schedule function lunareclipse.watching:sightings/models/despawn $(despawn_timer)s
