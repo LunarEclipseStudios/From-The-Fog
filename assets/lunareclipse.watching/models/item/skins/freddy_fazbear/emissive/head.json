@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/freddy_fazbear/head",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/freddy_fazbear/skin_emissive"
+	}
+}

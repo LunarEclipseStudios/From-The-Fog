@@ -1,0 +1,89 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "lunareclipse.watching:item/skins/trench_diver/skin",
+		"skin": "lunareclipse.watching:item/skins/trench_diver/skin"
+	},
+	"elements": [
+		{
+			"name": "Right Arm Top",
+			"from": [6, 1, 6],
+			"to": [10, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -14, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 0.5, 6, 1.625], "texture": "#skin"},
+				"east": {"uv": [5, 0.5, 5.5, 1.625], "texture": "#skin"},
+				"south": {"uv": [6.5, 0.5, 7, 1.625], "texture": "#skin"},
+				"west": {"uv": [6, 0.5, 6.5, 1.625], "texture": "#skin"},
+				"up": {"uv": [6, 0.5, 5.5, 0], "texture": "#skin"},
+				"down": {"uv": [6.5, 0, 6, 0.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Right Arm",
+			"from": [6, -2, 6],
+			"to": [10, 0, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -14, 8]},
+			"faces": {
+				"north": {"uv": [8.375, 2.5, 8.875, 2.75], "texture": "#skin"},
+				"east": {"uv": [7.875, 2.5, 8.375, 2.75], "texture": "#skin"},
+				"south": {"uv": [9.375, 2.5, 9.875, 2.75], "texture": "#skin"},
+				"west": {"uv": [8.875, 2.5, 9.375, 2.75], "texture": "#skin"},
+				"up": {"uv": [8.875, 2.5, 8.375, 2], "texture": "#skin"},
+				"down": {"uv": [9.375, 2, 8.875, 2.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Right Arm Layer",
+			"from": [5.75, -2.25, 5.75],
+			"to": [10.25, 10.25, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -14, 8]},
+			"faces": {
+				"north": {"uv": [7.875, 3.5, 8.375, 5], "texture": "#skin"},
+				"east": {"uv": [7.375, 3.5, 7.875, 5], "texture": "#skin"},
+				"south": {"uv": [8.875, 3.5, 9.375, 5], "texture": "#skin"},
+				"west": {"uv": [8.375, 3.5, 8.875, 5], "texture": "#skin"},
+				"up": {"uv": [8.375, 3.5, 7.875, 3], "texture": "#skin"},
+				"down": {"uv": [8.875, 3, 8.375, 3.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "right_arm_coral",
+			"from": [9.999, 0.999, 7.999],
+			"to": [14.001, 12.001, 8.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, -14, 8]},
+			"faces": {
+				"north": {"uv": [5, 8.5, 5.5, 9.875], "texture": "#skin"},
+				"east": {"uv": [5, 8.5, 5, 9.875], "texture": "#skin"},
+				"south": {"uv": [5.5, 8.5, 6, 9.875], "texture": "#skin"},
+				"west": {"uv": [5.5, 8.5, 5.5, 9.875], "texture": "#skin"},
+				"up": {"uv": [5.5, 8.5, 5, 8.5], "texture": "#skin"},
+				"down": {"uv": [6, 8.5, 5.5, 8.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Left Arm Layer inverted",
+			"from": [10.25, 10.25, 10.25],
+			"to": [5.75, -2.25, 5.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -14, 8]},
+			"faces": {
+				"north": {"uv": [8.875, 5, 9.375, 3.5], "texture": "#skin"},
+				"east": {"uv": [8.375, 5, 8.875, 3.5], "texture": "#skin"},
+				"south": {"uv": [7.875, 5, 8.375, 3.5], "texture": "#skin"},
+				"west": {"uv": [7.375, 5, 7.875, 3.5], "texture": "#skin"},
+				"up": {"uv": [8.375, 3, 8.875, 3.5], "texture": "#skin"},
+				"down": {"uv": [7.875, 3.5, 8.375, 3], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "RightArm",
+			"origin": [13, 7, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

@@ -3,5 +3,6 @@
         "type": "minecraft:model",
         "model": "lunareclipse.watching:item/ui/advancements/time_played/100_days"
     },
-    "hand_animation_on_swap": true
+    "hand_animation_on_swap": true,
+    "oversized_in_gui": true
 }

@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "lunareclipse.watching:item/skins/trench_diver/skin",
+		"skin": "lunareclipse.watching:item/skins/trench_diver/skin"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [4, 8, 6],
+			"to": [12, 20, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -4, 8]},
+			"faces": {
+				"north": {"uv": [4, 7, 5, 8.5], "texture": "#skin"},
+				"east": {"uv": [3.5, 7, 4, 8.5], "texture": "#skin"},
+				"south": {"uv": [5.5, 7, 6.5, 8.5], "texture": "#skin"},
+				"west": {"uv": [5, 7, 5.5, 8.5], "texture": "#skin"},
+				"up": {"uv": [5, 7, 4, 6.5], "texture": "#skin"},
+				"down": {"uv": [6, 6.5, 5, 7], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Body Layer",
+			"from": [3.75, 7.75, 5.75],
+			"to": [12.25, 20.25, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -4, 8]},
+			"faces": {
+				"north": {"uv": [5, 5, 6, 6.5], "texture": "#skin"},
+				"east": {"uv": [4.5, 5, 5, 6.5], "texture": "#skin"},
+				"south": {"uv": [6.5, 5, 7.5, 6.5], "texture": "#skin"},
+				"west": {"uv": [6, 5, 6.5, 6.5], "texture": "#skin"},
+				"up": {"uv": [6, 5, 5, 4.5], "texture": "#skin"},
+				"down": {"uv": [7, 4.5, 6, 5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "Body Layer inverted",
+			"from": [12.25, 20.25, 10.25],
+			"to": [3.75, 7.75, 5.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -4, 8]},
+			"faces": {
+				"north": {"uv": [6.5, 6.5, 7.5, 5], "texture": "#skin"},
+				"east": {"uv": [6, 6.5, 6.5, 5], "texture": "#skin"},
+				"south": {"uv": [5, 6.5, 6, 5], "texture": "#skin"},
+				"west": {"uv": [4.5, 6.5, 5, 5], "texture": "#skin"},
+				"up": {"uv": [6, 4.5, 7, 5], "texture": "#skin"},
+				"down": {"uv": [5, 5, 6, 4.5], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Body",
+			"origin": [0, 9, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

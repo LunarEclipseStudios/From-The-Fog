@@ -2,6 +2,7 @@
 # "id" - The ID of the setting.
 # "type" - The type of option being created.
 # "page" - The page of the config that this is being run on.
+# "offset" - The position left or right of the options on the config.
 
 # Remove 1 from the scoreboard to correct for the looping that is about to happen.
 execute if score config_page_assembly watching.global_values matches 1 run scoreboard players remove config_page_assembly watching.global_values 1
@@ -14,7 +15,7 @@ $execute if data storage lunareclipse.watching:global_values skin_library.custom
 # Manaually insert some data into the forloop.
 $data modify storage lunareclipse:utils temp_values.forloop."config.settings.option.$(id).$(page).options".id set value "$(id)"
 # Loop through the options.
-$execute positioned ~ ~-0.4 ~ run function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:config_options",path:"config.settings.option.$(id).$(page).options",command:"lunareclipse.watching:config/option_page/type/skin/create_options"}
+$execute positioned ~ ~-0.4 ~ positioned ^$(offset) ^ ^ run function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:config_options",path:"config.settings.option.$(id).$(page).options",command:"lunareclipse.watching:config/option_page/type/skin/create_options"}
 
 # Increment for the setting.
 scoreboard players add config_page_assembly watching.global_values 1

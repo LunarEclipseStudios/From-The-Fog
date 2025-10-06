@@ -1,0 +1,11 @@
+{
+	"parent": "lunareclipse.watching:item/skins/template_frog/emissive",
+	"textures": {
+		"skin": "entity/frog/frog_ftf"
+	}
+}
+
+
+
+
+

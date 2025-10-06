@@ -9,6 +9,11 @@
       "type": "minecraft:directory",
       "prefix": "entity/cow/",
       "source": "entity/cow"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "entity/frog/",
+      "source": "entity/frog"
     }
   ]
 }

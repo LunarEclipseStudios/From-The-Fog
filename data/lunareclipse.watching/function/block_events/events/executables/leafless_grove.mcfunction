@@ -19,7 +19,7 @@ scoreboard players add leafless_grove_link watching.global_values 1
 
 # Clear the leaves.
 fill ~25 ~50 ~25 ~-25 ~-50 ~-25 air replace #leaves[persistent=false]
-fill ~25 ~50 ~25 ~-25 ~-50 ~-25 air replace bee_nest
+# fill ~25 ~50 ~25 ~-25 ~-50 ~-25 air replace bee_nest
 
 # Remove side facing logs.
 # fill ~25 ~50 ~25 ~-25 ~-50 ~-25 air replace #logs[axis=x]

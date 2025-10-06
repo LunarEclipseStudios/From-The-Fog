@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "lunareclipse.watching:item/skins/trench_diver/skin",
+		"skin": "lunareclipse.watching:item/skins/trench_diver/skin"
+	},
+	"elements": [
+		{
+			"name": "Left Leg",
+			"from": [6, -3, 6],
+			"to": [10, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.9, -3, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 7.375, 1, 8.875], "texture": "#skin"},
+				"east": {"uv": [0, 7.375, 0.5, 8.875], "texture": "#skin"},
+				"south": {"uv": [1.5, 7.375, 2, 8.875], "texture": "#skin"},
+				"west": {"uv": [1, 7.375, 1.5, 8.875], "texture": "#skin"},
+				"up": {"uv": [1, 7.375, 0.5, 6.875], "texture": "#skin"},
+				"down": {"uv": [1.5, 6.875, 1, 7.375], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "left_leg_coral",
+			"from": [1.999, -1.001, 7.999],
+			"to": [6.001, 7.001, 8.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.9, -3, 8]},
+			"faces": {
+				"north": {"uv": [0, 2.5, 0.5, 3.5], "texture": "#skin"},
+				"east": {"uv": [0, 2.5, 0, 3.5], "texture": "#skin"},
+				"south": {"uv": [0.5, 2.5, 1, 3.5], "texture": "#skin"},
+				"west": {"uv": [0.5, 2.5, 0.5, 3.5], "texture": "#skin"},
+				"up": {"uv": [0.5, 2.5, 0, 2.5], "texture": "#skin"},
+				"down": {"uv": [1, 2.5, 0.5, 2.5], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "LeftLeg",
+			"origin": [6.1, -3, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

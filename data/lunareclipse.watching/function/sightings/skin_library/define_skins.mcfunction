@@ -856,7 +856,7 @@ shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.3125f,-0.0625f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.0625f],scale:[1f,1f,1f]},\
 right_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]},\
-left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]},\
+left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]}\
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
@@ -872,7 +872,7 @@ shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.3125f,-0.0625f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.0625f],scale:[1f,1f,1f]},\
 right_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]},\
-left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]},\
+left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]}\
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
@@ -888,7 +888,7 @@ shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.3125f,-0.0625f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.0625f],scale:[1f,1f,1f]},\
 right_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]},\
-left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]},\
+left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.3125f,-0.8125f],scale:[1f,1f,1f]}\
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
@@ -921,7 +921,7 @@ shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,-0.125f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.125f],scale:[1f,1f,1f]},\
 right_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]},\
-left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]},\
+left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]}\
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
@@ -937,7 +937,7 @@ shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,-0.125f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.125f],scale:[1f,1f,1f]},\
 right_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]},\
-left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]},\
+left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]}\
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
@@ -953,7 +953,7 @@ shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,-0.125f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.125f],scale:[1f,1f,1f]},\
 right_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]},\
-left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]},\
+left_leg2: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,-0.9375f],scale:[1f,1f,1f]}\
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
@@ -1180,8 +1180,157 @@ left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
 }\
 }
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "shattered",\
+namespace: "lunareclipse.watching",\
+credit: "KJFox12",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "right_arm_item", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm_item: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.7f,0f,0f,1f],translation:[-0.375f,0.8125f,0.3125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "mr_boots",\
+namespace: "lunareclipse.watching",\
+credit: "Mystery Manor",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "right_arm_item", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm_item: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.7f,0f,0f,1f],translation:[-0.375f,0.8125f,0.3125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "freddy_fazbear",\
+namespace: "lunareclipse.watching",\
+credit: "LexLim",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.08f,0f,0f,1f],translation:[0f,1.84375f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.875f,0f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.4375f,1.5625f,-0.0625f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.4375f,1.5625f,-0.0625f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.9375f,-0.0625f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.9375f,-0.0625f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "birthday",\
+namespace: "lunareclipse.watching",\
+credit: "Zwaluw",\
+custom: "false",\
+parts: ["head", "body", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "temperate_frog",\
+namespace: "lunareclipse.watching",\
+credit: "Mojang",\
+custom: "false",\
+parts: ["body", "shadow"],\
+pivots: {\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]},\
+shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.38125f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "warm_frog",\
+namespace: "lunareclipse.watching",\
+credit: "Mojang",\
+custom: "false",\
+parts: ["body", "shadow"],\
+pivots: {\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]},\
+shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.38125f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "cold_frog",\
+namespace: "lunareclipse.watching",\
+credit: "Mojang",\
+custom: "false",\
+parts: ["body", "shadow"],\
+pivots: {\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]},\
+shadow: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.38125f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "trench_diver",\
+namespace: "lunareclipse.watching",\
+credit: "PJ The Sqweepsss",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "right_arm_item", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm_item: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.7f,0f,0f,1f],translation:[-0.375f,0.8125f,0.3125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "frozen_wanderer",\
+namespace: "lunareclipse.watching",\
+credit: "PJ The Sqweepsss",\
+custom: "false",\
+parts: ["head", "body", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "ghost_costume",\
+namespace: "lunareclipse.watching",\
+credit: "Bret06",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "right_arm_item", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm_item: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.7f,0f,0f,1f],translation:[-0.375f,0.8125f,0.3125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "scarecrow",\
+namespace: "lunareclipse.watching",\
+credit: "Zwaluw",\
+custom: "false",\
+parts: ["head", "body"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]}\
+}\
+}
 # 0.0625
-# -0.375 - (0.0625 x 1)
+# 0.375 + (0.0625 x 0.1)
 # Reset all the existing custom skins.
 data remove storage lunareclipse.watching:global_values skin_library.custom_skin
 # Define the custom skins.

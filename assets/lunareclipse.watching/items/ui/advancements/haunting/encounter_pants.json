@@ -1,0 +1,8 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "lunareclipse.watching:item/ui/advancements/haunting/encounter_pants"
+    },
+    "hand_animation_on_swap": true,
+    "oversized_in_gui": true
+}

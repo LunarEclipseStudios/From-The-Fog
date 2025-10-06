@@ -9,7 +9,9 @@
 $data modify storage lunareclipse.watching:global_values sightings.haunted_herd.mob set value "$(value)"
 
 # Set the variant of the mob.
-function lunareclipse.watching:sightings/haunted_herd/variant/select
+execute if data storage lunareclipse.watching:global_values {sightings:{haunted_herd:{mob:"pig"}}} run function lunareclipse.watching:sightings/haunted_herd/variant/select {tag:"farm_animals"}
+execute if data storage lunareclipse.watching:global_values {sightings:{haunted_herd:{mob:"cow"}}} run function lunareclipse.watching:sightings/haunted_herd/variant/select {tag:"farm_animals"}
+execute if data storage lunareclipse.watching:global_values {sightings:{haunted_herd:{mob:"frog"}}} run function lunareclipse.watching:sightings/haunted_herd/variant/select {tag:"frogs"}
 
 # Set the skin.
 function lunareclipse.watching:sightings/haunted_herd/variant/set_skin with storage lunareclipse.watching:global_values sightings.haunted_herd

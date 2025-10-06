@@ -24,4 +24,4 @@ execute unless score config_give_him_control watching.global_values matches 1 ru
 scoreboard players reset config_give_him_control watching.global_values
 
 # Create the switch.
-execute positioned ~ ~-1.25 ~ run function lunareclipse.watching:config/option_page/type/boolean {id: "give_him_control", value: "false"}
+execute positioned ~ ~-1.25 ~ run function lunareclipse.watching:config/option_page/type/boolean {id: "give_him_control", value: "false", offset: "0"}

@@ -3,5 +3,6 @@
         "type": "minecraft:model",
         "model": "lunareclipse.watching:item/skins/fallen_kingdom/right_arm"
     },
-    "hand_animation_on_swap": true
+    "hand_animation_on_swap": true,
+    "oversized_in_gui": true
 }

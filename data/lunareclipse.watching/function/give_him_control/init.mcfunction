@@ -9,6 +9,8 @@ data modify storage lunareclipse.watching:config_options options.stalking_sighti
 data modify storage lunareclipse.watching:config_options options.lurking_sighting set value "true"
 data modify storage lunareclipse.watching:config_options options.nightmare_sighting set value "true"
 data modify storage lunareclipse.watching:config_options options.dwelling_sighting set value "true"
+# Set the sighting window to always.
+data modify storage lunareclipse.watching:config_options options.sighting_window set value "always"
 # Set the jumpscare mechanic to true.
 data modify storage lunareclipse.watching:config_options options.sudden_scare set value "true"
 # Disable eerie entrance.

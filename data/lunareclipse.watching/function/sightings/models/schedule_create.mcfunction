@@ -1,7 +1,8 @@
 # Store the selected skin list.
 execute if data storage lunareclipse.watching:global_values {sightings:{type:"haunted_herd"}} run data modify storage lunareclipse.watching:config_options options.herobrine_skin.temp_list set from storage lunareclipse.watching:config_options options.herobrine_skin.list
 # Choose a random mob.
-execute if data storage lunareclipse.watching:global_values {sightings:{type:"haunted_herd"}} as @e[type=interaction,tag=watching.spread_entity] at @s run function lunareclipse.utils:random_value/start {array:["pig", "cow"],command:"lunareclipse.watching:sightings/haunted_herd/variant/init"}
+execute if data storage lunareclipse.watching:global_values {sightings:{type:"haunted_herd"}} as @e[type=interaction,tag=watching.spread_entity] at @s unless biome ~ ~ ~ #lunareclipse.watching:spawns_frog run function lunareclipse.utils:random_value/start {array:["pig", "cow"],command:"lunareclipse.watching:sightings/haunted_herd/variant/init"}
+execute if data storage lunareclipse.watching:global_values {sightings:{type:"haunted_herd"}} as @e[type=interaction,tag=watching.spread_entity] at @s if biome ~ ~ ~ #lunareclipse.watching:spawns_frog run function lunareclipse.utils:random_value/start {array:["frog"],command:"lunareclipse.watching:sightings/haunted_herd/variant/init"}
 
 # Remove any skins from the array that no longer exist.
 function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:config_options",path:"options.herobrine_skin.list",command:"lunareclipse.watching:sightings/models/technical/check_skins"}

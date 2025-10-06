@@ -15,3 +15,8 @@ $execute unless data storage lunareclipse.watching:config_options {options:{hero
 
 # Play a sound.
 playsound minecraft:item.armor.equip_leather master @p[tag=watching.opened_config] ~ ~ ~ 1 1 1
+
+# Summon the hoebrine if enabled.
+execute if data storage lunareclipse.watching:config_options {options:{hoebrine_returns:"true"}} run return run function lunareclipse.watching:config/option_page/clicked/skin/update_display {skin:"hoebrine"}
+# Update the skin display.
+$function lunareclipse.watching:config/option_page/clicked/skin/update_display {skin:"$(skin)"}

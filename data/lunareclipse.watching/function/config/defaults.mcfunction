@@ -18,6 +18,8 @@ function lunareclipse.watching:config/set_default {option: "nightmare_sighting",
 
 # Sighting Delay.
 function lunareclipse.watching:config/set_default {option: "sighting_frequency", value: '"default"'}
+# Sighting Periods.
+function lunareclipse.watching:config/set_default {option: "sighting_window", value: '"always"'}
 # Sighting Frequency Multiplier.
 function lunareclipse.watching:config/set_default {option: "activity_multiplier", value: '1'}
 
@@ -77,7 +79,10 @@ function lunareclipse.watching:config/set_default {option: "sighting_noise", val
 function lunareclipse.watching:config/set_default {option: "emissive_layers", value: '"true"'}
 
 # Suspenseful Sighting.
-function lunareclipse.watching:config/set_default {option: "suspenseful_sighting", value: '"false"'}
+# Make the setting change to default if it's set to true and same for false/off.
+execute if data storage lunareclipse.watching:config_options {options:{suspenseful_sighting:"true"}} run data modify storage lunareclipse.watching:config_options options.suspenseful_sighting set value "default"
+execute if data storage lunareclipse.watching:config_options {options:{suspenseful_sighting:"false"}} run data modify storage lunareclipse.watching:config_options options.suspenseful_sighting set value "off"
+function lunareclipse.watching:config/set_default {option: "suspenseful_sighting", value: '"off"'}
 
 # Shrouded Specter.
 function lunareclipse.watching:config/set_default {option: "shrouded_specter", value: '"off"'}
@@ -151,3 +156,4 @@ function lunareclipse.watching:config/set_default {option: "flickering_flashligh
 
 # SSS
 function lunareclipse.watching:config/set_default {option: "hoebrine_returns", value: '"false"'}
+function lunareclipse.watching:config/set_default {option: "from_the_pants", value: '"false"'}

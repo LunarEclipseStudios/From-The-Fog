@@ -121,10 +121,30 @@
       }
     ]
   },
-  "events.suspenseful_sighting": {
+  "events.suspenseful_sighting.default": {
     "sounds": [
       {
-        "name": "lunareclipse.watching:events/suspenseful_sighting",
+        "name": "lunareclipse.watching:events/suspenseful_sighting/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "events.suspenseful_sighting.slenderman": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/suspenseful_sighting/slenderman",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "events.suspenseful_sighting.werewolf": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:events/suspenseful_sighting/werewolf",
         "volume": 1,
         "pitch": 1,
         "weight": 1
@@ -461,26 +481,6 @@
       }
     ]
   },
-  "config.setting.suspenseful_sighting.true": {
-    "sounds": [
-      {
-        "name": "lunareclipse.watching:events/suspenseful_sighting",
-        "volume": 1,
-        "pitch": 1,
-        "weight": 1
-      }
-    ]
-  },
-  "config.setting.suspenseful_sighting.false": {
-    "sounds": [
-      {
-        "name": "lunareclipse.watching:config/default",
-        "volume": 1,
-        "pitch": 1,
-        "weight": 1
-      }
-    ]
-  },
   "config.setting.hoebrine_returns.true": {
     "sounds": [
       {
@@ -691,6 +691,26 @@
       }
     ]
   },
+  "config.setting.from_the_pants.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.from_the_pants.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
   "config.setting.chilled_candles.true": {
     "sounds": [
       {
@@ -891,7 +911,7 @@
       }
     ]
   },
-    "config.setting.flickering_flashlight.true": {
+  "config.setting.flickering_flashlight.true": {
     "sounds": [
       {
         "name": "lunareclipse.watching:config/default",
@@ -931,7 +951,7 @@
       }
     ]
   },
-    "music_disc.hes_from_the_fog": {
+  "music_disc.hes_from_the_fog": {
     "sounds": [
       {
         "name": "lunareclipse.watching:music_disc/hes_from_the_fog",
