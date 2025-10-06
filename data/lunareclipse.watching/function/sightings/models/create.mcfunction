@@ -13,10 +13,12 @@ $data modify storage lunareclipse.watching:global_values skin_library.skin.$(sel
 # Manaually insert some data into the forloop.
 $data modify storage lunareclipse:utils temp_values.forloop."skin_library.skin.$(selected).parts".skin set value "$(selected)"
 # Build the selected skin's model.
-$function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:global_values",path:"skin_library.skin.$(selected).parts",command:"lunareclipse.watching:sightings/skin_library/build_model/add_part"}
+$execute unless data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} run function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:global_values",path:"skin_library.skin.$(selected).parts",command:"lunareclipse.watching:sightings/skin_library/build_model/add_part"}
 
 # Summon Herobrine.
 $function lunareclipse.watching:sightings/models/create_model with storage lunareclipse.watching:global_values skin_library.skin.$(selected)
+# Summon the mannequin if defined.
+execute if data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} run function lunareclipse.watching:sightings/models/mannequin/create
 
 # Store the rotation of the ai in a scoreboard this helps reduce @e entity checks.
 execute as @e[type=armor_stand,tag=watching.ai] at @s run tp @s ~ ~ ~ facing entity @p feet
@@ -32,6 +34,8 @@ execute as @e[type=item_display,tag=watching.model] store result entity @s Rotat
 # Give Herobrine his nametag is it's enabled.
 $execute if data storage lunareclipse.watching:config_options {options:{nametag:"dynamic"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(selected).value"}}
 $execute if data storage lunareclipse.watching:config_options {options:{nametag:"cryptic"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(selected).value","obfuscated":true}}
+# If the Herobrine is a mannequin then override the nametag.
+execute if data storage lunareclipse.watching:config_options {options:{nametag:"dynamic"}} if data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.default.value"}}
 
 # Remove the spread entity.
 kill @e[type=interaction,tag=watching.spread_entity]

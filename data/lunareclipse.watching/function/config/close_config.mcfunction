@@ -11,4 +11,4 @@ tag @a remove watching.opened_config
 scoreboard players reset config_page_assembly watching.global_values
 
 # Show some fancy particles.
-particle minecraft:flash ~ ~ ~ 1.5 1.5 1.5 1 1000 force @a
+particle minecraft:flash{color:[1.000,0.910,0.910,1.00]} ~ ~ ~ 1.5 1.5 1.5 1 1000 force @a

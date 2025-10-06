@@ -9,8 +9,9 @@ execute unless data storage lunareclipse.watching:global_values {sightings:{type
 # Run the cleanup function.
 execute as @e[type=#lunareclipse.watching:herobrine,tag=watching.herobrine] at @s run function lunareclipse.watching:sightings/cleanup
 
-# Teleport the no sleep husk into the void.
+# Teleport the no sleep husk and the mannequin into the void.
 execute as @e[type=minecraft:husk,tag=watching.herobrine] at @s run tp ~ -512 ~
+execute as @e[type=minecraft:mannequin,tag=watching.herobrine] at @s run tp ~ -512 ~
 
 # Send a message.
 execute if entity @e[type=#lunareclipse.watching:herobrine,tag=watching.herobrine] run function lunareclipse.watching:debug/message {message: "Sighting Removed", status: "1", info: {}, info_list: []}

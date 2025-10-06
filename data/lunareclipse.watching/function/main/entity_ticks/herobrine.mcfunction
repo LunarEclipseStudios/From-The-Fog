@@ -1,6 +1,11 @@
 # Create the ticking function for the Herobrine models.
 execute if entity @s[type=item_display,tag=watching.model] run function lunareclipse.watching:main/entity_ticks/herobrine_model
 
+# Handle the position and rotation of the mannequin.
+execute if data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} if entity @s[type=mannequin,tag=watching.mannequin] at @e[type=armor_stand,tag=watching.ai,limit=1] run tp ~ ~ ~
+execute if data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} if entity @s[type=mannequin,tag=watching.mannequin] store result entity @s Rotation[0] float 1 run scoreboard players get head_rotation_yaw watching.animations
+execute if data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} if entity @s[type=mannequin,tag=watching.mannequin] store result entity @s Rotation[1] float 1 run scoreboard players get head_rotation_pitch watching.animations
+
 # Handle the rotation of Herobrine.
 execute if entity @s[type=armor_stand,tag=watching.ai] if data storage lunareclipse.watching:global_values temp.sighting_rotation run function lunareclipse.watching:sightings/animations/rotate/increment with storage lunareclipse.watching:global_values temp.sighting_rotation
 

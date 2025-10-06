@@ -911,6 +911,26 @@
       }
     ]
   },
+  "config.setting.vanilla_sightings.true": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "config.setting.vanilla_sightings.false": {
+    "sounds": [
+      {
+        "name": "lunareclipse.watching:config/default",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1
+      }
+    ]
+  },
   "config.setting.flickering_flashlight.true": {
     "sounds": [
       {

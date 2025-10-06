@@ -151,6 +151,9 @@ function lunareclipse.watching:config/set_default {option: "give_him_control", v
 function lunareclipse.watching:config/set_default {option: "twisted_tapestries", value: '"false"'}
 function lunareclipse.watching:config/set_default {option: "twisted_tapestries_chance", value: '"default"'}
 
+# Vanilla Sightings
+function lunareclipse.watching:config/set_default {option: "vanilla_sightings", value: '"false"'}
+
 # Flickering Flashlight - Lights Out
 function lunareclipse.watching:config/set_default {option: "flickering_flashlight", value: '"false"'}
 

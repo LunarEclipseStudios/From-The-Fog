@@ -4,6 +4,7 @@
     "minecraft:item_display",
     "minecraft:marker",
     "minecraft:interaction",
-    "minecraft:husk"
+    "minecraft:husk",
+    "minecraft:mannequin"
   ]
 }
