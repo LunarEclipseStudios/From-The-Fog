@@ -6,6 +6,10 @@
 
 Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.
 
+<a href="https://lunareclipse.studio/download/From-The-Fog/wallpaper/3rd-Birthday" target="_blank">
+  <img src="https://cdn.lunareclipse.studio/img/projects/from-the-fog/wallpaper-promo.webp" style="border-radius: 5px; margin-left: auto !important; margin-right: auto !important;">
+</a>
+
 ---
 
 <a href="https://lilypad.gg/lunareclipse" target="_blank">
