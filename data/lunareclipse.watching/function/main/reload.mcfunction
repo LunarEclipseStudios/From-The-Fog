@@ -7,7 +7,7 @@ team add watching.door_ghost
 team modify watching.door_ghost collisionRule never
 
 # Set the commandModificationBlockLimit to max so it doesn't interfere with other packs. - This is used for large /fill commands.
-gamerule commandModificationBlockLimit 999999999
+gamerule max_block_modifications 999999999
 # Store the block tag that's used for shrine checking this is used for checks later.
 data modify storage lunareclipse.watching:global_values shrine_block_tag set value "minecraft:fire"
 
