@@ -14,7 +14,6 @@
 			"faces": {
 				"north": {"uv": [10.66667, 7.33333, 13, 7.33333], "texture": "#particle"},
 				"east": {"uv": [7.66667, 7.33333, 10.66667, 7.33333], "texture": "#particle"},
-				"south": {"uv": [16, 7.33333, 18.33333, 7.33333], "texture": "#particle"},
 				"west": {"uv": [13, 7.33333, 16, 7.33333], "texture": "#particle"},
 				"up": {"uv": [13, 7.33333, 10.66667, 4.33333], "texture": "#particle"},
 				"down": {"uv": [15.33333, 4.33333, 13, 7.33333], "texture": "#particle"}
@@ -98,7 +97,6 @@
 			"faces": {
 				"north": {"uv": [10.66667, 10.33333, 13, 10.33333], "texture": "#particle"},
 				"east": {"uv": [7.66667, 10.33333, 10.66667, 10.33333], "texture": "#particle"},
-				"south": {"uv": [16, 10.33333, 18.33333, 10.33333], "texture": "#particle"},
 				"west": {"uv": [13, 10.33333, 16, 10.33333], "texture": "#particle"},
 				"up": {"uv": [13, 10.33333, 10.66667, 7.33333], "texture": "#particle"},
 				"down": {"uv": [15.33333, 7.33333, 13, 10.33333], "texture": "#particle"}
@@ -126,7 +124,7 @@
 			"faces": {
 				"north": {"uv": [8.66667, 16, 11.33333, 16], "texture": "#particle"},
 				"east": {"uv": [6, 16, 8.66667, 16], "texture": "#particle"},
-				"south": {"uv": [14, 16, 16.66667, 16], "texture": "#particle"},
+				"south": {"uv": [14, 16, 16, 16], "texture": "#particle"},
 				"west": {"uv": [11.33333, 16, 14, 16], "texture": "#particle"},
 				"up": {"uv": [11.33333, 16, 8.66667, 13.33333], "texture": "#particle"},
 				"down": {"uv": [14, 13.33333, 11.33333, 16], "texture": "#particle"}
@@ -210,7 +208,7 @@
 			"faces": {
 				"north": {"uv": [8.66667, 13.33333, 11.33333, 13.33333], "texture": "#particle"},
 				"east": {"uv": [6, 13.33333, 8.66667, 13.33333], "texture": "#particle"},
-				"south": {"uv": [14, 13.33333, 16.66667, 13.33333], "texture": "#particle"},
+				"south": {"uv": [14, 13.33333, 16, 13.33333], "texture": "#particle"},
 				"west": {"uv": [11.33333, 13.33333, 14, 13.33333], "texture": "#particle"},
 				"up": {"uv": [11.33333, 13.33333, 8.66667, 10.66667], "texture": "#particle"},
 				"down": {"uv": [14, 10.66667, 11.33333, 13.33333], "texture": "#particle"}

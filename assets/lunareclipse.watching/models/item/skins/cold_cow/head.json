@@ -3,8 +3,8 @@
 	"credit": "Made by Bret06 using Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"skin": "entity/cow/cold_cow",
-		"particle": "entity/cow/cold_cow"
+		"skin": "entity/cow/cow_cold",
+		"particle": "entity/cow/cow_cold"
 	},
 	"elements": [
 		{

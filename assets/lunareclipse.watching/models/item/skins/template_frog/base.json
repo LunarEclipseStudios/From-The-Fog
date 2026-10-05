@@ -3,7 +3,7 @@
 	"credit": "Made by Bret06 using Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"particle": "entity/frog/temperate_frog"
+		"particle": "entity/frog/frog_temperate"
 	},
 	"elements": [
 		{

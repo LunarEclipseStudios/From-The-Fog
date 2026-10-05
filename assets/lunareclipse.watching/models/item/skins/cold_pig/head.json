@@ -6,8 +6,8 @@
 		64
 	],
 	"textures": {
-		"skin": "entity/pig/cold_pig",
-		"particle": "entity/pig/cold_pig"
+		"skin": "entity/pig/pig_cold",
+		"particle": "entity/pig/pig_cold"
 	},
 	"elements": [
 		{

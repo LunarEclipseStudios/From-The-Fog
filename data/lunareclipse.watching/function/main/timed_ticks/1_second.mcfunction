@@ -9,8 +9,14 @@ execute unless data storage lunareclipse.watching:global_values give_him_control
 # If the started events scoreboard is set to 1 and if there is no current spawn timer rolled and there is no current sighting then roll a spawn timer.
 execute unless data storage lunareclipse.watching:global_values sightings.type if score started_events watching.global_values matches 1 unless score sighting_timer_rolled watching.global_values matches 1 store result score sighting_timer_rolled watching.global_values run function lunareclipse.watching:sightings/spawning_rules/roll_spawn_timer
 
-# Store the current in-game day in a scoreboard.
-execute store result score current_day watching.global_values run time query day
+# Set the division factor.
+scoreboard players set temp_day_factor watching.global_values 24000
+# Store the current in-game time in a scoreboard.
+execute store result score current_day watching.global_values run time of minecraft:overworld query time
+# Divide to get the day.
+scoreboard players operation current_day watching.global_values /= temp_day_factor watching.global_values
+# Reset the values.
+scoreboard players reset temp_day_factor watching.global_values
 # Check if the current day matches the one we logged last and if it doesn't then randomize the config. (Only if Give Him Control is enabled.)
 execute if data storage lunareclipse.watching:config_options {options:{give_him_control:"true"}} unless score logged_day watching.global_values = current_day watching.global_values run function lunareclipse.watching:give_him_control/check_day
 # Log the previous checked day.
