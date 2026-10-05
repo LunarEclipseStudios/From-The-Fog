@@ -1,0 +1,6 @@
+{
+	"parent": "lunareclipse.watching:item/skins/werewolf_brown/body",
+	"textures": {
+		"skin": "lunareclipse.watching:item/skins/werewolf_brown/skin_emissive"
+	}
+}

@@ -608,7 +608,7 @@ right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation
 }\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
-id: "werewolf",\
+id: "werewolf_brown",\
 namespace: "lunareclipse.watching",\
 credit: "Bret06, Nox, & LexLim",\
 custom: "false",\
@@ -621,6 +621,59 @@ right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.15f,0f,0f,1f],translat
 left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,0f],scale:[1f,1f,1f]},\
 right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,0f],scale:[1f,1f,1f]}\
 }\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "werewolf_brown_clothed",\
+namespace: "lunareclipse.watching",\
+credit: "Bret06, Nox, & LexLim",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.10f,0f,0.10f,1f],translation:[0f,1.875f,0.4f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.921875f,0.015625f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.25f,0f,0f,1f],translation:[0.375f,1.6875f,0.125f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.15f,0f,0f,1f],translation:[-0.375f,1.6875f,0.125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "werewolf_gray",\
+namespace: "lunareclipse.watching",\
+credit: "Bret06, Nox, & LexLim",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.10f,0f,0.10f,1f],translation:[0f,1.875f,0.4f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.921875f,0.015625f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.25f,0f,0f,1f],translation:[0.375f,1.6875f,0.125f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.15f,0f,0f,1f],translation:[-0.375f,1.6875f,0.125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "werewolf_gray_clothed",\
+namespace: "lunareclipse.watching",\
+credit: "Bret06, Nox, & LexLim",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.10f,0f,0.10f,1f],translation:[0f,1.875f,0.4f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.921875f,0.015625f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.25f,0f,0f,1f],translation:[0.375f,1.6875f,0.125f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.15f,0f,0f,1f],translation:[-0.375f,1.6875f,0.125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.1875f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
+function lunareclipse.watching:sightings/skin_library/define_variant {\
+id: "werewolf",\
+namespace: "lunareclipse.watching",\
+credit: "Bret06, Nox, & LexLim",\
+custom: "false",\
+default: "werewolf_brown",\
+variants: ["werewolf_brown", "werewolf_brown_clothed", "werewolf_gray", "werewolf_gray_clothed"],\
 }
 function lunareclipse.watching:sightings/skin_library/define_skin_info {\
 id: "the_man_from_the_fog",\
@@ -1329,8 +1382,24 @@ head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,
 body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]}\
 }\
 }
+function lunareclipse.watching:sightings/skin_library/define_skin_info {\
+id: "invisible_man",\
+namespace: "lunareclipse.watching",\
+credit: "Bret06 & Zwaluw",\
+custom: "false",\
+parts: ["head", "body", "left_arm", "right_arm", "right_arm_item", "left_leg", "right_leg"],\
+pivots: {\
+head: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[1f,1f,1f]},\
+body: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.75f,0f],scale:[1f,1f,1f]},\
+left_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.375f,1.375f,0f],scale:[1f,1f,1f]},\
+right_arm_item: {left_rotation:[0f,0f,0f,1f],right_rotation:[0.7f,0f,0f,1f],translation:[-0.375f,0.8125f,0.3125f],scale:[1f,1f,1f]},\
+left_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.125f,0.6875f,0f],scale:[1f,1f,1f]},\
+right_leg: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,0.6875f,0f],scale:[1f,1f,1f]}\
+}\
+}
 # 0.0625
-# 0.375 + (0.0625 x 0.1)
+# 0.75 - (0.0625 x 2)
 # Reset all the existing custom skins.
 data remove storage lunareclipse.watching:global_values skin_library.custom_skin
 # Define the custom skins.

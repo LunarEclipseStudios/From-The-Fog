@@ -7,4 +7,4 @@
 $data modify storage lunareclipse.watching:global_values skin_library.custom_skin.pages.$(current_page).display_name set value "config.setting.herobrine_skin.$(namespace).display_name"
 
 # Add the skins to the page.
-$function lunareclipse.watching:config/add_library_option {list: "skin_library", page: $(current_page), option: "herobrine_skin", type: "skin", options: $(skin_list), option_offset: "0"}
+$function lunareclipse.watching:config/add_library_option {list: "skin_library", page: $(current_page), option: "herobrine_skin", type: "skin", options: $(skin_list), option_offset: "0", experimental: "false"}

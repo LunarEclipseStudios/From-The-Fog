@@ -7,16 +7,8 @@ execute if data storage lunareclipse.watching:global_values {sightings:{type:"ha
 # Remove any skins from the array that no longer exist.
 function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:config_options",path:"options.herobrine_skin.list",command:"lunareclipse.watching:sightings/models/technical/check_skins"}
 
-# Initialize the array counter.
-scoreboard players set skin_array_length watching.global_values -1
-# Get the length of the skin array.
-function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:config_options",path:"options.herobrine_skin.list",command:"lunareclipse.watching:sightings/models/technical/increment_array_length"}
-# Save the length to a storage variable.
-execute store result storage lunareclipse.watching:config_options options.herobrine_skin.length int 1 run scoreboard players get skin_array_length watching.global_values
-# Remove the length from the scoreboard.
-scoreboard players reset skin_array_length watching.global_values
-# Grab a random number between 0 and the length to select the skin.
-function lunareclipse.watching:sightings/models/technical/roll_skin with storage lunareclipse.watching:config_options options.herobrine_skin
+# Randomly select a skin from the array.
+function lunareclipse.utils:random_value_storage/start {target:"lunareclipse.watching:config_options",path:"options.herobrine_skin.list",command:"lunareclipse.watching:sightings/models/technical/select_skin"}
 
 # If the hoebrine skin is on then default to that.
 execute if data storage lunareclipse.watching:config_options {options:{hoebrine_returns:"true"}} as @e[type=interaction,tag=watching.spread_entity] at @s run return run function lunareclipse.watching:sightings/models/create {selected: "hoebrine"}

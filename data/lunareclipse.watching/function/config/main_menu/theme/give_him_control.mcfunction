@@ -2,6 +2,7 @@
 data modify entity @e[type=minecraft:item_display,tag=watching.logo,limit=1] item.components."minecraft:item_model" set value "lunareclipse.watching:ui/text_red"
 # Remove the next page arrow.
 kill @e[type=#lunareclipse.watching:config,tag=watching.next_arrow]
+kill @e[type=#lunareclipse.watching:config,tag=watching.partners]
 # Change the background.
 data modify entity @e[type=minecraft:item_display,tag=watching.background,limit=1] item.components."minecraft:item_model" set value "lunareclipse.watching:ui/config/main_menu_glitched"
 # Change the switch to be the herobrine one.

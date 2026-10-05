@@ -1,0 +1,124 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "lunareclipse.watching:item/skins/werewolf_gray/claws",
+		"2": "lunareclipse.watching:item/skins/werewolf_gray_clothed/cloak_arms",
+		"3": "lunareclipse.watching:item/skins/werewolf_gray_clothed/cover_arms",
+		"particle": "lunareclipse.watching:item/skins/werewolf_gray/claws",
+		"skin": "lunareclipse.watching:item/skins/werewolf_gray/skin"
+	},
+	"elements": [
+		{
+			"from": [3.43287, 0.4, 5.99423],
+			"to": [7.43287, 10.4, 9.99423],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.43287, 2.74158, 7.94436]},
+			"faces": {
+				"north": {"uv": [7.25, 8.625, 7.75, 9.875], "texture": "#skin"},
+				"east": {"uv": [6.75, 8.625, 7.25, 9.875], "texture": "#skin"},
+				"south": {"uv": [8.25, 8.625, 8.75, 9.875], "texture": "#skin"},
+				"west": {"uv": [7.75, 8.625, 8.25, 9.875], "texture": "#skin"},
+				"up": {"uv": [7.75, 8.625, 7.25, 8.125], "texture": "#skin"},
+				"down": {"uv": [8.25, 8.125, 7.75, 8.625], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [3.18287, 0.15, 5.74423],
+			"to": [7.68287, 10.65, 10.24423],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.43287, 2.74158, 7.94436]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 5], "texture": "#2"},
+				"east": {"uv": [2, 0, 4, 5], "texture": "#2"},
+				"south": {"uv": [4, 0, 6, 5], "texture": "#2"},
+				"west": {"uv": [0, 5, 2, 10], "texture": "#2"},
+				"up": {"uv": [4, 7, 2, 5], "texture": "#2"},
+				"down": {"uv": [6, 5, 4, 7], "texture": "#2"}
+			}
+		},
+		{
+			"from": [2.93287, -0.1, 5.49423],
+			"to": [7.93287, 10.9, 10.49423],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.43287, 2.74158, 7.94436]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 5], "texture": "#3"},
+				"east": {"uv": [2, 0, 4, 5], "texture": "#3"},
+				"south": {"uv": [4, 0, 6, 5], "texture": "#3"},
+				"west": {"uv": [0, 5, 2, 10], "texture": "#3"},
+				"up": {"uv": [4, 7, 2, 5], "texture": "#3"},
+				"down": {"uv": [6, 5, 4, 7], "texture": "#3"}
+			}
+		},
+		{
+			"name": "tuft",
+			"from": [3.93287, -1.91684, 6.39448],
+			"to": [6.93287, 2.08316, 9.39448],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.43287, 2.74158, 7.94436]},
+			"faces": {
+				"north": {"uv": [9.625, 6.625, 10, 7.125], "texture": "#skin"},
+				"east": {"uv": [9.25, 6.625, 9.625, 7.125], "texture": "#skin"},
+				"south": {"uv": [10.375, 6.625, 10.75, 7.125], "texture": "#skin"},
+				"west": {"uv": [10, 6.625, 10.375, 7.125], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [3.2, -3.04133, -1.86572],
+			"to": [6.2, 0.95867, 8.13428],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.40331, 1.05, 3.73864]},
+			"faces": {
+				"north": {"uv": [5.5, 6.375, 5.875, 6.875], "texture": "#skin"},
+				"east": {"uv": [4.25, 6.375, 5.5, 6.875], "texture": "#skin"},
+				"south": {"uv": [7.125, 6.375, 7.5, 6.875], "texture": "#skin"},
+				"west": {"uv": [5.875, 6.375, 7.125, 6.875], "texture": "#skin"},
+				"up": {"uv": [5.875, 6.375, 5.5, 5.125], "texture": "#skin"},
+				"down": {"uv": [6.25, 5.125, 5.875, 6.375], "texture": "#skin"}
+			}
+		},
+		{
+			"from": [2.95, -3.29133, -2.11572],
+			"to": [6.45, 1.20867, 8.38428],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.40331, 1.05, 3.73864]},
+			"faces": {
+				"north": {"uv": [4.5, 4, 3, 6], "texture": "#1"},
+				"east": {"uv": [4.25, 6.375, 5.5, 6.875], "texture": "#1"},
+				"south": {"uv": [7.125, 6.375, 7.5, 6.875], "texture": "#1"},
+				"west": {"uv": [5, 0, 0, 2], "texture": "#1"},
+				"up": {"uv": [0, 9, 1.5, 4], "texture": "#1"},
+				"down": {"uv": [6.25, 5.125, 5.875, 6.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [6.45, 1.20867, 8.38428],
+			"to": [2.95, -3.29133, -2.11572],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.40331, 1.05, 3.73864]},
+			"faces": {
+				"north": {"uv": [7.125, 6.875, 7.5, 6.375], "texture": "#1"},
+				"east": {"uv": [5, 2, 0, 0], "texture": "#1"},
+				"south": {"uv": [4.5, 6, 3, 4], "texture": "#1"},
+				"west": {"uv": [4.25, 6.875, 5.5, 6.375], "texture": "#1"},
+				"up": {"uv": [5.875, 5.125, 6.25, 6.375], "texture": "#1"},
+				"down": {"uv": [1.5, 9, 0, 4], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "arm0allrot2",
+			"origin": [3, 15, 6],
+			"color": 0,
+			"children": [
+				0,
+				1,
+				2,
+				3,
+				{
+					"name": "bone4",
+					"origin": [1.5, 7, 6],
+					"color": 0,
+					"children": [4, 5, 6]
+				}
+			]
+		}
+	]
+}

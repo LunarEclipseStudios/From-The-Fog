@@ -5,4 +5,4 @@
 execute as @e[type=marker,tag=watching.pivot,distance=..15] at @s run tp @s ~ ~ ~ facing entity @e[type=marker,tag=watching.player_pivot,limit=1]
 
 # Create the menu.
-$execute as @e[type=marker,tag=watching.pivot,distance=..15] at @s run function lunareclipse.watching:config/option_page/page {option:"$(option)"}
+$execute as @e[type=marker,tag=watching.pivot,distance=..15] at @s rotated ~ 0 run function lunareclipse.watching:config/option_page/page {option:"$(option)"}

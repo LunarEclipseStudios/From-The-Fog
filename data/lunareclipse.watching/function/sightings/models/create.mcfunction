@@ -32,8 +32,8 @@ execute if data storage lunareclipse.watching:config_options {options:{no_sleep:
 execute as @e[type=item_display,tag=watching.model] store result entity @s Rotation[0] float 1 run scoreboard players get head_rotation_yaw watching.animations
 
 # Give Herobrine his nametag is it's enabled.
-$execute if data storage lunareclipse.watching:config_options {options:{nametag:"dynamic"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(selected).value"}}
-$execute if data storage lunareclipse.watching:config_options {options:{nametag:"cryptic"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(selected).value","obfuscated":true}}
+$execute unless data storage lunareclipse.watching:global_values {sightings:{type:"haunted_herd"}} if data storage lunareclipse.watching:config_options {options:{nametag:"dynamic"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(selected).value"}}
+$execute unless data storage lunareclipse.watching:global_values {sightings:{type:"haunted_herd"}} if data storage lunareclipse.watching:config_options {options:{nametag:"cryptic"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(selected).value","obfuscated":true}}
 # If the Herobrine is a mannequin then override the nametag.
 execute if data storage lunareclipse.watching:config_options {options:{nametag:"dynamic"}} if data storage lunareclipse.watching:config_options {options:{vanilla_sightings:"true"}} as @e[type=minecraft:interaction,tag=watching.hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.default.value"}}
 

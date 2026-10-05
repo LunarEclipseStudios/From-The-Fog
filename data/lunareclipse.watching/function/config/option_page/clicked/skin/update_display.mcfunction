@@ -15,8 +15,8 @@ $function lunareclipse.utils:forloop/start {target:"lunareclipse.watching:global
 $execute at @e[type=minecraft:marker,tag=watching.pivot] run function lunareclipse.watching:config/option_page/clicked/skin/create_model with storage lunareclipse.watching:global_values skin_library.skin.$(skin)
 
 # Make the herobrine face the position.
-execute if data storage lunareclipse.watching:config_options {config:{preview_spinning:"true"}} as @e[type=minecraft:armor_stand,tag=watching.preview_skin_pivot] at @s rotated as @e[type=minecraft:marker,tag=watching.pivot] run tp @s ~ ~ ~ ~-75 ~
-execute if data storage lunareclipse.watching:config_options {config:{preview_spinning:"false"}} as @e[type=minecraft:armor_stand,tag=watching.preview_skin_pivot] at @s rotated as @e[type=minecraft:marker,tag=watching.pivot] run tp @s ~ ~ ~ ~ ~
+execute if data storage lunareclipse.watching:config_options {config:{preview_spinning:"true"}} as @e[type=minecraft:armor_stand,tag=watching.preview_skin_pivot] at @s rotated as @e[type=minecraft:marker,tag=watching.pivot] run tp @s ~ ~ ~ ~-75 0
+execute if data storage lunareclipse.watching:config_options {config:{preview_spinning:"false"}} as @e[type=minecraft:armor_stand,tag=watching.preview_skin_pivot] at @s rotated as @e[type=minecraft:marker,tag=watching.pivot] run tp @s ~ ~ ~ ~ 0
 
 # Give Herobrine his nametag is it's enabled.
 $execute if data storage lunareclipse.watching:config_options {options:{nametag:"dynamic"}} as @e[type=minecraft:interaction,tag=watching.preview_skin_hitbox] at @s run data merge entity @s {CustomNameVisible:1b,CustomName:{"translate":"entity.nametag.$(skin).value"}}
