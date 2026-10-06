@@ -1,25 +1,33 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:player_interacted_with_entity",
-            "conditions": {
-                "player": {
-                    "nbt": "{Tags:[\"watching.opened_config\"]}"
-                  },
-                "entity": {
-                    "type": "minecraft:interaction",
-                    "nbt": "{Tags:[\"watching.button\"]}"
-                }
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "minecraft:entity_tags": {
+            "any_of": [
+              "watching.opened_config"
+            ]
+          }
+        },
+        "entity": {
+          "minecraft:entity_tags": {
+            "any_of": [
+              "watching.button"
+            ]
+          },
+          "minecraft:entity_type": "minecraft:interaction"
         }
-    },
-    "requirements": [
-        [
-            "requirement"
-        ]
-    ],
-    "rewards": {
-        "function": "lunareclipse.watching:config/button/clicked_button"
-    },
-    "sends_telemetry_event": false
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "lunareclipse.watching:config/button/clicked_button"
+  },
+  "sends_telemetry_event": false
 }

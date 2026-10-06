@@ -4,8 +4,12 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"watching.hitbox\"]}"
+          "minecraft:entity_tags": {
+            "any_of": [
+              "watching.hitbox"
+            ]
+          },
+          "minecraft:entity_type": "minecraft:interaction"
         }
       }
     }

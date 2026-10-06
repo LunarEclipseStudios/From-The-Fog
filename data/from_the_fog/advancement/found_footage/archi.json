@@ -24,13 +24,12 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "from_the_fog:root": true
                         }
                     },
-                    "nbt": "{UUID:[I; 1877480698, -1704311955, -2137428935, 18261630]}"
+                    "minecraft:nbt": "{UUID:[I; 1877480698, -1704311955, -2137428935, 18261630]}"
                 }
             }
         }

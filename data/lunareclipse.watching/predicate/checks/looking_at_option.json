@@ -1,13 +1,16 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "type_specific": {
-            "type": "minecraft:player",
-            "looking_at": {
-                "type": "minecraft:interaction",
-                "nbt": "{Tags:[\"watching.tip_activated\"]}"
-            }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+      "looking_at": {
+        "minecraft:entity_type": "minecraft:interaction",
+        "minecraft:entity_tags": {
+          "any_of": [
+            "watching.tip_activated"
+          ]
         }
+      }
     }
+  }
 }

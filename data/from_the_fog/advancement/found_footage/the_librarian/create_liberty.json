@@ -24,8 +24,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "from_the_fog:root": true
                         }
@@ -35,7 +34,7 @@
                     "items": "minecraft:lantern"
                 },
                 "entity": {
-                    "type": "minecraft:allay"
+                    "minecraft:entity_type": "minecraft:allay"
                 }
             }
         }

@@ -24,8 +24,7 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "from_the_fog:root": true
                         }
