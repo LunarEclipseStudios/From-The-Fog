@@ -51,6 +51,15 @@ This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 Inte
 
 ---
 
+## **Forking/Modification Policy**
+
+If you are looking to fork/modify this project and redistribute it in any way please do your best to follow these guidelines:
+- Any and all forks must NOT be AI generated in any capacity.
+- If you choose to update the pack and release it then please be sure that your updated version of the pack is fully functional and that all features of the pack work as intended.
+- Please make sure any and all forks WILL NOT break the users world/server if/when they migrate back to an official release.
+
+---
+
 ## **Website**
 Feel free to check out our website!
 https://lunareclipse.studio
