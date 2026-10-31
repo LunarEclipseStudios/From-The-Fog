@@ -24,17 +24,25 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "player": {
-                    "minecraft:type_specific/player": {
-                        "advancements": {
-                            "from_the_fog:root": true
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:type_specific/player": {
+                            "advancements": {
+                                "from_the_fog:root": true
+                            }
                         }
                     }
                 },
                 "entity": {
-                    "minecraft:entity_tags": {
-                        "any_of": [
-                            "watching.previously_haunted_herd"
-                        ]
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_tags": {
+                            "any_of": [
+                                "watching.previously_haunted_herd"
+                            ]
+                        }
                     }
                 }
             }

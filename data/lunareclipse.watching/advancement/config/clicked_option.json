@@ -1,33 +1,41 @@
 {
-    "criteria": {
+  "criteria": {
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": {
-          "minecraft:entity_tags": {
-            "any_of": [
-              "watching.opened_config"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "watching.opened_config"
+              ]
+            }
           }
         },
         "entity": {
-          "minecraft:entity_tags": {
-            "any_of": [
-              "watching.icon"
-            ]
-          },
-          "minecraft:entity_type": "minecraft:interaction"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "watching.icon"
+              ]
+            },
+            "minecraft:entity_type": "minecraft:interaction"
+          }
         }
       }
     }
-    },
-    "requirements": [
-        [
-            "requirement"
-        ]
-    ],
-    "rewards": {
-        "function": "lunareclipse.watching:config/main_menu/clicked_option"
-    },
-    "sends_telemetry_event": false
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "lunareclipse.watching:config/main_menu/clicked_option"
+  },
+  "sends_telemetry_event": false
 }

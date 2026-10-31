@@ -1,23 +1,21 @@
 {
-    "parent": "lunareclipse.watching:technical/block_detection/root",
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": "#lunareclipse.watching:torches"
-                            }
-                        }
-                    }
-                ]
+  "parent": "lunareclipse.watching:technical/block_detection/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#lunareclipse.watching:torches"
             }
+          }
         }
-    },
-    "rewards": {
-        "function": "lunareclipse.watching:block_events/detection/placed/torch"
+      }
     }
+  },
+  "rewards": {
+    "function": "lunareclipse.watching:block_events/detection/placed/torch"
+  }
 }

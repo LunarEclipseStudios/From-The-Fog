@@ -1,16 +1,16 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "minecraft:type_specific/player": {
-            "looking_at": {
-                "minecraft:entity_type": "minecraft:interaction",
-                "minecraft:entity_tags": {
-                    "any_of": [
-                        "watching.hitbox"
-                    ]
-                }
-            }
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+      "looking_at": {
+        "minecraft:entity_type": "minecraft:interaction",
+        "minecraft:entity_tags": {
+          "any_of": [
+            "watching.hitbox"
+          ]
         }
+      }
     }
+  },
+  "type": "minecraft:entity_properties"
 }

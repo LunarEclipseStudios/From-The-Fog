@@ -24,9 +24,13 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
-                    "minecraft:type_specific/player": {
-                        "advancements": {
-                            "from_the_fog:root": true
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:type_specific/player": {
+                            "advancements": {
+                                "from_the_fog:root": true
+                            }
                         }
                     }
                 },

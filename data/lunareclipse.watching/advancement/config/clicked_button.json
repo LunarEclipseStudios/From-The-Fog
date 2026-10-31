@@ -4,19 +4,27 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": {
-          "minecraft:entity_tags": {
-            "any_of": [
-              "watching.opened_config"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "watching.opened_config"
+              ]
+            }
           }
         },
         "entity": {
-          "minecraft:entity_tags": {
-            "any_of": [
-              "watching.button"
-            ]
-          },
-          "minecraft:entity_type": "minecraft:interaction"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "watching.button"
+              ]
+            },
+            "minecraft:entity_type": "minecraft:interaction"
+          }
         }
       }
     }

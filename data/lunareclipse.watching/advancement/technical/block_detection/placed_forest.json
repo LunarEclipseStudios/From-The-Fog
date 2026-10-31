@@ -2,10 +2,11 @@
     "parent": "lunareclipse.watching:technical/block_detection/root",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:placed_block",
             "conditions": {
-                "player": {
-                    "location": {
+                "location": {
+                    "type": "minecraft:location_check",
+                    "predicate": {
                         "biomes": "#minecraft:is_forest"
                     }
                 }
