@@ -1,0 +1,3 @@
+# Send the visit link.
+tellraw @a[tag=watching.opened_config] ["",{text:"\uAA00 ",color:"white",font:"lunareclipse.watching:config","shadow_color":16777215},{text:"> ",color:"gray"},{"click_event":{"action":"open_url","url":"https://modrinth.com/resourcepack/multipasta"},"translate":"config.text.multipasta.visit",underlined:true}]
+execute as @a[tag=watching.opened_config] at @s run playsound minecraft:block.note_block.pling master @s ~ ~999999 ~ 1 2 1

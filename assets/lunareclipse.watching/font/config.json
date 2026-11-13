@@ -30,6 +30,15 @@
                     "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000∅∈\u0000",
                     "≡±≥≤⌠⌡÷≈°∙\u0000√ⁿ²■\u0000"
                 ]
+            },
+            {
+                "ascent": 8,
+                "chars": [
+                    "\uAA00"
+                ],
+                "file": "lunareclipse.watching:font/config/partners/multipasta.png",
+                "height": 10,
+                "type": "bitmap"
             }
         ]
     }

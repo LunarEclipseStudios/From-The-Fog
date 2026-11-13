@@ -20,6 +20,9 @@ execute if data storage lunareclipse.watching:config_options {options:{give_him_
 execute positioned ^2.6 ^ ^ positioned ~ ~1.6 ~ run summon interaction ~ ~ ~ {response:1b,width:1f,height:1f,Tags:["watching.config","watching.main_menu","watching.button","watching.next_arrow"]}
 $execute positioned ^2.6 ^ ^ positioned ~ ~1.6 ~ run summon item_display ~ ~ ~ {Tags:["watching.config","watching.main_menu","watching.button","watching.next_arrow"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},brightness:{sky:15,block:15},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:custom_data":{type:"main_menu",current_page:$(page),id:"null",function:"lunareclipse.watching:config/next_page/switch_page"},"minecraft:item_model":"lunareclipse.watching:ui/config/next_page"}}}
 
+# Summon the multipasta ui.
+execute if data storage lunareclipse.watching:config_options {options:{give_him_control:"false"}} run function lunareclipse.watching:config/main_menu/theme/multipasta
+
 # Make the menu face the player.
 execute as @e[type=#lunareclipse.watching:config,tag=watching.menu,distance=..15] at @s run tp @s ~ ~ ~ facing entity @e[type=marker,tag=watching.player_pivot,limit=1]
 # Make the ui maintain 0 pitch.

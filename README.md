@@ -8,8 +8,12 @@ Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings
 
 ---
 
-<a href="https://lilypad.gg/lunareclipse" target="_blank">
+<!-- <a href="https://lilypad.gg/lunareclipse" target="_blank">
   <img src="https://cdn.lunareclipse.studio/img/partners/lilypad_transparent.webp?v=6" style="border-radius: 5px; margin-left: auto !important; margin-right: auto !important;">
+</a> -->
+
+<a href="https://modrinth.com/resourcepack/multipasta" target="_blank">
+  <img src="https://cdn.lunareclipse.studio/img/projects/from-the-fog/multipasta-promo.webp" style="border-radius: 5px; margin-left: auto !important; margin-right: auto !important;">
 </a>
 
 ---

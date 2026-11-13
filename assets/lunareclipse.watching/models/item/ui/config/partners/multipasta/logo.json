@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"textures": {
+		"0": "lunareclipse.watching:item/ui/config/partners/multipasta/multipasta",
+		"particle": "lunareclipse.watching:item/ui/config/partners/multipasta/multipasta"
+	},
+	"elements": [
+		{
+			"from": [-5.5, -11, 8],
+			"to": [22.5, 17, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 3, 8]},
+			"faces": {
+				"north": {"uv": [2.375, 2.375, 13.375, 13.375], "texture": "#0"}
+			}
+		}
+	]
+}

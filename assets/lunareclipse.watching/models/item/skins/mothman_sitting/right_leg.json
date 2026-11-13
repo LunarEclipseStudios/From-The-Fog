@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Bret06 using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "lunareclipse.watching:item/skins/mothman/skin",
+		"skin": "lunareclipse.watching:item/skins/mothman/skin"
+	},
+	"elements": [
+		{
+			"name": "moth_leftleg",
+			"from": [5.2, 1, 6],
+			"to": [10.2, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.4, 1, 7]},
+			"faces": {
+				"north": {"uv": [7.25, 0.5, 7.875, 1.5], "texture": "#skin"},
+				"east": {"uv": [6.75, 0.5, 7.25, 1.5], "texture": "#skin"},
+				"south": {"uv": [8.375, 0.5, 9, 1.5], "texture": "#skin"},
+				"west": {"uv": [7.875, 0.5, 8.375, 1.5], "texture": "#skin"},
+				"up": {"uv": [7.875, 0.5, 7.25, 0], "texture": "#skin"},
+				"down": {"uv": [8.5, 0, 7.875, 0.5], "texture": "#skin"}
+			}
+		},
+		{
+			"name": "moth_leftleg",
+			"from": [5.2, 1, 4],
+			"to": [12.2, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.4, 1, 7]},
+			"faces": {
+				"north": {"uv": [5, 0.75, 5.875, 0.75], "texture": "#skin"},
+				"east": {"uv": [4.25, 0.75, 5, 0.75], "texture": "#skin"},
+				"south": {"uv": [6.625, 0.75, 7.5, 0.75], "texture": "#skin"},
+				"west": {"uv": [5.875, 0.75, 6.625, 0.75], "texture": "#skin"},
+				"up": {"uv": [6.75, 0.75, 5.875, 0], "texture": "#skin"},
+				"down": {"uv": [6.75, 0, 5.875, 0.75], "texture": "#skin"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "left_leg",
+			"origin": [7, 2, 7],
+			"color": 0,
+			"children": [
+				{
+					"name": "moth_leftleg",
+					"origin": [11.3, 7, 9],
+					"color": 0,
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}
